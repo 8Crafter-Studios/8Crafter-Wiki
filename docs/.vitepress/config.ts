@@ -43,8 +43,8 @@ export default defineConfigWithTheme<ThemeConfig>({
     algolia: {
       appId: "N9ZHAYJQII",
       apiKey: "a664f5a5da631810a08e1a48554fe523",
-      indexName: "wiki-bedrock",
-      placeholder: "Search Bedrock Wiki...",
+      indexName: "wiki-8crafter",
+      placeholder: "Search 8Crafter Wiki...",
     },
 
     navigation: [
