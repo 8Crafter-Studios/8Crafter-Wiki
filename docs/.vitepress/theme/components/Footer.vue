@@ -11,14 +11,14 @@ const { site } = useData();
       {{ site.title }}
       <small>
         by
-        <a href="https://github.com/Bedrock-OSS" target="_blank" rel="noopener noreferrer">
-          Bedrock-OSS
+        <a href="https://github.com/8Crafter-Studios" target="_blank" rel="noopener noreferrer">
+          8Crafter-Studios
         </a>
       </small>
     </p>
     <p>"Minecraft" is a trademark of Mojang AB.</p>
     <p>
-      Bedrock-OSS, {{ site.title }} and
+      8Crafter-Studios, {{ site.title }} and
       <a href="https://bedrock.dev" target="_blank" rel="noopener noreferrer">bedrock.dev</a>
       are not affiliated in any way with Microsoft or Mojang AB.
     </p>
@@ -33,7 +33,9 @@ const { site } = useData();
         <NavLink link="/contribute">Learn how to Contribute</NavLink>
       </li>
       <li>
-        <NavLink link="https://github.com/Bedrock-OSS/bedrock-wiki">Visit our Repository</NavLink>
+        <NavLink link="https://github.com/8Crafter-Studios/8Crafter-Wiki"
+          >Visit our Repository</NavLink
+        >
       </li>
     </ul>
   </footer>

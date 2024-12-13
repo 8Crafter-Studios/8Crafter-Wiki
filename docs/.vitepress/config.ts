@@ -26,7 +26,7 @@ if (isFastBuild) {
 }
 
 export default defineConfigWithTheme<ThemeConfig>({
-  title: "Bedrock Wiki",
+  title: "8Crafter Wiki",
   description: "A knowledge-sharing website for technical features of Minecraft Bedrock.",
 
   head,
@@ -37,7 +37,7 @@ export default defineConfigWithTheme<ThemeConfig>({
 
   themeConfig: {
     url: "https://wiki.bedrock.dev",
-    repository: "https://github.com/Bedrock-OSS/bedrock-wiki",
+    repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki",
 
     algolia: {
       appId: "N9ZHAYJQII",
