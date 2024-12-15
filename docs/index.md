@@ -12,7 +12,7 @@ show_outline: false
 
 # 8Crafter Wiki
 
-This is 8Crafter's wiki, containing documentation, tutorials, and general how-to information, for most of the stuff made by 8Crafter, including Minecraft add-ons, Node.js apps, etc.
+This is 8Crafter's wiki (UNDER CONSTRUCTION!), containing documentation, tutorials, and general how-to information, for most of the stuff made by 8Crafter, including Minecraft add-ons, Node.js apps, etc.
 
 </header>
 <CardGrid>
