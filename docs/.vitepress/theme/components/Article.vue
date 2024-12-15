@@ -16,7 +16,7 @@ const isMobileOutline = useMediaQuery("(max-width: 1300px)");
 
 <template>
   <article>
-    <h1>{{ frontmatter.title }}</h1>
+    <h1>{{ frontmatter.page_title ?? frontmatter.title }}</h1>
 
     <div v-if="frontmatter.tags !== undefined" style="margin-block: 1em">
       <Tag v-for="name in frontmatter.tags" :key="name" :name />

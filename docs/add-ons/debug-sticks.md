@@ -1,23 +1,15 @@
 ---
-title: Add-Ons Explained
-category: Guide
-description: The basics of Add-Ons
+title: Debug Sticks
+page_title: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities
+category: Released
+description: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities
+tags:
+    - BP
+    - RP
 nav_order: 2
-prefix: "2. "
-mentions:
-    - SirLich
-    - Dreamedc2015
-    - sermah
-    - cda94581
-    - RedSmarty
-    - TheItsNameless
-    - MedicalJewel105
-    - ChibiMango
-    - profeplaysminecraft
-    - retr0cube
-    - SmokeyStack
-    - QuazChick
 ---
+
+<Button link="https://modbay.org/mods/1240-8crafters-debug-sticks.html">ModBay</Button>
 
 ## What are add-ons?
 

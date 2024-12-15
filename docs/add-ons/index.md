@@ -1,11 +1,13 @@
 ---
-title: Beginner's Guide
+title: Add-Ons
 nav_order: 1
 categories:
-    - title: Guide
+    - title: Released
       color: green
-    - title: Extra
-      color: blue
+    - title: Upcoming
+      color: purple
+    - title: Canceled
+      color: red
 description: Beginner's guide to MCBE Add-Ons.
 ---
 

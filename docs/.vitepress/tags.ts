@@ -52,4 +52,24 @@ export default {
     color: "blue",
     sidebar: true,
   },
+  released: {
+    color: "green",
+    sidebar: {
+      text: "Released",
+    },
+  },
+  upcoming: {
+    color: "purple",
+    sidebar: {
+      text: "Upcoming",
+    },
+  },
+  BP: {
+    color: "red",
+    sidebar: true,
+  },
+  RP: {
+    color: "blue",
+    sidebar: true,
+  },
 } satisfies Tags;
