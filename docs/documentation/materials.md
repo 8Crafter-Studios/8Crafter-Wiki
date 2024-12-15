@@ -18,7 +18,7 @@ Materials are not for the faint of heart. Be prepared for potential crashes, con
 
 Materials are extremely useful for making entities more unique. You can make new ones for your add-ons, or use pre-existing vanilla materials.
 
-You can learn more about creating materials [here](/visuals/materials).
+You can learn more about creating materials [here](https://wiki.bedrock.dev/visuals/materials).
 
 ## List of Vanilla Materials
 

@@ -23,8 +23,8 @@ Replacing block items requires the `Upcoming Creator Features` experiment to be 
 
 In order to replace a block item, you will need to create a new item JSON file that has the same identifier as the block.
 
-Your new item will also need the [block placer](/items/item-components#block-placer) component which will allow the item to place the block.
-The block placer component will also give the item the 3D appearance of the block by default, however this can be overriden with the [icon](/items/item-components#icon) component to display a 2D sprite.
+Your new item will also need the block placer component which will allow the item to place the block.
+The block placer component will also give the item the 3D appearance of the block by default, however this can be overriden with the icon component to display a 2D sprite.
 
 ### Custom Flower Example
 

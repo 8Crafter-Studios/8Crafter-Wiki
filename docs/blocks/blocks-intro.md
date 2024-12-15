@@ -27,7 +27,7 @@ mentions:
 ---
 
 :::tip FORMAT & MIN ENGINE VERSION `1.21.40`
-This page discusses basic block features. You can learn more about other block components [here](/blocks/block-components).
+This page discusses basic block features. You can learn more about other block components here.
 :::
 :::danger NOTE
 Vanilla blocks are hardcoded. You may not override or access them.
@@ -113,7 +113,7 @@ Let's configure our own functionality!
 -   [`minecraft:map_color`](/blocks/block-components#map-color) is the hex color code that will be displayed on a Minecraft map to represent this block. `#ffffff` means white. You can get hex codes for other colors [here](https://www.google.com/search?q=hex+color+picker).
 -   [`minecraft:light_dampening`](/blocks/block-components#light-dampening) defines how much light will be blocked from passing through.
 -   [`minecraft:light_emission`](/blocks/block-components#light-emission) defines the light level the block will output.
--   [`minecraft:loot`](/blocks/block-components#loot) defines a loot table path for the block to drop. If this is removed, then the block will drop itself. You can learn more about loot tables [here](/loot/loot-tables).
+-   [`minecraft:loot`](/blocks/block-components#loot) defines a loot table path for the block to drop. If this is removed, then the block will drop itself. You can learn more about loot tables here.
 
 _Browse more block components [here](/blocks/block-components)!_
 

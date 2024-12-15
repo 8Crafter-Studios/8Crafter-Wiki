@@ -14,7 +14,7 @@ description: Guide for blocks troubleshooting.
 ---
 
 :::tip
-This page contains troubleshooting information about _blocks_. You should read our [global troubleshooting](/guide/troubleshooting) document before continuing here.
+This page contains troubleshooting information about _blocks_. You should read our global troubleshooting document before continuing here.
 :::
 
 ## 0.0 - Trouble

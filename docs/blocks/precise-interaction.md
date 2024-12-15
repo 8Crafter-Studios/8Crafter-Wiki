@@ -13,7 +13,7 @@ mentions:
 
 ::: tip FORMAT & MIN ENGINE VERSION `1.21.40`
 This tutorial assumes an advanced understanding of blocks and scripting.
-Check out the [blocks](/blocks/blocks-intro) and [scripting](/scripting/scripting-intro) guides before starting.
+Check out the /blocks/blocks-intro and [scripting](https://wiki.bedrock.dev/scripting/scripting-intro) guides before starting.
 :::
 
 The ability to create custom blocks that the player can interact with can be very basic to implement, yet still allow for complex functionality. However, sometimes the default interaction mode, which is based on simply right-clicking or tapping the block without location-specific conditions, is not enough to achieve the desired functionality.

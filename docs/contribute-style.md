@@ -249,10 +249,10 @@ You can create links that redirect you to other pages in the wiki. These are cal
 ---
 
 ```md
-[JSON Arrays](/guide/understanding-json#arrays)
+[JSON Arrays](https://wiki.bedrock.dev/guide/understanding-json#arrays)
 ```
 
-[JSON Arrays](/guide/understanding-json#arrays)
+[JSON Arrays](https://wiki.bedrock.dev/guide/understanding-json#arrays)
 
 ---
 
@@ -491,7 +491,7 @@ On the next line after the closing tag, you have to start a code block to use th
 
 ### FolderView
 
-Folder views can be used to show a setup of files, like in our [Project Setup](/guide/project-setup) guide.
+Folder views can be used to show a setup of files, like in our [Project Setup](https://wiki.bedrock.dev/guide/project-setup) guide.
 
 ```md
 <FolderView :paths="[

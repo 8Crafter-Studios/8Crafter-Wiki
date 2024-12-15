@@ -15,7 +15,7 @@ description: These command-techniques allow you to detect certain player/entity 
 
 These command-techniques allow you to detect certain player/entity 'states' and subsequently execute your desired commands.
 
-> Note: For a more performant and high-accuracy approach, it is advisable to use [Animation Controllers](/animation-controllers/animation-controllers-intro)
+> Note: For a more performant and high-accuracy approach, it is advisable to use Animation Controllers
 
 ## is_moving
 

@@ -19,7 +19,7 @@ Sometimes your block needs to have features which Minecraft doesn't allow. A pos
 
 ## Creating the Collision
 
-The [solid entities](/entities/solid-entities) tutorial outlines four different ways to create a collision, with `runtime_identifiers`, blocks, and components.
+The solid entities tutorial outlines four different ways to create a collision, with `runtime_identifiers`, blocks, and components.
 
 ## Basic Components
 

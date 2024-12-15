@@ -243,7 +243,7 @@ The final file within a function is the **tick.json** file. This specifies funct
 
 Your functions may not appear within the command suggestions when using `/function`. This is normally due to an error with one or more commands in the function.
 
-Enabling the [Content Log](/guide/troubleshooting#content-log) in the creator settings allows you to see if there are any errors in your function pack, which function the error is in, on which line, and exactly what the syntax error is for that command.
+Enabling the Content Log in the creator settings allows you to see if there are any errors in your function pack, which function the error is in, on which line, and exactly what the syntax error is for that command.
 
 The list of errors will be generated every time you load a world or run `/reload` to reflect changes after editing files. The list can be viewed on-screen for a few seconds, as well as in the content log history in settings.
 
