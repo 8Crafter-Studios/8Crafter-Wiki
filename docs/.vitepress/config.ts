@@ -28,6 +28,7 @@ if (isFastBuild) {
 export default defineConfigWithTheme<ThemeConfig>({
   title: "8Crafter Wiki",
   description: "The wiki for the Minecraft YouTuber and Add-On Creator 8Crafter.",
+  base: "/8Crafter-Wiki/", // Replace with your repository name
 
   head,
   transformHead,

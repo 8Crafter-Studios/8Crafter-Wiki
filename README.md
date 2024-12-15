@@ -2,7 +2,7 @@
 
 Welcome to the Bedrock Wiki!
 
-🔗 [View the Site](https://wiki.bedrock.dev/) 🔗
+🔗 [View the Site](https://8crafter-studios.github.io/8Crafter-Wiki/) 🔗
 
 ✉️ [Join the Discord](https://discord.gg/XjV87YN) ✉️
 
@@ -16,10 +16,10 @@ Then you've come to the right place!
 Our Bedrock Wiki is fully open-source and is maintained by our lovely community. And this community grows every day! If you want to be part of this community,
 get help on Add-Ons or just want to expand our wiki, you can join our Discord servers:
 
- - [Bedrock OSS](https://discord.gg/XjV87YN) - for wiki contributing and cool projects,
- - [Bedrock Add-Ons](https://discord.gg/pytC8zKHPn) - for help with Add-Ons.
+-   [Bedrock OSS](https://discord.gg/XjV87YN) - for wiki contributing and cool projects,
+-   [Bedrock Add-Ons](https://discord.gg/pytC8zKHPn) - for help with Add-Ons.
 
-If you want to help us create more complex things, like adding a new page or fixing some typos yourself, we have a dedicated [Contribute Page](https://wiki.bedrock.dev/contribute) on our wiki,
+If you want to help us create more complex things, like adding a new page or fixing some typos yourself, we have a dedicated [Contribute Page](https://8crafter-studios.github.io/8Crafter-Wiki/contribute) on our wiki,
 which describes every step you need to follow. If you have some questions, there are some really nice people in our [Discord Server](https://discord.gg/XjV87YN).
 
 ### Code and Platform
@@ -30,6 +30,6 @@ If you are interested in helping us maintain the core platform, as opposed to th
 
 ### Running Locally
 
- - `npm install`
- - `npm run dev` (run in dev mode)
- - `npm run build` (test a release mode bundle)
+-   `npm install`
+-   `npm run dev` (run in dev mode)
+-   `npm run build` (test a release mode bundle)

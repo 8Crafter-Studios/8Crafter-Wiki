@@ -1,9 +1,9 @@
 ---
 title: Rawtext
 mention:
-  - BedrockCommands
-  - GTB3NW
-  - SpacebarNinja
+    - BedrockCommands
+    - GTB3NW
+    - SpacebarNinja
 description: Understanding Rawtext JSON Components used in the /tellraw  and /titleraw commands.
 ---
 
@@ -18,10 +18,10 @@ Rawtexts are used to send and display rich text to players. This can be used in 
 Inside the squared brackets `[]`, this is where you will list multiple text objects of your choice.
 
 ```json
-{"rawtext":[]}
+{ "rawtext": [] }
 ```
 
-You can combine components by adding a comma ` , ` at the end of a component.
+You can combine components by adding a comma `,` at the end of a component.
 
 ## Text Component
 
@@ -30,7 +30,7 @@ Displays a text. Used inside the quotation marks.
 **Syntax:**
 
 ```json
-{"text" :"<Your Text Here>"}
+{ "text": "<Your Text Here>" }
 ```
 
 **Example:**
@@ -43,7 +43,7 @@ Send a "Hello everyone!" message to all players in chat:
 
 ### Breaks, Line Breaks, And Unicodes
 
-1. Breaks are accessed as ` \ ` and are used in order to use quotation marks ` " ` within components. Example:
+1. Breaks are accessed as `\` and are used in order to use quotation marks `"` within components. Example:
 
 ```json
 /tellraw @a {"rawtext":[{"text":"He said, \"I like apples\"..."}]}
@@ -51,7 +51,7 @@ Send a "Hello everyone!" message to all players in chat:
 #    He said, "I like apples"...
 ```
 
-2. Line breaks are used as ` \n ` to go down a line. Example:
+2. Line breaks are used as `\n` to go down a line. Example:
 
 ```json
 /tellraw @a {"rawtext":[{"text":"Hello\nNext line"}]}
@@ -65,9 +65,9 @@ Send a "Hello everyone!" message to all players in chat:
 ```json
 /tellraw @a {"rawtext":[{"text":"\ue100"}]}
 ```
-- Output in chat:
-    - ![](/assets/images/concepts/emojis/hud/food.png)
-> Note: the unicode symbol will display as it's corresponding icon/emoji in Minecraft only.
+
+-   Output in chat: - ![](/assets/images/concepts/emojis/hud/food.png)
+    > Note: the unicode symbol will display as it's corresponding icon/emoji in Minecraft only.
 
 For more info and the full list of unicodes available in Bedrock, refer to the [Emojis & Symbols](/concepts/emojis) page.
 
@@ -78,16 +78,19 @@ Displays the name of a target of your choice. Target Selector arguments are allo
 **Syntax:**
 
 ```json
-{"selector":"<target>"}
+{ "selector": "<target>" }
 ```
 
 **Examples:**
 
 1. Send name of all players in chat:
+
 ```json
 /tellraw @a {"rawtext":[{"selector":"@a"}]}
 ```
+
 2. Send name of all players tagged 'winner' in chat:
+
 ```json
 /tellraw @a {"rawtext":[{"selector":"@a [tag=winner]"}]}
 ```
@@ -97,35 +100,39 @@ Displays the name of a target of your choice. Target Selector arguments are allo
 Displays a score from a scoreboard objective.
 
 **Syntax:**
+
 ```json
-{"score":{"name":"<name>", "objective":"<score>"}}
+{ "score": { "name": "<name>", "objective": "<score>" } }
 ```
 
-- **` name `** - This can be any selector like `@p` or a player's name.
-    - You can also use the **` * `** wildcard to display the reader's own score.
-- **` objective `** - The name of the scoreboard you want to display the score from.
+-   **`name`** - This can be any selector like `@p` or a player's name.
+    -   You can also use the **`*`** wildcard to display the reader's own score.
+-   **`objective`** - The name of the scoreboard you want to display the score from.
 
 Both are required when using the score component.
 
 **Examples:**
 
 1. Display the points score of the closest player in chat:
+
 ```json
 /tellraw @a {"rawtext" :[{"score":{"name":"@p","objective":"points"}}]}
 ```
+
 2. Display the money score of the reader in chat:
+
 ```json
 /titleraw @a title {"rawtext":[{"score":{"name":"*","objective":"money"}}]}
 ```
 
 ## Translate Component
 
-Allows creators to display localized text to users. The list of the strings to translate is inside in the language files. Refer to [Text & Translations](https://wiki.bedrock.dev/concepts/text-and-translations) page for more info.
+Allows creators to display localized text to users. The list of the strings to translate is inside in the language files. Refer to [Text & Translations](https://8crafter-studios.github.io/8Crafter-Wiki/concepts/text-and-translations) page for more info.
 
 **Syntax:**
 
 ```json
-{"translate":"<string>"}
+{ "translate": "<string>" }
 ```
 
 **Example:**
@@ -136,7 +143,7 @@ Allows creators to display localized text to users. The list of the strings to t
 #    %s joined the game
 ```
 
-In the example above, it outputs "`%s joined the game`". For a name to appear instead of `%s`, ` with ` needs to be specified as well. Requires an array ` [] ` instead of curly brackets ` {} `
+In the example above, it outputs "`%s joined the game`". For a name to appear instead of `%s`, `with` needs to be specified as well. Requires an array `[]` instead of curly brackets `{}`
 
 ```json
 /tellraw @a {"rawtext":[{"translate":"multiplayer.player.joined", "with": ["Steve"]}]}
@@ -156,7 +163,6 @@ In the example above, it outputs "`%s joined the game`". For a name to appear in
 #    Hello Steve
 ```
 
-
 ### Multiple %%s
 
 `%%s` can be used multiple times. They are filled in the order as shown.
@@ -169,7 +175,7 @@ In the example above, it outputs "`%s joined the game`". For a name to appear in
 
 ### Ordering with %%#
 
-The order to fill in ` %s ` can be changed by replacing ` s ` with a number at the end. For example, to swap the position of Steve and Alex in the above example:
+The order to fill in `%s` can be changed by replacing `s` with a number at the end. For example, to swap the position of Steve and Alex in the above example:
 
 ```json
 /tellraw @a {"rawtext":[{"translate":"Hello %%2 and %%1", "with":["Steve","Alex"]}]}

@@ -269,7 +269,7 @@ To link to a page thats directly inside this folder, you can just write `/pagena
 Every page that is inside a folder has to be accessed by writing the name of the folder, a slash, and then the page name (without the `.md` extension): `/blocks/block-materials`.
 
 :::warning
-**NEVER** use absolute links to link to a page inside our wiki. Make sure you **don't** include `wiki.bedrock.dev` inside your links.
+**NEVER** use absolute links to link to a page inside our wiki. Make sure you **don't** include `8crafter-studios.github.io/8Crafter-Wiki` inside your links.
 :::
 
 ### Lists
