@@ -11,7 +11,7 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "  ",
+        "selector": "nonexistentselector_ahbwbsnixuchdndn",
         "default_value": "Articles"
       },
       "lvl1": "main article h1",
@@ -22,7 +22,7 @@
     },
     "add-ons": {
       "lvl0": {
-        "selector": "  ",
+        "selector": "nonexistentselector_ahbwbsnixuchdndn",
         "default_value": "Add-Ons"
       },
       "lvl1": "main article h1",
