@@ -8,7 +8,6 @@
     },
     "https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/"
   ],
-  // "sitemap_urls": ["https://www.howtocode.io/sitemap-0.xml"],
   "selectors": {
     "default": {
       "lvl0": {
