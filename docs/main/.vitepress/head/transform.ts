@@ -6,11 +6,11 @@ export function transformHead({ pageData, siteConfig }: TransformContext) {
 
   const { frontmatter, relativePath } = pageData;
 
-  const title = frontmatter.title ?? "The Bedrock Wiki";
+  const title = frontmatter.title ?? "8Crafter Wiki";
   const description = frontmatter.description ?? config.description;
 
   const image = `${config.themeConfig.url}/assets/images/homepage/wikilogo.png`;
-  const imageAlt = "Bedrock Wiki Logo";
+  const imageAlt = "8Crafter Wiki Logo";
 
   const path = relativePath.replace(".md", ".html");
 
