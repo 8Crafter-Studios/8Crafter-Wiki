@@ -23,7 +23,7 @@ Step-by-step tutorials intended as your first contact with add-ons.
 
 </Card> -->
 
-<Card title="Discord" link="/discord" image="assets/images/homepage/discord.png">
+<Card title="Discord" link="./discord" image="assets/images/homepage/discord.png">
 
 Join my Discord server to get help with my add-ons, ask questions about coding, vote in polls, etc.
 
@@ -39,7 +39,7 @@ Get started with functions, a faster and more powerful way to code commands!
 
 </Card> -->
 
-<Card title="Add-Ons" link="/add-ons/index" image="/assets/images/homepage/add-ons.png">
+<Card title="Add-Ons" link="./add-ons/index" image="/assets/images/homepage/add-ons.png">
 
 Links to the wikis for each of my add-ons, and information about upcoming add-ons.
 

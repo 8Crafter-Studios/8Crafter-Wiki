@@ -19,5 +19,21 @@
     "@typescript-eslint/no-explicit-any": "off",
     "vue/multi-word-component-names": "off"
   },
-  "ignorePatterns": ["!docs/.vitepress", "docs/.vitepress/cache", "/docs/.vitepress/dist"]
+  "ignorePatterns": [
+    "!docs/main/.vitepress",
+    "docs/main/.vitepress/cache",
+    "/docs/main/.vitepress/dist",
+    "!docs/andexdb/.vitepress",
+    "docs/andexdb/.vitepress/cache",
+    "/docs/andexdb/.vitepress/dist",
+    "!docs/andexsa/.vitepress",
+    "docs/andexsa/.vitepress/cache",
+    "/docs/andexsa/.vitepress/dist",
+    "!docs/andexsl/.vitepress",
+    "docs/andexsl/.vitepress/cache",
+    "/docs/andexsl/.vitepress/dist",
+    "!docs/andexrp/.vitepress",
+    "docs/andexrp/.vitepress/cache",
+    "/docs/andexrp/.vitepress/dist"
+  ]
 }
