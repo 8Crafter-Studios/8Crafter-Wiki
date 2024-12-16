@@ -10,6 +10,7 @@ nav_order: 2
 ---
 
 <Button link="https://modbay.org/mods/1240-8crafters-debug-sticks.html">ModBay</Button>
+<Button link="/../andexdb/">Full Documentation</Button>
 
 ## What are add-ons?
 
