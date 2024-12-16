@@ -4,7 +4,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev docs",
+    "dev": "vitepress dev docs/main",
     "build": "run-script-os",
     "build:win32": "set NODE_OPTIONS=--max-old-space-size=16384 && vitepress build docs",
     "build:darwin:linux": "export NODE_OPTIONS=--max-old-space-size=16384 && vitepress build docs",

@@ -11,5 +11,5 @@
     "lib": ["esnext", "dom"],
     "types": ["vite/client", "node"]
   },
-  "include": ["docs/.vitepress/**/*.ts", "docs/.vitepress/**/*.vue"]
+  "include": ["docs/main/.vitepress/**/*.ts", "docs/main/.vitepress/**/*.vue"]
 }
