@@ -4,3 +4,5 @@
 docs/.vitepress/cache
 docs/.vitepress/dist
 testForAlgoliaSearch.js
+docs/andexdb/.vitepress/algolia/keys.env
+docs/andexdb/.vitepress/algolia/.env.local

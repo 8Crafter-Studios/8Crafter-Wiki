@@ -3,6 +3,7 @@
 </template>
 
 <script setup lang="ts">
+console.log(1);
 import { useRoute, useRouter } from "vitepress";
 import { onMounted, watch } from "vue";
 
@@ -13,6 +14,7 @@ import useData from "../../composables/data";
 const { theme } = useData();
 
 const options = theme.value.algolia;
+console.log(theme);
 
 const route = useRoute();
 const router = useRouter();
@@ -21,11 +23,14 @@ watch(
   () => options,
   (value) => {
     update(value);
+    console.log(2.432);
   }
 );
 
 onMounted(() => {
+  console.log(5.231);
   initialize(options);
+  console.log(4.123);
 });
 
 function isSpecialClick(event: MouseEvent) {
@@ -43,9 +48,13 @@ function update(options: any) {
 }
 
 function initialize(userOptions: any) {
+  console.log(54.12);
   docsearch(
     Object.assign({}, userOptions, {
       container: "#docsearch",
+      lvl0: {
+        selectors: "header h1",
+      },
 
       navigator: {
         navigate: ({ itemUrl }: { itemUrl: string }) => {
@@ -101,6 +110,7 @@ function initialize(userOptions: any) {
       },
     })
   );
+  console.log(5.126);
 }
 </script>
 

@@ -12,10 +12,12 @@ import Spoiler from "./content/Spoiler.vue";
 const { frontmatter } = useData();
 
 const isMobileOutline = useMediaQuery("(max-width: 1300px)");
+console.log(frontmatter);
 </script>
 
 <template>
   <article>
+    <meta name="formatter_data" :content="JSON.stringify(frontmatter)" />
     <h1>{{ frontmatter.page_title ?? frontmatter.title }}</h1>
 
     <div v-if="frontmatter.tags !== undefined" style="margin-block: 1em">
