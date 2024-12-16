@@ -25,6 +25,8 @@ jobs:
 
             - name: Install Project 🔧
               run: npm install
+            - name: Fix Permissions for ESLint
+              run: chmod +x ./node_modules/.bin/eslint
 
             - name: Debug ESLint
               run: |
