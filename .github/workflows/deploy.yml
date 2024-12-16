@@ -26,6 +26,15 @@ jobs:
             - name: Install Project 🔧
               run: npm install
 
+            - name: Debug ESLint
+              run: |
+                echo "Node.js version:"
+                node -v
+                echo "npm version:"
+                npm -v
+                echo "Where is eslint?"
+                npx eslint --version
+
             - name: Check Linting 🔎
               run: sudo npm run lint
 
