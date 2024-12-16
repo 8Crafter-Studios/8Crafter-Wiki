@@ -53,6 +53,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       {
         text: "Home",
         link: "/../main/",
+        target: "_self",
       },
       {
         text: "Discord",
@@ -61,6 +62,10 @@ export default defineConfigWithTheme<ThemeConfig>({
       {
         text: "Contribute",
         link: "/../main/contribute",
+      },
+      {
+        text: "ModBay",
+        link: "https://modbay.org/mods/1240-8crafters-debug-sticks.html",
       },
     ],
 

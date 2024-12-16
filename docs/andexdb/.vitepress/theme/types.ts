@@ -25,6 +25,8 @@ export interface NavigationItem {
   text: string;
   link: string;
   activeMatch?: string;
+  target?: string;
+  class?: string;
 }
 
 export interface Sidebar {

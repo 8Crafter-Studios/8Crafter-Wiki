@@ -42,7 +42,14 @@ function toggleSidebarVisibility() {
     <div class="header__content">
       <ul v-if="!isMobile" class="header__links">
         <li v-for="(item, i) in theme.navigation" :key="i">
-          <NavLink :link="item.link" :active-match="item.activeMatch" target="_self">{{
+          <!-- <a
+            :active-match="item.activeMatch"
+            :class="item.class ?? ''"
+            :href="item.link"
+            :target="item.target"
+            >{{ item.text }}</a
+          > -->
+          <NavLink :link="item.link" :active-match="item.activeMatch" :target="item.target">{{
             item.text
           }}</NavLink>
         </li>
