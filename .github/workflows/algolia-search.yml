@@ -1,0 +1,22 @@
+on:
+  # Allows you to run this workflow manually from the Actions tab or through HTTP API
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  #     - master
+
+name: algolia-search
+jobs:
+  algolia-search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+      - name: Algolia Jekyll Bootstrap
+        uses: abhimanbhau/algolia-jekyll-bootstrap@v1
+        with:
+          API_KEY: "${{ secrets.ALGOLIA_API_KEY }}"

@@ -43,8 +43,8 @@ export default defineConfigWithTheme<ThemeConfig>({
     repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki",
 
     algolia: {
-      appId: "N9ZHAYJQII",
-      apiKey: "a664f5a5da631810a08e1a48554fe523",
+      appId: "97Y3M3Y6BI",
+      apiKey: "84dd07d78c878c93eac11f7ed88ad9b8",
       indexName: "wiki-8crafter",
       placeholder: "Search 8Crafter Wiki...",
     },
