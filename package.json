@@ -12,7 +12,7 @@
     "fastbuild:win32": "set FAST_BUILD=true && set NODE_OPTIONS=--max-old-space-size=8192 && vitepress build docs",
     "fastbuild:darwin:linux": "export FAST_BUILD=true && export NODE_OPTIONS=--max-old-space-size=8192 && vitepress build docs",
     "preview": "vitepress preview docs",
-    "lint": "eslint docs/.vitepress"
+    "lint": "eslint docs/main/.vitepress"
   },
   "devDependencies": {
     "@docsearch/css": "^3.6.1",
