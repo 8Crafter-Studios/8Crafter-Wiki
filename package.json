@@ -4,15 +4,17 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev docs/main",
+    "dev": "npm run dev1 & npm run dev2",
+    "dev1": "vitepress dev docs/main",
+    "dev2": "vitepress dev docs/andexdb",
     "build": "run-script-os",
-    "build:win32": "set NODE_OPTIONS=--max-old-space-size=16384 && vitepress build docs/main",
-    "build:darwin:linux": "export NODE_OPTIONS=--max-old-space-size=16384 && vitepress build docs/main",
+    "build:win32": "set NODE_OPTIONS=--max-old-space-size=16384 && vitepress build docs/main && vitepress build docs/andexdb",
+    "build:darwin:linux": "export NODE_OPTIONS=--max-old-space-size=16384 && vitepress build docs/main && vitepress build docs/andexdb",
     "fastbuild": "run-script-os",
-    "fastbuild:win32": "set FAST_BUILD=true && set NODE_OPTIONS=--max-old-space-size=8192 && vitepress build docs/main",
-    "fastbuild:darwin:linux": "export FAST_BUILD=true && export NODE_OPTIONS=--max-old-space-size=8192 && vitepress build docs/main",
-    "preview": "vitepress preview docs/main",
-    "lint": "eslint docs/main/.vitepress"
+    "fastbuild:win32": "set FAST_BUILD=true && set NODE_OPTIONS=--max-old-space-size=8192 && vitepress build docs/main && vitepress build docs/andexdb",
+    "fastbuild:darwin:linux": "export FAST_BUILD=true && export NODE_OPTIONS=--max-old-space-size=8192 && vitepress build docs/main && vitepress build docs/andexdb",
+    "preview": "vitepress preview docs/main && vitepress preview docs/andexdb",
+    "lint": "eslint docs/main/.vitepress && eslint docs/andexdb/.vitepress"
   },
   "devDependencies": {
     "@docsearch/css": "^3.6.1",

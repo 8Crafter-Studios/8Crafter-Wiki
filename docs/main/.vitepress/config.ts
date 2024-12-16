@@ -38,7 +38,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   // ignoreDeadLinks: true,
 
   themeConfig: {
-    url: "https://8crafter-studios.github.io/8Crafter-Wiki",
+    url: "https://8crafter-studios.github.io/8Crafter-Wiki/main",
     repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki",
 
     algolia: {
@@ -56,10 +56,6 @@ export default defineConfigWithTheme<ThemeConfig>({
       {
         text: "Contribute",
         link: "/contribute",
-      },
-      {
-        text: "bedrock.dev",
-        link: "https://bedrock.dev",
       },
       {
         text: "MS Learn",
