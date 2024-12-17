@@ -25,6 +25,15 @@
   color: #fff;
 }
 
+.blue_dark {
+  --bg-color: rgb(0, 61, 110);
+  --light-bg-color: rgb(0, 66, 115);
+  --nav-bg-color: rgb(0, 67, 116, 0.8);
+  --border-color: rgb(0, 82, 132);
+
+  color: #87ceeb;
+}
+
 * {
   box-sizing: border-box;
 }

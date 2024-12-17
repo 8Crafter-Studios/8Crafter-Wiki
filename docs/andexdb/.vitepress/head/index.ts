@@ -6,7 +6,7 @@ export default <HeadConfig[]>[
     "link",
     {
       rel: "icon",
-      href: "/8Crafter-Wiki/andexdb/favicon.ico",
+      href: "/8Crafter-Wiki/andexdb/pack_icon.png",
     },
   ],
   [

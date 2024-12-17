@@ -24,7 +24,7 @@ Step-by-step tutorials intended as your first contact with add-ons.
 
 </Card> -->
 
-<Card title="Discord" link="./discord" image="assets/images/homepage/discord.png">
+<Card title="Discord" link="./discord" image="/assets/images/homepage/discord.png">
 
 Join my Discord server to get help with my add-ons, ask questions about coding, vote in polls, etc.
 

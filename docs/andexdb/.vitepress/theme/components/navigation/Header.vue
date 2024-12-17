@@ -36,7 +36,7 @@ function toggleSidebarVisibility() {
       <MenuIcon v-else />
     </button>
     <a class="header__title" href="/">
-      <img src="/favicon.gif" alt="" />
+      <img src="/pack_icon_animated_0.5x_frames.svg" alt="" />
       <span>{{ isShortTitle ? "Wiki" : site.title }}</span>
     </a>
     <div class="header__content">

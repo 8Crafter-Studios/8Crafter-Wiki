@@ -9,7 +9,7 @@ export function transformHead({ pageData, siteConfig }: TransformContext) {
   const title = frontmatter.title ?? "8Crafter's Debug Sticks Wiki";
   const description = frontmatter.description ?? config.description;
 
-  const image = `${config.themeConfig.url}/assets/images/homepage/wikilogo.png`;
+  const image = `${config.themeConfig.url}/assets/images/homepage/pack_icon_animated_0.5x_frames.svg`;
   const imageAlt = "8Crafter Wiki Logo";
 
   const path = relativePath.replace(".md", ".html");
