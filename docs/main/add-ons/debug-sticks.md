@@ -16,7 +16,7 @@ nav_order: 2
     Full Documentation
 </Button>
 
-&nbsp;&nbsp;&nbsp;&nbsp;This add-on does almost everything. It is one of the most powerful bedrock add-ons that currently exists.
+This add-on does almost everything. It is one of the most powerful bedrock add-ons that currently exists.
 
 ## General Description
 
@@ -95,7 +95,7 @@ nav_order: 2
 <div class="video-container">
     <iframe
         src="https://www.youtube.com/embed/bszs_vo-1Lc"
-        title="Web Load Testing with West Wind WebSurge 2"
+        title="Debug Sticks Add-On for Minecraft bedrock edition 1.21"
         frameborder="0"
         allowfullscreen
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

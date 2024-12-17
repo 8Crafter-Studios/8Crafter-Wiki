@@ -14,6 +14,8 @@ const props = defineProps<{
   class?: string;
   link: string;
   activeMatch?: string;
+  target?: string;
+  rel?: string;
 }>();
 
 const { props: linkProps, isExternal } = useNavLink(props);
@@ -30,7 +32,13 @@ watchEffect(() => {
 </script>
 
 <template>
-  <a :class="props.class" v-bind="linkProps" @click="onNavigation">
+  <a
+    :class="props.class"
+    :target="props.target"
+    v-bind="linkProps"
+    :rel="props.rel"
+    @click="onNavigation"
+  >
     <slot />
     <ExternalIcon v-if="isExternal" />
   </a>

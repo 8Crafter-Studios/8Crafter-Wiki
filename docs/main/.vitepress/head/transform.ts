@@ -33,6 +33,9 @@ export function transformHead({ pageData, siteConfig }: TransformContext) {
     "twitter:image": image,
     "twitter:image:alt": imageAlt,
     "twitter:site": site,
+    // other data
+    frontmatter: JSON.stringify(frontmatter),
+    "docsearch:vitepress_frontmatter": JSON.stringify(frontmatter),
   };
 
   const out: HeadConfig[] = [];

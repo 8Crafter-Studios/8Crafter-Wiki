@@ -1,0 +1,35 @@
+{
+  "index_name": "main",
+  "start_urls": [
+    {
+      "url": "https://8crafter-studios.github.io/8Crafter-Wiki/main/add-ons/",
+      "selectors_key": "add-ons",
+      "tags": ["add-ons"]
+    },
+    "https://8crafter-studios.github.io/8Crafter-Wiki/main/"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "nonexistentselector_ahbwbsnixuchdndn",
+        "default_value": "Articles"
+      },
+      "lvl1": "main article h1",
+      "lvl2": "main article h2",
+      "lvl3": "main article h3",
+      "lvl4": "main article h4",
+      "text": "main article div p, main article div li"
+    },
+    "add-ons": {
+      "lvl0": {
+        "selector": "nonexistentselector_ahbwbsnixuchdndn",
+        "default_value": "Add-Ons"
+      },
+      "lvl1": "main article h1",
+      "lvl2": "main article h2",
+      "lvl3": "main article h3",
+      "lvl4": "main article h4",
+      "text": "main article div p, main article div li"
+    }
+  }
+}

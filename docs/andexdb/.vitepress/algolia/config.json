@@ -2,9 +2,9 @@
   "index_name": "andexdb",
   "start_urls": [
     {
-      "url": "https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/add-ons/",
-      "selectors_key": "add-ons",
-      "tags": ["add-ons"]
+      "url": "https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/general/",
+      "selectors_key": "general",
+      "tags": ["general"]
     },
     "https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/"
   ],
@@ -20,10 +20,10 @@
       "lvl4": "main article h4",
       "text": "main article div p, main article div li"
     },
-    "add-ons": {
+    "general": {
       "lvl0": {
         "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Add-Ons"
+        "default_value": "General"
       },
       "lvl1": "main article h1",
       "lvl2": "main article h2",

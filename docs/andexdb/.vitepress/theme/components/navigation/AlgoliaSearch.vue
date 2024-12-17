@@ -52,9 +52,6 @@ function initialize(userOptions: any) {
   docsearch(
     Object.assign({}, userOptions, {
       container: "#docsearch",
-      lvl0: {
-        selectors: "header h1",
-      },
 
       navigator: {
         navigate: ({ itemUrl }: { itemUrl: string }) => {

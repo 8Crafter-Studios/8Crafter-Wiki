@@ -6,7 +6,7 @@ export function transformHead({ pageData, siteConfig }: TransformContext) {
 
   const { frontmatter, relativePath } = pageData;
 
-  const title = frontmatter.title ?? "8Crafter Wiki";
+  const title = frontmatter.title ?? "8Crafter's Debug Sticks Wiki";
   const description = frontmatter.description ?? config.description;
 
   const image = `${config.themeConfig.url}/assets/images/homepage/wikilogo.png`;
@@ -35,6 +35,7 @@ export function transformHead({ pageData, siteConfig }: TransformContext) {
     "twitter:site": site,
     // other data
     frontmatter: JSON.stringify(frontmatter),
+    "docsearch:vitepress_frontmatter": JSON.stringify(frontmatter),
   };
 
   const out: HeadConfig[] = [];
