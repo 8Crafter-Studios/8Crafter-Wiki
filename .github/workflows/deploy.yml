@@ -1,10 +1,11 @@
 name: Deploy
 on:
+  # Allows you to run this workflow manually from the Actions tab or through HTTP API
+  workflow_dispatch:
+
   push:
     branches:
       - wiki
-  # Allows you to run this workflow manually from the Actions tab or through HTTP API
-  workflow_dispatch:
 
 jobs:
   deploy:
