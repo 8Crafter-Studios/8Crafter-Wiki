@@ -2,6 +2,7 @@
 title: General
 nav_order: 1
 description: General information on 8Crafter's Debug Sticks Add-On.
+hide_from_algolia_search: true
 ---
 
 This add-on does almost everything. It is one of the most powerful bedrock add-ons that currently exists.
