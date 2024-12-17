@@ -1,7 +1,8 @@
 ---
 title: Style Guide
 mentions:
-description: Officially supported Bedrock-Wiki style guide for add-on creation.
+description: This page has not been built yet!
+hide_from_algolia_search: true
 ---
 
 :::warning COMING SOON!

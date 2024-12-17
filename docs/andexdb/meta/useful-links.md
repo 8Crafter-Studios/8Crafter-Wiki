@@ -1,7 +1,8 @@
 ---
 title: Useful Links
 mentions:
-description: Useful links for 8Crafter's Debug Sticks Add-On.
+description: This page has not been built yet!
+hide_from_algolia_search: true
 ---
 
 :::warning COMING SOON!

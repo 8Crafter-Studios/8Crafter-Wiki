@@ -19,18 +19,18 @@ const { site } = useData();
     <p>"Minecraft" is a trademark of Mojang AB.</p>
     <p>
       8Crafter-Studios, {{ site.title }} and
-      <a href="https://bedrock.dev" target="_blank" rel="noopener noreferrer">bedrock.dev</a>
+      <a href="https://8crafter.com" target="_blank" rel="noopener noreferrer">8crafter.com</a>
       are not affiliated in any way with Microsoft or Mojang AB.
     </p>
     <ul>
       <li>
-        <NavLink link="/privacy">Privacy Policy</NavLink>
+        <NavLink link="/../main/privacy" target="_self">Privacy Policy</NavLink>
       </li>
       <li>
-        <NavLink link="/discord">Join our Discord</NavLink>
+        <NavLink link="/../main/discord" target="_self">Join our Discord</NavLink>
       </li>
       <li>
-        <NavLink link="/contribute">Learn how to Contribute</NavLink>
+        <NavLink link="/../main/contribute" target="_self">Learn how to Contribute</NavLink>
       </li>
       <li>
         <NavLink link="https://github.com/8Crafter-Studios/8Crafter-Wiki"

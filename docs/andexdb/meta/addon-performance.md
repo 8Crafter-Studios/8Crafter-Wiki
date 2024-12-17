@@ -1,7 +1,8 @@
 ---
 title: Add-On Performance
 mentions:
-description: Learn how to optimize your add-on.
+description: Learn all the options to make the add-on have better performance.
+hide_from_algolia_search: true
 ---
 
 :::warning COMING SOON!
