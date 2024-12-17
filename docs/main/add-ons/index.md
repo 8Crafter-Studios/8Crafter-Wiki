@@ -8,10 +8,8 @@ categories:
       color: purple
     - title: Canceled
       color: red
-description: Beginner's guide to MCBE Add-Ons.
+description: Add-Ons section index page.
 hide_from_algolia_search: true
 ---
 
-Welcome to the Bedrock Beginner's Guide!
-
-<Button link="introduction">Get Started!</Button>
+<Button link="./addons">Add-Ons List</Button>

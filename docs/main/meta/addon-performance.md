@@ -1,15 +1,14 @@
 ---
 title: Add-On Performance
 mentions:
-    - SirLich
-    - Joelant05
-    - MedicalJewel105
-    - TheItsNameless
-    - SmokeyStack
 description: Learn how to optimize your add-on.
 ---
 
-::: warning
+:::warning COMING SOON!
+This page has not been built yet!
+:::
+
+<!-- ::: warning
 This page was compiled primarily using community feedback from multiple sources. As a result, some information may be generalized, subjective, or conflicting. Always use your own best judgment when optimizing your add-ons. This page is not a substitute for testing your add-on on a wide range of devices.
 :::
 
@@ -216,4 +215,4 @@ Your best bet to resolve this issue is to split your trades in half and move the
 
 ## Files
 
--   Tons of files can badly affect game performance. Create a [`contents.json`](/concepts/contents) file.
+-   Tons of files can badly affect game performance. Create a [`contents.json`](/concepts/contents) file. -->

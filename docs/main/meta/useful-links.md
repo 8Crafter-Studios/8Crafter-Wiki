@@ -1,24 +1,14 @@
 ---
 title: Useful Links
 mentions:
-    - SirLich
-    - MedicalJewel105
-    - MetalManiacMc
-    - rebrainertv
-    - jasonjgardner
-    - MADLAD3718
-    - cda94581
-    - Luthorius
-    - NhanAZ
-    - AndreasHGK
-    - mark-wiemer
-    - Noruaric
-    - JaylyDev
-    - zheaEvyline
-description: Useful links for developing add-ons.
+description: Useful links for 8Crafter's Debug Sticks Add-On.
 ---
 
-There is loads of helpful information about Bedrock Development online, but sometimes it is hard to find! We will do our best to keep this list up to date as we continue to find useful content.
+:::warning COMING SOON!
+This page has not been built yet!
+:::
+
+<!-- There is loads of helpful information about Bedrock Development online, but sometimes it is hard to find! We will do our best to keep this list up to date as we continue to find useful content.
 
 Important links have a ⭐.
 
@@ -161,4 +151,4 @@ These packs are published by the open-source community.
 -   [Run Bedrock on Linux](https://github.com/Element-0/ElementZero)
 -   [Skin Pack Generator](https://github.com/MedicalJewel105/bedrock-skin-pack-generator)
 -   [UUID v4 Generator (Online)](https://www.uuidgenerator.net/version4)
--   [Windows 10 Non-Renderdragon Install](https://support.playhive.com/windows-10-installing-non-renderdragon-clients/)
+-   [Windows 10 Non-Renderdragon Install](https://support.playhive.com/windows-10-installing-non-renderdragon-clients/) -->

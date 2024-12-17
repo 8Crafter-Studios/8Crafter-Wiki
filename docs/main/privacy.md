@@ -5,7 +5,11 @@ show_contributors: false
 hidden: true
 ---
 
-[8crafter-studios.github.io/8Crafter-Wiki](/) is created and maintained by the 8Crafter-Studios organization. This privacy policy will explain how our organization uses the personal data we collect from you when you use our website. By using the 8crafter-studios.github.io/8Crafter-Wiki site, you agree to this policy.
+:::warning COMING SOON!
+This page has not been built yet!
+:::
+
+<!-- [8crafter-studios.github.io/8Crafter-Wiki](/) is created and maintained by the 8Crafter-Studios organization. This privacy policy will explain how our organization uses the personal data we collect from you when you use our website. By using the 8crafter-studios.github.io/8Crafter-Wiki site, you agree to this policy.
 
 ## What data do we collect?
 
@@ -72,4 +76,4 @@ We try to keep our privacy policy updated. This page was last updated on 18 Janu
 
 ## Contact us
 
-To contact us, join our [discord server](/discord) or send an email to [SirLich.business@gmail.com](mailto:SirLich.business@gmail.com).
+To contact us, join our [discord server](/discord) or send an email to [SirLich.business@gmail.com](mailto:SirLich.business@gmail.com). -->

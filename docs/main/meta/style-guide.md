@@ -1,15 +1,14 @@
 ---
 title: Style Guide
 mentions:
-    - SirLich
-    - solvedDev
-    - MedicalJewel105
-    - ChibiMango
-    - zheaEvyline
 description: Officially supported Bedrock-Wiki style guide for add-on creation.
 ---
 
-This document will present the officially supported Bedrock-Wiki style guide for add-on creation. This guide aims to promote best practices while creating add-ons and create a consistent format for everyone to follow.
+:::warning COMING SOON!
+This page has not been built yet!
+:::
+
+<!-- This document will present the officially supported Bedrock-Wiki style guide for add-on creation. This guide aims to promote best practices while creating add-ons and create a consistent format for everyone to follow.
 
 :::tip
 The style guide is a living, breathing document, which will evolve as add-on creation evolves. Please get in touch if you think something needs to be updated or changed!
@@ -304,6 +303,4 @@ Blocks and Items should follow the format order below. This would particularly h
 
 ## Custom Components Variable Name
 
-PascalCase should be used with BlockComponent or ItemComponent as a suffix. As an example, `MeltableBlockComponent` rather than `meltable`. This would help to differentiate what we're using in `registerCustomComponent` and what we're using as values elsewhere.
-
-
+PascalCase should be used with BlockComponent or ItemComponent as a suffix. As an example, `MeltableBlockComponent` rather than `meltable`. This would help to differentiate what we're using in `registerCustomComponent` and what we're using as values elsewhere. -->
