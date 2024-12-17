@@ -7,6 +7,7 @@ tags:
     - BP
     - RP
 nav_order: 2
+thumbnail_url: https://8crafter-studios.github.io/8Crafter-Wiki/main/assets/images/add-on_cover_art/andexdb.png
 ---
 
 <img src="/assets/images/add-on_cover_art/andexdb.png" alt="8Crafter's Debug Sticks Cover Art" title="8Crafter's Debug Sticks Cover Art">
