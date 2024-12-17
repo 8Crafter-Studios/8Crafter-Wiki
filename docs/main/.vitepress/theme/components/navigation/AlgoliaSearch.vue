@@ -51,7 +51,12 @@ function initialize(userOptions: any) {
       userOptions as Parameters<typeof docsearch>[0],
       {
         container: "#docsearch",
-        searchParameters: { indexName: "andexdb", clickAnalytics: true },
+        searchParameters: {
+          indexName: userOptions.indexName,
+          clickAnalytics: true,
+          analytics: true,
+          advancedSyntax: true,
+        },
         navigator: {
           navigate: ({ itemUrl }: { itemUrl: string }) => {
             const { pathname: hitPathname } = new URL(window.location.origin + itemUrl);
