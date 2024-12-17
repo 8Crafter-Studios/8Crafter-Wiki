@@ -23,14 +23,11 @@ watch(
   () => options,
   (value) => {
     update(value);
-    console.log(2.432);
   }
 );
 
 onMounted(() => {
-  console.log(5.231);
   initialize(options);
-  console.log(4.123);
 });
 
 function isSpecialClick(event: MouseEvent) {
@@ -48,66 +45,68 @@ function update(options: any) {
 }
 
 function initialize(userOptions: any) {
-  console.log(54.12);
   docsearch(
-    Object.assign({}, userOptions, {
-      container: "#docsearch",
-
-      navigator: {
-        navigate: ({ itemUrl }: { itemUrl: string }) => {
-          const { pathname: hitPathname } = new URL(window.location.origin + itemUrl);
-          // Router doesn't handle same-page navigation so we use the native
-          // browser location API for anchor navigation
-          if (route.path === hitPathname) {
-            window.location.assign(window.location.origin + itemUrl);
-          } else {
-            router.go(itemUrl);
-          }
-        },
-      },
-      transformItems: (items: any) => {
-        return items.map((item: any) => {
-          return Object.assign({}, item, {
-            url: getRelativePath(item.url),
-          });
-        });
-      },
-      hitComponent: ({ hit, children }: { hit: any; children: any }) => {
-        const relativeHit = hit.url.startsWith("http")
-          ? getRelativePath(hit.url as string)
-          : hit.url;
-        return {
-          type: "a",
-          ref: undefined,
-          constructor: undefined,
-          key: undefined,
-          props: {
-            href: hit.url,
-            onClick: (event: MouseEvent) => {
-              if (isSpecialClick(event)) {
-                return;
-              }
-              // we rely on the native link scrolling when user is already on
-              // the right anchor because Router doesn't support duplicated
-              // history entries
-              if (route.path === relativeHit) {
-                return;
-              }
-              // if the hits goes to another page, we prevent the native link
-              // behavior to leverage the Router loading feature
-              if (route.path !== relativeHit) {
-                event.preventDefault();
-              }
-              router.go(relativeHit);
-            },
-            children,
+    Object.assign(
+      {} as Parameters<typeof docsearch>[0],
+      userOptions as Parameters<typeof docsearch>[0],
+      {
+        container: "#docsearch",
+        searchParameters: { indexName: "andexdb", clickAnalytics: true },
+        navigator: {
+          navigate: ({ itemUrl }: { itemUrl: string }) => {
+            const { pathname: hitPathname } = new URL(window.location.origin + itemUrl);
+            // Router doesn't handle same-page navigation so we use the native
+            // browser location API for anchor navigation
+            if (route.path === hitPathname) {
+              window.location.assign(window.location.origin + itemUrl);
+            } else {
+              router.go(itemUrl);
+            }
           },
-          __v: null,
-        };
-      },
-    })
+        },
+        transformItems: (items: any) => {
+          return items.map((item: any) => {
+            return Object.assign({}, item, {
+              url: getRelativePath(item.url),
+            });
+          });
+        },
+        hitComponent: ({ hit, children }: { hit: any; children: any }) => {
+          const relativeHit = hit.url.startsWith("http")
+            ? getRelativePath(hit.url as string)
+            : hit.url;
+          return {
+            type: "a",
+            ref: undefined,
+            constructor: undefined,
+            key: undefined,
+            props: {
+              href: hit.url,
+              onClick: (event: MouseEvent) => {
+                if (isSpecialClick(event)) {
+                  return;
+                }
+                // we rely on the native link scrolling when user is already on
+                // the right anchor because Router doesn't support duplicated
+                // history entries
+                if (route.path === relativeHit) {
+                  return;
+                }
+                // if the hits goes to another page, we prevent the native link
+                // behavior to leverage the Router loading feature
+                if (route.path !== relativeHit) {
+                  event.preventDefault();
+                }
+                router.go(relativeHit);
+              },
+              children,
+            },
+            __v: null,
+          };
+        },
+      } as Partial<Parameters<typeof docsearch>[0]>
+    )
   );
-  console.log(5.126);
 }
 </script>
 
