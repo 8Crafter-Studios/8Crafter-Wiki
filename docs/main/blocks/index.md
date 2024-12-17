@@ -9,4 +9,5 @@ categories:
       color: orange
     - title: Documentation
       color: red
+hide_from_algolia_search: true
 ---

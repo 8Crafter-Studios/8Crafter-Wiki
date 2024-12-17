@@ -56,6 +56,7 @@ function initialize(userOptions: any) {
           clickAnalytics: true,
           analytics: true,
           advancedSyntax: true,
+          filters: "NOT vitepress_frontmatter.hide_from_algolia_search:true",
         },
         navigator: {
           navigate: ({ itemUrl }: { itemUrl: string }) => {

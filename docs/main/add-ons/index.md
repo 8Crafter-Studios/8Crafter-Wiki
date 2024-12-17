@@ -9,6 +9,7 @@ categories:
     - title: Canceled
       color: red
 description: Beginner's guide to MCBE Add-Ons.
+hide_from_algolia_search: true
 ---
 
 Welcome to the Bedrock Beginner's Guide!

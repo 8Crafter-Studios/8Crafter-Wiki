@@ -15,4 +15,5 @@ categories:
       color: orange
     - title: Functions
       color: blue
+hide_from_algolia_search: true
 ---
