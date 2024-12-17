@@ -1,11 +1,6 @@
 ---
 title: Style Guide
 mentions:
-    - SirLich
-    - solvedDev
-    - MedicalJewel105
-    - ChibiMango
-    - zheaEvyline
 description: Officially supported Bedrock-Wiki style guide for add-on creation.
 ---
 

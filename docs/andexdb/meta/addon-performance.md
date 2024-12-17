@@ -1,11 +1,6 @@
 ---
 title: Add-On Performance
 mentions:
-    - SirLich
-    - Joelant05
-    - MedicalJewel105
-    - TheItsNameless
-    - SmokeyStack
 description: Learn how to optimize your add-on.
 ---
 
