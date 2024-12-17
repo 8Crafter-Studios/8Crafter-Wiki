@@ -35,7 +35,9 @@ If the page looks like the screenshot below and says Ad Blocker Detected, then y
     pixelated
 />
 
-:::tip If you don't have an ad blocker or your ad blocker is disabled, but it still says ad blocker detected, then try reloading the page. If the problem persists, you can contact me through email or my discord server and I can send you the add-on file directly.:::
+:::tip
+If you don't have an ad blocker or your ad blocker is disabled, but it still says ad blocker detected, then try reloading the page. If the problem persists, you can contact me through email or my discord server and I can send you the add-on file directly.
+:::
 
 Once you have reached the work.ink page click on the green "Go To Destination" button.
 
