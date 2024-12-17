@@ -6,6 +6,11 @@
       "selectors_key": "general",
       "tags": ["general"]
     },
+    {
+      "url": "https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/meta/",
+      "selectors_key": "meta",
+      "tags": ["meta"]
+    },
     "https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/"
   ],
   "selectors": {
@@ -24,6 +29,17 @@
       "lvl0": {
         "selector": "nonexistentselector_ahbwbsnixuchdndn",
         "default_value": "General"
+      },
+      "lvl1": "main article h1",
+      "lvl2": "main article h2",
+      "lvl3": "main article h3",
+      "lvl4": "main article h4",
+      "text": "main article div p, main article div li"
+    },
+    "meta": {
+      "lvl0": {
+        "selector": "nonexistentselector_ahbwbsnixuchdndn",
+        "default_value": "Meta"
       },
       "lvl1": "main article h1",
       "lvl2": "main article h2",
