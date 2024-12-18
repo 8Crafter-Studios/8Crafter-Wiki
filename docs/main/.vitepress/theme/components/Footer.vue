@@ -19,7 +19,7 @@ const { site } = useData();
     <p>"Minecraft" is a trademark of Mojang AB.</p>
     <p>
       8Crafter-Studios, {{ site.title }} and
-      <a href="https://bedrock.dev" target="_blank" rel="noopener noreferrer">bedrock.dev</a>
+      <a href="https://8crafter.com" target="_blank" rel="noopener noreferrer">8crafter.com</a>
       are not affiliated in any way with Microsoft or Mojang AB.
     </p>
     <ul>
