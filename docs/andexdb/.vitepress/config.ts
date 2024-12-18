@@ -52,16 +52,18 @@ export default defineConfigWithTheme<ThemeConfig>({
     navigation: [
       {
         text: "Home",
-        link: "/../main/",
+        link: "https://wiki.8crafter.com/main/",
         target: "_self",
       },
       {
         text: "Discord",
         link: "/../main/discord",
+        target: "_self",
       },
       {
         text: "Contribute",
         link: "/../main/contribute",
+        target: "_self",
       },
       {
         text: "ModBay",
