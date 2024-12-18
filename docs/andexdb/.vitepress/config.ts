@@ -52,7 +52,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     navigation: [
       {
         text: "Home",
-        link: "https://wiki.8crafter.com/main/",
+        link: "/../main/",
         target: "_self",
       },
       {
