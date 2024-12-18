@@ -38,7 +38,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   // ignoreDeadLinks: true,
 
   themeConfig: {
-    url: "https://8crafter-studios.github.io/8Crafter-Wiki/main",
+    url: "https://wiki.8crafter.com/main",
     repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki",
 
     algolia: {

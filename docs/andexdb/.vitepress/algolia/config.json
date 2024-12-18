@@ -2,16 +2,16 @@
   "index_name": "andexdb",
   "start_urls": [
     {
-      "url": "https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/general/",
+      "url": "https://wiki.8crafter.com/andexdb/general/",
       "selectors_key": "general",
       "tags": ["general"]
     },
     {
-      "url": "https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/meta/",
+      "url": "https://wiki.8crafter.com/andexdb/meta/",
       "selectors_key": "meta",
       "tags": ["meta"]
     },
-    "https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/"
+    "https://wiki.8crafter.com/andexdb/"
   ],
   "selectors": {
     "default": {

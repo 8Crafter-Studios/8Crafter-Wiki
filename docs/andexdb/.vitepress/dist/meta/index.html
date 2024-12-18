@@ -1,43 +1,321 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Meta | 8Crafter's Debug Sticks Wiki (UNDER CONSTRUCTION!)</title>
-    <meta name="description" content="The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities.">
-    <meta name="generator" content="VitePress v1.5.0">
-    <link rel="preload stylesheet" href="/8Crafter-Wiki/andexdb/assets/style.eoG5aao6.css" as="style">
-    <link rel="preload stylesheet" href="/8Crafter-Wiki/andexdb/vp-icons.css" as="style">
-    
+    <meta
+      name="description"
+      content="The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities."
+    />
+    <meta name="generator" content="VitePress v1.5.0" />
+    <link
+      rel="preload stylesheet"
+      href="/8Crafter-Wiki/andexdb/assets/style.eoG5aao6.css"
+      as="style"
+    />
+    <link rel="preload stylesheet" href="/8Crafter-Wiki/andexdb/vp-icons.css" as="style" />
+
     <script type="module" src="/8Crafter-Wiki/andexdb/assets/app.v5_6RIo9.js"></script>
-    <link rel="modulepreload" href="/8Crafter-Wiki/andexdb/assets/chunks/theme.azFpG8tB.js">
-    <link rel="modulepreload" href="/8Crafter-Wiki/andexdb/assets/chunks/framework.BLb2Gtba.js">
-    <link rel="modulepreload" href="/8Crafter-Wiki/andexdb/assets/meta_index.md.CGTu-hIn.lean.js">
-    <link rel="icon" href="/8Crafter-Wiki/andexdb/favicon.ico">
-    <apple-touch-icon rel="icon" href="/8Crafter-Wiki/andexdb/assets/images/favicons/apple-touch-icon.png" sizes="180x180"></apple-touch-icon>
-    <mask-icon rel="icon" href="/8Crafter-Wiki/andexdb/assets/images/favicons/safari-pinned-tab.svg" color="#60c3fa"></mask-icon>
-    <meta name="theme-color" content="#60c3fa">
-    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
-    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
-    <meta name="og:type" content="website">
-    <meta name="og:title" content="Meta">
-    <meta name="og:description" content="The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities.">
-    <meta name="og:image" content="https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/assets/images/homepage/wikilogo.png">
-    <meta name="og:image:alt" content="8Crafter Wiki Logo">
-    <meta name="og:url" content="https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/meta/index.html">
-    <meta name="og:site_name" content="8Crafter's Debug Sticks Wiki (UNDER CONSTRUCTION!)">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Meta">
-    <meta name="twitter:description" content="The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities.">
-    <meta name="twitter:image" content="https://8crafter-studios.github.io/8Crafter-Wiki/andexdb/assets/images/homepage/wikilogo.png">
-    <meta name="twitter:image:alt" content="8Crafter Wiki Logo">
-    <meta name="twitter:site" content="8Crafter's Debug Sticks Wiki (UNDER CONSTRUCTION!)">
-    <meta name="frontmatter" content="{&quot;title&quot;:&quot;Meta&quot;}">
-    <meta name="docsearch:vitepress_frontmatter" content="{&quot;title&quot;:&quot;Meta&quot;}">
+    <link rel="modulepreload" href="/8Crafter-Wiki/andexdb/assets/chunks/theme.azFpG8tB.js" />
+    <link rel="modulepreload" href="/8Crafter-Wiki/andexdb/assets/chunks/framework.BLb2Gtba.js" />
+    <link rel="modulepreload" href="/8Crafter-Wiki/andexdb/assets/meta_index.md.CGTu-hIn.lean.js" />
+    <link rel="icon" href="/8Crafter-Wiki/andexdb/favicon.ico" />
+    <apple-touch-icon
+      rel="icon"
+      href="/8Crafter-Wiki/andexdb/assets/images/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    ></apple-touch-icon>
+    <mask-icon
+      rel="icon"
+      href="/8Crafter-Wiki/andexdb/assets/images/favicons/safari-pinned-tab.svg"
+      color="#60c3fa"
+    ></mask-icon>
+    <meta name="theme-color" content="#60c3fa" />
+    <script id="check-dark-mode">
+      (() => {
+        const e = localStorage.getItem("vitepress-theme-appearance") || "auto",
+          a = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        (!e || e === "auto" ? a : e === "dark") && document.documentElement.classList.add("dark");
+      })();
+    </script>
+    <script id="check-mac-os">
+      document.documentElement.classList.toggle(
+        "mac",
+        /Mac|iPhone|iPod|iPad/i.test(navigator.platform)
+      );
+    </script>
+    <meta name="og:type" content="website" />
+    <meta name="og:title" content="Meta" />
+    <meta
+      name="og:description"
+      content="The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities."
+    />
+    <meta
+      name="og:image"
+      content="https://wiki.8crafter.com/andexdb/assets/images/homepage/wikilogo.png"
+    />
+    <meta name="og:image:alt" content="8Crafter Wiki Logo" />
+    <meta name="og:url" content="https://wiki.8crafter.com/andexdb/meta/index.html" />
+    <meta name="og:site_name" content="8Crafter's Debug Sticks Wiki (UNDER CONSTRUCTION!)" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Meta" />
+    <meta
+      name="twitter:description"
+      content="The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities."
+    />
+    <meta
+      name="twitter:image"
+      content="https://wiki.8crafter.com/andexdb/assets/images/homepage/wikilogo.png"
+    />
+    <meta name="twitter:image:alt" content="8Crafter Wiki Logo" />
+    <meta name="twitter:site" content="8Crafter's Debug Sticks Wiki (UNDER CONSTRUCTION!)" />
+    <meta name="frontmatter" content='{"title":"Meta"}' />
+    <meta name="docsearch:vitepress_frontmatter" content='{"title":"Meta"}' />
   </head>
   <body>
-    <div id="app"><div class="sidebar-visible outline-visible"><header class="header"><button type="button" class="header__menu-button" aria-label="Toggle Sidebar Visibility"><svg class="icon" width="1em" height="1em" fill="currentColor" viewbox="0 0 24 24"><path d="M21,15.61L19.59,17L14.58,12L19.59,7L21,8.39L17.44,12L21,15.61M3,6H16V8H3V6M3,13V11H13V13H3M3,18V16H16V18H3Z"></path></svg></button><a class="header__title" href="/"><img src="/8Crafter-Wiki/andexdb/favicon.gif" alt=""><span>8Crafter&#39;s Debug Sticks Wiki (UNDER CONSTRUCTION!)</span></a><div class="header__content"><ul class="header__links"><!--[--><li><a target="_self" class="" href="/8Crafter-Wiki/andexdb/../main/"><!--[-->Home<!--]--><!----></a></li><li><a class="" href="/8Crafter-Wiki/andexdb/../main/discord"><!--[-->Discord<!--]--><!----></a></li><li><a class="" href="/8Crafter-Wiki/andexdb/../main/contribute"><!--[-->Contribute<!--]--><!----></a></li><li><a class="isExternal" href="https://modbay.org/mods/1240-8crafters-debug-sticks.html"><!--[-->ModBay<!--]--><svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" style="vertical-align:middle;" viewbox="0 0 20 20" fill="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></a></li><!--]--></ul><!----></div></header><div class="sidebar"><!----><!--[--><details class="sidebar__section"><summary>General <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></summary><ul><!--[--><li class="sidebar__link"><a class="" href="/8Crafter-Wiki/andexdb/general/debug-sticks"><!--[--><div><!----><span>General Information</span></div><!----><!--]--><!----></a></li><li class="sidebar__link"><a class="" href="/8Crafter-Wiki/andexdb/general/downloading"><!--[--><div><!----><span>Downloading</span></div><!----><!--]--><!----></a></li><!--]--><!--[--><!--]--></ul></details><details class="sidebar__section" open><summary>Meta <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></summary><ul><!--[--><li class="sidebar__link"><a class="" href="/8Crafter-Wiki/andexdb/meta/addon-performance"><!--[--><div><!----><span>Add-On Performance</span></div><!----><!--]--><!----></a></li><li class="sidebar__link"><a class="" href="/8Crafter-Wiki/andexdb/meta/style-guide"><!--[--><div><!----><span>Style Guide</span></div><!----><!--]--><!----></a></li><li class="sidebar__link"><a class="" href="/8Crafter-Wiki/andexdb/meta/useful-links"><!--[--><div><!----><span>Useful Links</span></div><!----><!--]--><!----></a></li><!--]--><!--[--><!--]--></ul></details><!--]--></div><main><article><h1>Meta</h1><!----><div><div class="outline"><a href="#">Meta</a><!----></div></div><div style="position:relative;"><div></div></div><!----><a class="isExternal" href="https://github.com/8Crafter-Studios/8Crafter-Wiki/blob/wiki/docs/meta/index.md"><!--[-->Edit Meta on GitHub<!--]--><svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" style="vertical-align:middle;" viewbox="0 0 20 20" fill="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></a></article><footer class="footer"><p>8Crafter&#39;s Debug Sticks Wiki (UNDER CONSTRUCTION!) <small> by <a href="https://github.com/8Crafter-Studios" target="_blank" rel="noopener noreferrer"> 8Crafter-Studios </a></small></p><p>&quot;Minecraft&quot; is a trademark of Mojang AB.</p><p> 8Crafter-Studios, 8Crafter&#39;s Debug Sticks Wiki (UNDER CONSTRUCTION!) and <a href="https://bedrock.dev" target="_blank" rel="noopener noreferrer">bedrock.dev</a> are not affiliated in any way with Microsoft or Mojang AB. </p><ul><li><a class="" href="/8Crafter-Wiki/andexdb/privacy"><!--[-->Privacy Policy<!--]--><!----></a></li><li><a class="" href="/8Crafter-Wiki/andexdb/discord"><!--[-->Join our Discord<!--]--><!----></a></li><li><a class="" href="/8Crafter-Wiki/andexdb/contribute"><!--[-->Learn how to Contribute<!--]--><!----></a></li><li><a class="isExternal" href="https://github.com/8Crafter-Studios/8Crafter-Wiki"><!--[-->Visit our Repository<!--]--><svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" style="vertical-align:middle;" viewbox="0 0 20 20" fill="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg></a></li></ul></footer></main></div></div>
-    <script>window.__VP_HASH_MAP__=JSON.parse("{\"contribute-how-to.md\":\"BnZGHwnO\",\"contribute-style.md\":\"Dw6Yvg0c\",\"contribute.md\":\"CJ6LJo39\",\"discord.md\":\"C8B1hG5b\",\"general_debug-sticks.md\":\"Cn-Z0R48\",\"general_downloading.md\":\"CribRNd9\",\"general_index.md\":\"Brl_G2lA\",\"graph-test.md\":\"Bf1eBCwO\",\"hacktoberfest.md\":\"Ifx4bdr8\",\"index.md\":\"DLlii_MK\",\"meta_addon-performance.md\":\"7zgGzFFZ\",\"meta_index.md\":\"CGTu-hIn\",\"meta_style-guide.md\":\"BsPsYvDo\",\"meta_useful-links.md\":\"xlS46Wd8\",\"privacy.md\":\"DN4mw2MI\",\"test.md\":\"BCj3CZkY\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"8Crafter's Debug Sticks Wiki (UNDER CONSTRUCTION!)\",\"description\":\"The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities.\",\"base\":\"/8Crafter-Wiki/andexdb/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"url\":\"https://8crafter-studios.github.io/8Crafter-Wiki/andexdb\",\"repository\":\"https://github.com/8Crafter-Studios/8Crafter-Wiki\",\"algolia\":{\"appId\":\"97Y3M3Y6BI\",\"apiKey\":\"84dd07d78c878c93eac11f7ed88ad9b8\",\"indexName\":\"andexdb\",\"placeholder\":\"Search 8Crafter's Debug Sticks Wiki...\"},\"navigation\":[{\"text\":\"Home\",\"link\":\"/../main/\",\"target\":\"_self\"},{\"text\":\"Discord\",\"link\":\"/../main/discord\"},{\"text\":\"Contribute\",\"link\":\"/../main/contribute\"},{\"text\":\"ModBay\",\"link\":\"https://modbay.org/mods/1240-8crafters-debug-sticks.html\"}],\"redirects\":{\"/blocks/block-materials\":\"/blocks/block-components#render-methods\",\"/blocks/blocks-16\":\"/blocks/blocks-intro\",\"/blocks/blocks-stable\":\"/blocks/blocks-intro\",\"/blocks/custom-trapdoor\":\"/blocks/custom-trapdoors\",\"/concepts/animation-controllers\":\"/animation-controllers/animation-controllers-intro\",\"/concepts/biomes\":\"/world-generation/biomes\",\"/concepts/blocks\":\"/blocks/blocks-intro\",\"/concepts/components-events-groups\":\"/entities/entity-intro-bp\",\"/concepts/entity-properties\":\"/entities/entity-properties\",\"/concepts/items\":\"/items/item-components\",\"/concepts/json-ui\":\"/json-ui/json-ui-intro\",\"/concepts/math-based-animations\":\"/visuals/math-based-animations\",\"/concepts/mcfunction\":\"/commands/mcfunction\",\"/concepts/render-controller\":\"/visuals/render-controller\",\"/documentation/biome-tags\":\"/world-generation/biome-tags\",\"/documentation/block-model-materials\":\"/blocks/block-components#render-methods\",\"/documentation/block-shapes\":\"/blocks/block-shapes\",\"/documentation/block-tags\":\"/blocks/block-tags\",\"/documentation/creative-categories\":\"/documentation/menu-categories\",\"/documentation/dummy-components\":\"/entities/dummy-components\",\"/documentation/emojis\":\"/concepts/emojis\",\"/documentation/item-groups\":\"/items/item-groups\",\"/documentation/json-ui\":\"/json-ui/json-ui-documentation\",\"/documentation/projectiles\":\"/entities/projectiles\",\"/documentation/runtime-identifier\":\"/entities/runtime-identifier\",\"/documentation/subpacks\":\"/concepts/subpacks\",\"/documentation/tellraw\":\"/commands/tellraw\",\"/entities/entities-intro\":\"/entities/entity-intro-bp\",\"/entities/npc-dialogs\":\"/entities/npc-dialogues\",\"/items/3d-items\":\"/items/attachables\",\"/items/item-categories\":\"/items/creative-categories\",\"/knowledge/addon-performance\":\"/meta/addon-performance\",\"/knowledge/addon-programming\":\"/meta/addon-programming\",\"/knowledge/bedrock-modeling\":\"/visuals/bedrock-modeling\",\"/knowledge/entity-movement\":\"/entities/entity-movement\",\"/knowledge/nbt_commands\":\"/commands/nbt-commands\",\"/knowledge/style-guide\":\"/meta/style-guide\",\"/knowledge/useful-links\":\"/meta/useful-links\",\"/knowledge/using-schemas\":\"/meta/using-schemas\",\"/knowledge/version-control\":\"/meta/version-control\",\"/scripting/gametest-qna\":\"/meta/gametest-qna\",\"/scripting/scripting-editor-qna\":\"/meta/scripting-editor-qna\",\"/scripting/starting-scripts\":\"/scripting/scripting-intro\",\"/troubleshooting/entities\":\"/entities/troubleshooting-entities\",\"/troubleshooting/items\":\"/items/troubleshooting-items\",\"/tutorials/beginner-commands\":\"/commands/commands-intro\",\"/tutorials/block-texture-variation\":\"/blocks/block-texture-variation\",\"/tutorials/boat-entities\":\"/entities/boat-entities\",\"/tutorials/cancelling-death-animation\":\"/entities/cancelling-death-animation\",\"/tutorials/controlling-flying-entities\":\"/entities/flying-entities\",\"/tutorials/craftable-spawneggs\":\"/loot/craftable-spawneggs\",\"/tutorials/custom-armor\":\"/entities/custom-armor\",\"/tutorials/disabling-particles\":\"/visuals/disabling-particles\",\"/tutorials/disabling-team-damage\":\"/entities/disabling-team-damage\",\"/tutorials/egg-drops\":\"/loot/egg-drops\",\"/tutorials/entity-commands\":\"/commands/animation-controllers\",\"/tutorials/entity-events\":\"/entities/entity-events\",\"/tutorials/entity-holds-item\":\"/entities/entity-holds-item\",\"/tutorials/fake_blocks\":\"/blocks/fake-blocks\",\"/tutorials/invulnerable-entities\":\"/entities/invulnerable-entities\",\"/tutorials/item-models\":\"/items/attachables\",\"/tutorials/npc-dialogs\":\"/entities/npc-dialogues\",\"/tutorials/pathfinding-entities\":\"/entities/pathfinding-entities\",\"/tutorials/player-geometry\":\"/visuals/player-geometry\",\"/tutorials/remove-shadows\":\"/visuals/remove-shadows\",\"/tutorials/respawn-commands\":\"/commands/respawn-commands\",\"/tutorials/retexturing-spawn-eggs\":\"/visuals/retexturing-spawn-eggs\",\"/tutorials/solid-entities\":\"/entities/solid-entities\",\"/tutorials/spawning-items\":\"/items/spawning-items\",\"/tutorials/text-localization\":\"/concepts/text-localization\",\"/tutorials/timers\":\"/entities/timers\",\"/vanilla-usage/items\":\"/items/vanilla-usage-items\",\"/vanilla-usage/components\":\"/entities/vanilla-usage-components\",\"/vanilla-usage/spawn-rules\":\"/entities/vanilla-usage-spawn-rules\",\"/visuals/deferred-qna\":\"/meta/deferred-qna\",\"/visuals/entity-visuals-intro\":\"/entities/render-controllers\",\"/visuals/render-controllers\":\"/entities/render-controllers\",\"/world-generation/randomized-structure-loot\":\"/loot/randomized-structure-loot\"},\"sidebar\":{\"links\":[],\"sections\":[{\"id\":\"general\",\"title\":\"General\",\"data\":{\"title\":\"General\",\"nav_order\":1,\"description\":\"General information on 8Crafter's Debug Sticks Add-On.\"},\"links\":[{\"title\":\"General Information\",\"link\":\"/general/debug-sticks\",\"data\":{\"title\":\"General Information\",\"page_title\":\"General Information\",\"description\":\"General information about the add-on.\",\"nav_order\":2}},{\"title\":\"Downloading\",\"link\":\"/general/downloading\",\"data\":{\"title\":\"Downloading\",\"page_title\":\"Downloading\",\"description\":\"How to download the add-on.\",\"nav_order\":3}}],\"categories\":[]},{\"id\":\"meta\",\"title\":\"Meta\",\"data\":{\"title\":\"Meta\"},\"links\":[{\"title\":\"Add-On Performance\",\"link\":\"/meta/addon-performance\",\"data\":{\"title\":\"Add-On Performance\",\"mentions\":[\"SirLich\",\"Joelant05\",\"MedicalJewel105\",\"TheItsNameless\",\"SmokeyStack\"],\"description\":\"Learn how to optimize your add-on.\"}},{\"title\":\"Style Guide\",\"link\":\"/meta/style-guide\",\"data\":{\"title\":\"Style Guide\",\"mentions\":[\"SirLich\",\"solvedDev\",\"MedicalJewel105\",\"ChibiMango\",\"zheaEvyline\"],\"description\":\"Officially supported Bedrock-Wiki style guide for add-on creation.\"}},{\"title\":\"Useful Links\",\"link\":\"/meta/useful-links\",\"data\":{\"title\":\"Useful Links\",\"mentions\":null,\"description\":\"Useful links for 8Crafter's Debug Sticks Add-On.\"}}],\"categories\":[]}]},\"tags\":{\"beginner\":{\"color\":\"blue\"},\"beta\":{\"color\":\"yellow\"},\"deprecated\":{\"color\":\"red\"},\"easy\":{\"color\":\"blue\"},\"experimental\":{\"color\":\"orange\"},\"expert\":{\"color\":\"red\"},\"guide\":{\"color\":\"green\",\"sidebar\":true},\"help\":{\"color\":\"blue\",\"sidebar\":true},\"info\":{\"color\":\"blue\",\"sidebar\":true},\"intermediate\":{\"color\":\"orange\"},\"method\":{\"color\":\"orange\"},\"outdated\":{\"color\":\"red\",\"sidebar\":true},\"scripting\":{\"color\":\"yellow\",\"sidebar\":{\"text\":\"Scripts\"}},\"system\":{\"color\":\"blue\",\"sidebar\":true},\"released\":{\"color\":\"green\",\"sidebar\":{\"text\":\"Released\"}},\"upcoming\":{\"color\":\"purple\",\"sidebar\":{\"text\":\"Upcoming\"}},\"BP\":{\"color\":\"red\",\"sidebar\":true},\"RP\":{\"color\":\"blue\",\"sidebar\":true}}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
-    
+    <div id="app">
+      <div class="sidebar-visible outline-visible">
+        <header class="header">
+          <button type="button" class="header__menu-button" aria-label="Toggle Sidebar Visibility">
+            <svg class="icon" width="1em" height="1em" fill="currentColor" viewbox="0 0 24 24">
+              <path
+                d="M21,15.61L19.59,17L14.58,12L19.59,7L21,8.39L17.44,12L21,15.61M3,6H16V8H3V6M3,13V11H13V13H3M3,18V16H16V18H3Z"
+              ></path>
+            </svg></button
+          ><a class="header__title" href="/"
+            ><img src="/8Crafter-Wiki/andexdb/favicon.gif" alt="" /><span
+              >8Crafter&#39;s Debug Sticks Wiki (UNDER CONSTRUCTION!)</span
+            ></a
+          >
+          <div class="header__content">
+            <ul class="header__links">
+              <!--[-->
+              <li>
+                <a target="_self" class="" href="/8Crafter-Wiki/andexdb/../main/"
+                  ><!--[-->Home<!--]--><!----></a
+                >
+              </li>
+              <li>
+                <a class="" href="/8Crafter-Wiki/andexdb/../main/discord"
+                  ><!--[-->Discord<!--]--><!----></a
+                >
+              </li>
+              <li>
+                <a class="" href="/8Crafter-Wiki/andexdb/../main/contribute"
+                  ><!--[-->Contribute<!--]--><!----></a
+                >
+              </li>
+              <li>
+                <a
+                  class="isExternal"
+                  href="https://modbay.org/mods/1240-8crafters-debug-sticks.html"
+                  ><!--[-->ModBay<!--]--><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.3em"
+                    height="1.3em"
+                    style="vertical-align: middle"
+                    viewbox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                    ></path>
+                    <path
+                      d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                    ></path></svg
+                ></a>
+              </li>
+              <!--]-->
+            </ul>
+            <!---->
+          </div>
+        </header>
+        <div class="sidebar">
+          <!----><!--[-->
+          <details class="sidebar__section">
+            <summary>
+              General
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                fill="none"
+                viewbox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </summary>
+            <ul>
+              <!--[-->
+              <li class="sidebar__link">
+                <a class="" href="/8Crafter-Wiki/andexdb/general/debug-sticks"
+                  ><!--[-->
+                  <div><!----><span>General Information</span></div>
+                  <!----><!--]--><!----></a
+                >
+              </li>
+              <li class="sidebar__link">
+                <a class="" href="/8Crafter-Wiki/andexdb/general/downloading"
+                  ><!--[-->
+                  <div><!----><span>Downloading</span></div>
+                  <!----><!--]--><!----></a
+                >
+              </li>
+              <!--]--><!--[--><!--]-->
+            </ul>
+          </details>
+          <details class="sidebar__section" open>
+            <summary>
+              Meta
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                fill="none"
+                viewbox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </summary>
+            <ul>
+              <!--[-->
+              <li class="sidebar__link">
+                <a class="" href="/8Crafter-Wiki/andexdb/meta/addon-performance"
+                  ><!--[-->
+                  <div><!----><span>Add-On Performance</span></div>
+                  <!----><!--]--><!----></a
+                >
+              </li>
+              <li class="sidebar__link">
+                <a class="" href="/8Crafter-Wiki/andexdb/meta/style-guide"
+                  ><!--[-->
+                  <div><!----><span>Style Guide</span></div>
+                  <!----><!--]--><!----></a
+                >
+              </li>
+              <li class="sidebar__link">
+                <a class="" href="/8Crafter-Wiki/andexdb/meta/useful-links"
+                  ><!--[-->
+                  <div><!----><span>Useful Links</span></div>
+                  <!----><!--]--><!----></a
+                >
+              </li>
+              <!--]--><!--[--><!--]-->
+            </ul>
+          </details>
+          <!--]-->
+        </div>
+        <main>
+          <article>
+            <h1>Meta</h1>
+            <!---->
+            <div>
+              <div class="outline">
+                <a href="#">Meta</a
+                ><!---->
+              </div>
+            </div>
+            <div style="position: relative"><div></div></div>
+            <!----><a
+              class="isExternal"
+              href="https://github.com/8Crafter-Studios/8Crafter-Wiki/blob/wiki/docs/meta/index.md"
+              ><!--[-->Edit Meta on GitHub<!--]--><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.3em"
+                height="1.3em"
+                style="vertical-align: middle"
+                viewbox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                ></path>
+                <path
+                  d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                ></path></svg
+            ></a>
+          </article>
+          <footer class="footer">
+            <p>
+              8Crafter&#39;s Debug Sticks Wiki (UNDER CONSTRUCTION!)
+              <small>
+                by
+                <a
+                  href="https://github.com/8Crafter-Studios"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  8Crafter-Studios
+                </a></small
+              >
+            </p>
+            <p>&quot;Minecraft&quot; is a trademark of Mojang AB.</p>
+            <p>
+              8Crafter-Studios, 8Crafter&#39;s Debug Sticks Wiki (UNDER CONSTRUCTION!) and
+              <a href="https://bedrock.dev" target="_blank" rel="noopener noreferrer"
+                >bedrock.dev</a
+              >
+              are not affiliated in any way with Microsoft or Mojang AB.
+            </p>
+            <ul>
+              <li>
+                <a class="" href="/8Crafter-Wiki/andexdb/privacy"
+                  ><!--[-->Privacy Policy<!--]--><!----></a
+                >
+              </li>
+              <li>
+                <a class="" href="/8Crafter-Wiki/andexdb/discord"
+                  ><!--[-->Join our Discord<!--]--><!----></a
+                >
+              </li>
+              <li>
+                <a class="" href="/8Crafter-Wiki/andexdb/contribute"
+                  ><!--[-->Learn how to Contribute<!--]--><!----></a
+                >
+              </li>
+              <li>
+                <a class="isExternal" href="https://github.com/8Crafter-Studios/8Crafter-Wiki"
+                  ><!--[-->Visit our Repository<!--]--><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.3em"
+                    height="1.3em"
+                    style="vertical-align: middle"
+                    viewbox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                    ></path>
+                    <path
+                      d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                    ></path></svg
+                ></a>
+              </li>
+            </ul>
+          </footer>
+        </main>
+      </div>
+    </div>
+    <script>
+      window.__VP_HASH_MAP__ = JSON.parse(
+        '{"contribute-how-to.md":"BnZGHwnO","contribute-style.md":"Dw6Yvg0c","contribute.md":"CJ6LJo39","discord.md":"C8B1hG5b","general_debug-sticks.md":"Cn-Z0R48","general_downloading.md":"CribRNd9","general_index.md":"Brl_G2lA","graph-test.md":"Bf1eBCwO","hacktoberfest.md":"Ifx4bdr8","index.md":"DLlii_MK","meta_addon-performance.md":"7zgGzFFZ","meta_index.md":"CGTu-hIn","meta_style-guide.md":"BsPsYvDo","meta_useful-links.md":"xlS46Wd8","privacy.md":"DN4mw2MI","test.md":"BCj3CZkY"}'
+      );
+      window.__VP_SITE_DATA__ = JSON.parse(
+        '{"lang":"en-US","dir":"ltr","title":"8Crafter\'s Debug Sticks Wiki (UNDER CONSTRUCTION!)","description":"The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter\'s Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities.","base":"/8Crafter-Wiki/andexdb/","head":[],"router":{"prefetchLinks":true},"appearance":true,"themeConfig":{"url":"https://wiki.8crafter.com/andexdb","repository":"https://github.com/8Crafter-Studios/8Crafter-Wiki","algolia":{"appId":"97Y3M3Y6BI","apiKey":"84dd07d78c878c93eac11f7ed88ad9b8","indexName":"andexdb","placeholder":"Search 8Crafter\'s Debug Sticks Wiki..."},"navigation":[{"text":"Home","link":"/../main/","target":"_self"},{"text":"Discord","link":"/../main/discord"},{"text":"Contribute","link":"/../main/contribute"},{"text":"ModBay","link":"https://modbay.org/mods/1240-8crafters-debug-sticks.html"}],"redirects":{"/blocks/block-materials":"/blocks/block-components#render-methods","/blocks/blocks-16":"/blocks/blocks-intro","/blocks/blocks-stable":"/blocks/blocks-intro","/blocks/custom-trapdoor":"/blocks/custom-trapdoors","/concepts/animation-controllers":"/animation-controllers/animation-controllers-intro","/concepts/biomes":"/world-generation/biomes","/concepts/blocks":"/blocks/blocks-intro","/concepts/components-events-groups":"/entities/entity-intro-bp","/concepts/entity-properties":"/entities/entity-properties","/concepts/items":"/items/item-components","/concepts/json-ui":"/json-ui/json-ui-intro","/concepts/math-based-animations":"/visuals/math-based-animations","/concepts/mcfunction":"/commands/mcfunction","/concepts/render-controller":"/visuals/render-controller","/documentation/biome-tags":"/world-generation/biome-tags","/documentation/block-model-materials":"/blocks/block-components#render-methods","/documentation/block-shapes":"/blocks/block-shapes","/documentation/block-tags":"/blocks/block-tags","/documentation/creative-categories":"/documentation/menu-categories","/documentation/dummy-components":"/entities/dummy-components","/documentation/emojis":"/concepts/emojis","/documentation/item-groups":"/items/item-groups","/documentation/json-ui":"/json-ui/json-ui-documentation","/documentation/projectiles":"/entities/projectiles","/documentation/runtime-identifier":"/entities/runtime-identifier","/documentation/subpacks":"/concepts/subpacks","/documentation/tellraw":"/commands/tellraw","/entities/entities-intro":"/entities/entity-intro-bp","/entities/npc-dialogs":"/entities/npc-dialogues","/items/3d-items":"/items/attachables","/items/item-categories":"/items/creative-categories","/knowledge/addon-performance":"/meta/addon-performance","/knowledge/addon-programming":"/meta/addon-programming","/knowledge/bedrock-modeling":"/visuals/bedrock-modeling","/knowledge/entity-movement":"/entities/entity-movement","/knowledge/nbt_commands":"/commands/nbt-commands","/knowledge/style-guide":"/meta/style-guide","/knowledge/useful-links":"/meta/useful-links","/knowledge/using-schemas":"/meta/using-schemas","/knowledge/version-control":"/meta/version-control","/scripting/gametest-qna":"/meta/gametest-qna","/scripting/scripting-editor-qna":"/meta/scripting-editor-qna","/scripting/starting-scripts":"/scripting/scripting-intro","/troubleshooting/entities":"/entities/troubleshooting-entities","/troubleshooting/items":"/items/troubleshooting-items","/tutorials/beginner-commands":"/commands/commands-intro","/tutorials/block-texture-variation":"/blocks/block-texture-variation","/tutorials/boat-entities":"/entities/boat-entities","/tutorials/cancelling-death-animation":"/entities/cancelling-death-animation","/tutorials/controlling-flying-entities":"/entities/flying-entities","/tutorials/craftable-spawneggs":"/loot/craftable-spawneggs","/tutorials/custom-armor":"/entities/custom-armor","/tutorials/disabling-particles":"/visuals/disabling-particles","/tutorials/disabling-team-damage":"/entities/disabling-team-damage","/tutorials/egg-drops":"/loot/egg-drops","/tutorials/entity-commands":"/commands/animation-controllers","/tutorials/entity-events":"/entities/entity-events","/tutorials/entity-holds-item":"/entities/entity-holds-item","/tutorials/fake_blocks":"/blocks/fake-blocks","/tutorials/invulnerable-entities":"/entities/invulnerable-entities","/tutorials/item-models":"/items/attachables","/tutorials/npc-dialogs":"/entities/npc-dialogues","/tutorials/pathfinding-entities":"/entities/pathfinding-entities","/tutorials/player-geometry":"/visuals/player-geometry","/tutorials/remove-shadows":"/visuals/remove-shadows","/tutorials/respawn-commands":"/commands/respawn-commands","/tutorials/retexturing-spawn-eggs":"/visuals/retexturing-spawn-eggs","/tutorials/solid-entities":"/entities/solid-entities","/tutorials/spawning-items":"/items/spawning-items","/tutorials/text-localization":"/concepts/text-localization","/tutorials/timers":"/entities/timers","/vanilla-usage/items":"/items/vanilla-usage-items","/vanilla-usage/components":"/entities/vanilla-usage-components","/vanilla-usage/spawn-rules":"/entities/vanilla-usage-spawn-rules","/visuals/deferred-qna":"/meta/deferred-qna","/visuals/entity-visuals-intro":"/entities/render-controllers","/visuals/render-controllers":"/entities/render-controllers","/world-generation/randomized-structure-loot":"/loot/randomized-structure-loot"},"sidebar":{"links":[],"sections":[{"id":"general","title":"General","data":{"title":"General","nav_order":1,"description":"General information on 8Crafter\'s Debug Sticks Add-On."},"links":[{"title":"General Information","link":"/general/debug-sticks","data":{"title":"General Information","page_title":"General Information","description":"General information about the add-on.","nav_order":2}},{"title":"Downloading","link":"/general/downloading","data":{"title":"Downloading","page_title":"Downloading","description":"How to download the add-on.","nav_order":3}}],"categories":[]},{"id":"meta","title":"Meta","data":{"title":"Meta"},"links":[{"title":"Add-On Performance","link":"/meta/addon-performance","data":{"title":"Add-On Performance","mentions":["SirLich","Joelant05","MedicalJewel105","TheItsNameless","SmokeyStack"],"description":"Learn how to optimize your add-on."}},{"title":"Style Guide","link":"/meta/style-guide","data":{"title":"Style Guide","mentions":["SirLich","solvedDev","MedicalJewel105","ChibiMango","zheaEvyline"],"description":"Officially supported Bedrock-Wiki style guide for add-on creation."}},{"title":"Useful Links","link":"/meta/useful-links","data":{"title":"Useful Links","mentions":null,"description":"Useful links for 8Crafter\'s Debug Sticks Add-On."}}],"categories":[]}]},"tags":{"beginner":{"color":"blue"},"beta":{"color":"yellow"},"deprecated":{"color":"red"},"easy":{"color":"blue"},"experimental":{"color":"orange"},"expert":{"color":"red"},"guide":{"color":"green","sidebar":true},"help":{"color":"blue","sidebar":true},"info":{"color":"blue","sidebar":true},"intermediate":{"color":"orange"},"method":{"color":"orange"},"outdated":{"color":"red","sidebar":true},"scripting":{"color":"yellow","sidebar":{"text":"Scripts"}},"system":{"color":"blue","sidebar":true},"released":{"color":"green","sidebar":{"text":"Released"}},"upcoming":{"color":"purple","sidebar":{"text":"Upcoming"}},"BP":{"color":"red","sidebar":true},"RP":{"color":"blue","sidebar":true}}},"locales":{},"scrollOffset":134,"cleanUrls":false}'
+      );
+    </script>
   </body>
 </html>

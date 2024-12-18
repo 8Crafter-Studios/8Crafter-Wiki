@@ -127,7 +127,7 @@ Both are required when using the score component.
 
 ## Translate Component
 
-Allows creators to display localized text to users. The list of the strings to translate is inside in the language files. Refer to [Text & Translations](https://8crafter-studios.github.io/8Crafter-Wiki/concepts/text-and-translations) page for more info.
+Allows creators to display localized text to users. The list of the strings to translate is inside in the language files. Refer to [Text & Translations](https://wiki.8crafter.com/concepts/text-and-translations) page for more info.
 
 **Syntax:**
 

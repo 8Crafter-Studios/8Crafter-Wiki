@@ -2,11 +2,11 @@
   "index_name": "main",
   "start_urls": [
     {
-      "url": "https://8crafter-studios.github.io/8Crafter-Wiki/main/add-ons/",
+      "url": "https://wiki.8crafter.com/main/add-ons/",
       "selectors_key": "add-ons",
       "tags": ["add-ons"]
     },
-    "https://8crafter-studios.github.io/8Crafter-Wiki/main/"
+    "https://wiki.8crafter.com/main/"
   ],
   "selectors": {
     "default": {

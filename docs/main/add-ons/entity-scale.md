@@ -8,7 +8,7 @@ tags:
     - RP
 nav_order: 2
 add-on_namespace: andexsa
-thumbnail_url: https://8crafter-studios.github.io/8Crafter-Wiki/main/assets/images/add-on_cover_art/andexsa.png
+thumbnail_url: https://wiki.8crafter.com/main/assets/images/add-on_cover_art/andexsa.png
 ---
 
 <code>namespace: andexsa</code>

@@ -5,7 +5,7 @@ show_contributors: false
 hidden: true
 ---
 
-[8crafter-studios.github.io/8Crafter-Wiki](/) is created and maintained by the 8Crafter-Studios organization. This privacy policy will explain how our organization uses the personal data we collect from you when you use our website. By using the 8crafter-studios.github.io/8Crafter-Wiki site, you agree to this policy.
+[wiki.8crafter.com](/) is created and maintained by the 8Crafter-Studios organization. This privacy policy will explain how our organization uses the personal data we collect from you when you use our website. By using the wiki.8crafter.com site, you agree to this policy.
 
 ## What data do we collect?
 
@@ -28,7 +28,7 @@ Bedrock-OSS collects the following information:
 
 You directly provide us with all the data we collect. We collect data when you:
 
--   Open any page on the 8crafter-studios.github.io/8Crafter-Wiki domain
+-   Open any page on the wiki.8crafter.com domain
 -   Click any external link
 
 ## How will we use your data?

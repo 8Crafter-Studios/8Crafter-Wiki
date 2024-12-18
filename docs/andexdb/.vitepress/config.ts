@@ -29,7 +29,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   title: "8Crafter's Debug Sticks Wiki (UNDER CONSTRUCTION!)",
   description:
     "The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Commands/Script REPL and Server Utilities.",
-  base: "/8Crafter-Wiki/andexdb/", // Replace with your repository name
+  base: "/andexdb/", // Replace with your repository name
 
   head,
   transformHead,
@@ -39,7 +39,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   // ignoreDeadLinks: true,
 
   themeConfig: {
-    url: "https://8crafter-studios.github.io/8Crafter-Wiki/andexdb",
+    url: "https://wiki.8crafter.com/andexdb",
     repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki",
 
     algolia: {

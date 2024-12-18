@@ -28,7 +28,7 @@ if (isFastBuild) {
 export default defineConfigWithTheme<ThemeConfig>({
   title: "8Crafter Wiki (UNDER CONSTRUCTION!)",
   description: "The wiki for the Minecraft YouTuber and Add-On Creator 8Crafter.",
-  base: "/8Crafter-Wiki/main/", // Replace with your repository name
+  base: "/main/", // Replace with your repository name
 
   head,
   transformHead,
@@ -38,7 +38,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   // ignoreDeadLinks: true,
 
   themeConfig: {
-    url: "https://8crafter-studios.github.io/8Crafter-Wiki/main",
+    url: "https://wiki.8crafter.com/main",
     repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki",
 
     algolia: {
