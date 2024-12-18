@@ -53,25 +53,25 @@ export function transformHead({ pageData, siteConfig }: TransformContext) {
     [
       "meta",
       {
-        "http-equiv":'cache-control',
-        content:'no-cache'
+        "http-equiv":"cache-control",
+        content:"no-cache",
       }
     ],
     [
       "meta",
       {
-        "http-equiv":'expires',
-        content:'0'
+        "http-equiv":"expires",
+        content:"0",
       }
     ],
     [
       "meta",
       {
-        "http-equiv":'pragma',
-        content:'no-cache'
+        "http-equiv":"pragma",
+        content:"no-cache",
       }
     ]
-  )
+  );
 
   return out;
 }
