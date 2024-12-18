@@ -12,7 +12,7 @@ hidden: true
 <Card
     title="8Crafter's Server"
     link="https://discord.com/invite/jrCTeHGuhx"
-    image="/assets/images/discord/8Crafter.png"
+    image="/assets/images/discord/8Crafter.gif"
 >
 
 This is my official discord server.
