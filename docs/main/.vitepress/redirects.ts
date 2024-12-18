@@ -1,7 +1,7 @@
 import { Redirects } from "./theme";
 
 // Alphabetical order please :)
-export default {
+export default {/*
   "/blocks/block-materials": "/blocks/block-components#render-methods",
   "/blocks/blocks-16": "/blocks/blocks-intro",
   "/blocks/blocks-stable": "/blocks/blocks-intro",
@@ -90,5 +90,5 @@ export default {
   "/visuals/entity-visuals-intro": "/entities/render-controllers",
   "/visuals/render-controllers": "/entities/render-controllers",
 
-  "/world-generation/randomized-structure-loot": "/loot/randomized-structure-loot",
+  "/world-generation/randomized-structure-loot": "/loot/randomized-structure-loot",*/
 } satisfies Redirects;
