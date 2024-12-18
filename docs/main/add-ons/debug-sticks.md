@@ -16,7 +16,7 @@ thumbnail_url: https://wiki.8crafter.com/main/assets/images/add-on_cover_art/and
 <img src="/assets/images/add-on_cover_art/andexdb.png" alt="8Crafter's Debug Sticks Cover Art" title="8Crafter's Debug Sticks Cover Art">
 
 <Button link="https://modbay.org/mods/1240-8crafters-debug-sticks.html">ModBay</Button>
-<Button link="/8Crafter-Wiki/andexdb/" target="_self">
+<Button link="/andexdb/" target="_self">
     Full Documentation
 </Button>
 
@@ -117,6 +117,6 @@ This add-on does almost everything. It is one of the most powerful bedrock add-o
 
 ::: -->
 
-<Button link="/8Crafter-Wiki/andexdb/" target="_self">
+<Button link="/andexdb/" target="_self">
     Next: 8Crafter's Debug Sticks Wiki
 </Button>
