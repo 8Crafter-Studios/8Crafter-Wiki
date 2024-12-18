@@ -23,7 +23,7 @@ Here you can get help with any problems you may have with any of my add-ons, as 
 <Card
     title="BlueMods Studios"
     link="https://discord.gg/bluemods-anticheat-913049851531522078"
-    image="/assets/images/discord/BlueMods.png"
+    image="/assets/images/discord/ic_blue.png"
 >
 
 BlueMods Studios is a partnered discord server.
