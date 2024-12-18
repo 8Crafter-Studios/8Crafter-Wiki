@@ -1,8 +1,8 @@
 import { Redirects } from "./theme";
 
 // Alphabetical order please :)
-export default {/*
-  "/blocks/block-materials": "/blocks/block-components#render-methods",
+export default {
+  /*"/blocks/block-materials": "/blocks/block-components#render-methods",
   "/blocks/blocks-16": "/blocks/blocks-intro",
   "/blocks/blocks-stable": "/blocks/blocks-intro",
   "/blocks/custom-trapdoor": "/blocks/custom-trapdoors",
