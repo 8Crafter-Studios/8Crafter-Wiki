@@ -34,7 +34,7 @@ watchEffect(() => {
 <template>
   <a
     :class="props.class"
-    :target="props.target"
+    target="_self"
     v-bind="linkProps"
     :rel="props.rel"
     @click="onNavigation"
