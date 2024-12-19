@@ -40,9 +40,9 @@ Get started with functions, a faster and more powerful way to code commands!
 
 </Card> -->
 
-<Card title="Add-Ons" link="./add-ons/index" image="/assets/images/homepage/add-ons.png">
+<Card title="Add-Ons" link="./add-ons/add-ons" image="/assets/images/homepage/add-ons.png">
 
-Links to the wikis for each of my add-ons, and information about upcoming add-ons.
+Links to the pages for each of my add-ons, and information about upcoming add-ons.
 
 </Card>
 
