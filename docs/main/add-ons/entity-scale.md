@@ -18,7 +18,7 @@ thumbnail_url: https://wiki.8crafter.com/main/assets/images/add-on_cover_art/and
 <Button link="https://modbay.org/mods/1218-8crafters-entity-scale-and-morph-addon.html">
     ModBay
 </Button>
-<Button link="https://wiki.8crafter.com/andexsa/" target="_self">
+<Button link="/andexsa/" target="_self">
     Full Documentation
 </Button>
 
@@ -51,8 +51,8 @@ This addon lets you change entity scale, modify entity behaviors and NBT data, m
 
 <div class="video-container">
     <iframe
-        src="https://www.youtube.com/watch?v=mdoD4Ugt-4w"
-        title="8Crafter's Entity Scale, NBT, and Behavior Modifier, Bossbar, and Morph Addon: Main Features [1/8]""
+        src="https://www.youtube.com/embed/mdoD4Ugt-4w"
+        title="8Crafter's Entity Scale, NBT, and Behavior Modifier, Bossbar, and Morph Addon: Main Features [1/8]"
         frameborder="0"
         allowfullscreen
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -70,6 +70,6 @@ This addon lets you change entity scale, modify entity behaviors and NBT data, m
 
 ::: -->
 
-<!-- <Button link="/main/404.html" target="_self">
+<Button link="/andexsa/" target="_self">
     Next: 8Crafter's Entity Scale Wiki
-</Button> -->
+</Button>
