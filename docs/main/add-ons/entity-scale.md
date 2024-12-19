@@ -70,6 +70,6 @@ This addon lets you change entity scale, modify entity behaviors and NBT data, m
 
 ::: -->
 
-<Button link="https://wiki.8crafter.com/andexsa/" target="_self">
+<Button link="/main/404.html" target="_self">
     Next: 8Crafter's Entity Scale Wiki
 </Button>
