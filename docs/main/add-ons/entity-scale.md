@@ -18,7 +18,7 @@ thumbnail_url: https://wiki.8crafter.com/main/assets/images/add-on_cover_art/and
 <Button link="https://modbay.org/mods/1218-8crafters-entity-scale-and-morph-addon.html">
     ModBay
 </Button>
-<Button link="/andexsa/" target="_self">
+<Button link="https://wiki.8crafter.com/andexsa/" target="_self">
     Full Documentation
 </Button>
 
