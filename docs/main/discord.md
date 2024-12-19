@@ -26,7 +26,7 @@ Here you can get help with any problems you may have with any of my add-ons, as 
     image="/assets/images/discord/ic_blue.png"
 >
 
-BlueMods Studios is a partnered discord server.
+BlueMods AntiCheat for Minecraft Bedrock is a powerful tool designed to protect your server from hackers & cheaters.
 
 </Card>
 
