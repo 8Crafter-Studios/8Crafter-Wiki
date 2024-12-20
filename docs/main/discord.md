@@ -22,7 +22,7 @@ Here you can get help with any problems you may have with any of my add-ons, as 
 </Card>
 <Card
     title="BlueMods Studios"
-    link="https://discord.gg/bluemods-anticheat-913049851531522078"
+    link="https://bluemods.neocities.org"
     image="/assets/images/discord/ic_blue.png"
 >
 
