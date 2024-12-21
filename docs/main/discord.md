@@ -1,7 +1,9 @@
 ---
 title: Discord
 description: 8Crafter Wiki Discord Communities.
-show_contributors: false
+mentions:
+    - Andexter8
+    - BlueModsYT
 show_outline: false
 hidden: true
 ---
