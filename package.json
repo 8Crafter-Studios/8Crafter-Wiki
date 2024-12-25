@@ -1,0 +1,12 @@
+{
+  "name": "8crafter-wiki-generated",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "generate-sitemap": "node sitemap_generator.cjs",
+  },
+  "dependencies": {
+    "sitemap-generator": "^8.5.1",
+  }
+}
