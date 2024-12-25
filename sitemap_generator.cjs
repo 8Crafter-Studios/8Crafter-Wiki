@@ -10,6 +10,7 @@ const generator = SitemapGenerator("https://wiki.8crafter.com/", {
     // Prevent URLs from being added that contain `<pattern>`.
     return /^https:\/\/wiki\.8crafter\.com\/$/g.test(url);
   },
+  lastMod: true,
 });
 
 const crawler = generator.getCrawler();
