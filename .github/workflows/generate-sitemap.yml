@@ -1,0 +1,17 @@
+name: Generate Sitemap
+on:
+  push:
+    branches:
+      - generated
+  # Allows you to run this workflow manually from the Actions tab or through HTTP API
+  workflow_dispatch:
+
+jobs:
+  generate_sitemap:
+    runs-on: ubuntu-latest
+    name: Generate
+    steps:
+      - name: Install Sitemap Generator 🔧
+        run: npm install -S sitemap-generator
+      - name: Generate 🔧
+        run: node sitemap_generator.cjs
