@@ -25,4 +25,4 @@ jobs:
       - name: Install Sitemap Generator 🔧
         run: npm install -S sitemap-generator
       - name: Generate 🔧
-        run: npm generate-sitemap
+        run: npm run generate-sitemap
