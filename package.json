@@ -4,9 +4,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "generate-sitemap": "node sitemap_generator.cjs",
+    "generate-sitemap": "node sitemap_generator.cjs"
   },
   "dependencies": {
-    "sitemap-generator": "^8.5.1",
+    "sitemap-generator": "^8.5.1"
   }
 }
