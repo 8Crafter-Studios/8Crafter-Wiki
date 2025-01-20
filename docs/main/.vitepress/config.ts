@@ -29,6 +29,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   title: "8Crafter Wiki (UNDER CONSTRUCTION!)",
   description: "The wiki for the Minecraft YouTuber and Add-On Creator 8Crafter.",
   base: "/main/", // Replace with your repository name
+  repository_edit_link_base: "/main/", // Replace with your repository name
 
   head,
   transformHead,

@@ -10,6 +10,12 @@ export interface ThemeConfig {
   tags: Tags;
 }
 
+declare module "vitepress" {
+  interface UserConfig {
+    repository_edit_link_base?: string;
+  }
+}
+
 export type AccentColor =
   | "red"
   | "orange"

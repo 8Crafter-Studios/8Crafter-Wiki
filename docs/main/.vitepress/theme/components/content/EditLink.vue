@@ -7,7 +7,9 @@ import NavLink from "../navigation/NavLink.vue";
 const { site, page } = useData();
 
 const link = computed(
-  () => `${site.value.themeConfig.repository}/blob/wiki/docs/${page.value.relativePath}`
+  () =>
+    site.value.themeConfig.repository_edit_link_base ??
+    `${site.value.themeConfig.repository}/blob/wiki/docs${site.value.themeConfig.base ?? "/"}${page.value.relativePath}`
 );
 </script>
 
