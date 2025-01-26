@@ -8,12 +8,7 @@ export interface ThemeConfig {
   redirects: Redirects;
   sidebar: Sidebar;
   tags: Tags;
-}
-
-declare module "vitepress" {
-  interface UserConfig {
-    repository_edit_link_base?: string;
-  }
+  repository_edit_link_base: string;
 }
 
 export type AccentColor =

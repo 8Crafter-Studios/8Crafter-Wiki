@@ -15,6 +15,7 @@ To download the add-on click the button below or go to the following link: [http
 </Button>
 
 Once you go to the link, scroll down to the download links section, shown in the screenshot below.
+
 ![Download Links Section](/assets/images/general/download_links_section.png)
 
 Then click on the download link for the newest version that is in that list. For example, in the screenshot the newest version is v1.27.0, however by the time you are reading this, the version number for the newest version will probably be higher for you.
@@ -71,6 +72,8 @@ That should bring you to the mediafire page. Once on the mediafire page find the
 
 In that download details box, click on the blue "Download" button. That should download the file.
 
+## Next
+
 Now continue to the installation tutorial.
 
-<Button link="./downloading">Next: Installing The Add-On</Button>
+<Button link="./installing">Next: Installing The Add-On</Button>

@@ -41,6 +41,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   themeConfig: {
     url: "https://wiki.8crafter.com/andexdb",
     repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki",
+    repository_edit_link_base: "/andexdb/", // Replace with your repository name
 
     algolia: {
       appId: "97Y3M3Y6BI",

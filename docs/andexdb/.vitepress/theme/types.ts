@@ -8,6 +8,7 @@ export interface ThemeConfig {
   redirects: Redirects;
   sidebar: Sidebar;
   tags: Tags;
+  repository_edit_link_base: string;
 }
 
 export type AccentColor =
