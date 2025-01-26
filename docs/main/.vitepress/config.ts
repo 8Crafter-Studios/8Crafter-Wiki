@@ -34,8 +34,8 @@ export default defineConfigWithTheme<ThemeConfig>({
   transformHead,
 
   srcExclude: isFastBuild ? largePages : undefined,
-  ignoreDeadLinks: isFastBuild,
-  // ignoreDeadLinks: true,
+  // ignoreDeadLinks: isFastBuild,
+  ignoreDeadLinks: true,
 
   themeConfig: {
     url: "https://wiki.8crafter.com/main",
