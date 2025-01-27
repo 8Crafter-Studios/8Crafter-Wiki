@@ -7,9 +7,32 @@ import head, { transformHead } from "./head";
 import redirects from "./redirects";
 import sidebar from "./sidebar";
 import tags from "./tags";
-import inlineCodeBlockSyntaxHighlightingPlugin from "./8craftersInlineCodeBlockSyntaxHighlightingPlugin";
-// import * as shiki from "shiki";
+// import inlineCodeBlockSyntaxHighlightingPlugin from "./8craftersInlineCodeBlockSyntaxHighlightingPlugin";
+import * as shiki from "shiki";
+
+import * as debugSticksCommandSyntax from "./textmate-grammar/debugSticksCommandSyntax.json";
+import debugSticksCommandSyntaxLightThemeExtension from "./textmate-grammar/debugSticksCommandSyntax.theme_entension-light";
+// import debugSticksCommandSyntaxDarkThemeExtension from "./textmate-grammar/debugSticksCommandSyntax.theme_entension-dark.json";
+
+let githubLightTheme = (await shiki.bundledThemes["github-light"]()).default;
+const githubDarkTheme = (await shiki.bundledThemes["github-dark"]()).default;
+
+githubLightTheme = debugSticksCommandSyntaxLightThemeExtension(githubLightTheme);
+
 // import { getDefaultWasmLoader } from "shiki/engine-oniguruma.mjs";
+const themes = [] as shiki.ThemeRegistration[];
+const languages = [debugSticksCommandSyntax] as shiki.LanguageRegistration[];
+for await (const theme of Object.values(shiki.bundledThemes)) {
+  themes.push((await theme()).default);
+}
+for await (const language of Object.values(shiki.bundledLanguages)) {
+  languages.push((await language()).default[0]);
+}
+const highlighter = shiki.createHighlighterCoreSync({
+  engine: shiki.createJavaScriptRegexEngine(),
+  themes: themes,
+  langs: languages,
+});
 
 const isFastBuild = process.env.FAST_BUILD?.trim() === "true";
 
@@ -113,7 +136,17 @@ export default Object.assign(
       lineNumbers: true,
       config(md) {
         md.use(taskListsPlugin, { label: true });
-        md.use(inlineCodeBlockSyntaxHighlightingPlugin, { label: true });
+        // md.use(inlineCodeBlockSyntaxHighlightingPlugin, { label: true });
+        md.renderer.rules.code_inline = (tokens, idx /* , options, env, slf */) => {
+          const code = tokens[idx].content;
+          const highlighted = highlighter.codeToHtml(code, {
+            lang: tokens[idx].attrGet("lang") ?? "", // or any default language you prefer
+            themes: { light: githubLightTheme, dark: githubDarkTheme },
+            structure: "inline",
+            defaultColor: false,
+          });
+          return `<code class="shiki">${highlighted}</code>`;
+        };
       },
     },
   }) /* ,
