@@ -1,0 +1,106 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "andexdbcmd",
+  "displayName": "8Crafter's Debug Sticks Command Syntax",
+  "aliases": ["acmd"],
+  "scopeName": "source.andexdbcmd",
+  "patterns": [
+    {
+      "name": "command.andexdbcmd",
+      "match": "\\\\{1,2}[a-zA-Z0-9#]+"
+    },
+    {
+      "name": "parameter.optional.andexdbcmd",
+      "match": "(\\[)([a-zA-Z0-9\\s\\-_]+): ([a-zA-Z0-9\\s\\-_]+(?:<[a-zA-Z0-9\\s\\-_]+>)?)(\\[.*?\\])?(\\])(?!\\])",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.optional.andexdbcmd"
+        },
+        "2": {
+          "name": "entity.name.parameter.andexdbcmd"
+        },
+        "3": {
+          "name": "entity.type.parameter.andexdbcmd"
+        },
+        "4": {
+          "name": "entity.restrictions.parameter.andexdbcmd"
+        },
+        "5": {
+          "name": "punctuation.definition.optional.andexdbcmd"
+        }
+      }
+    },
+    {
+      "name": "parameter.required.andexdbcmd",
+      "match": "(<)([a-zA-Z0-9\\s\\-_]+): ([a-zA-Z0-9\\s\\-_]+(?:<[a-zA-Z0-9\\s\\-_]+>)?)(\\[.*?\\])?(>)(?!>)",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.required.andexdbcmd"
+        },
+        "2": {
+          "name": "entity.name.parameter.andexdbcmd"
+        },
+        "3": {
+          "name": "entity.type.parameter.andexdbcmd"
+        },
+        "4": {
+          "name": "entity.restrictions.parameter.andexdbcmd"
+        },
+        "5": {
+          "name": "punctuation.definition.required.andexdbcmd"
+        }
+      }
+    },
+    {
+      "name": "parameter.ignorable.andexdbcmd",
+      "match": "(\\{)([a-zA-Z0-9\\s\\-_]+): ([a-zA-Z0-9\\s\\-_]+(?:<[a-zA-Z0-9\\s\\-_]+>)?)(\\[.*?\\])?(\\})(?!\\})",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.ignorable.andexdbcmd"
+        },
+        "2": {
+          "name": "entity.name.parameter.andexdbcmd"
+        },
+        "3": {
+          "name": "entity.type.parameter.andexdbcmd"
+        },
+        "4": {
+          "name": "entity.restrictions.parameter.andexdbcmd"
+        },
+        "5": {
+          "name": "punctuation.definition.ignorable.andexdbcmd"
+        }
+      }
+    },
+    {
+      "name": "parameter.flags.andexdbcmd",
+      "match": "\\[-[a-zA-Z0-9!@#\\$%\\^&\\*<>,\\.~]+\\]",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.flags.andexdbcmd"
+        }
+      }
+    }
+  ],
+  "repository": {
+    "command": {
+      "patterns": [
+        {
+          "include": "#parameter.optional.andexdbcmd"
+        },
+        {
+          "include": "#parameter.required.andexdbcmd"
+        },
+        {
+          "include": "#parameter.ignorable.andexdbcmd"
+        },
+        {
+          "include": "#parameter.flags.andexdbcmd"
+        }
+      ]
+    }
+  },
+  "names": {
+    "keyword": "entity.keyword.parameter.andexdbcmd"
+  }
+}

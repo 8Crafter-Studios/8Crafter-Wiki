@@ -35,14 +35,17 @@
     "sass": "^1.77.8",
     "tslib": "^2.6.3",
     "typescript": "^5.5.4",
-    "vitepress": "^1.5.0",
+    "vitepress": "^1.6.3",
     "vue": "^3.4.38",
     "vue-eslint-parser": "^9.4.3"
   },
   "dependencies": {
     "algoliasearch": "^5.17.1",
     "cheerio": "^1.0.0",
+    "highlight.js": "^11.11.1",
     "instantsearch.css": "^8.5.1",
+    "markdown-it": "^14.1.0",
+    "markdown-it-shiki": "^0.9.0",
     "sitemap-generator": "^8.5.1",
     "vue-instantsearch": "^4.19.12"
   }
