@@ -77,21 +77,21 @@ Some examples include:
 
 A stringified JSON array.
 
-Example: `[1, 4, true, -7, false, "hi", "test", "to", "text\nnext line of text", {"a": 1, "b": 2}, [1, 4, false, "some"]]`{lang=js}
+Example: `[1, 4, true, -7, false, "hi", "test", "to", "text\nnext line of text", {"a": 1, "b": 2}, [1, 4, false, "some"]]`{lang=json}
 
 ### JSONObject
 
 A stringified JSON object.
 
-Example: `{"a": 1, "b": "something", "c": true, "d": {"p": 95, "e": -99}, "e": [{"a": 54, "b": true}, [1, "a", true, false], 4, -9, true, false, null], "f": null, "g": -72}`
+Example: `{"a": 1, "b": "something", "c": true, "d": {"p": 95, "e": -99}, "e": [{"a": 54, "b": true}, [1, "a", true, false], 4, -9, true, false, null], "f": null, "g": -72}`{lang=json}
 
 ### JSONString
 
-A JSON formatted string. ex. `"some text\nanother line of text \uE359 and the unicode character U+E359"`
+A JSON formatted string. ex. `"some text\nanother line of text \uE359 and the unicode character U+E359"`{lang=json}
 
 ### JSONNumber
 
-A decimal, float, integer, Infinity, -Infinity, or NaN.
+A decimal, float, integer, `Infinity`{lang=js}, `-Infinity`{lang=js}, or `NaN`{lang=js}.
 
 ### JSONBoolean
 
@@ -135,7 +135,7 @@ The same as blockId. A namespaced id of a block type, for example `andexsa:diamo
 
 ### Item
 
-The same as itemId. A namespaced id of an item type, for example `andexdb:debug_stick`, or `minecraft:grass`, or `netherreactor`, or `stick`{lang=js}.
+The same as itemId. A namespaced id of an item type, for example `andexdb:debug_stick`, or `minecraft:grass`, or `netherreactor`, or `stick`.
 
 ### BlockPattern
 
@@ -145,9 +145,15 @@ A block pattern.
 
 ### Mask
 
+// to-do
+
 ### SingleBlockMask
 
+// to-do
+
 ### BlockType
+
+// to-do
 
 ### block states
 

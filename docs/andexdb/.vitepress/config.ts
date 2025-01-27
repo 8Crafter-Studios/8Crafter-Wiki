@@ -12,12 +12,13 @@ import * as shiki from "shiki";
 
 import * as debugSticksCommandSyntax from "./textmate-grammar/debugSticksCommandSyntax.json";
 import debugSticksCommandSyntaxLightThemeExtension from "./textmate-grammar/debugSticksCommandSyntax.theme_entension-light";
-// import debugSticksCommandSyntaxDarkThemeExtension from "./textmate-grammar/debugSticksCommandSyntax.theme_entension-dark.json";
+import debugSticksCommandSyntaxDarkThemeExtension from "./textmate-grammar/debugSticksCommandSyntax.theme_entension-dark";
 
 let githubLightTheme = (await shiki.bundledThemes["github-light"]()).default;
-const githubDarkTheme = (await shiki.bundledThemes["github-dark"]()).default;
+let githubDarkTheme = (await shiki.bundledThemes["github-dark"]()).default;
 
 githubLightTheme = debugSticksCommandSyntaxLightThemeExtension(githubLightTheme);
+githubDarkTheme = debugSticksCommandSyntaxDarkThemeExtension(githubDarkTheme);
 
 // import { getDefaultWasmLoader } from "shiki/engine-oniguruma.mjs";
 const themes = [] as shiki.ThemeRegistration[];

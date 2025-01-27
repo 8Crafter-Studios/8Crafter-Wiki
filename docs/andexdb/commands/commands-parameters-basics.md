@@ -27,45 +27,45 @@ If you choose not to include the name parameter, then you cannot include the esc
 
 So this means that this command syntax is actually like three separate syntaxes, you can do any of the following:
 
-`\examplecommand <player: target> <name: string> <escapeCodesEnabled: boolean>`
+`\examplecommand <player: target> <name: string> <escapeCodesEnabled: boolean>`{lang=acmd}
 
-`\examplecommand <player: target> <name: string>`
+`\examplecommand <player: target> <name: string>`{lang=andexdbcmd}
 
-`\examplecommand <player: target>`
+`\examplecommand <player: target>`{lang=andexdbcmd}
 
 ### Required Parameters:
 
-Required parameters are enclosed in arrow brackets like this: `<player: target>`
+Required parameters are enclosed in arrow brackets like this: `<player: target>`{lang=andexdbcmd}
 
 Required parameters are required, the parameter must be included.
 
 ### Ignorable Parameters:
 
-Ignorable parameters are enclosed in curly brackets like this: `{includeEntities: boolean}`
+Ignorable parameters are enclosed in curly brackets like this: `{includeEntities: boolean}`{lang=andexdbcmd}
 
 Ignorable parameters are optional, but unlike optional parameters, if you don't include them, you can still include the parameters after them, so in the following command:
 
-`\examplecommand <player: target> {name: string} [escapeCodesEnabled: boolean]`
+`\examplecommand <player: target> {name: string} [escapeCodesEnabled: boolean]`{lang=andexdbcmd}
 
 Even if you choose not to include the name parameter, you can still include the escapeCodesEnabled parameter either.
 
 So this means that this command syntax is actually like four separate syntaxes, you can do any of the following:
 
-`\examplecommand <player: target> <name: string> <escapeCodesEnabled: boolean>`
+`\examplecommand <player: target> <name: string> <escapeCodesEnabled: boolean>`{lang=andexdbcmd}
 
-`\examplecommand <player: target> <name: string>`
+`\examplecommand <player: target> <name: string>`{lang=andexdbcmd}
 
-`\examplecommand <player: target> <escapeCodesEnabled: boolean>`
+`\examplecommand <player: target> <escapeCodesEnabled: boolean>`{lang=andexdbcmd}
 
-`\examplecommand <player: target>`
+`\examplecommand <player: target>`{lang=andexdbcmd}
 
 ### Flags Parameters:
 
-Flags parameters are written as a dash followed by a string of characters enclosed in square brackets like this: `[-tfsa]`
+Flags parameters are written as a dash followed by a string of characters enclosed in square brackets like this: `[-tfsa]`{lang=andexdbcmd}
 
 For a flags parameter, it has no specified parameter type. Instead, you just either put nothing and ignore the parameter, or you put a dash followed by the flags you want to enable, each flag is its own unique character, you can type these characters in any order, and you can include any combination of them that you like, however if you put a dash there then you must include at least one flag.
 
-So, for the parameter `[-tfsa]` you could do any of the following examples:
+So, for the parameter `[-tfsa]`{lang=andexdbcmd} you could do any of the following examples:
 
 Nothing, `-t`, `-f`, `-s`, `-a`, `-tf`, `-ts`, `-ta`, `-ft`, `-fs`, `-fa`, `-at`, `-af`, `-as`, `-tfs`, `-tfa`, `-tsf`, `-tsa`, `-taf`, `-tas`, `-fta`, `-fts`, `-fsa`, `-fst`, `-fat`, `-fas`, `-stf`, `-sta`, `-sft`, `-sfa`, `-saf`, `-sat`, `-atf`, `-ats`, `-aft`, `-afs`, `-ast`, `-asf`, `-tfsa`, `-tfas`, `-tsfa`, `-tsaf`, `-tafs`, `-tasf`, `-ftsa`, `-ftas`, `-fsta`, `-fsat`, `-fast`, `-fats`, `-stfa`, `-staf`, `-sfta`, `-sfat`, `-satf`, `-saft`, `-atfs`, `-atsf`, `-afts`, `-afst`, `-astf`, `-asft`.
 
@@ -73,16 +73,16 @@ Nothing, `-t`, `-f`, `-s`, `-a`, `-tf`, `-ts`, `-ta`, `-ft`, `-fs`, `-fa`, `-at`
 
 For all parameter categories except for flags parameters, a parameter will be written in one of the following formats inside of the parameter category's bracket type:
 
-`parameterName: parameterType`
+`parameterName: parameterType`{lang=andexdbcmd}
 
-`parameterName: parameterType[parameterRestrictions]`
+`parameterName: parameterType[parameterRestrictions]`{lang=andexdbcmd}
 
 Here are some examples:
 
--   `<name: string>`
+-   `<name: string>`{lang=andexdbcmd}
 -   `[size: number[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=false,precision=20]]`{lang=acmd}
--   `{player: target[?=@s,maxTargets=1]}`
--   `[-tfsa]`
+-   `{player: target[?=@s,maxTargets=1]}`{lang=andexdbcmd}
+-   `[-tfsa]`{lang=andexdbcmd}
 
 ### Parameter Restrictions:
 
@@ -93,7 +93,7 @@ Parameter restrictions are specified inside of square brackets after the paramet
 Parameter restrictions are a comma-separated list of restrictions, each restriction is formatted as `restrictionName=restrictionValue`.
 
 An example of a parameter with parameter restrictions would be:  
-`[size: number[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=false,precision=20]]`
+`[size: number[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=false,precision=20]]`{lang=andexdbcmd}
 
 Some commonly used restrictions include:
 
