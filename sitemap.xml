@@ -2,106 +2,122 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wiki.8crafter.com/andexdb/index.html</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/discord</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/contribute</loc>
-    <lastmod>2025-01-20</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.28.3</loc>
-    <lastmod>2025-01-20</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.28.4</loc>
-    <lastmod>2025-01-20</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.28.5</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.28.0</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.28.1</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.28.2</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.28.3</loc>
+    <lastmod>2025-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.28.4</loc>
+    <lastmod>2025-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.28.5</loc>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/general/debug-sticks</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/general/downloading</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/general/installing</loc>
+    <lastmod>2025-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/general/getting-started</loc>
+    <lastmod>2025-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/commands/commands-basics</loc>
+    <lastmod>2025-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/commands/commands-parameters-basics</loc>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/meta/addon-performance</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/meta/style-guide</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/meta/useful-links</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/privacy</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/add-ons/add-ons</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/add-ons/debug-sticks</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/add-ons/entity-scale</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/apple_shortcuts/list</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/nodejs_programs/list</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/regedit_files/list</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/meta/addon-performance</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/meta/style-guide</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/meta/useful-links</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-01-26</lastmod>
   </url>
 </urlset>
