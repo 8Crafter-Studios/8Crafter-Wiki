@@ -2,11 +2,42 @@ import { Tags } from "./theme";
 
 // Alphabetical order please :)
 export default {
+  alpha: {
+    color: "red",
+  },
   beginner: {
     color: "blue",
   },
   beta: {
     color: "yellow",
+  },
+  command_alpha: {
+    color: "yellow",
+    sidebar: {
+      text: "Non-Functional",
+    },
+    text: "Non-Functional",
+  },
+  command_beta: {
+    color: "blue",
+    sidebar: {
+      text: "Non-Functional",
+    },
+    text: "Non-Functional",
+  },
+  command_deprecated: {
+    color: "orange",
+    sidebar: {
+      text: "Deprecated",
+    },
+    text: "Deprecated",
+  },
+  command_nonfunctional: {
+    color: "red",
+    sidebar: {
+      text: "Non-Functional",
+    },
+    text: "Non-Functional",
   },
   deprecated: {
     color: "red",

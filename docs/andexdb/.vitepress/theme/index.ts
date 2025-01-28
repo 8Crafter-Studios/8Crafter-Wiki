@@ -9,6 +9,7 @@ import Button from "./components/content/Button.vue";
 import Card from "./components/content/Card.vue";
 import CardGrid from "./components/content/CardGrid.vue";
 import CodeHeader from "./components/content/CodeHeader.vue";
+import CommandDetailsTable from "./components/content/CommandDetailsTable.vue";
 import FolderView from "./components/content/FolderView.vue";
 import Label from "./components/content/Label.vue";
 import MolangGraph from "./components/content/MolangGraph.vue";
@@ -22,6 +23,7 @@ const contentComponents: Record<string, Component> = {
   Card,
   CardGrid,
   CodeHeader,
+  CommandDetailsTable,
   FolderView,
   Label,
   MolangGraph,
