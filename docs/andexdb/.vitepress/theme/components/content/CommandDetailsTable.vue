@@ -41,13 +41,13 @@ const props = defineProps<{
           </td>
         </tr>
         <tr>
-          <td>Default Ultra Security Mode Security Level:</td>
+          <td><a href="/andexdb/usm/command-required-permission-levels">Dflt USM Sec Lvl</a>:</td>
           <td>
             {{ props.ultraSecurityModeSecurityLevel }}
           </td>
         </tr>
         <tr>
-          <td>Default Required Tags:</td>
+          <td>Dflt Required Tags:</td>
           <td>{{ props.requiredTags.join(", ") }}</td>
         </tr>
         <tr>
@@ -94,5 +94,7 @@ const props = defineProps<{
 <style lang="scss">
 .command-details-table {
   float: right;
+  clear: right;
+  width: 300px;
 }
 </style>
