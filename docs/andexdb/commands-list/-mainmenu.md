@@ -1,22 +1,22 @@
 ---
-title: \\mainmenu
-page_title: \\mainmenu
-description: The \\mainmenu command.
+title: \mainmenu
+page_title: \mainmenu
+description: The \mainmenu command.
 ---
 
 Opens up the main menu.
 
 <CommandDetailsTable
-    name="\\mainmenu"
+    name="\mainmenu"
     :aliases="[
-        'menu',
-        'mm'
+        '\menu',
+        '\mm'
     ]"
     :categories="[
         'uis'
     ]"
     :requiredTags="[
-        'a'    
+        'canUseChatCommands'
     ]"
     ultraSecurityModeSecurityLevel="moderator"
     version="2.0.0"
@@ -24,3 +24,11 @@ Opens up the main menu.
     :functional="true"
     :deprecated="false"
 />
+
+## Syntax
+
+`\mainmenu`{lang=andexdbcmd}
+
+## Result
+
+## History
