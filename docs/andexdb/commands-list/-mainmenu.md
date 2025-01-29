@@ -2,6 +2,8 @@
 title: \mainmenu
 page_title: \mainmenu
 description: The \mainmenu command.
+show_outline: false
+category: Main
 ---
 
 Opens up the main menu.
@@ -9,8 +11,8 @@ Opens up the main menu.
 <CommandDetailsTable
     name="\mainmenu"
     :aliases="[
-        '\menu',
-        '\mm'
+        '\\menu',
+        '\\mm'
     ]"
     :categories="[
         'uis'
@@ -30,5 +32,7 @@ Opens up the main menu.
 `\mainmenu`{lang=andexdbcmd}
 
 ## Result
+
+Always succeeds.
 
 ## History

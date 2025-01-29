@@ -30,3 +30,129 @@ td {
     border-right: var(--border);
   }
 }
+
+.tc-yes {
+  background: #c6efce !important;
+}
+
+.dark .tc-yes {
+  background: #3b533c !important;
+}
+
+.tc-always {
+  background: #5dcc5d !important;
+}
+
+.dark .tc-always {
+  background: #29542c !important;
+}
+
+.tc-no {
+  background: #ffc7ce !important;
+}
+
+.dark .tc-no {
+  background: #533b3b !important;
+}
+
+.tc-never {
+  background: #ff8787 !important;
+}
+
+.dark .tc-never {
+  background: #592c2c !important;
+}
+
+.tc-rarely {
+  background: #fdce5e !important;
+}
+
+.dark .tc-rarely {
+  background: #594f1e !important;
+}
+
+.tc-neutral {
+  background: #ffeb9c !important;
+}
+
+.dark .tc-neutral {
+  background: #5b573f !important;
+}
+
+.tc-partial {
+  background: #ffffdd !important;
+}
+
+body.wgl-theme-dark .tc-partial {
+  background: #3e3d31 !important;
+}
+
+.tc-planned {
+  background: #dfdfff !important;
+}
+
+.dark .tc-planned {
+  background: #242f2e !important;
+}
+
+.tc-unknown {
+  background: #ccc !important;
+}
+
+.dark .tc-unknown {
+  background: #364148 !important;
+}
+
+.tc-in {
+  color: #fff;
+  background: #040 !important;
+}
+
+.dark .tc-in {
+  background: #06450a !important;
+}
+
+.tc-inem {
+  color: #fff;
+  background: #080 !important;
+}
+
+.dark .tc-inem {
+  background: #266c29 !important;
+}
+
+.tc-out {
+  color: #fff;
+  background: #700 !important;
+}
+
+.dark .tc-out {
+  background: #4a0a0a !important;
+}
+
+.tc-outem {
+  color: #fff;
+  background: #c00 !important;
+}
+
+.dark .tc-outem {
+  background: #742a2a !important;
+}
+
+.tc-default {
+  color: inherit;
+  background: #fff !important;
+}
+
+.dark .tc-default {
+  color: inherit;
+  background: #373737 !important;
+}
+
+.tc-hyphen {
+  background: #ffc7ce !important;
+}
+
+.dark .tc-hyphen {
+  background: #352929 !important;
+}
