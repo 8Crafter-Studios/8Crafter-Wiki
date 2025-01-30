@@ -4,49 +4,49 @@ const tokenColors = [
   {
     scope: "command.andexdbcmd",
     settings: {
-      foreground: "#569CD6",
+      foreground: "hsl(207, 61%, 41%)",
     },
   },
   {
     scope: "parameter.optional.andexdbcmd",
     settings: {
-      foreground: "#D4D4D4",
+      foreground: "hsl(0, 0%, 17%)",
     },
   },
   {
     scope: "parameter.required.andexdbcmd",
     settings: {
-      foreground: "#4EC9B0",
+      foreground: "hsl(168, 53%, 45%)",
     },
   },
   {
     scope: "parameter.ignorable.andexdbcmd",
     settings: {
-      foreground: "#C586C0",
+      foreground: "hsl(305, 35%, 35%)",
     },
   },
   {
     scope: "parameter.flags.andexdbcmd",
     settings: {
-      foreground: "#CE9178",
+      foreground: "hsl(17, 47%, 36%)",
     },
   },
   {
     scope: "entity.name.parameter.andexdbcmd",
     settings: {
-      foreground: "#9CDCFE",
+      foreground: "hsl(201, 98%, 20%)",
     },
   },
   {
     scope: "entity.type.parameter.andexdbcmd",
     settings: {
-      foreground: "#B5CEA8",
+      foreground: "hsl(99, 28%, 27%)",
     },
   },
   {
     scope: "entity.restrictions.parameter.andexdbcmd",
     settings: {
-      foreground: "#D7BA7D",
+      foreground: "hsl(41, 53%, 33%)",
     },
   },
 ] as const;

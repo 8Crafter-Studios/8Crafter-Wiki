@@ -1,8 +1,5 @@
 import { ThemeRegistration } from "shiki";
 
-/**
- * @todo Replace these colors with their dark mode variants.
- */
 const tokenColors = [
   {
     scope: "command.andexdbcmd",

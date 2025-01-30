@@ -2,7 +2,7 @@
 title: General Information
 page_title: General Information
 description: General information about the add-on.
-nav_order: 2
+nav_order: 1
 ---
 
 <img src="/assets/images/add-on_cover_art/andexdb.png" alt="8Crafter's Debug Sticks Cover Art" title="8Crafter's Debug Sticks Cover Art">
