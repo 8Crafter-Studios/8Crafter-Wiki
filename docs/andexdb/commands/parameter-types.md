@@ -7,23 +7,23 @@ nav_order: 3
 
 ### int
 
-An integer.
+An integer. (Same support range as "int32")
 
 ### int32
 
-A 32-bit integer.
+A 32-bit integer. (Supports -2^31 to 2^31-1)
 
 ### int64
 
-A 64-bit integer.
+A 64-bit integer. (Supports -2^63 to 2^63-1)
 
 ### decimal
 
-A decimal.
+A decimal. (128 bit numbers in the form of "12.34," stored internally in base 10)
 
 ### float
 
-A float.
+A float. (32 bit numbers in the form of "12.34," stored internally in base 2)
 
 ### number
 
@@ -43,7 +43,7 @@ A BigInt float, decimal, integer, Infinity, or -Infinity.
 
 ### BigInt
 
-A BigInt. ex. 5n or 19284892917n
+A BigInt. (Supports large numbers and is specified by appending "n" to the value, like "5n" or "19284892917n")
 
 ### boolean
 
