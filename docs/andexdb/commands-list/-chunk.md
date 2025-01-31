@@ -21,7 +21,7 @@ Sets the pos1 and pos2 locations of the selected area to contain the entire chun
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="-1"
+    :undoSupported="-2"
     :functional="true"
     :deprecated="false"
 />
