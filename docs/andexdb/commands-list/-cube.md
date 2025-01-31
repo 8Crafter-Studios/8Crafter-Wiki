@@ -21,7 +21,7 @@ Generates a cube in the selected area
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="0.0.0"
-    :undoSupported="false"
+    :undoSupported="-2"
     :functional="false"
     :deprecated="false"
 />
