@@ -9,7 +9,7 @@ mentions:
     - stormstqr
 ---
 
-[MISSING]
+Generates a hollow cube in the selected area.
 
 <CommandDetailsTable
     name="\\hcone"
