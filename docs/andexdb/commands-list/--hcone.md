@@ -22,7 +22,7 @@ mentions:
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="0.0.0"
     :undoSupported="-2"
-    :functional="true"
+    :functional="false"
     :deprecated="false"
 />
 
