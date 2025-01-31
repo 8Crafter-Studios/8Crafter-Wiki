@@ -92,7 +92,7 @@ export default Object.assign(
       url: "https://wiki.8crafter.com/andexdb",
       repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki",
       repository_edit_link_base:
-        "https://github.com/8Crafter-Studios/8Crafter-Wiki/blob/wiki/andexdb/", // Replace with your repository name
+        "https://github.com/8Crafter-Studios/8Crafter-Wiki/blob/wiki/docs/andexdb/", // Replace with your repository name
 
       algolia: {
         appId: "97Y3M3Y6BI",
