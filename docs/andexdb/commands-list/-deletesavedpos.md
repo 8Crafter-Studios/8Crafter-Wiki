@@ -21,7 +21,7 @@ Deletes the saved selection with the specified ID.
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="1"
+    :undoSupported="-1"
     :functional="true"
     :deprecated="false"
 />
