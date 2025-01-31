@@ -21,7 +21,7 @@ Creates a new backup area convering the entire selected area.
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="No"
+    :undoSupported="-2"
     :functional="true"
     :deprecated="false"
 />
