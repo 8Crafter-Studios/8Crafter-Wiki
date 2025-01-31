@@ -152,7 +152,7 @@ export default Object.assign(
               ? ""
               : '<code class="shiki">'
           }${highlighted}${
-            (tokens[idx].attrGet("noRightCodeBlock") ?? "false")==="true"
+            (tokens[idx].attrGet("noRightCodeBlock") ?? "false") === "true"
               ? ""
               : '</code>'
           }`;
