@@ -9,7 +9,7 @@ mentions:
     - stormstqr
 ---
 
-<description>
+Drains the blocks between the selected area.
 
 <CommandDetailsTable
     name="\\drain"
