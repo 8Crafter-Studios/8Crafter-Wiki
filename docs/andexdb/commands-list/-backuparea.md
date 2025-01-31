@@ -17,11 +17,11 @@ Creates a new backup area convering the entire selected area.
         'system', 'world', 'server', 'worldedit'
     ]"
     :requiredTags="[
-        ''
+        'canUseChatCommands'
     ]"
-    ultraSecurityModeSecurityLevel="moderator"
+    ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="-1"
+    :undoSupported="No"
     :functional="true"
     :deprecated="false"
 />
