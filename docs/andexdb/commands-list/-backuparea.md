@@ -1,9 +1,7 @@
-Default Command Page
-
 ---
-title: \\\\backuparea
-page_title: \\\\backuparea
-description: The \\\\backuparea command.
+title: \\backuparea
+page_title: \\backuparea
+description: The \\backuparea command.
 show_outline: false
 category: WorldEdit
 nav_order: 3
