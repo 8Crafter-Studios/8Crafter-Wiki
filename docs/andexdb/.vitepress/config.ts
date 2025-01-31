@@ -142,12 +142,20 @@ export default Object.assign(
         md.renderer.rules.code_inline = (tokens, idx /* , options, env, slf */) => {
           const code = tokens[idx].content;
           const highlighted = highlighter.codeToHtml(code, {
-            lang: tokens[idx].attrGet("lang") ?? "", // or any default language you prefer
+            lang: tokens[idx].attrGet("lang") ?? "",
             themes: { light: githubLightTheme, dark: githubDarkTheme },
             structure: "inline",
             defaultColor: false,
           });
-          return `<code class="shiki">${highlighted}</code>`;
+          return `${
+            (tokens[idx].attrGet("noLeftCodeBlock") ?? "false") === "true"
+              ? ""
+              : '<code class="shiki">'
+          }${highlighted}${
+            (tokens[idx].attrGet("noRightCodeBlock") ?? "false")==="true"
+              ? ""
+              : '</code>'
+          }`;
         };
       },
     },
