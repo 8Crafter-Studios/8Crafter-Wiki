@@ -21,7 +21,7 @@ Generates a cylinder in the selected area.
     ]"
     ultraSecurityModeSecurityLevel="moderator"
     version="1.0.0"
-    :undoSupported="-2"
+    :undoSupported="1"
     :functional="true"
     :deprecated="false"
 />
