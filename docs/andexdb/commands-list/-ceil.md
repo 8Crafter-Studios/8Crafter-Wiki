@@ -12,7 +12,7 @@ mentions:
 Replaces the ceiling of the selected area with the selected block type.
 
 <CommandDetailsTable
-    name=""
+    name="\\ceil"
     :categories="[
         'system', 'world', 'server', 'worldedit'
     ]"
@@ -21,7 +21,7 @@ Replaces the ceiling of the selected area with the selected block type.
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="-1"
+    :undoSupported="Yes"
     :functional="true"
     :deprecated="false"
 />
