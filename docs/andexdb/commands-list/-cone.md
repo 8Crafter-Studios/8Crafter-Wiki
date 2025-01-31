@@ -21,7 +21,7 @@ Generates a cone in the selected area.
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0-beta.59"
-    :undoSupported="true"
+    :undoSupported="1"
     :functional="true"
     :deprecated="false"
 />
