@@ -40,7 +40,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   themeConfig: {
     url: "https://wiki.8crafter.com/main",
     repository: "https://github.com/8Crafter-Studios/8Crafter-Wiki",
-    repository_edit_link_base: "/main/", // Replace with your repository name
+    repository_edit_link_base: "https://github.com/8Crafter-Studios/8Crafter-Wiki/blob/wiki/docs/",
 
     algolia: {
       appId: "97Y3M3Y6BI",
