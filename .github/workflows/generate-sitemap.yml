@@ -37,6 +37,6 @@ jobs:
             message: "saved updated sitemap.xml file"
             default_author: github_actions
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
             path: "sitemap.xml"
