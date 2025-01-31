@@ -7,6 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
 ---
 
 Replaces the ceiling of the selected area with the selected block type.
@@ -21,7 +22,7 @@ Replaces the ceiling of the selected area with the selected block type.
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="Yes"
+    :undoSupported="1"
     :functional="true"
     :deprecated="false"
 />
