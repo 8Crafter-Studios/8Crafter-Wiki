@@ -21,7 +21,7 @@ Cuts the selected area to the clipboard (copies and the removes the area).
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="3.0.2"
-    :undoSupported="false"
+    :undoSupported="-1"
     :functional="true"
     :deprecated="false"
 />
