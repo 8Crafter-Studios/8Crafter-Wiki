@@ -21,7 +21,7 @@ Copies the selected area to the clipboard.
     ]"
     ultraSecurityModeSecurityLevel="moderator"
     version="3.0.2"
-    :undoSupported="false"
+    :undoSupported="-2"
     :functional="true"
     :deprecated="false"
 />
