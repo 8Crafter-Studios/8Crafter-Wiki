@@ -7,6 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
 ---
 
 Shifts the pos1 and pos2 locations of the selected area.
@@ -21,7 +22,7 @@ Shifts the pos1 and pos2 locations of the selected area.
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="-2"
+    :undoSupported="-1"
     :functional="true"
     :deprecated="false"
 />
@@ -33,6 +34,5 @@ Shifts the pos1 and pos2 locations of the selected area.
 <indent>Shifts the selected area</indent>
 
 ## Result
-
 
 ## History

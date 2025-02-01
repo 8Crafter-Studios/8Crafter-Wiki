@@ -7,6 +7,9 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
+tags:
+    - command_nonfunctional
 ---
 
 Generates a hollow cube in the selected area.
@@ -33,6 +36,5 @@ Generates a hollow cube in the selected area.
 <indent>Creates a cone shape from the specified dimensions</indent>
 
 ## Result
-
 
 ## History

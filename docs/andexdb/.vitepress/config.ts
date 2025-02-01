@@ -138,8 +138,11 @@ export default Object.assign(
         level: [2, 3, 4, 5, 6],
       },
       lineNumbers: true,
+      languages: languages,
+      theme: { light: lightTheme, dark: darkTheme },
       config(md) {
         md.use(taskListsPlugin, { label: true });
+
         // md.use(inlineCodeBlockSyntaxHighlightingPlugin, { label: true });
         md.renderer.rules.code_inline = (tokens, idx /* , options, env, slf */) => {
           const code = tokens[idx].content;
@@ -156,7 +159,11 @@ export default Object.assign(
           }${highlighted}${
             (tokens[idx].attrGet("noRightCodeBlock") ?? "false") === "true" ? "" : "</code>"
           }`;
-        };
+        }; /* 
+        md.use(markdownItHighlightJS.default, {
+          code: true,
+          hljs: highlighter,
+        }); */
       },
     },
   }) /* ,

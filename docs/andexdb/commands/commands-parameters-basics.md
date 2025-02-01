@@ -7,7 +7,7 @@ nav_order: 2
 
 Some examples of parameters in a command would be `[-tfsa]`, `<player: target>`, and `[name: string]` in the following command syntax:
 
-`\examplecommand [-tfsa] <player: target[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=false,precision=20]]> [name: string[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=true,precision=20]]]`{lang=andexdbcmd}
+`\examplecommand [-tfsa] <player: target> [name: string]`{lang=andexdbcmd}
 
 In the syntax of a command there are multiple ways a parameter can be written out:
 
@@ -92,7 +92,7 @@ Parameter restrictions are specified inside of square brackets after the paramet
 
 Parameter restrictions are a comma-separated list of restrictions, each restriction is formatted as `restrictionName=restrictionValue`.
 
-An example of a parameter with parameter restrictions would be:  
+An example of a parameter with parameter restrictions would be:
 `[size: number[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=false,precision=20]]`{lang=andexdbcmd}
 
 Some commonly used restrictions include:
@@ -200,3 +200,4 @@ Whether or not this target parameter only allows targeting players.
 ## Next
 
 <Button link="./parameter-types">Next: Parameter Types</Button>
+```

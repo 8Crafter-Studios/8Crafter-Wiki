@@ -7,6 +7,9 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
+tags:
+    - command_nonfunctional
 ---
 
 [MISSING]
@@ -28,8 +31,6 @@ mentions:
 
 ## Syntax
 
-
 ## Result
-
 
 ## History

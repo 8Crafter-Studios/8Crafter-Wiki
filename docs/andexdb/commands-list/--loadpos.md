@@ -7,6 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
 ---
 
 Loads the saved selection with the specified ID into the pos1, pos2, and posD values.
@@ -21,7 +22,7 @@ Loads the saved selection with the specified ID into the pos1, pos2, and posD va
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="-2"
+    :undoSupported="-1"
     :functional="true"
     :deprecated="false"
 />
@@ -33,6 +34,5 @@ Loads the saved selection with the specified ID into the pos1, pos2, and posD va
 <indent>Changes your selection to the specified saved selection</indent>
 
 ## Result
-
 
 ## History

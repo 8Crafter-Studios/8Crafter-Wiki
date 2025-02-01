@@ -7,6 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
 ---
 
 Lists all of your saved selections.
@@ -21,7 +22,7 @@ Lists all of your saved selections.
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="0"
+    :undoSupported="-1"
     :functional="true"
     :deprecated="false"
 />
@@ -33,6 +34,5 @@ Lists all of your saved selections.
 <indent>List saved selections</indent>
 
 ## Result
-
 
 ## History

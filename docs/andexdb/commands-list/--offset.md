@@ -3,10 +3,11 @@ title: \\offset
 page_title: \\offset
 description: The \\offset command.
 show_outline: false
-category: Main
+category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
 ---
 
 Offsets the pos1 and pos2 locations of the selected area.
@@ -21,7 +22,7 @@ Offsets the pos1 and pos2 locations of the selected area.
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="-2"
+    :undoSupported="-1"
     :functional="true"
     :deprecated="false"
 />
@@ -33,6 +34,5 @@ Offsets the pos1 and pos2 locations of the selected area.
 <indent>Moves position of selected area</indent>
 
 ## Result
-
 
 ## History

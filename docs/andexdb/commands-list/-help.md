@@ -4,6 +4,8 @@ page_title: \help
 description: The \help command.
 show_outline: false
 category: Main
+mentions:
+    - Andexter8
 ---
 
 Provides help.
@@ -104,32 +106,35 @@ Provides help.
 `\help itemjsonformat`{lang=andexdbcmd}
 
 <indent>
-    Displays the documentation on the item json format, this is used with things like the
-    <a href="./-givec">
-        <code>[\givec]</code>
-    </a>
-    .
+
+Displays the documentation on the item json format, this is used with things like the [`\givec`{lang=andexdbcmd}](./-givec) command.
+
 </indent>
 
 `\help itemjsonformatcmpr`{lang=andexdbcmd}
 
 <indent>
-    Displays the documentation on the item json format, in a more compressed format, this is used
-    with things like the
-    <a href="./-givec">
-        <code>[\givec]</code>
-    </a>
-    .
+
+Displays the documentation on the item json format, in a more compressed format, this is used with things like the [`\givec`{lang=andexdbcmd}](./-givec) command.
+
 </indent>
 
 `\help itemjsonformatsimplified`{lang=andexdbcmd}
 
 <indent>
-    Displays the simplified documentation on the item json format, this is used with things like the
-    <a href="./-givec">
-        <code>[\givec]</code>
-    </a>
-    .
+
+Displays the simplified documentation on the item json format, this is used with things like the [`\givec`{lang=andexdbcmd}](./-givec) command.
+
+</indent>
+
+## Arguments
+
+`<command: CommandName>`{lang=andexdbcmd}: [CommandName](../commands/parameter-types#CommandName)
+
+<indent>
+
+The name of a command, if the command normally uses one backslash then you can type it with or without the backslash (ex. `help` or `\help`) but if the command normally uses two backslashes then you must type it with both backslashes (ex. `\\undo`).
+
 </indent>
 
 ## Result
@@ -143,32 +148,32 @@ Provides help.
         </tr>
         <tr>
             <td align="center" rowspan="1">
-                <code lang="andexdbcmd">
-                \help cmd &lt;command: CommandName&gt;
-                <br>
-                \help command &lt;command: CommandName&gt;
-                <br>
-                \help cmdextra &lt;command: CommandName&gt;
-                <br>
-                \help commandextra &lt;command: CommandName&gt;
-                <br>
-                \help cmddebug &lt;command: CommandName&gt;
-                <br>
-                \help commanddebug &lt;command: CommandName&gt;
-                <br>
-                \help cmddebugplus &lt;command: CommandName&gt;
-                <br>
-                \help commanddebugplus &lt;command: CommandName&gt;
-                <br>
-                \help customcmddebug &lt;command: CommandName&gt;
-                <br>
-                \help customcommanddebug &lt;command: CommandName&gt;
-                <br>
-                \help js &lt;JavaScriptFunctionVariableConstantOrClassName: string&gt;
-                <br>
-                \help jsfunction &lt;JavaScriptFunctionVariableConstantOrClassName: string&gt;
-                </code>
-            </td>
+
+`\help cmd <command: CommandName>`{lang=andexdbcmd}
+
+`\help command <command: CommandName>`{lang=andexdbcmd}
+
+`\help cmdextra <command: CommandName>`{lang=andexdbcmd}
+
+`\help commandextra <command: CommandName>`{lang=andexdbcmd}
+
+`\help cmddebug <command: CommandName>`{lang=andexdbcmd}
+
+`\help commanddebug <command: CommandName>`{lang=andexdbcmd}
+
+`\help cmddebugplus <command: CommandName>`{lang=andexdbcmd}
+
+`\help commanddebugplus <command: CommandName>`{lang=andexdbcmd}
+
+`\help customcmddebug <command: CommandName>`{lang=andexdbcmd}
+
+`\help customcommanddebug <command: CommandName>`{lang=andexdbcmd}
+
+`\help js <JavaScriptFunctionVariableConstantOrClassName: string>`{lang=andexdbcmd}
+
+`\help jsfunction <JavaScriptFunctionVariableConstantOrClassName: string>`{lang=andexdbcmd}
+
+</td>
             <td>
                 The command is incomplete, or any argument is not specified correctly.
             </td>

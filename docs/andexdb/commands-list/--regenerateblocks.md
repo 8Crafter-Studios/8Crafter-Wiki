@@ -7,6 +7,7 @@ category: Main
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
 ---
 
 Regenerates blocks in the selected area based on the surrounding blocks.
@@ -21,7 +22,7 @@ Regenerates blocks in the selected area based on the surrounding blocks.
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="-2"
+    :undoSupported="1"
     :functional="true"
     :deprecated="false"
 />
@@ -33,6 +34,5 @@ Regenerates blocks in the selected area based on the surrounding blocks.
 <indent>Repair selection based on prediction from surrounding</indent>
 
 ## Result
-
 
 ## History

@@ -7,6 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
 ---
 
 Sets the selected area as a protected area.
@@ -21,7 +22,7 @@ Sets the selected area as a protected area.
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="-2"
+    :undoSupported="-1"
     :functional="true"
     :deprecated="false"
 />
@@ -33,6 +34,5 @@ Sets the selected area as a protected area.
 <indent>Adds the selection as a protected area</indent>
 
 ## Result
-
 
 ## History

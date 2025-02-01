@@ -7,6 +7,9 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
+tags:
+    - command_nonfunctional
 ---
 
 Executes the specified callback JavaScript function for each block in the selected area.
@@ -33,6 +36,5 @@ Executes the specified callback JavaScript function for each block in the select
 <indent>Checks generated shape</indent>
 
 ## Result
-
 
 ## History

@@ -7,6 +7,9 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
+tags:
+    - command_nonfunctional
 ---
 
 Generates a 3d shape according to the outputs of a JavaScript function in the selected area.
@@ -33,6 +36,5 @@ Generates a 3d shape according to the outputs of a JavaScript function in the se
 <indent>Generate a 3d shape</indent>
 
 ## Result
-
 
 ## History

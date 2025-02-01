@@ -7,6 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
 ---
 
 Sets the pos1 location of the selected area for use in other worldedit commands. If no position is specified, defaults to the feet of the executor.
@@ -21,7 +22,7 @@ Sets the pos1 location of the selected area for use in other worldedit commands.
     ]"
     ultraSecurityModeSecurityLevel="WorldEdit"
     version="1.0.0"
-    :undoSupported="-2"
+    :undoSupported="-1"
     :functional="true"
     :deprecated="false"
 />
@@ -33,6 +34,5 @@ Sets the pos1 location of the selected area for use in other worldedit commands.
 <indent>Sets pos1 to a new position</indent>
 
 ## Result
-
 
 ## History

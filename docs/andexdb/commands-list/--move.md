@@ -7,6 +7,9 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
+tags:
+    - command_nonfunctional
 ---
 
 Moves selection
@@ -28,8 +31,6 @@ Moves selection
 
 ## Syntax
 
-
 ## Result
-
 
 ## History

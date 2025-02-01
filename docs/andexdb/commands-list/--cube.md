@@ -7,6 +7,9 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
+tags:
+    - command_nonfunctional
 ---
 
 Generates a cube in the selected area
@@ -27,8 +30,6 @@ Generates a cube in the selected area
 />
 
 ## Syntax
-
-
 
 ## Result
 

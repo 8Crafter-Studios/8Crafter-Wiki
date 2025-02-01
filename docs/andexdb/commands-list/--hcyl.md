@@ -7,6 +7,9 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
+tags:
+    - command_nonfunctional
 ---
 
 Generates a hollow cylinder in the selected area.
@@ -28,8 +31,6 @@ Generates a hollow cylinder in the selected area.
 
 ## Syntax
 
-
 ## Result
-
 
 ## History
