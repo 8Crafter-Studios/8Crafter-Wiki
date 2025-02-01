@@ -3,7 +3,7 @@ title: \\regenerateblocks
 page_title: \\regenerateblocks
 description: The \\regenerateblocks command.
 show_outline: false
-category: Main
+category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr

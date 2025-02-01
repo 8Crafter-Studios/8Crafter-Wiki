@@ -137,6 +137,14 @@ The name of a command, if the command normally uses one backslash then you can t
 
 </indent>
 
+`<JavaScriptFunctionVariableConstantOrClassName: string>`{lang=andexdbcmd}: [string](../commands/parameter-types#string)
+
+<indent>
+
+// TO-DO
+
+</indent>
+
 ## Result
 
 <table class="wikitable" data-description="command results">
@@ -181,8 +189,28 @@ The name of a command, if the command normally uses one backslash then you can t
         </tr>
         <tr>
             <td align="center" rowspan="1">
-                <code>/help &lt;command&gt;</code>
-            </td>
+
+`\help cmd <command: CommandName>`{lang=andexdbcmd}
+
+`\help command <command: CommandName>`{lang=andexdbcmd}
+
+`\help cmdextra <command: CommandName>`{lang=andexdbcmd}
+
+`\help commandextra <command: CommandName>`{lang=andexdbcmd}
+
+`\help cmddebug <command: CommandName>`{lang=andexdbcmd}
+
+`\help commanddebug <command: CommandName>`{lang=andexdbcmd}
+
+`\help cmddebugplus <command: CommandName>`{lang=andexdbcmd}
+
+`\help commanddebugplus <command: CommandName>`{lang=andexdbcmd}
+
+`\help customcmddebug <command: CommandName>`{lang=andexdbcmd}
+
+`\help customcommanddebug <command: CommandName>`{lang=andexdbcmd}
+
+</td>
             <td>
                 <code>&lt;command&gt;</code> is invalid.
             </td>

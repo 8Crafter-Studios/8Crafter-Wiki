@@ -22,31 +22,31 @@ A 64-bit integer. (Supports -2^63 to 2^63-1)
 
 ### decimal
 
-A decimal. (128 bit numbers in the form of "12.34," stored internally in base 10)
+A decimal. (128 bit numbers in the form of `12.34`{lang=js}, stored internally in base 10)
 
 ### float
 
-A float. (32 bit numbers in the form of "12.34," stored internally in base 2)
+A float. (32 bit numbers in the form of `12.34`{lang=js}, stored internally in base 2)
 
 ### number
 
-A float, decimal, integer, Infinity, -Inifnity, or NaN.
+A float, decimal, integer, `Infinity`{lang=js}, `-Infinity`{lang=js}, or `NaN`{lang=js}.
 
 ### extendedNumber
 
-A BigInt, float, decimal, integer, Infinity, -Inifnity, or NaN.
+A BigInt, float, decimal, integer, `Infinity`{lang=js}, `-Infinity`{lang=js}, or `NaN`{lang=js}.
 
 ### nonNaNNumber
 
-A float, decimal, integer, Infinity, or -Infinity.
+A float, decimal, integer, `Infinity`{lang=js}, or `-Infinity`{lang=js}.
 
 ### nonNaNExtendedNumber
 
-A BigInt float, decimal, integer, Infinity, or -Infinity.
+A BigInt float, decimal, integer, `Infinity`{lang=js}, or `-Infinity`{lang=js}.
 
 ### BigInt
 
-A BigInt. (Supports large numbers and is specified by appending "n" to the value, like "5n" or "19284892917n")
+A BigInt. (Supports large numbers and is specified by appending `n` to the value, like `5n`{lang=js} or `19284892917n`{lang=js})
 
 ### boolean
 
@@ -94,7 +94,7 @@ A JSON formatted string. ex. `"some text\nanother line of text \uE359 and the un
 
 ### JSONNumber
 
-A decimal, float, integer, `Infinity`{lang=js}, `-Infinity`{lang=js}, or `NaN`{lang=js}.
+A decimal, float, or integer.
 
 ### JSONBoolean
 
@@ -114,11 +114,11 @@ A target selector.
 
 Examples:
 
--   `@s`
--   `Andexter8`
--   `Steve`
--   `@a[name=Herobrine,tag=test,c=1,rm=0.5,r=5,x=1,y=1,z=1]`
--   `@e[family=monster,type=creeper]`
+-   `@s`{lang=mcfunction}
+-   `Andexter8`{lang=mcfunction}
+-   `"Evil Steve"`{lang=mcfunction}
+-   `@a[name=Herobrine,tag=test,c=1,rm=0.5,r=5,x=1,y=1,z=1]`{lang=mcfunction}
+-   `@e[family=monster,type=creeper]`{lang=mcfunction}
 
 ### targetSelector
 
@@ -160,7 +160,7 @@ A block pattern.
 
 ### block states
 
-A set of block states. Ex. `["infiniburn_bit"=false,"cardinal_direction"="north"]`
+A set of block states. Ex. `["infiniburn_bit"=false,"cardinal_direction"="north"]`{lang=mcfunction}
 
 ### x y z
 
@@ -168,15 +168,15 @@ A set of coordinates, relative coordinates and caret notation are allowed.
 
 Examples:
 
--   `70 92.67 -69.69`
--   `~~~`
--   `~1~~5`
--   `^^^5`
--   `^^^`
--   `^2^1^8.5`
--   `~1.73~9.47~-10.23`
--   `70 ~ 63`
--   `19.38 ~-2210.21038 124065123478`
+-   `70 92.67 -69.69`{lang=mcfunction}
+-   `~~~`{lang=mcfunction}
+-   `~1~~5`{lang=mcfunction}
+-   `^^^5`{lang=mcfunction}
+-   `^^^`{lang=mcfunction}
+-   `^2^1^8.5`{lang=mcfunction}
+-   `~1.73~9.47~-10.23`{lang=mcfunction}
+-   `70 ~ 63`{lang=mcfunction}
+-   `19.38 ~-2210.21038 124065123478`{lang=mcfunction}
 
 ### location
 
@@ -184,36 +184,36 @@ A set of coordinates, relative coordinates are allowed.
 
 Examples:
 
--   `70 92.67 -69.69`
--   `~~~`
--   `~1~~5`
--   `~1.73~9.47~-10.23`
--   `70 ~ 63`
--   `19.38 ~-2210.21038 124065123478`
+-   `70 92.67 -69.69`{lang=mcfunction}
+-   `~~~`{lang=mcfunction}
+-   `~1~~5`{lang=mcfunction}
+-   `~1.73~9.47~-10.23`{lang=mcfunction}
+-   `70 ~ 63`{lang=mcfunction}
+-   `19.38 ~-2210.21038 124065123478`{lang=mcfunction}
 
 ### ~
 
-A tilde. ~
+A tilde. `~`
 
 ### Dimension
 
-The name or namespaced id of a dimension. Valid values are overworld, nether, the_end, minecraft:overworld, minecraft:nether, and minecraft:the_end.
+The name or namespaced id of a dimension. Valid values are `overworld`, `nether`, `the_end`, `minecraft:overworld`, `minecraft:nether`, and `minecraft:the_end`.
 
 ### RGBA
 
-A 4-character RGBA hexadecimal color code. ex. F927
+A 4-character RGBA hexadecimal color code. ex. `F927`
 
 ### RRGGBBAA
 
-An 8-character RGBA hexadecimal color code. ex. FE932B76
+An 8-character RGBA hexadecimal color code. ex. `FE932B76`
 
 ### RGB
 
-A 3-character RGB hexadecimal color code. ex. F92
+A 3-character RGB hexadecimal color code. ex. `F92`
 
 ### RRGGBB
 
-A 6-character RGB hexadecimal color code. ex. FE932B
+A 6-character RGB hexadecimal color code. ex. `FE932B`
 
 ### {\<string\>}
 
