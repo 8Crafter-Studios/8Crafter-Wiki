@@ -10,7 +10,7 @@ const tokenColors = [
   {
     scope: "parameter.optional.andexdbcmd",
     settings: {
-      foreground: "#D4D4D4",
+      foreground: "#878787",
     },
   },
   {
@@ -38,15 +38,105 @@ const tokenColors = [
     },
   },
   {
-    scope: "entity.type.parameter.andexdbcmd",
+    scope: "storage.type.parameter.andexdbcmd",
     settings: {
       foreground: "#B5CEA8",
     },
   },
   {
-    scope: "entity.restrictions.parameter.andexdbcmd",
+    scope: "storage.type.plain_text.parameter.andexdbcmd",
+    settings: {
+      foreground: "#D1F1A9",
+    },
+  },
+  {
+    scope: "string.quoted.other.parameter_type.andexdbcmd",
+    settings: {
+      foreground: "#D1F1A9",
+    },
+  },
+  {
+    scope: "meta.parameter.type.restrictions.andexdbcmd",
     settings: {
       foreground: "#D7BA7D",
+    },
+  },
+  {
+    scope: "entity.name.parameter_restriction.andexdbcmd",
+    settings: {
+      foreground: "#FF9DA4",
+    },
+  },
+  {
+    scope: "constant.language.boolean.parameter_restriction_value.andexdbcmd",
+    settings: {
+      foreground: "#BBDAFF",
+    },
+  },
+  {
+    scope: "constant.language.true.parameter_restriction_value.andexdbcmd",
+    settings: {
+      foreground: "#55FF55",
+    },
+  },
+  {
+    scope: "constant.language.false.parameter_restriction_value.andexdbcmd",
+    settings: {
+      foreground: "#ff5555",
+    },
+  },
+  {
+    scope: "constant.numeric.number.parameter_restriction_value.andexdbcmd",
+    settings: {
+      foreground: "#FFC58F",
+    },
+  },
+  {
+    scope: "constant.numeric.int.parameter_restriction_value.andexdbcmd",
+    settings: {
+      foreground: "#FFC58F",
+    },
+  },
+  {
+    scope: "constant.numeric.float.parameter_restriction_value.andexdbcmd",
+    settings: {
+      foreground: "#FFC58F",
+    },
+  },
+  {
+    scope: "constant.numeric.bigint.parameter_restriction_value.andexdbcmd",
+    settings: {
+      foreground: "#FFC58F",
+    },
+  },
+  {
+    scope: "string.quoted.double.parameter_restriction_value.andexdbcmd",
+    settings: {
+      foreground: "#D1F1A9",
+    },
+  },
+  {
+    scope: "meta.parameter.type.restriction.value.parameter.andexdbcmd",
+    settings: {
+      foreground: "#FF9DA4",
+    },
+  },
+  {
+    scope: "keyword.operator.equals.parameter_restriction.andexdbcmd",
+    settings: {
+      foreground: "#99FFFF",
+    },
+  },
+  {
+    scope: "keyword.operator.comma.parameter_restriction.andexdbcmd",
+    settings: {
+      foreground: "#99FFFF",
+    },
+  },
+  {
+    scope: "keyword.operator.union.union_type_vertical_line.andexdbcmd",
+    settings: {
+      foreground: "#99FFFF",
     },
   },
 ] as const;

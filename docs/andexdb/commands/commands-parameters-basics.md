@@ -7,7 +7,7 @@ nav_order: 2
 
 Some examples of parameters in a command would be `[-tfsa]`, `<player: target>`, and `[name: string]` in the following command syntax:
 
-`\examplecommand [-tfsa] <player: target[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=false,precision=20]]> [name: string[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=false,precision=20]]]`{lang=andexdbcmd}
+`\examplecommand [-tfsa] <player: target[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=false,precision=20]]> [name: string[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=true,precision=20]]]`{lang=andexdbcmd}
 
 In the syntax of a command there are multiple ways a parameter can be written out:
 
@@ -21,7 +21,7 @@ Note: Parameters written as a dash followed by a string of characters enclosed i
 
 optional parameters are optional, you can either include them or not include them, however if you do not include them then any parameters after them cannot be included either, so in the following command:
 
-`\examplecommand <player: target> [name: string] [escapeCodesEnabled: boolean]`{lang=js}
+`\examplecommand <player: target> [name: string] [escapeCodesEnabled: boolean]`{lang=acmd}
 
 If you choose not to include the name parameter, then you cannot include the escapeCodesEnabled parameter either.
 

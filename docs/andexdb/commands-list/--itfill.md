@@ -7,6 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
+    - Andexter8
 ---
 
 Fills all or parts of a reigon with a specific block, with no limits, also temporarily spawns a tickingarea to load in chunks around it, can use any block type including NBT Editor only ones.
@@ -196,27 +197,27 @@ Fills all or parts of a reigon with a specific block, with no limits, also tempo
 
 <indent></indent>
 
-`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <blockStates: block states> <mode: tunnel|cylinder> [replaceTileName: Block] [replaceBlockStates: block states] [clearContainers: boolean]`{lang=andexdbcmd}
+`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <blockStates: block states> <mode: {tunnel}|{cylinder}> [replaceTileName: Block] [replaceBlockStates: block states] [clearContainers: boolean]`{lang=andexdbcmd}
 
 <indent></indent>
 
-`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <blockStates: block states> <mode: tunnel|cylinder> [replaceTileName: Block] [clearContainers: boolean]`{lang=andexdbcmd}
+`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <blockStates: block states> <mode: {tunnel}|{cylinder}> [replaceTileName: Block] [clearContainers: boolean]`{lang=andexdbcmd}
 
 <indent></indent>
 
-`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <blockStates: block states> <mode: tunnel|cylinder> [clearContainers: boolean]`{lang=andexdbcmd}
+`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <blockStates: block states> <mode: {tunnel}|{cylinder}> [clearContainers: boolean]`{lang=andexdbcmd}
 
 <indent></indent>
 
-`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <mode: tunnel|cylinder> [replaceTileName: Block] [replaceBlockStates: block states] [clearContainers: boolean]`{lang=andexdbcmd}
+`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <mode: {tunnel}|{cylinder}> [replaceTileName: Block] [replaceBlockStates: block states] [clearContainers: boolean]`{lang=andexdbcmd}
 
 <indent></indent>
 
-`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <mode: tunnel|cylinder> [replaceTileName: Block] [clearContainers: boolean]`{lang=andexdbcmd}
+`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <mode: {tunnel}|{cylinder}> [replaceTileName: Block] [clearContainers: boolean]`{lang=andexdbcmd}
 
 <indent></indent>
 
-`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <mode: tunnel|cylinder> [clearContainers: boolean]`{lang=andexdbcmd}
+`\\itfill <length: float> <axis: {x}|{y}|{z}|{xy}|{yz}|{xz}|{xyz}> <tileName: Block> <mode: {tunnel}|{cylinder}> [clearContainers: boolean]`{lang=andexdbcmd}
 
 <indent></indent>
 
@@ -245,6 +246,5 @@ Fills all or parts of a reigon with a specific block, with no limits, also tempo
 <indent></indent>
 
 ## Result
-
 
 ## History

@@ -14,15 +14,17 @@ import * as debugSticksCommandSyntax from "./textmate-grammar/debugSticksCommand
 import debugSticksCommandSyntaxLightThemeExtension from "./textmate-grammar/debugSticksCommandSyntax.theme_entension-light";
 import debugSticksCommandSyntaxDarkThemeExtension from "./textmate-grammar/debugSticksCommandSyntax.theme_entension-dark";
 
-let githubLightTheme = (await shiki.bundledThemes["github-light"]()).default;
-let githubDarkTheme = (await shiki.bundledThemes["github-dark"]()).default;
+import * as tmLanguage_mcfunction from "./textmate-grammar/mcfunction.tmLanguage.json";
 
-githubLightTheme = debugSticksCommandSyntaxLightThemeExtension(githubLightTheme);
-githubDarkTheme = debugSticksCommandSyntaxDarkThemeExtension(githubDarkTheme);
+let lightTheme = (await shiki.bundledThemes["light-plus"]()).default;
+let darkTheme = (await shiki.bundledThemes["dark-plus"]()).default;
+
+lightTheme = debugSticksCommandSyntaxLightThemeExtension(lightTheme);
+darkTheme = debugSticksCommandSyntaxDarkThemeExtension(darkTheme);
 
 // import { getDefaultWasmLoader } from "shiki/engine-oniguruma.mjs";
 const themes = [] as shiki.ThemeRegistration[];
-const languages = [debugSticksCommandSyntax] as shiki.LanguageRegistration[];
+const languages = [debugSticksCommandSyntax, tmLanguage_mcfunction] as shiki.LanguageRegistration[];
 for await (const theme of Object.values(shiki.bundledThemes)) {
   themes.push((await theme()).default);
 }
@@ -143,7 +145,7 @@ export default Object.assign(
           const code = tokens[idx].content;
           const highlighted = highlighter.codeToHtml(code, {
             lang: tokens[idx].attrGet("lang") ?? "",
-            themes: { light: githubLightTheme, dark: githubDarkTheme },
+            themes: { light: lightTheme, dark: darkTheme },
             structure: "inline",
             defaultColor: false,
           });
@@ -152,9 +154,7 @@ export default Object.assign(
               ? ""
               : '<code class="shiki">'
           }${highlighted}${
-            (tokens[idx].attrGet("noRightCodeBlock") ?? "false") === "true"
-              ? ""
-              : '</code>'
+            (tokens[idx].attrGet("noRightCodeBlock") ?? "false") === "true" ? "" : "</code>"
           }`;
         };
       },
