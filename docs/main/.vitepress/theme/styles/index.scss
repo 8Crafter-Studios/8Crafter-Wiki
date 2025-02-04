@@ -6,6 +6,7 @@
 @use "frame";
 @use "home";
 @use "lists";
+@use "msgbox";
 @use "table";
 @use "variables";
 
@@ -73,6 +74,7 @@ article {
     border-width: 2px;
     font-size: 2rem;
     font-weight: 600;
+    overflow: hidden;
   }
 
   h3 {
@@ -94,6 +96,11 @@ article {
   blockquote {
     border-left: 3px solid var(--border-color);
     padding-left: 2em;
+  }
+
+  indent {
+    margin-left: 1.6em;
+    display: block;
   }
 }
 

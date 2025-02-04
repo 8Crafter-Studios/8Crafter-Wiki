@@ -4,9 +4,7 @@ description: List of my Windows Registry Files.
 nav_order: 2
 ---
 
-:::warning Stub
-This page is still a work in progress!
-:::
+<template-Stub />
 
 <CardGrid>
 

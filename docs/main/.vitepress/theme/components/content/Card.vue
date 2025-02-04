@@ -5,13 +5,21 @@ const props = defineProps<{
   title: string;
   link?: string;
   image?: string | { light: string; dark: string };
+  pixelated?: boolean;
 }>();
 </script>
 
 <template>
   <div class="card">
     <header>
-      <WikiImage v-if="props.image !== undefined" :src="image" alt="" width="60" height="60" />
+      <WikiImage
+        v-if="props.image !== undefined"
+        :src="image"
+        alt=""
+        width="60"
+        height="60"
+        :pixelated="props.pixelated"
+      />
       <h2 v-if="props.link">
         <a :href="props.link">{{ title }}</a>
       </h2>

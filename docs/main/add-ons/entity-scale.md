@@ -9,6 +9,8 @@ tags:
 nav_order: 2
 add-on_namespace: andexsa
 thumbnail_url: https://wiki.8crafter.com/main/assets/images/add-on_cover_art/andexsa.png
+mentions:
+    - Andexter8
 ---
 
 <code>namespace: andexsa</code>

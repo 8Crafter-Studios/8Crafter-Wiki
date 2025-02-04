@@ -4,9 +4,7 @@ description: List of my iPhone/iPad shortcuts.
 nav_order: 2
 ---
 
-:::warning Stub
-This page is still a work in progress!
-:::
+<template-Stub />
 
 <CardGrid>
 

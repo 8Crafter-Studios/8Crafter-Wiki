@@ -1,5 +1,5 @@
 import { HeadConfig } from "vitepress";
-export { transformHead } from "./transform";
+export { transformHead, transformPageData } from "./transform";
 
 export default <HeadConfig[]>[
   [

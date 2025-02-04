@@ -75,3 +75,7 @@ export function transformHead({ pageData, siteConfig }: TransformContext) {
 
   return out;
 }
+
+export function transformPageData(pageData: TransformContext["pageData"]) {
+  pageData.title = pageData.frontmatter.title;
+}

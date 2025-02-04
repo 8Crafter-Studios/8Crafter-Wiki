@@ -3,10 +3,39 @@ import taskListsPlugin from "markdown-it-task-lists";
 
 import { ThemeConfig } from "./theme";
 
-import head, { transformHead } from "./head";
+import head, { transformHead, transformPageData } from "./head";
 import redirects from "./redirects";
 import sidebar from "./sidebar";
 import tags from "./tags";
+// import inlineCodeBlockSyntaxHighlightingPlugin from "./8craftersInlineCodeBlockSyntaxHighlightingPlugin";
+import * as shiki from "shiki";
+
+import * as debugSticksCommandSyntax from "./textmate-grammar/debugSticksCommandSyntax.json";
+import debugSticksCommandSyntaxLightThemeExtension from "./textmate-grammar/debugSticksCommandSyntax.theme_entension-light";
+import debugSticksCommandSyntaxDarkThemeExtension from "./textmate-grammar/debugSticksCommandSyntax.theme_entension-dark";
+
+import * as tmLanguage_mcfunction from "./textmate-grammar/mcfunction.tmLanguage.json";
+
+let lightTheme = (await shiki.bundledThemes["light-plus"]()).default;
+let darkTheme = (await shiki.bundledThemes["dark-plus"]()).default;
+
+lightTheme = debugSticksCommandSyntaxLightThemeExtension(lightTheme);
+darkTheme = debugSticksCommandSyntaxDarkThemeExtension(darkTheme);
+
+// import { getDefaultWasmLoader } from "shiki/engine-oniguruma.mjs";
+const themes = [] as shiki.ThemeRegistration[];
+const languages = [debugSticksCommandSyntax, tmLanguage_mcfunction] as shiki.LanguageRegistration[];
+for await (const theme of Object.values(shiki.bundledThemes)) {
+  themes.push((await theme()).default);
+}
+for await (const language of Object.values(shiki.bundledLanguages)) {
+  languages.push((await language()).default[0]);
+}
+const highlighter = shiki.createHighlighterCoreSync({
+  engine: shiki.createJavaScriptRegexEngine(),
+  themes: themes,
+  langs: languages,
+});
 
 const isFastBuild = process.env.FAST_BUILD?.trim() === "true";
 
@@ -32,6 +61,7 @@ export default defineConfigWithTheme<ThemeConfig>({
 
   head,
   transformHead,
+  transformPageData,
 
   srcExclude: isFastBuild ? largePages : undefined,
   // ignoreDeadLinks: isFastBuild,
@@ -78,8 +108,27 @@ export default defineConfigWithTheme<ThemeConfig>({
       level: [2, 3, 4, 5, 6],
     },
     lineNumbers: true,
+    languages: languages,
+    theme: { light: lightTheme, dark: darkTheme },
     config(md) {
       md.use(taskListsPlugin, { label: true });
+
+      md.renderer.rules.code_inline = (tokens, idx) => {
+        const code = tokens[idx].content;
+        const highlighted = highlighter.codeToHtml(code, {
+          lang: tokens[idx].attrGet("lang") ?? "",
+          themes: { light: lightTheme, dark: darkTheme },
+          structure: "inline",
+          defaultColor: false,
+        });
+        return `${
+          (tokens[idx].attrGet("noLeftCodeBlock") ?? "false") === "true"
+            ? ""
+            : '<code class="shiki">'
+        }${highlighted}${
+          (tokens[idx].attrGet("noRightCodeBlock") ?? "false") === "true" ? "" : "</code>"
+        }`;
+      };
     },
   },
 });
