@@ -35,4 +35,8 @@ Offsets the pos1 and pos2 locations of the selected area.
 
 ## Result
 
+<template-EmptySection />
+
 ## History
+
+<template-EmptySection />

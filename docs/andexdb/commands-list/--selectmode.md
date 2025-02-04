@@ -35,4 +35,8 @@ Sets the selection mode for the item you are holding, this is used to pick where
 
 ## Result
 
+<template-EmptySection />
+
 ## History
+
+<template-EmptySection />

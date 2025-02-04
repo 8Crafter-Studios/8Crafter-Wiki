@@ -35,6 +35,8 @@ Replaces the ceiling of the selected area with the selected block type.
 
 ## Result
 
-[NEEDS TO BE ADDED]
+<template-EmptySection />
 
 ## History
+
+<template-EmptySection />

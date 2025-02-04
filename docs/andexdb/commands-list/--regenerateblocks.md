@@ -35,4 +35,8 @@ Regenerates blocks in the selected area based on the surrounding blocks.
 
 ## Result
 
+<template-EmptySection />
+
 ## History
+
+<template-EmptySection />

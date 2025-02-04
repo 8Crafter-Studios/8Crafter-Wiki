@@ -34,6 +34,8 @@ Copies the selected area to the clipboard.
 
 ## Result
 
-[NEEDS TO BE ADDED]
+<template-EmptySection />
 
 ## History
+
+<template-EmptySection />

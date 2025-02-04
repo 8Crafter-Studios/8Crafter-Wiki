@@ -34,5 +34,6 @@ Generates a sphere in the selected area.
 
 ## Result
 
-
 ## History
+
+<template-EmptySection />

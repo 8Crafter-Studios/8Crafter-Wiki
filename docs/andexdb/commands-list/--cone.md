@@ -34,6 +34,8 @@ Generates a cone in the selected area.
 
 ## Result
 
-[NEEDS TO BE ADDED]
+<template-EmptySection />
 
 ## History
+
+<template-EmptySection />

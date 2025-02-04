@@ -37,4 +37,8 @@ Executes the specified callback JavaScript function for each block in the select
 
 ## Result
 
+<template-EmptySection />
+
 ## History
+
+<template-EmptySection />

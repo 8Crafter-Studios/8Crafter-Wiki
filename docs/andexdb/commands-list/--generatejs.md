@@ -37,4 +37,8 @@ Generates a 3d shape according to the outputs of a JavaScript function in the se
 
 ## Result
 
+<template-EmptySection />
+
 ## History
+
+<template-EmptySection />

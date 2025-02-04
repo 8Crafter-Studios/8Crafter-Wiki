@@ -34,5 +34,6 @@ Generates a maze in the selected area.
 
 ## Result
 
-
 ## History
+
+<template-EmptySection />

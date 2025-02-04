@@ -34,5 +34,6 @@ Replaces the floor of the selected area with the selected block type.
 
 ## Result
 
-
 ## History
+
+<template-EmptySection />

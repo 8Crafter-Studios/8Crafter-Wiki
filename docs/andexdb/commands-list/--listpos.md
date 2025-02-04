@@ -35,4 +35,8 @@ Lists all of your saved selections.
 
 ## Result
 
+<template-EmptySection />
+
 ## History
+
+<template-EmptySection />

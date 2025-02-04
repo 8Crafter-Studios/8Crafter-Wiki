@@ -34,5 +34,6 @@ Sets the pos1 location of the selected area to the block that you are looking at
 
 ## Result
 
-
 ## History
+
+<template-EmptySection />

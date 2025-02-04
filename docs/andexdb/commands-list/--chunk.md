@@ -34,6 +34,8 @@ Sets the pos1 and pos2 locations of the selected area to contain the entire chun
 
 ## Result
 
-[NEEDS TO BE ADDED]
+<template-EmptySection />
 
 ## History
+
+<template-EmptySection />

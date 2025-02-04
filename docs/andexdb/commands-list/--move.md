@@ -33,4 +33,8 @@ Moves selection
 
 ## Result
 
+<template-EmptySection />
+
 ## History
+
+<template-EmptySection />

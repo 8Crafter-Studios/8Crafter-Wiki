@@ -34,5 +34,6 @@ Generates a sphere in the selected area that is stretched to fill the area. It b
 
 ## Result
 
-
 ## History
+
+<template-EmptySection />

@@ -35,4 +35,8 @@ Sets the selected area as a protected area.
 
 ## Result
 
+<template-EmptySection />
+
 ## History
+
+<template-EmptySection />

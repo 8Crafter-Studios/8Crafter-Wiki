@@ -34,6 +34,8 @@ Deletes the saved selection with the specified ID.
 
 ## Result
 
-[NEEDS TO BE ADDED]
+<template-EmptySection />
 
 ## History
+
+<template-EmptySection />

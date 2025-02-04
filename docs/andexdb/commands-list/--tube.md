@@ -34,5 +34,6 @@ Generates a tube in the selected area.
 
 ## Result
 
-
 ## History
+
+<template-EmptySection />

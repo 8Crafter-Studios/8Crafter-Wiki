@@ -28,8 +28,8 @@ mentions:
 
 ## Syntax
 
-
 ## Result
 
-
 ## History
+
+<template-EmptySection />

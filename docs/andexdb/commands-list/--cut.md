@@ -34,6 +34,8 @@ Cuts the selected area to the clipboard (copies and the removes the area).
 
 ## Result
 
-[NEEDS TO BE ADDED]
+<template-EmptySection />
 
 ## History
+
+<template-EmptySection />

@@ -35,4 +35,8 @@ Loads the saved selection with the specified ID into the pos1, pos2, and posD va
 
 ## Result
 
+<template-EmptySection />
+
 ## History
+
+<template-EmptySection />

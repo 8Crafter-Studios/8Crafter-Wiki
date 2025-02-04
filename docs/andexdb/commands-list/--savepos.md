@@ -34,5 +34,6 @@ Saves your current selection (pos1, pos2, and posD) into a saved selection with 
 
 ## Result
 
-
 ## History
+
+<template-EmptySection />

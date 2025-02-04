@@ -35,4 +35,8 @@ Replaces the sides of the selected area with the selected block type. It just do
 
 ## Result
 
+<template-EmptySection />
+
 ## History
+
+<template-EmptySection />

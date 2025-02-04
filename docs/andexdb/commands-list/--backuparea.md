@@ -37,6 +37,8 @@ After using this command to create a backup area, you must use the `\snapshot` c
 
 ## Result
 
-[NEEDS TO BE ADDED]
+<template-EmptySection />
 
 ## History
+
+<template-EmptySection />

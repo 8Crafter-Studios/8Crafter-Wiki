@@ -33,4 +33,8 @@ tags:
 
 ## Result
 
+<template-EmptySection />
+
 ## History
+
+<template-EmptySection />

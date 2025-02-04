@@ -34,5 +34,6 @@ Pastes the clipboard to the selected area.
 
 ## Result
 
-
 ## History
+
+<template-EmptySection />
