@@ -61,6 +61,7 @@ export interface Tag {
   color: AccentColor;
   text?: string;
   sidebar?: boolean | { text: string };
+  displayOnPage?: boolean;
 }
 
 export type Tags = Record<string, Tag>;

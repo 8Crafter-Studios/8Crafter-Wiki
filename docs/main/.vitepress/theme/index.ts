@@ -21,10 +21,13 @@ import template_EmptySection from "./components/content/template-EmptySection.vu
 import template_ExpandSection from "./components/content/template-ExpandSection.vue";
 import template_IncompleteSection from "./components/content/template-IncompleteSection.vue";
 import template_MissingInformation from "./components/content/template-MissingInformation.vue";
+import template_Scrapped from "./components/content/template-Scrapped.vue";
+import template_Shelved from "./components/content/template-Shelved.vue";
 import template_Stub from "./components/content/template-Stub.vue";
 import template_TooTechnical from "./components/content/template-TooTechnical.vue";
 import template_Update from "./components/content/template-Update.vue";
 import template_WorkInProgress from "./components/content/template-WorkInProgress.vue";
+import msgbox from "./components/content/msgbox.vue";
 
 const contentComponents: Record<string, Component> = {
   Button,
@@ -43,10 +46,13 @@ const contentComponents: Record<string, Component> = {
   "template-ExpandSection": template_ExpandSection,
   "template-IncompleteSection": template_IncompleteSection,
   "template-MissingInformation": template_MissingInformation,
+  "template-Scrapped": template_Scrapped,
+  "template-Shelved": template_Shelved,
   "template-Stub": template_Stub,
   "template-TooTechnical": template_TooTechnical,
   "template-Update": template_Update,
   "template-WorkInProgress": template_WorkInProgress,
+  msgbox,
 };
 
 export default {

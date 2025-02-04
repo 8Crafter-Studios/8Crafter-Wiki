@@ -23,7 +23,7 @@ const tag = computed(() => {
     );
   }
 
-  let { text = name, color, sidebar: sidebarOptions } = tag;
+  let { text = name, color, sidebar: sidebarOptions, displayOnPage } = tag;
 
   if (sidebar) {
     if (!sidebarOptions) return;
@@ -31,10 +31,14 @@ const tag = computed(() => {
     if (typeof sidebarOptions === "object") text = sidebarOptions.text;
   }
 
-  return { text, color };
+  return { text, color, displayOnPage };
 });
 </script>
 
 <template>
-  <Label v-if="tag !== undefined" :color="tag.color">{{ tag.text }}</Label>
+  <Label
+    v-if="tag !== undefined && (tag.displayOnPage !== false || sidebar === true)"
+    :color="tag.color"
+    >{{ tag.text }}</Label
+  >
 </template>

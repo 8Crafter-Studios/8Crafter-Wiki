@@ -79,6 +79,13 @@ export default {
       text: "Scripts",
     },
   },
+  shelved: {
+    color: "red",
+    sidebar: {
+      text: "Shelved",
+    },
+    displayOnPage: false,
+  },
   system: {
     color: "blue",
     sidebar: true,
