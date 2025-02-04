@@ -3,7 +3,7 @@ import taskListsPlugin from "markdown-it-task-lists";
 
 import { ThemeConfig } from "./theme";
 
-import head, { transformHead } from "./head";
+import head, { transformHead, transformPageData } from "./head";
 import redirects from "./redirects";
 import sidebar from "./sidebar";
 import tags from "./tags";
@@ -78,6 +78,7 @@ export default Object.assign(
 
     head,
     transformHead,
+    transformPageData,
 
     srcExclude: isFastBuild ? largePages : undefined,
     // ignoreDeadLinks: isFastBuild,

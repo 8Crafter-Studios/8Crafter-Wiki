@@ -1,0 +1,126 @@
+.msgbox {
+  display: flex;
+  background: #fcfcfc;
+  box-sizing: border-box;
+  align-items: center;
+  width: auto;
+  padding: 0.4em 0.8em;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  font-size: calc(1em * 0.875);
+}
+
+.msgbox + .msgbox {
+  border-top: none;
+  margin-top: -1em;
+}
+
+:not(.msgbox) + .msgbox,
+.msgbox:first-of-type {
+  border-top-right-radius: 0.15em;
+  border-top-left-radius: 0.15em;
+}
+
+.msgbox .msgbox-iconimage,
+.msgbox .msgbox-image {
+  margin: 0 1.5em 0 0.5em;
+}
+
+.msgbox-mini {
+  padding: 0.4em 0.5em;
+  margin: 0 0;
+  margin-bottom: 1em;
+}
+
+.msgbox-mini .msgbox-icon {
+  align-self: flex-start;
+}
+
+.msgbox-mini .msgbox-iconimage,
+.msgbox-mini .msgbox-image {
+  margin: 0 0.4em 0 0.5em;
+}
+
+.msgbox-mini .msgbox-text {
+  font-size: small;
+}
+
+.msgbox-red {
+  background: hsl(0, 75%, 92%);
+  border-left: 4px solid hsl(0, 75%, 85%);
+}
+
+html.dark .msgbox-red {
+  background-color: hsl(0, 25%, 8%);
+  border-left-color: hsl(0, 15%, 36%);
+}
+
+.msgbox-orange {
+  background: hsl(40, 75%, 92%);
+  border-left: 4px solid hsl(40, 75%, 85%);
+}
+
+html.dark .msgbox-orange {
+  background-color: hsl(40, 25%, 8%);
+  border-left-color: hsl(40, 15%, 36%);
+}
+
+.msgbox-yellow {
+  background: hsl(60, 75%, 92%);
+  border-left: 4px solid hsl(60, 75%, 85%);
+}
+
+html.dark .msgbox-yellow {
+  background-color: hsl(60, 25%, 8%);
+  border-left-color: hsl(60, 15%, 36%);
+}
+
+.msgbox-green {
+  background: hsl(120, 75%, 92%);
+  border-left: 4px solid hsl(120, 75%, 85%);
+}
+
+html.dark .msgbox-green {
+  background-color: hsl(120, 25%, 8%);
+  border-left-color: hsl(120, 15%, 36%);
+}
+
+.msgbox-blue {
+  background: hsl(215, 75%, 92%);
+  border-left: 4px solid hsl(215, 75%, 85%);
+}
+
+html.dark .msgbox-blue {
+  background-color: hsl(215, 25%, 8%);
+  border-left-color: hsl(215, 15%, 36%);
+}
+
+.msgbox-magenta {
+  background: hsl(310, 75%, 92%);
+  border-left: 4px solid hsl(310, 75%, 85%);
+}
+
+html.dark .msgbox-magenta {
+  background-color: hsl(310, 25%, 8%);
+  border-left-color: hsl(310, 15%, 36%);
+}
+
+.msgbox-purple {
+  background: hsl(260, 75%, 92%);
+  border-left: 4px solid hsl(260, 75%, 85%);
+}
+
+html.dark .msgbox-purple {
+  background-color: hsl(260, 25%, 8%);
+  border-left-color: hsl(260, 15%, 36%);
+}
+
+.msgbox-gray {
+  background: hsl(0, 0%, 92%);
+  border-left: 4px solid hsl(0, 0%, 85%);
+}
+
+html.dark .msgbox-gray {
+  background-color: hsl(0, 0%, 8%);
+  border-left-color: hsl(0, 0%, 36%);
+}

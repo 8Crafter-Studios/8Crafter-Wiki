@@ -17,6 +17,14 @@ import Spoiler from "./components/content/Spoiler.vue";
 import Tag from "./components/content/Tag.vue";
 import WikiImage from "./components/content/WikiImage.vue";
 import YouTubeEmbed from "./components/content/YouTubeEmbed.vue";
+import template_EmptySection from "./components/content/template-EmptySection.vue";
+import template_ExpandSection from "./components/content/template-ExpandSection.vue";
+import template_IncompleteSection from "./components/content/template-IncompleteSection.vue";
+import template_MissingInformation from "./components/content/template-MissingInformation.vue";
+import template_Stub from "./components/content/template-Stub.vue";
+import template_TooTechnical from "./components/content/template-TooTechnical.vue";
+import template_Update from "./components/content/template-Update.vue";
+import template_WorkInProgress from "./components/content/template-WorkInProgress.vue";
 
 const contentComponents: Record<string, Component> = {
   Button,
@@ -31,6 +39,14 @@ const contentComponents: Record<string, Component> = {
   Tag,
   WikiImage,
   YouTubeEmbed,
+  "template-EmptySection": template_EmptySection,
+  "template-ExpandSection": template_ExpandSection,
+  "template-IncompleteSection": template_IncompleteSection,
+  "template-MissingInformation": template_MissingInformation,
+  "template-Stub": template_Stub,
+  "template-TooTechnical": template_TooTechnical,
+  "template-Update": template_Update,
+  "template-WorkInProgress": template_WorkInProgress,
 };
 
 export default {

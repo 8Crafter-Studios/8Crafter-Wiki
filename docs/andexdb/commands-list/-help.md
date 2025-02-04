@@ -225,3 +225,5 @@ The name of a command, if the command normally uses one backslash then you can t
 </table>
 
 ## History
+
+<template-EmptySection />

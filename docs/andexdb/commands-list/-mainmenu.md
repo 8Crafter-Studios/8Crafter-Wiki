@@ -36,3 +36,5 @@ Opens up the main menu.
 Always succeeds.
 
 ## History
+
+<template-EmptySection />
