@@ -12,6 +12,8 @@ tags:
     - command_nonfunctional
 ---
 
+<template-Planned />
+
 Moves selection
 
 <CommandDetailsTable
@@ -30,6 +32,8 @@ Moves selection
 />
 
 ## Syntax
+
+<template-EmptySection />
 
 ## Result
 

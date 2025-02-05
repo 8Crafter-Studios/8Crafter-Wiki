@@ -9,6 +9,12 @@ mentions:
     - stormstqr
 ---
 
+<template-Planned />
+
+<template-Stub />
+
+<template-EmptySection />
+
 Pastes the clipboard to the selected area.
 
 <CommandDetailsTable
@@ -33,6 +39,8 @@ Pastes the clipboard to the selected area.
 <indent>Paste from the clipboard to the selected area</indent>
 
 ## Result
+
+<template-EmptySection />
 
 ## History
 

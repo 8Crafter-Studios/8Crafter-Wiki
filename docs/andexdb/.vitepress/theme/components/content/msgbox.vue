@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import * as md from "markdown-it";
 import { useData } from "vitepress";
 const { site /* , page */ } = useData();
 const props = defineProps<{
@@ -108,9 +109,12 @@ switch (props.type) {
         </div>
         &nbsp;
       </div>
-      <div v-if="props.text != undefined" class="msgbox-text">
-        {{ props.text }}
-      </div>
+      <!-- eslint-disable vue/no-v-html -->
+      <div
+        v-if="props.text != undefined"
+        class="msgbox-text"
+        v-html="md.default().render(props.text)"
+      ></div>
     </div>
   </div>
 </template>

@@ -142,21 +142,21 @@ The same as itemId. A namespaced id of an item type, for example `andexdb:debug_
 
 ### BlockPattern
 
-// to-do
+<template-EmptySection />
 
 A block pattern.
 
 ### Mask
 
-// to-do
+<template-EmptySection />
 
 ### SingleBlockMask
 
-// to-do
+<template-EmptySection />
 
 ### BlockType
 
-// to-do
+<template-EmptySection />
 
 ### block states
 

@@ -34,6 +34,8 @@ Undoes the last action (from history).
 
 ## Result
 
+<template-EmptySection />
+
 ## History
 
 <template-EmptySection />

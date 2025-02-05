@@ -34,6 +34,8 @@ Generates a hollow cube in the selected area.
 
 ## Result
 
+<template-EmptySection />
+
 ## History
 
 <template-EmptySection />

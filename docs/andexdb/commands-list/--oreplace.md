@@ -9,7 +9,11 @@ mentions:
     - stormstqr
 ---
 
-[MISSING]
+<template-Planned />
+
+<template-Stub />
+
+<template-EmptySection />
 
 <CommandDetailsTable
     name="\\oreplace"
@@ -28,7 +32,11 @@ mentions:
 
 ## Syntax
 
+<template-EmptySection />
+
 ## Result
+
+<template-EmptySection />
 
 ## History
 

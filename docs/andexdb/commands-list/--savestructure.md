@@ -34,6 +34,8 @@ Saves the selected area as a structure.
 
 ## Result
 
+<template-EmptySection />
+
 ## History
 
 <template-EmptySection />

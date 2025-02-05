@@ -5,7 +5,7 @@ const props = defineProps<{
 </script>
 <template>
   <msgbox
-    :section="props.section"
+    :mini="props.section != undefined ? '' : undefined"
     :title="
       'This ' +
       (props.section ?? 'page') +

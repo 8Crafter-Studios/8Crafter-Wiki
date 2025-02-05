@@ -12,6 +12,8 @@ tags:
     - command_nonfunctional
 ---
 
+<template-Planned />
+
 Generates a 3d shape according to the outputs of a JavaScript function in the selected area.
 
 <CommandDetailsTable

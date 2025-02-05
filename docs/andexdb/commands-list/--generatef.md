@@ -34,6 +34,8 @@ Generates a 3d shape according to a formula in the selected area, this one does 
 
 ## Result
 
+<template-EmptySection />
+
 ## History
 
 <template-EmptySection />

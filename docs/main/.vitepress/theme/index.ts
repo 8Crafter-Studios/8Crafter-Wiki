@@ -17,10 +17,14 @@ import Spoiler from "./components/content/Spoiler.vue";
 import Tag from "./components/content/Tag.vue";
 import WikiImage from "./components/content/WikiImage.vue";
 import YouTubeEmbed from "./components/content/YouTubeEmbed.vue";
+import template_Deprecated from "./components/content/template-Deprecated.vue";
 import template_EmptySection from "./components/content/template-EmptySection.vue";
 import template_ExpandSection from "./components/content/template-ExpandSection.vue";
+import template_Experimental from "./components/content/template-Experimental.vue";
 import template_IncompleteSection from "./components/content/template-IncompleteSection.vue";
+import template_InDevelopment from "./components/content/template-InDevelopment.vue";
 import template_MissingInformation from "./components/content/template-MissingInformation.vue";
+import template_Planned from "./components/content/template-Planned.vue";
 import template_Scrapped from "./components/content/template-Scrapped.vue";
 import template_Shelved from "./components/content/template-Shelved.vue";
 import template_Stub from "./components/content/template-Stub.vue";
@@ -42,10 +46,14 @@ const contentComponents: Record<string, Component> = {
   Tag,
   WikiImage,
   YouTubeEmbed,
+  "template-Deprecated": template_Deprecated,
   "template-EmptySection": template_EmptySection,
   "template-ExpandSection": template_ExpandSection,
+  "template-Experimental": template_Experimental,
   "template-IncompleteSection": template_IncompleteSection,
+  "template-InDevelopment": template_InDevelopment,
   "template-MissingInformation": template_MissingInformation,
+  "template-Planned": template_Planned,
   "template-Scrapped": template_Scrapped,
   "template-Shelved": template_Shelved,
   "template-Stub": template_Stub,

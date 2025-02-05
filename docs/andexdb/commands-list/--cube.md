@@ -12,6 +12,8 @@ tags:
     - command_nonfunctional
 ---
 
+<template-Planned />
+
 Generates a cube in the selected area
 
 <CommandDetailsTable
@@ -30,6 +32,8 @@ Generates a cube in the selected area
 />
 
 ## Syntax
+
+<template-EmptySection />
 
 ## Result
 

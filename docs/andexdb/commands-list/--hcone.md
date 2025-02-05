@@ -1,6 +1,6 @@
 ---
 title: \\hcone
-page_title: \\cone
+page_title: \\hcone
 description: The  command.
 show_outline: false
 category: WorldEdit
@@ -11,6 +11,8 @@ mentions:
 tags:
     - command_nonfunctional
 ---
+
+<template-Planned />
 
 Generates a hollow cube in the selected area.
 

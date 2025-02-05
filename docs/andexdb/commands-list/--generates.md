@@ -34,6 +34,8 @@ Generates a 3d shape with the specified step according to a formula in the selec
 
 ## Result
 
+<template-EmptySection />
+
 ## History
 
 <template-EmptySection />

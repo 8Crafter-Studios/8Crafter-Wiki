@@ -34,6 +34,8 @@ Remove the blocks in the selected area.
 
 ## Result
 
+<template-EmptySection />
+
 ## History
 
 <template-EmptySection />

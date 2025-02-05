@@ -9,7 +9,9 @@
     "target": "esnext",
     "module": "esnext",
     "lib": ["esnext", "dom"],
-    "types": ["vite/client", "node"]
+    "types": ["vite/client", "node"],
+    "jsx": "preserve",
+    "jsxImportSource": "vue"
   },
   "include": ["docs/main/.vitepress/**/*.ts", "docs/main/.vitepress/**/*.vue"]
 }

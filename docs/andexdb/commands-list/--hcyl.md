@@ -12,6 +12,8 @@ tags:
     - command_nonfunctional
 ---
 
+<template-Planned />
+
 Generates a hollow cylinder in the selected area.
 
 <CommandDetailsTable
@@ -30,6 +32,8 @@ Generates a hollow cylinder in the selected area.
 />
 
 ## Syntax
+
+<template-EmptySection />
 
 ## Result
 

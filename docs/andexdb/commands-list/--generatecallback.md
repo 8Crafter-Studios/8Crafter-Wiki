@@ -12,6 +12,8 @@ tags:
     - command_nonfunctional
 ---
 
+<template-Planned />
+
 Executes the specified callback JavaScript function for each block in the selected area.
 
 <CommandDetailsTable

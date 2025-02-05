@@ -34,6 +34,8 @@ Stacks the specified number of copies of the step area on top of the selected ar
 
 ## Result
 
+<template-EmptySection />
+
 ## History
 
 <template-EmptySection />

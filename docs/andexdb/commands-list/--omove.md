@@ -12,7 +12,11 @@ tags:
     - command_nonfunctional
 ---
 
-[MISSING]
+<template-Planned />
+
+<template-Stub />
+
+<template-EmptySection />
 
 <CommandDetailsTable
     name="\\omove"
@@ -30,6 +34,8 @@ tags:
 />
 
 ## Syntax
+
+<template-EmptySection />
 
 ## Result
 

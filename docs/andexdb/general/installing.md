@@ -121,7 +121,7 @@ Enabling the `Shared packs` (Also known as `Require players to accept resource p
 
 ## Installing the Add-On on a Dedicated Server
 
-// to-do
+<template-EmptySection />
 
 ## Next
 

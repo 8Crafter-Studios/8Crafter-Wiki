@@ -34,6 +34,8 @@ Replaces the blocks between the selected area with the selected block type.
 
 ## Result
 
+<template-EmptySection />
+
 ## History
 
 <template-EmptySection />

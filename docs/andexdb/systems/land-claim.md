@@ -21,4 +21,10 @@ mentions:
 <template-TooTechnical />
 <template-WorkInProgress section="section" />
 <msgbox mini />
-<template-Shelved /> -->
+<template-Shelved />
+<template-Deprecated section="section" />
+<template-InDevelopment details="test" section="section" />
+<template-InDevelopment details="test" exists section="section" />
+<template-Planned details="test" section="section" />
+<template-Planned details="test" version="v1.0.0" section="section" />
+<template-Experimental details="test" section="section" /> -->
