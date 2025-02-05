@@ -10,7 +10,9 @@ mentions:
 
 <CardGrid>
 
-<Card title="8Crafter's MP3 Tag Editor" link="./mp3-tag-editor" image="/assets/images/nodejs_program_cover_art/mp3-tag-editor.png">
+<!-- <Card title="8Crafter's MP3 Tag Editor" link="./mp3-tag-editor" image="/assets/images/nodejs_program_cover_art/mp3-tag-editor.png"> -->
+
+<Card title="8Crafter's MP3 Tag Editor" link="./mp3-tag-editor" image="/assets/images/icons/missing_pack_icon.png">
 
 8Crafter's MP3 Tag Editor
 

@@ -17,6 +17,8 @@ mentions:
 
 <img src="/assets/images/add-on_cover_art/andexdb.png" alt="8Crafter's Debug Sticks Cover Art" title="8Crafter's Debug Sticks Cover Art">
 
+<br>
+
 <Button link="https://modbay.org/mods/1240-8crafters-debug-sticks.html">ModBay</Button>
 <Button link="/andexdb/" target="_self">
     Full Documentation

@@ -17,6 +17,8 @@ mentions:
 
 <img src="/assets/images/add-on_cover_art/andexsa.png" alt="8Crafter's Entity Scale Cover Art" title="8Crafter's Entity Scale Cover Art">
 
+<br>
+
 <Button link="https://modbay.org/mods/1218-8crafters-entity-scale-and-morph-addon.html">
     ModBay
 </Button>

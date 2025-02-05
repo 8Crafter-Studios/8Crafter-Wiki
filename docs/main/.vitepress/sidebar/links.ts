@@ -14,7 +14,12 @@ function formatLink(path: string) {
 
 export function resolveLinks(context: Sidebar | SidebarSection, dir: string = docsDirectory) {
   const isInSection = "categories" in context;
-  const entries = readdirSync(dir);
+  let entries = [] as string[];
+  if (/\\docs\\andexdb\\[a-zA-Z\-_\s]+$/.test(dir)) {
+    entries = readdirSync(dir, { recursive: true, encoding: "ascii" });
+  } else {
+    entries = readdirSync(dir);
+  }
 
   for (const entry of entries) {
     const joinedPath = join(dir, entry);

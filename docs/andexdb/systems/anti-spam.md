@@ -6,7 +6,7 @@ mentions:
     - Andexter8
 ---
 
-How to use the anti-spam system
+## How to use the anti-spam system
 
 1.  Open the [Main Menu](../main-menu/main-menu) (use the [`\mainmenu`{lang=acmd}](../commands-list/-mainmenu.md) command or the [Main Menu stick](../general/items#Main-Menu)).
 2.  Scroll down and click "Moderation".
