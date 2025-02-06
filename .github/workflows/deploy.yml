@@ -14,6 +14,15 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.CI_TOKEN }}
     steps:
+      - name: Check last commit message
+        id: commit-message
+        run: echo "COMMIT_MESSAGE=$(git log -1 --pretty=format:'%s')" >> $GITHUB_ENV
+
+      - name: Skip if commit is automated
+        if: contains(env.COMMIT_MESSAGE, 'saved updated page link list files')
+        run: |
+          echo "Loop detected - skipping job"
+          exit 0
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
