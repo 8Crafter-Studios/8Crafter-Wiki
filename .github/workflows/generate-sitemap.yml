@@ -18,6 +18,16 @@ jobs:
         with:
           token: ${{ secrets.CI_TOKEN }}
 
+      - name: Check last commit message
+        id: commit-message
+        run: echo "COMMIT_MESSAGE=$(git log -1 --pretty=format:'%s')" >> $GITHUB_ENV
+
+      - name: Skip if commit is automated
+        if: contains(env.COMMIT_MESSAGE, "saved updated sitemap.xml file")
+        run: |
+          echo "Loop detected - skipping job"
+          exit 0
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
