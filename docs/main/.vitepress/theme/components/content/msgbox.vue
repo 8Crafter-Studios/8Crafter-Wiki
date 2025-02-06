@@ -17,6 +17,7 @@ const props = defineProps<{
   imagesize?: string;
   title?: string;
   text?: string;
+  nopixelation?: any;
 }>();
 let color: string;
 switch (props.type) {
@@ -79,6 +80,7 @@ switch (props.type) {
       (!!props.float ? ' float: ' + props.float + ';' : '') +
       (!!props.linecol ? ' border-left: 4px solid ' + props.linecol + ';' : '') +
       (!!props.bgcol ? ' background: ' + props.bgcol + ';' : '') +
+      (props.nopixelation == undefined ? ' image-rendering: pixelated;' : '') +
       (!!props.css ? ' ' + props.css : '')
     "
   >
@@ -103,13 +105,14 @@ switch (props.type) {
       <div class="msgbox-image nomobile" style=""></div>
     </div>
     <div style="width: 100%">
-      <div v-if="props.title != undefined" style="display: contents">
-        <div style="font-weight: bold; display: inline">
-          {{ props.title }}
-        </div>
-        &nbsp;
-      </div>
       <!-- eslint-disable vue/no-v-html -->
+      <div v-if="props.title != undefined" style="display: contents">
+        <div
+          style="font-weight: bold; display: inline"
+          class="msgbox-title"
+          v-html="md.default().render(props.title)"
+        ></div>
+      </div>
       <div
         v-if="props.text != undefined"
         class="msgbox-text"

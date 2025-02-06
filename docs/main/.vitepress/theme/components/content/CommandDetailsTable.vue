@@ -2,7 +2,7 @@
 const props = defineProps<{
   name: string;
   aliases?: string[];
-  ultraSecurityModeSecurityLevel: string;
+  ultraSecurityModeSecurityLevel?: string;
   requiredTags?: string[];
   functional: boolean;
   deprecated: boolean;
@@ -36,7 +36,7 @@ const props = defineProps<{
             <code v-for="(entry, i) in props.aliases" :key="i">{{ entry }}<br /></code>
           </td>
         </tr>
-        <tr>
+        <tr v-if="!!props.ultraSecurityModeSecurityLevel">
           <th
             title="The default security level of this command when Ultra Security Mode is enabled."
           >

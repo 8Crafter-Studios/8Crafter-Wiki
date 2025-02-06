@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { SidebarLink } from "../../types";
+import * as md from "markdown-it";
 
 import NavLink from "./NavLink.vue";
 import Tag from "../content/Tag.vue";
@@ -17,11 +18,16 @@ function activate() {
     });
   });
 }
+const mdUtils = md.default().utils;
 </script>
 
 <template>
   <li ref="element" class="sidebar__link">
-    <NavLink :link :active-match="`^${link}($|\\.)`" @change="(isActive) => isActive && activate()">
+    <NavLink
+      :link
+      :active-match="`^${mdUtils.escapeRE(link)}($|\\.)`"
+      @change="(isActive) => isActive && activate()"
+    >
       <div>
         <strong v-if="prefix !== undefined">{{ prefix }}</strong>
         <span>{{ title }}</span>

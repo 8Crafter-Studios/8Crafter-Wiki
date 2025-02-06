@@ -10,8 +10,13 @@ table {
   background-color: var(--light-bg-color);
 }
 
-thead,
-tr:nth-child(2n) {
+table.bgType2 thead,
+table.bgType2 th {
+  background-color: var(--bg-color);
+}
+
+table:not(.bgType2) thead,
+table:not(.bgType2) tr:nth-child(2n) {
   background-color: var(--bg-color);
 }
 
@@ -28,6 +33,12 @@ td {
 
   &:not(:last-child) {
     border-right: var(--border);
+  }
+  & > p:first-child {
+    margin-top: 0;
+  }
+  & > p:last-child {
+    margin-bottom: 0;
   }
 }
 

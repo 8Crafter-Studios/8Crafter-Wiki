@@ -7,5 +7,7 @@ categories:
       color: green
     - title: WorldEdit
       color: blue
+    - title: Removed
+      color: red
 hide_from_algolia_search: true
 ---

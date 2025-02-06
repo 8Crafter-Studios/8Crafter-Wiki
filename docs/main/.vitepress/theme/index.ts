@@ -17,6 +17,7 @@ import Spoiler from "./components/content/Spoiler.vue";
 import Tag from "./components/content/Tag.vue";
 import WikiImage from "./components/content/WikiImage.vue";
 import YouTubeEmbed from "./components/content/YouTubeEmbed.vue";
+import template_AddonDependency from "./components/content/template-Add-OnDependency.vue";
 import template_Deprecated from "./components/content/template-Deprecated.vue";
 import template_EmptySection from "./components/content/template-EmptySection.vue";
 import template_ExpandSection from "./components/content/template-ExpandSection.vue";
@@ -24,6 +25,7 @@ import template_Experimental from "./components/content/template-Experimental.vu
 import template_IncompleteSection from "./components/content/template-IncompleteSection.vue";
 import template_InDevelopment from "./components/content/template-InDevelopment.vue";
 import template_MissingInformation from "./components/content/template-MissingInformation.vue";
+import template_OutdatedFeature from "./components/content/template-OutdatedFeature.vue";
 import template_Planned from "./components/content/template-Planned.vue";
 import template_Scrapped from "./components/content/template-Scrapped.vue";
 import template_Shelved from "./components/content/template-Shelved.vue";
@@ -46,6 +48,7 @@ const contentComponents: Record<string, Component> = {
   Tag,
   WikiImage,
   YouTubeEmbed,
+  "template-Add-OnDependency": template_AddonDependency,
   "template-Deprecated": template_Deprecated,
   "template-EmptySection": template_EmptySection,
   "template-ExpandSection": template_ExpandSection,
@@ -53,6 +56,7 @@ const contentComponents: Record<string, Component> = {
   "template-IncompleteSection": template_IncompleteSection,
   "template-InDevelopment": template_InDevelopment,
   "template-MissingInformation": template_MissingInformation,
+  "template-OutdatedFeature": template_OutdatedFeature,
   "template-Planned": template_Planned,
   "template-Scrapped": template_Scrapped,
   "template-Shelved": template_Shelved,

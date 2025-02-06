@@ -42,6 +42,24 @@
   font-size: calc(1em * 0.875);
 }
 
+.msgbox-title {
+  & > p:first-child {
+    margin-top: 0;
+  }
+  & > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.msgbox-text {
+  & > p:first-child {
+    margin-top: 0;
+  }
+  & > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .msgbox + .msgbox {
   border-top: none;
   margin-top: -1em;

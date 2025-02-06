@@ -20,7 +20,7 @@
     {
       "name": "parameter.optional.andexdbcmd",
       "$a": "((?:([a-zA-Z0-9\\s\\-_§]+(?:<[a-zA-Z0-9\\s\\-_§]+>)?)(\\[.*?\\])?\\|)*(?:[a-zA-Z0-9\\s\\-_§]+(?:<[a-zA-Z0-9\\s\\-_§]+>)?)",
-      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(\\[)([a-zA-Z0-9\\s\\-_§]+): ((?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§]|(\\[.*?\\](?! |$))?)+)(\\[.*?\\])?(\\])(?= |$)",
+      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(\\[)([a-zA-Z0-9\\s\\-_§]+): ((?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§~]|(\\[.*?\\](?! |$))?)+)(\\[.*?\\])?(\\])(?= |$)",
       "captures": {
         "1": {
           "name": "punctuation.definition.optional.andexdbcmd"
@@ -51,7 +51,7 @@
     },
     {
       "name": "parameter.required.andexdbcmd",
-      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(<)([a-zA-Z0-9\\s\\-_§]+): ((?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§]|(\\[.*?\\])?)+)(\\[.*?\\])?(>)(?= |$)",
+      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(<)([a-zA-Z0-9\\s\\-_§]+): ((?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§~]|(\\[.*?\\])?)+)(\\[.*?\\])?(>)(?= |$)",
       "captures": {
         "1": {
           "name": "punctuation.definition.required.andexdbcmd"
@@ -248,7 +248,7 @@
     "parameter_union_type": {
       "patterns": [
         {
-          "match": "[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§]+\\|(?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§]|(\\[.*?\\])?)+",
+          "match": "[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§~]+\\|(?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§~]|(\\[.*?\\])?)+",
           "captures": {
             "0": {
               "name": "meta.parameter.union_type.andexdbcmd",
@@ -297,7 +297,7 @@
       "patterns": [
         {
           "name": "storage.type.parameter.andexdbcmd",
-          "match": "[a-zA-Z0-9\\s\\-_§]+(?:<[a-zA-Z0-9\\s\\-_]+>)?"
+          "match": "[a-zA-Z0-9\\s\\-_§~]+(?:<[a-zA-Z0-9\\s\\-_]+>)?"
         },
         {
           "name": "storage.type.plain_text.parameter.andexdbcmd",

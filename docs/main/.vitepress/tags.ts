@@ -39,6 +39,13 @@ export default {
     },
     text: "Non-Functional",
   },
+  command_removed: {
+    color: "red",
+    sidebar: {
+      text: "Removed",
+    },
+    text: "Removed",
+  },
   deprecated: {
     color: "red",
   },

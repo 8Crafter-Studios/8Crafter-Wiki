@@ -4,6 +4,8 @@ page_title: \mainmenu
 description: The \mainmenu command.
 show_outline: false
 category: Main
+mentions:
+    - Andexter8
 ---
 
 Opens up the main menu.

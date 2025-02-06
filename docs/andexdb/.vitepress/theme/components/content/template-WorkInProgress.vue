@@ -7,7 +7,7 @@ const props = defineProps<{
 <template>
   <div
     :class="'msgbox searchaux ' + (!!props.section ? 'msgbox-mini' : '') + ' msgbox-green'"
-    :style="'max-width: ' + (!!props.section ? '50em' : '90%')"
+    :style="'max-width: ' + (!!props.section ? '50em' : '90%') + '; image-rendering: pixelated'"
   >
     <div class="msgbox-icon">
       <div class="msgbox-image nomobile" style="">

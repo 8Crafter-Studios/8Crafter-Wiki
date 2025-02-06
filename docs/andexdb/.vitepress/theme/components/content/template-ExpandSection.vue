@@ -4,7 +4,10 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <div class="msgbox searchaux msgbox-mini msgbox-orange" style="max-width: 50em">
+  <div
+    class="msgbox searchaux msgbox-mini msgbox-orange"
+    style="max-width: 50em; image-rendering: pixelated"
+  >
     <div class="msgbox-icon">
       <div class="msgbox-image nomobile" style="">
         <span class="mw-valign-text-top" typeof="mw:File">
