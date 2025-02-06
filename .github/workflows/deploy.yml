@@ -45,6 +45,23 @@ jobs:
       - name: Check Linting 🔎
         run: sudo npm run lint
 
+      - name: Generate Page Link List
+        run: npx tsx generate_page_link_list_md.ts
+      - name: Commit changes for generated page link list
+        if: ${{ success() }}
+        uses: EndBug/add-and-commit@v9
+        with:
+            add: '["docs/andexdb/page-link-list.md", "docs/main/page-link-list.md"]'
+            pull: "--rebase --autostash ."
+            message: "saved updated page link list files"
+            default_author: github_actions
+      - name: Upload generated page link list artifacts
+        uses: actions/upload-artifact@v4
+        with:
+            path: |
+            docs/andexdb/page-link-list.md
+            docs/main/page-link-list.md
+
       - name: Check Build 🔧
         run: npm run build
       - name: Deploy (main) to GitHub Pages
