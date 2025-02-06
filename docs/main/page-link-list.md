@@ -18,6 +18,8 @@ hide_from_algolia_search: true
 
 <a href="index">index</a>
 
+<a href="page-link-list">page-link-list</a>
+
 <a href="privacy">privacy</a>
 
 <a href="test">test</a>
