@@ -10,17 +10,21 @@
       "match": "^\\\\{1,2}[a-zA-Z0-9#]+"
     },
     {
+      "name": "parameter.start_ellipsis.andexdbcmd",
+      "match": "^\\.\\.\\.(?= |$)"
+    },
+    {
       "name": "parameter.end_ellipsis.andexdbcmd",
       "match": "(?<= |^)\\.\\.\\.$"
     },
     {
       "name": "parameter.preset.andexdbcmd",
-      "match": "[a-zA-Z0-9#\\-_§]+"
+      "match": "\b[a-zA-Z0-9#\\-_§]+\b"
     },
     {
       "name": "parameter.optional.andexdbcmd",
       "$a": "((?:([a-zA-Z0-9\\s\\-_§]+(?:<[a-zA-Z0-9\\s\\-_§]+>)?)(\\[.*?\\])?\\|)*(?:[a-zA-Z0-9\\s\\-_§]+(?:<[a-zA-Z0-9\\s\\-_§]+>)?)",
-      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(\\[)([a-zA-Z0-9\\s\\-_§]+): ((?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§~]|(\\[.*?\\](?! |$))?)+)(\\[.*?\\])?(\\])(?= |$)",
+      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(\\[)([a-zA-Z0-9\\s\\-_§]+)(?:: ((?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§~]|(\\[.*?\\](?! |$))?)+)(\\[.*?\\])?)?(\\])(?= |$)",
       "captures": {
         "1": {
           "name": "punctuation.definition.optional.andexdbcmd"
@@ -51,7 +55,7 @@
     },
     {
       "name": "parameter.required.andexdbcmd",
-      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(<)([a-zA-Z0-9\\s\\-_§]+): ((?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§~]|(\\[.*?\\])?)+)(\\[.*?\\])?(>)(?= |$)",
+      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(<)([a-zA-Z0-9\\s\\-_§]+)(?:: ((?:[a-zA-Z0-9\\s\\-_\\(\\)\\{\\}|§~]|(\\[.*?\\])?)+)(\\[.*?\\])?)?(>)(?= |$)",
       "captures": {
         "1": {
           "name": "punctuation.definition.required.andexdbcmd"
@@ -82,7 +86,7 @@
     },
     {
       "name": "parameter.ignorable.andexdbcmd",
-      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(\\{)([a-zA-Z0-9\\s\\-_]+): ([a-zA-Z0-9\\s\\-_]+(?:<[a-zA-Z0-9\\s\\-_]+>)?)(\\[.*?\\])?(\\})(?!\\})(?= |$)",
+      "match": "(?<= |^|^\\\\{1,2}[a-zA-Z0-9#]+)(\\{)([a-zA-Z0-9\\s\\-_]+)(?:: ([a-zA-Z0-9\\s\\-_]+(?:<[a-zA-Z0-9\\s\\-_]+>)?)(\\[.*?\\])?)?(\\})(?!\\})(?= |$)",
       "captures": {
         "1": {
           "name": "punctuation.definition.ignorable.andexdbcmd"

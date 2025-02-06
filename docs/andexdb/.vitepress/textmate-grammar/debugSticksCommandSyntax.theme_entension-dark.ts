@@ -28,7 +28,19 @@ const tokenColors = [
   {
     scope: "parameter.flags.andexdbcmd",
     settings: {
-      foreground: "#CE9178",
+      foreground: "#ce9178",
+    },
+  },
+  {
+    scope: "parameter.start_ellipsis.andexdbcmd",
+    settings: {
+      foreground: "#a078ce",
+    },
+  },
+  {
+    scope: "parameter.end_ellipsis.andexdbcmd",
+    settings: {
+      foreground: "#a078ce",
     },
   },
   {

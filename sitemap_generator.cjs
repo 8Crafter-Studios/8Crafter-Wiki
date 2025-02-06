@@ -16,7 +16,9 @@ const generator = SitemapGenerator("https://wiki.8crafter.com/", {
 const crawler = generator.getCrawler();
 const sitemap = generator.getSitemap();
 
+crawler.queueURL("https://wiki.8crafter.com/main/page-link-list.html");
 crawler.queueURL("https://wiki.8crafter.com/andexdb/index.html");
+crawler.queueURL("https://wiki.8crafter.com/andexdb/page-link-list.html");
 
 // sitemap.addURL("https://wiki.8crafter.com/andexdb/");
 

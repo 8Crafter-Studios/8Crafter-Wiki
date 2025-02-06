@@ -15,6 +15,7 @@ import debugSticksCommandSyntaxLightThemeExtension from "./textmate-grammar/debu
 import debugSticksCommandSyntaxDarkThemeExtension from "./textmate-grammar/debugSticksCommandSyntax.theme_entension-dark";
 
 import * as tmLanguage_mcfunction from "./textmate-grammar/mcfunction.tmLanguage.json";
+import * as tmLanguage_mccommand from "./textmate-grammar/mccommand.tmLanguage.json";
 
 let lightTheme = (await shiki.bundledThemes["light-plus"]()).default;
 let darkTheme = (await shiki.bundledThemes["dark-plus"]()).default;
@@ -24,7 +25,11 @@ darkTheme = debugSticksCommandSyntaxDarkThemeExtension(darkTheme);
 
 // import { getDefaultWasmLoader } from "shiki/engine-oniguruma.mjs";
 const themes = [] as shiki.ThemeRegistration[];
-const languages = [debugSticksCommandSyntax, tmLanguage_mcfunction] as shiki.LanguageRegistration[];
+const languages = [
+  debugSticksCommandSyntax,
+  tmLanguage_mcfunction,
+  tmLanguage_mccommand,
+] as shiki.LanguageRegistration[];
 for await (const theme of Object.values(shiki.bundledThemes)) {
   themes.push((await theme()).default);
 }

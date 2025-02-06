@@ -32,6 +32,18 @@ const tokenColors = [
     },
   },
   {
+    scope: "parameter.start_ellipsis.andexdbcmd",
+    settings: {
+      foreground: "hsl(268, 47%, 36%)",
+    },
+  },
+  {
+    scope: "parameter.end_ellipsis.andexdbcmd",
+    settings: {
+      foreground: "hsl(268, 47%, 36%)",
+    },
+  },
+  {
     scope: "entity.name.parameter.andexdbcmd",
     settings: {
       foreground: "hsl(201, 98%, 20%)",

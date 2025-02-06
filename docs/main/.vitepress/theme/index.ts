@@ -25,6 +25,8 @@ import template_Experimental from "./components/content/template-Experimental.vu
 import template_IncompleteSection from "./components/content/template-IncompleteSection.vue";
 import template_InDevelopment from "./components/content/template-InDevelopment.vue";
 import template_MissingInformation from "./components/content/template-MissingInformation.vue";
+import template_MoreImages from "./components/content/template-MoreImages.vue";
+import template_NeedsRender from "./components/content/template-NeedsRender.vue";
 import template_OutdatedFeature from "./components/content/template-OutdatedFeature.vue";
 import template_Planned from "./components/content/template-Planned.vue";
 import template_Scrapped from "./components/content/template-Scrapped.vue";
@@ -56,6 +58,8 @@ const contentComponents: Record<string, Component> = {
   "template-IncompleteSection": template_IncompleteSection,
   "template-InDevelopment": template_InDevelopment,
   "template-MissingInformation": template_MissingInformation,
+  "template-MoreImages": template_MoreImages,
+  "template-NeedsRender": template_NeedsRender,
   "template-OutdatedFeature": template_OutdatedFeature,
   "template-Planned": template_Planned,
   "template-Scrapped": template_Scrapped,

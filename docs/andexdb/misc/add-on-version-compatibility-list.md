@@ -125,5 +125,7 @@ Compatible Add-On Versions:
 -   `v1.29.1`
 -   `v1.29.2`
 -   `v1.29.3`
+-   `v1.29.4`
+-   `v1.30.0`
 
 </Spoiler>
