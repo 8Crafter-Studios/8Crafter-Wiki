@@ -59,8 +59,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
             path: |
-            docs/andexdb/page-link-list.md
-            docs/main/page-link-list.md
+              docs/andexdb/page-link-list.md
+              docs/main/page-link-list.md
 
       - name: Check Build 🔧
         run: npm run build
