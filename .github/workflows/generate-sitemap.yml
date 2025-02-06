@@ -23,7 +23,7 @@ jobs:
         run: echo "COMMIT_MESSAGE=$(git log -1 --pretty=format:'%s')" >> $GITHUB_ENV
 
       - name: Skip if commit is automated
-        if: contains(env.COMMIT_MESSAGE, "saved updated sitemap.xml file")
+        if: contains(env.COMMIT_MESSAGE, 'saved updated sitemap.xml file')
         run: |
           echo "Loop detected - skipping job"
           exit 0
