@@ -17,7 +17,6 @@ Sets and gets world dynamic properties.
     :requiredTags="[
         'canUseChatCommands'
     ]"
-    ultraSecurityModeSecurityLevel="N/A"
     version="1.0.0"
     :undoSupported="-1"
     :functional="true"
