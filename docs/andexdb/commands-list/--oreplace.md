@@ -65,5 +65,6 @@ mentions:
 Added `\\oreplace`{lang=acmd}.
 
 </td>
+</tr>
     </tbody>
 </table>
