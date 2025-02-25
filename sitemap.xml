@@ -493,11 +493,11 @@
     <lastmod>2025-02-17</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/settings/money-system</loc>
+    <loc>https://wiki.8crafter.com/andexdb/settings/notifications</loc>
     <lastmod>2025-02-17</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/settings/notifications</loc>
+    <loc>https://wiki.8crafter.com/andexdb/settings/money-system</loc>
     <lastmod>2025-02-17</lastmod>
   </url>
   <url>
@@ -594,150 +594,162 @@
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/page-link-list</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/test</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/blocks/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/changelogs/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands/andexdbcmd-language-test</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands/mccommand-language-test</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands/mcfunction-language-test</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/entities/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/general/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/items/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/main-menu/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/meta/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/misc/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/other-features/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/scriptevent-commands/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/systems/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/systems/land-claim</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/usm/index</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/advanced/debug</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/extra-features/shop-system</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/extra-features/world-border-system</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/add-ons/pause-menu-button-remover</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/add-ons/online-player-hider</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/main/add-ons/world-height-limit-modifier</loc>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/contribute-style.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/contribute.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/main/meta/style-guide.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands/parameter-types.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/-mainmenu.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/-settings_%28Old%29.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--cut.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--copy.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/commands-list/--paste.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/main-menu/main-menu.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/tpa-system.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/settings/general.html</loc>
-    <lastmod>2025-02-17</lastmod>
+    <lastmod>2025-02-25</lastmod>
   </url>
 </urlset>
