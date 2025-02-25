@@ -6,7 +6,7 @@ description: 8Crafter's Debug Sticks, Chat Ranks, Custom UI, and JavaScript Comm
 tags:
     - BP
     - RP
-nav_order: 2
+# nav_order: 2
 add-on_namespace: andexdb
 thumbnail_url: https://wiki.8crafter.com/main/assets/images/add-on_cover_art/andexdb.png
 mentions:

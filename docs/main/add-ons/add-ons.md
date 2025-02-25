@@ -22,19 +22,19 @@ mentions:
 
 </Card>
 
-<Card title="Pause Menu Button Remover" link="./pause-menu-button-remover" image="/assets/images/icons/missing_pack_icon.png">
+<Card title="Pause Menu Button Remover" link="./pause-menu-button-remover" image="/assets/images/add-on_cover_art/andexpm.png">
 
 8Crafter's Pause Menu Button Remover
 
 </Card>
 
-<Card title="Online Player Hider" link="./online-player-hider" image="/assets/images/icons/missing_pack_icon.png">
+<Card title="Online Player Hider" link="./online-player-hider" image="/assets/images/add-on_cover_art/andexph.png">
 
 8Crafter's Online Player Hider
 
 </Card>
 
-<Card title="World Height Limit Modifier" link="./world-height-limit-modifier" image="/assets/images/icons/missing_pack_icon.png">
+<Card title="World Height Limit Modifier" link="./world-height-limit-modifier" image="/assets/images/add-on_cover_art/andexhm.png">
 
 8Crafter's World Height Limit Modifier
 

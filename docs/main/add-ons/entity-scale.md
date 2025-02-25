@@ -6,14 +6,14 @@ description: 8Crafter's Entity Scale, NBT, and Behavior Modifier, Bossbar, and M
 tags:
     - BP
     - RP
-nav_order: 2
+# nav_order: 2
 add-on_namespace: andexsa
 thumbnail_url: https://wiki.8crafter.com/main/assets/images/add-on_cover_art/andexsa.png
 mentions:
     - Andexter8
 ---
 
-<code>namespace: andexsa</code>
+<code>namespace: andexsa/andexrp</code>
 
 <img src="/assets/images/add-on_cover_art/andexsa.png" alt="8Crafter's Entity Scale Cover Art" title="8Crafter's Entity Scale Cover Art">
 

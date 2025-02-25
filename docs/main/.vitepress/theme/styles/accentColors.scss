@@ -28,6 +28,26 @@
   --dark-accent-color: #2849a3;
 }
 
+[data-accent-color="purple"] {
+  --light-accent-color: #ff80ff;
+  --dark-accent-color: #800080;
+}
+
+[data-accent-color="pink"] {
+  --light-accent-color: #ffc2cc;
+  --dark-accent-color: #ffc2cc;
+}
+
+[data-accent-color="white"] {
+  --light-accent-color: #ffffff;
+  --dark-accent-color: #ffffff;
+}
+
+[data-accent-color="black"] {
+  --light-accent-color: #000000;
+  --dark-accent-color: #000000;
+}
+
 * {
   --accent-color: var(--light-accent-color);
 }
