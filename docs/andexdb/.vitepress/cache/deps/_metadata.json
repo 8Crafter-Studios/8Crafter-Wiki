@@ -1,0 +1,58 @@
+{
+  "hash": "f634d052",
+  "configHash": "bfb7eafc",
+  "lockfileHash": "5253dbae",
+  "browserHash": "e1615cb2",
+  "optimized": {
+    "vue": {
+      "src": "../../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "9226f87a",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../../node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "d95de967",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../../node_modules/vitepress/node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "c8cd38c3",
+      "needsInterop": false
+    },
+    "markdown-it": {
+      "src": "../../../../../node_modules/markdown-it/index.mjs",
+      "file": "markdown-it.js",
+      "fileHash": "77ec3003",
+      "needsInterop": false
+    },
+    "molang": {
+      "src": "../../../../../node_modules/molang/dist/molang.esm.js",
+      "file": "molang.js",
+      "fileHash": "3ff3a0c0",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "src": "../../../../../node_modules/@vueuse/core/index.mjs",
+      "file": "@vueuse_core.js",
+      "fileHash": "7721171f",
+      "needsInterop": false
+    },
+    "jquery": {
+      "src": "../../../../../node_modules/jquery/dist/jquery.js",
+      "file": "jquery.js",
+      "fileHash": "90e763ac",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-HCUFAJUF": {
+      "file": "chunk-HCUFAJUF.js"
+    },
+    "chunk-HKJ2B2AA": {
+      "file": "chunk-HKJ2B2AA.js"
+    }
+  }
+}

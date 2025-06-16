@@ -1,0 +1,19 @@
+---
+title: Add-Ons
+nav_order: 1
+categories:
+    - title: Released
+      color: green
+    # - title: Upcoming
+    #   color: purple
+    # - title: Discontinued
+    #   color: orange
+    # - title: Legacy
+    #   color: blue
+    # - title: Canceled
+    #   color: red
+description: Add-Ons section index page.
+hide_from_algolia_search: true
+---
+
+<Button link="./add-ons">Add-Ons List</Button>
