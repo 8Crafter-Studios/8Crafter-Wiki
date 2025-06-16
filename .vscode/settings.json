@@ -1,4 +1,7 @@
 {
+  "files.exclude": {
+    "**/.git": false
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "eslint.enable": true,
