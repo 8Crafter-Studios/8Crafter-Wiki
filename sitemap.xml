@@ -61,6 +61,10 @@
     <lastmod>2025-06-17</lastmod>
   </url>
   <url>
+    <loc>https://wiki.8crafter.com/main/nodejs_programs/add-on-releaser</loc>
+    <lastmod>2025-06-17</lastmod>
+  </url>
+  <url>
     <loc>https://wiki.8crafter.com/main/nodejs_programs/image-corruptor</loc>
     <lastmod>2025-06-17</lastmod>
   </url>
@@ -181,19 +185,19 @@
     <lastmod>2025-06-17</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.3.5</loc>
-    <lastmod>2025-06-17</lastmod>
-  </url>
-  <url>
     <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.3.6</loc>
     <lastmod>2025-06-17</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.5.0</loc>
+    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.3.5</loc>
     <lastmod>2025-06-17</lastmod>
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.4.0</loc>
+    <lastmod>2025-06-17</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.5.0</loc>
     <lastmod>2025-06-17</lastmod>
   </url>
   <url>
@@ -1430,10 +1434,6 @@
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/changelogs/</loc>
-    <lastmod>2025-06-17</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/main/nodejs_programs/add-on-releaser</loc>
     <lastmod>2025-06-17</lastmod>
   </url>
 </urlset>
