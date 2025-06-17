@@ -135,6 +135,20 @@ onMounted(async () => {
       elem.dispatchEvent(new Event("change"));
     }
   });
+  $('input[name="settings_section"]').change(() => {
+    try {
+      const id = $('input[name="settings_section"]:checked').attr("id")?.slice(23);
+      $("#settings_menu > settings_section").each((_i, section) => {
+        if ($(section).attr("id")?.slice(0, -17) === id) {
+          $(section).get(0)!.style.display = "";
+        } else {
+          $(section).get(0)!.style.display = "none";
+        }
+      });
+    } catch (e) {
+      console.error(e, (e as any)?.stack);
+    }
+  });
 });
 </script>
 
@@ -196,6 +210,22 @@ onMounted(async () => {
           checked
         />
         <div class="no-remove-disabled nsel">Video</div>
+      </label>
+      <label
+        ontouchstart=""
+        for="settings_section_radio_debug"
+        class="radio_button_container_label"
+        style="width: -webkit-fill-available"
+      >
+        <input
+          id="settings_section_radio_debug"
+          type="radio"
+          name="settings_section"
+          style="display: none"
+          class="no-remove-disabled nsel"
+          title="Debug"
+        />
+        <div class="no-remove-disabled nsel">Debug</div>
       </label>
       <!-- <label
         ontouchstart=""
@@ -433,6 +463,55 @@ onMounted(async () => {
           Reset Zoom
         </button>
       </div> -->
+      <br />
+      <br />
+      <div
+        class="mctogglecontainer nsel"
+        ontouchstart=""
+        onclick="{let checkbox = $(this).find('input[type=\'checkbox\']'); checkbox.prop('checked', !checkbox.prop('checked')); checkbox.trigger('change');}"
+        style="display: inline-block"
+      >
+        <input
+          id="use-animated-icon-toggle"
+          type="checkbox"
+          class="mctoggle"
+          onchange="animatedIconEnabled = this.checked"
+          title="Use animated icon"
+          checked
+        />
+        <div class="mctoggleswitch"></div>
+        <label
+          >Use animated icon (Disabling this may improve performance if you are having performance
+          issues.)</label
+        >
+      </div>
+    </settings_section>
+    <settings_section id="debug_settings_section" class="settings_section">
+      <center><h1 style="font-size: revert; margin: revert">Debug</h1></center>
+
+      <label>
+        Clear cached animated icon, the animated icon is cached to improve load times, however you
+        can press the button below to remove it from <code>localStorage</code>. This is useful if
+        the icon needs to be updated, or if you just disabled the "Use animated icon" toggle and
+        want to free up 6 MB of storage space.
+      </label>
+      <br />
+      <label>
+        Is cached:
+        <span id="animated-icon-is-cached-status-indicator" style="color: yellow">
+          loading...
+        </span>
+      </label>
+      <br />
+      <button
+        id="clear-cached-animated-icon-button"
+        class="btn"
+        type="button"
+        onclick="clearCachedAnimatedIcon()"
+        title="Clear cached animated icon"
+      >
+        Clear cached animated icon
+      </button>
     </settings_section>
     <!-- <settings_section id="audio_settings_section" class="settings_section">
       <center><h1>Audio</h1></center>
