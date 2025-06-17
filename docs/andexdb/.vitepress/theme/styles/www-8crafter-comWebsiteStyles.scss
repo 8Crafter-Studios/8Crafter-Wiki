@@ -624,7 +624,7 @@ ul:not(:not(.horizontal-nav)) {
 .overlay_page {
   z-index: 9999;
   width: 100%;
-  height: -webkit-fill-available;
+  height: calc(100vh - var(--header-height));
   position: fixed;
   border: 0px;
   margin: 0px;
