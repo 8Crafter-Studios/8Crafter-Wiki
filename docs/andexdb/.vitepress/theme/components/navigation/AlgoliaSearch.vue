@@ -194,8 +194,8 @@ function initialize(userOptions: any) {
   border-radius: 3px;
   outline: none;*/ /*
   box-shadow: inset 0 1px 2px rgba(27, 31, 35, 0.075);*/
-  border-image: url("/assets/images/ui/textboxes/edit_box_indent.png") 2 1 2 1 fill / 4px 2px 4px
-    2px;
+  border-image: url("/andexdb/assets/images/ui/textboxes/edit_box_indent.png") 2 1 2 1 fill / 4px
+    2px 4px 2px;
   padding: 4px 5px 4px 5px;
   image-rendering: pixelated;
   cursor: text;
@@ -207,8 +207,8 @@ function initialize(userOptions: any) {
 
 .DocSearch-Button:enabled:hover,
 .DocSearch-Form:hover {
-  border-image: url("/assets/images/ui/textboxes/edit_box_indent_hover.png") 2 1 2 1 fill / 4px 2px
-    4px 2px;
+  border-image: url("/andexdb/assets/images/ui/textboxes/edit_box_indent_hover.png") 2 1 2 1 fill /
+    4px 2px 4px 2px;
 }
 
 .DocSearch-Button-Placeholder {
@@ -224,7 +224,7 @@ function initialize(userOptions: any) {
 }
 
 .DocSearch-Search-Icon {
-  background-image: url("/assets/images/icons/magnifyingGlass.png");
+  background-image: url("/andexdb/assets/images/icons/magnifyingGlass.png");
   background-repeat: no-repeat;
   // image-rendering: pixelated;
   background-size: cover;
