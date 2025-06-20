@@ -153,10 +153,25 @@ Compatible Add-On Versions:
 
 </Spoiler>
 
-<Spoiler title="1.21.80">
+<Spoiler title="1.21.80/81/82">
 
 Compatible Add-On Versions:
 
 -   `v1.36.0`
+-   `v1.36.1`
+-   `v1.36.2`
+-   `v1.36.3`
+-   `v1.36.4`
+-   `v1.36.5`
+-   `v1.36.6`
+-   `v1.37.0`
+-   `v1.37.1`
+</Spoiler>
+
+<Spoiler title="1.21.90">
+
+Compatible Add-On Versions:
+
+-   `v1.38.0`
 
 </Spoiler>
