@@ -13,7 +13,7 @@ hidden: true
 <CardGrid>
 <Card
     title="8Crafter's Server"
-    link="https://discord.com/invite/8Crafter-Studios"
+    link="https://discord.8crafter.com"
     image="/assets/images/discord/8Crafter.gif"
 >
 
