@@ -1,0 +1,48 @@
+---
+title: MCBE LevelDB
+page_title: MCBE LevelDB
+category: Released
+description: MCBE LevelDB
+tags:
+    - nodejs_Module
+    - nodejs_NPM
+# nav_order: 4
+thumbnail_url: https://wiki.8crafter.com/main/assets/images/nodejs_program_cover_art/mcbe-leveldb.png
+mentions:
+    - Andexter8
+---
+
+<!-- <img src="/assets/images/nodejs_program_cover_art/mcbe-leveldb.png" alt="MCBE LevelDB Cover Art" title="MCBE LevelDB Cover Art"> -->
+
+<!-- <br> -->
+
+<Button link="https://github.com/8Crafter-Studios/mcbe-leveldb">GitHub</Button>
+
+<Button link="https://npmjs.com/package/mcbe-leveldb">NPM</Button>
+
+<Button link="https://docs.api.8crafter.com/mcbe-leveldb">API</Button>
+
+<br>
+
+A utility module for easily working with Minecraft Bedrock Edition world data.
+
+It is available on NPM.
+
+## Details
+
+[![NPM Downloads](https://img.shields.io/npm/d18m/mcbe-leveldb)](https://npmjs.com/package/mcbe-leveldb)
+[![NPM Version](https://img.shields.io/npm/v/mcbe-leveldb)](https://npmjs.com/package/mcbe-leveldb)
+[![NPM License](https://img.shields.io/npm/l/mcbe-leveldb)](https://npmjs.com/package/mcbe-leveldb)
+[![NPM Last Update](https://img.shields.io/npm/last-update/mcbe-leveldb)](https://npmjs.com/package/mcbe-leveldb)
+[![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/mcbe-leveldb)](https://npmjs.com/package/mcbe-leveldb)
+[![GitHub last commit](https://img.shields.io/github/last-commit/8Crafter-Studios/mcbe-leveldb)](https://github.com/8Crafter-Studios/mcbe-leveldb/commits/main)
+[![Discord](https://img.shields.io/discord/1213197616570048512?logo=discord&label=discord&link=https%3A%2F%2Fdiscord.8crafter.com)](https://discord.8crafter.com)
+[![API Coverage](https://raw.githubusercontent.com/8Crafter-Studios/api.8crafter.com/refs/heads/main/docs/mcbe-leveldb/stable/coverage.svg)](https://docs.api.8crafter.com/mcbe-leveldb)
+
+A utility module for easily working with Minecraft Bedrock Edition world data.
+
+<!-- It is available on NPM. -->
+
+<!-- <Button link="https://npmjs.com/package/image-corruptor" target="_self">
+    Next: 8Crafter's Image Corruptor NPM
+</Button> -->
