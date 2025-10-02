@@ -9,8 +9,6 @@ mentions:
     - Andexter8
 ---
 
-<template-InDevelopment version="v1.35.0" />
-
 Generates terrain in the selected area.
 
 Note: This command currently only supports terrain, ores, and blobs, it does not support foliage or structure generation yet.
