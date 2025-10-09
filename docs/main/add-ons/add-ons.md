@@ -28,9 +28,9 @@ mentions:
 
 </Card>
 
-<Card title="BlueMods Anticheat" link="./bluemods-anticheat" image="/assets/images/add-on_cover_art/bluemods.png">
+<Card title="BlueMods AntiCheat" link="./bluemods-anticheat" image="/assets/images/add-on_cover_art/bluemods.png">
 
-BlueMods Anticheat
+BlueMods AntiCheat for Minecraft Bedrock is a powerful tool designed to protect your server from hackers & cheaters.
 
 </Card>
 
