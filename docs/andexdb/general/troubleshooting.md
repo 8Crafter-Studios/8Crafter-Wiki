@@ -82,6 +82,10 @@ If it just says `\help` in the chat, continue to step 2.
 
 ### Step 2
 
+Try putting the behavior and resource packs for the add-on on top of all other packs.
+
+### Step 3
+
 See the troubleshooting information for "The items are not doing anything, and when I type \help in the chat, nothing happens.".
 
 </Spoiler>
