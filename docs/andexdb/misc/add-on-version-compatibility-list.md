@@ -168,10 +168,26 @@ Compatible Add-On Versions:
 -   `v1.37.1`
 </Spoiler>
 
-<Spoiler title="1.21.90">
+<Spoiler title="1.21.90/91/92/93/94">
 
 Compatible Add-On Versions:
 
 -   `v1.38.0`
+
+</Spoiler>
+
+<Spoiler title="1.21.100/101">
+
+Compatible Add-On Versions:
+
+-   `v1.39.0`
+
+</Spoiler>
+
+<Spoiler title="1.21.110/111/112/113">
+
+Compatible Add-On Versions:
+
+-   `v1.40.0`
 
 </Spoiler>
