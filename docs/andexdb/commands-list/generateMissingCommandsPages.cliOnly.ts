@@ -6808,7 +6808,7 @@ readdirSync(import.meta.dirname).forEach((file: string): void => {
 for (const command of commands) {
   const filePath: string = path.join(
     import.meta.dirname,
-    `./${encodeURIComponent(command.commandName.startsWith("\\") ? command.commandName.replace(/^\\{1,2}/, "--") : "-" + command.commandName)}.md`
+    `./${encodeURIComponent(command.commandName.startsWith("\\") ? command.commandName.replace(/^\\{1,2}/, "--") : "-" + command.commandName).replaceAll("%", "&")}.md`
   );
   if (
     !existsSync(filePath) ||
