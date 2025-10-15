@@ -7,8 +7,6 @@ mentions:
     - Andexter8
 ---
 
-<template-InDevelopment version="v1.35.0" />
-
 This block is a debug block.
 
 <BlockDetailsTable

@@ -8,8 +8,6 @@ mentions:
     - Andexter8
 ---
 
-<template-InDevelopment version="v1.35.0" />
-
 Sets your game mode to god mode (Game Mode 7).
 
 <CommandDetailsTable

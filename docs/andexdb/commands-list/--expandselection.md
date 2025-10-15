@@ -9,8 +9,6 @@ mentions:
     - Andexter8
 ---
 
-<template-InDevelopment version="v1.35.0" />
-
 Generates terrain in the selected area.
 
 <CommandDetailsTable
