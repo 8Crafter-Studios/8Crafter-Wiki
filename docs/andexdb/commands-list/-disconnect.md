@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Disconnects the specified players with an unexpected packet type error without saying that they left the game in the chat. So, it basically lets you silent disconnect players.
 
 <CommandDetailsTable

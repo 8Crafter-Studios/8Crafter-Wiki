@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Teleports to the other side of the wall/floor/ceilling that you are looking at, even if it would put you into the void.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Enables or disables the visual scale override set in the \visualscale command.
 
 <CommandDetailsTable

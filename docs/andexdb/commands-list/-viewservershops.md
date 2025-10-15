@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Opens up the list of public server shops.
 
 <CommandDetailsTable

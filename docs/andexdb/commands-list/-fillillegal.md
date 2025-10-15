@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Fills a player's inventory with illegal items.
 
 <CommandDetailsTable

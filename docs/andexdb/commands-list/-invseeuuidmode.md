@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Displays the contents of the inventory of the entity with the specified UUID.
 
 <CommandDetailsTable

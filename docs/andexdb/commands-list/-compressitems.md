@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Compresses your inventory into 2 chests and inserts those chests into your inventory.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Gets the UUID of the specified entity.
 
 <CommandDetailsTable

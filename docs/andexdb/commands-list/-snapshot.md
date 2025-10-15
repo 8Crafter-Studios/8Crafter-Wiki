@@ -11,8 +11,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Manages backups and backup areas.
 
 <CommandDetailsTable

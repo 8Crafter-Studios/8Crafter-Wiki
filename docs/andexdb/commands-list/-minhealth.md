@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Sets the health of entities to their minimum health values.
 
 <CommandDetailsTable

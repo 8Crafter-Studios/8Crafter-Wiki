@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Clones the item in your hand to the specified player's inventory.
 
 <CommandDetailsTable

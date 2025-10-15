@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Replaces the item stack in the specified inventory slot with an item stack based on the provided itemJSON.
 
 <CommandDetailsTable

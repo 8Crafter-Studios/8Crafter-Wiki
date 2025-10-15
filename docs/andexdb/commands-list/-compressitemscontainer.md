@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Compresses your inventory into a specified container type and inserts those containers into your inventory.
 
 <CommandDetailsTable

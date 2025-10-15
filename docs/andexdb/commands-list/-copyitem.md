@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Copies the item in your hand to the specified slot of the specified player's inventory.
 
 <CommandDetailsTable

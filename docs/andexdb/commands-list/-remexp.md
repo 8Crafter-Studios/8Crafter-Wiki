@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Removes explosive blocks and entities in the specified radius, the radius defaults to 10 if not specified. Removes TNT and respawn anchors if in the overworld, removes TNT and beds if in the nether, and removes TNT, beds, and respawn anchors if in the end.
 
 <CommandDetailsTable

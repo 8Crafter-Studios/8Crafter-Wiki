@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Shuffles the inventory of the specified player.
 
 <CommandDetailsTable

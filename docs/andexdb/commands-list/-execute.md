@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Executes a command on behalf of one or more entities.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Teleports you to spawn.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Teleports up the specified number of blocks and places glass below you if placeGlass is not set to false.
 
 <CommandDetailsTable

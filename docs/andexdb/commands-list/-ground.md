@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Teleports you down to the closest block below your feet.
 
 <CommandDetailsTable

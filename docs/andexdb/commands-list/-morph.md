@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Morphs into the morph with the specified morph ID.
 
 <CommandDetailsTable

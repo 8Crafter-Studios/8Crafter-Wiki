@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Displays what item a smithing table enchanted book combined with a enchantment transfer smithing template of the specified data value would turn in to.
 
 <CommandDetailsTable

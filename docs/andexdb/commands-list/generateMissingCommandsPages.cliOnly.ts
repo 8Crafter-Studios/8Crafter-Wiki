@@ -6854,16 +6854,16 @@ tags:
           : ""
       }
 
-<template-Stub />
-
-<template-EmptySection />${
+<template-Stub />${
         commanddescriptions[
           command.commandName.replace(/^\\{1,2}/, "\\\\") as keyof typeof commanddescriptions
         ]
           ? `
 
 ${commanddescriptions[command.commandName.replace(/^\\{1,2}/, "\\\\") as keyof typeof commanddescriptions]}`
-          : ""
+          : `
+
+<template-EmptySection />`
       }
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Stops all known intervals from system.runInterval() for this add-on.
 
 <CommandDetailsTable

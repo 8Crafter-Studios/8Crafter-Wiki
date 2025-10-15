@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Swaps an item in a slot of one player's inventory with another slot of another player's inventory.
 
 <CommandDetailsTable

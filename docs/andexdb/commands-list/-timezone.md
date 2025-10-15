@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Sets your timezone to the specific UTC offset in hours.
 
 <CommandDetailsTable

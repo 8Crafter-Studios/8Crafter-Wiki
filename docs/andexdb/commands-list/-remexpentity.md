@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Removes explosive entities in the specified radius, the radius defaults to 10 if not specified.
 
 <CommandDetailsTable

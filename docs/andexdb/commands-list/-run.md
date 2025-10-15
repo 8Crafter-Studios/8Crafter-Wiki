@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Runs the specified command after the specified number of ticks.
 
 <CommandDetailsTable

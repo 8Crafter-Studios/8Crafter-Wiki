@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Displays the saved contents of the inventory of the player with the specified UUID.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Teleports on top of the highest solid block at your x and z coordinates.
 
 <CommandDetailsTable

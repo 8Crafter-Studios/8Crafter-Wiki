@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Lists the contents of all of your currently saved hotbar presets. If no preset ID is specified, then it displays the contents of each of your hotbar presets, otherwise it will only display the contents of the specified hotbar preset.
 
 <CommandDetailsTable

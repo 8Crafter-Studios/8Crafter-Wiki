@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Manages ranks stored in players.
 
 <CommandDetailsTable

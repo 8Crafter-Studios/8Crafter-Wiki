@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Removes all private warps.
 
 <CommandDetailsTable

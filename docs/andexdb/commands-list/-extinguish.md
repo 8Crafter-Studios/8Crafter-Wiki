@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Extinguishes fire and soul fire in the specified radius.
 
 <CommandDetailsTable

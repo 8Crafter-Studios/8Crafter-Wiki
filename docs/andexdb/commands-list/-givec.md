@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Gives you an item stack based on the provided itemJSON in your next empty inventory slot.
 
 <CommandDetailsTable

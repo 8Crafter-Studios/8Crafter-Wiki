@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Kicks one or more players from the server.
 
 <CommandDetailsTable

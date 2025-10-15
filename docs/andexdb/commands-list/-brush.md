@@ -11,8 +11,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Sets the held item as the specified brush type or unbinds the brush from the held item.
 
 <CommandDetailsTable

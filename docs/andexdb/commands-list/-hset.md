@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Sets a hotbar preset.
 
 <CommandDetailsTable

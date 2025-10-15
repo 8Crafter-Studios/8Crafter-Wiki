@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Displays the format version of the add-on.
 
 <CommandDetailsTable

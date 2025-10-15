@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Displays a list of all the non-air blocks at your specified x and z coordinates.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Sets the visual scale of the player, the default is 0.9375. The visual scale scales the rendering of the player by a certain amount without changing the hitbox, this can be combined with the regular scale.
 
 <CommandDetailsTable

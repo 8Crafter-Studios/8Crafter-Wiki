@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Closes any open script form uis for one or more players.
 
 <CommandDetailsTable

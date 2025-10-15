@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Turns debug stick dying mode on or off, which allows you to dye debug sticks in a cauldron.
 
 <CommandDetailsTable

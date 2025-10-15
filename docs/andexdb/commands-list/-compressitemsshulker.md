@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Compresses your inventory into 2 shulker boxes and inserts those shulker boxes into your inventory.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Lists the raw data of the global warps.
 
 <CommandDetailsTable

@@ -11,8 +11,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Kill all or nearby mobs.
 
 <CommandDetailsTable

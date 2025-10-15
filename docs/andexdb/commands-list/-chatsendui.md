@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Opens up a menu where you can type a chat message to send with no character limits.
 
 <CommandDetailsTable

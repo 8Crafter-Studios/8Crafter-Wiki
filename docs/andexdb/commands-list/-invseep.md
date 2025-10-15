@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Displays the contents of the specified player's inventory, including the dynamic properties set on the items.
 
 <CommandDetailsTable

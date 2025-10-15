@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Removes all global warps.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Opens up the command runner/terminal menu.
 
 <CommandDetailsTable

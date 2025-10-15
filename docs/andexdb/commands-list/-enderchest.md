@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Spawns an ender chest where you are standing.
 
 <CommandDetailsTable

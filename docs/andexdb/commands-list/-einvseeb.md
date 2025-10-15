@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 The original version of the \einvsee command that does not scan equipment slots.
 
 <CommandDetailsTable

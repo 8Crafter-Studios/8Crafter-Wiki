@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Displays the currently detected versions of 8Crafter's Entity Scale Add-On that is active on the world.
 
 <CommandDetailsTable

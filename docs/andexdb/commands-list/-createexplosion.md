@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Creates an explosion.
 
 <CommandDetailsTable

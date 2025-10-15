@@ -11,8 +11,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Replaces blocks of the specified type with another specified block type in the specified radius.
 
 <CommandDetailsTable

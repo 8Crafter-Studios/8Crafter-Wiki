@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Teleports you to the block you are looking at.
 
 <CommandDetailsTable

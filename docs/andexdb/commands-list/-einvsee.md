@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Displays the contents of the specified entity's inventory.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Places a structure containing Smithing Table Enchanted Books with every enchantment of the specified level.
 
 <CommandDetailsTable

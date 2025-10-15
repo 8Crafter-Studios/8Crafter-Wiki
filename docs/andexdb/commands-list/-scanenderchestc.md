@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Scans a player's ender chest and displays the contents of it.
 
 <CommandDetailsTable

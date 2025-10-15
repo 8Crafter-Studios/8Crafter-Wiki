@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Displays the saved player data of the specified player.
 
 <CommandDetailsTable

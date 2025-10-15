@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Swaps two inventory rows, if the row number is not a whole number then it will offset the row selection by that much.
 
 <CommandDetailsTable

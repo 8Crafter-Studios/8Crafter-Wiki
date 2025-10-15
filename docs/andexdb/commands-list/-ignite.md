@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Ignites blocks in the specified radius.
 
 <CommandDetailsTable

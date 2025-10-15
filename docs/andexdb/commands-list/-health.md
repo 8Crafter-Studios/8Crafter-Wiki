@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Modifies the health of entities.
 
 <CommandDetailsTable

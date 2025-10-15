@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Clears a slot of a player's ender chest.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Teleports you 2 blocks in the direction you are looking.
 
 <CommandDetailsTable

@@ -11,8 +11,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Displays info about the current selection.
 
 <CommandDetailsTable

@@ -11,8 +11,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Despawn all or nearby mobs.
 
 <CommandDetailsTable

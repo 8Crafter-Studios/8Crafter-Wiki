@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Gets the current world spawn point.
 
 <CommandDetailsTable

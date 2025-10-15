@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Removes all enchantment types from an item except for the item types specified.
 
 <CommandDetailsTable

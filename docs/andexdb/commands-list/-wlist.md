@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Lists all private warps.
 
 <CommandDetailsTable

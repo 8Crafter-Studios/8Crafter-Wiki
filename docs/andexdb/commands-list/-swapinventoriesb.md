@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Swaps the inventories of 2 players.
 
 <CommandDetailsTable

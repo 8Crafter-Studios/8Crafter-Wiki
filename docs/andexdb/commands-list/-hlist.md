@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Lists all of your currently saved hotbar presets.
 
 <CommandDetailsTable

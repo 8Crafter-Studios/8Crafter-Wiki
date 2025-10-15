@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Gets the current TPS values and displays them in the chat to you only.
 
 <CommandDetailsTable

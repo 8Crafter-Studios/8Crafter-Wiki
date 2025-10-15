@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Sets/Removes/Warps to a home.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Duplicates the item in your hand.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Sets the name tag of a player or entity.
 
 <CommandDetailsTable

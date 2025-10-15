@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Fills all or parts of a reigon with a specific block, can use any block type including NBT Editor only ones.
 
 <CommandDetailsTable

@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Stops all known intervals from system.runInterval() for the entity scale add-on if it is active and is on version 1.14.0 or newer.
 
 <CommandDetailsTable

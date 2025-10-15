@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Super advanced item modification command.
 
 <CommandDetailsTable

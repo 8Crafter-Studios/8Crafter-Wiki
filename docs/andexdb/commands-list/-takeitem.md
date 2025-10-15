@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Steals an item from another player's inventory and puts it into yoru inventory.
 
 <CommandDetailsTable

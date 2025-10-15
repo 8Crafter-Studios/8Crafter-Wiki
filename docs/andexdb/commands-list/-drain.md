@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Drains liquids in the specified radius.
 
 <CommandDetailsTable

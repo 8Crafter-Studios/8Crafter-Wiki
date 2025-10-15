@@ -10,8 +10,6 @@ mentions:
 
 <template-Stub />
 
-<template-EmptySection />
-
 Displays the saved contents of the specified player's inventory.
 
 <CommandDetailsTable
