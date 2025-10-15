@@ -27,11 +27,19 @@ Provides help.
 
 `\help`{lang=andexdbcmd}
 
-<indent>Displays all the syntaxes of the `\help` command.</indent>
+<indent>
+
+Displays all the syntaxes of the `\help`{lang=andexdbcmd} command.
+
+</indent>
 
 `\help scriptevent`{lang=andexdbcmd}
 
-<indent>Displays help info for some of the `/scriptevent` commands.</indent>
+<indent>
+
+Displays help info for some of the `/scriptevent`{lang=mccmd} commands.
+
+</indent>
 
 `\help cmd <command: CommandName>`{lang=andexdbcmd}
 
@@ -314,7 +322,7 @@ Added the following command syntaxes to the `\help chatcommands`{lang=acmd} sub-
             </th>
             <td>
 
-The syntax displayed when running the `\help`{lang=acmd} without any sub-commands now has the following syntaxes colored red because they are non-functional:\
+The syntax displayed when running the `\help`{lang=acmd} command without any sub-commands now has the following syntaxes colored red because they are non-functional:\
 `\help entityevents`{lang=acmd}\
 `\help items`{lang=acmd}\
 `\help tags`{lang=acmd}\
