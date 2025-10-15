@@ -19,9 +19,7 @@ Teleports you to spawn.
     :categories="[
         'world', 'players', 'warps', 'misc'
     ]"
-    :requiredTags="[
-        
-    ]"
+    :requiredTags="[]"
     ultraSecurityModeSecurityLevel="everyone"
     version="1.0.0"
     :undoSupported="-1"

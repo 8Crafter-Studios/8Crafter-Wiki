@@ -22,9 +22,7 @@ Sets your timezone to the specific UTC offset in hours.
     :categories="[
         'system', 'world', 'server'
     ]"
-    :requiredTags="[
-        
-    ]"
+    :requiredTags="[]"
     ultraSecurityModeSecurityLevel="everyone"
     version="1.0.0"
     :undoSupported="-1"

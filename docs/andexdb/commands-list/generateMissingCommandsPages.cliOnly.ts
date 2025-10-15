@@ -6884,16 +6884,20 @@ ${commanddescriptions[command.commandName.replace(/^\\{1,2}/, "\\\\") as keyof t
     ]"`
         : ""
     }${
-      command.category
+      command.category && (!Array.isArray(command.category) || command.category.length > 0)
         ? `
     :categories="[
         ${(Array.isArray(command.category) ? command.category! : [command.category]).map((v: string): string => `'${v}'`).join(", ")}
     ]"`
         : ""
     }
-    :requiredTags="[
+    :requiredTags="[${
+      command.requiredTags && command.requiredTags.length > 0
+        ? `
         ${command.requiredTags.map((v: string): string => `'${JSON.stringify(v).slice(1, -1)}'`).join(", ")}
-    ]"
+    `
+        : ""
+    }]"
     ultraSecurityModeSecurityLevel=${JSON.stringify(command.ultraSecurityModeSecurityLevel)}
     version="${command.command_version}"
     :undoSupported="${command.undoSupported ?? -1}"

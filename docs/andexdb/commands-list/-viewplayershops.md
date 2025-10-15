@@ -19,9 +19,7 @@ Opens up the list of public player shops.
     :categories="[
         'shop_system'
     ]"
-    :requiredTags="[
-        
-    ]"
+    :requiredTags="[]"
     ultraSecurityModeSecurityLevel="everyone"
     version="1.0.0"
     :undoSupported="-1"

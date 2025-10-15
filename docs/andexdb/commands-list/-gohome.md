@@ -19,9 +19,7 @@ Warps to a home.
     :categories="[
         'players', 'warps'
     ]"
-    :requiredTags="[
-        
-    ]"
+    :requiredTags="[]"
     ultraSecurityModeSecurityLevel="everyone"
     version="1.0.0"
     :undoSupported="-1"
