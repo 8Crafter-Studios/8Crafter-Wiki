@@ -14,7 +14,7 @@ Displays the current version of [BlueMods Anticheat](/../main/add-ons/bluemods-a
 <CommandDetailsTable
     name="\bluemodsversion"
     :aliases="[
-        'bmver'
+        '\\bmver'
     ]"
     :categories="[
         'world', 'system', 'players'
