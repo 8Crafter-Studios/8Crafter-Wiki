@@ -689,7 +689,7 @@ Fixed an issue where when you used the `\help cmd`{lang=acmd} sub-command or one
                     RC1
                 </a>
                 <a
-                    href="https://github.com/8Crafter-Studios/8Crafter-s-Debug-Sticks-BP-Development/commit/"
+                    href="https://github.com/8Crafter-Studios/8Crafter-s-Debug-Sticks-BP-Development/commit/4da7a07768d1f5a67ff18415417e7817ab75b699"
                     title="Debug Sticks v1.35.0-preview.20+BULID.4 (Commit 4da7a07768d1f5a67ff18415417e7817ab75b699)"
                     class="minetip scicon"
                 ></a>
