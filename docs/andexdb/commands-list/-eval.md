@@ -83,11 +83,12 @@ Any
             -   [`world.sendMessage()`{lang=js}](https://api.8crafter.com/andexdb/stable/classes/_minecraft_server.World.html#sendmessage)
             -   [`player`{lang=js}](https://api.8crafter.com/andexdb/stable/classes/Globals.modules.cmds.executeCommandPlayerW.html) (Only available in the context of this command)
 -   Give all players health boost with the level equal to their XP level:
-    -   `\eval`{lang=mccmd noRightCodeBlock=true}` srun(()=>world.getAllPlayers().forEach((p)=>{p.addEffect("health_boost", 200, {amplifier: player.level, showParticles: false})}))`{lang=js noLeftCodeBlock=true}
+    -   `\eval`{lang=mccmd noRightCodeBlock=true}` srun(()=>world.getAllPlayers().forEach((p)=>{p.addEffect("health_boost", 200, {amplifier: p.level, showParticles: false})}))`{lang=js noLeftCodeBlock=true}
         -   API Reference:
             -   [`srun()`{lang=js}](https://api.8crafter.com/andexdb/stable/functions/Globals.srun.html)
             -   [`world.getAllPlayers()`{lang=js}](https://api.8crafter.com/andexdb/stable/classes/_minecraft_server.World.html#getallplayers)
             -   [`p.addEffect()`{lang=js}](https://api.8crafter.com/andexdb/stable/classes/_minecraft_server.Player.html#addeffect)
+            -   [`p.level`{lang=js}](https://api.8crafter.com/andexdb/stable/classes/_minecraft_server.Player.html#level)
 
 ## History
 
