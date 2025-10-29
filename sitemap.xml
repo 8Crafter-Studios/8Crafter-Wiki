@@ -597,6 +597,10 @@
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
+    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.42.0</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
     <loc>https://wiki.8crafter.com/andexdb/general/server-utilities</loc>
     <lastmod>2025-10-29</lastmod>
   </url>
@@ -1737,7 +1741,39 @@
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
+    <loc>https://wiki.8crafter.com/andexdb/entities/player_inventory_save_storage</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/entities/player_shop_recieved_shop_items_storage</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/entities/saved_item</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/entities/saved_shop_item</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
     <loc>https://wiki.8crafter.com/andexdb/entities/tickingarea</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/entities/tickingarea_2</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/entities/tickingarea_3</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/entities/tickingarea_4</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/entities/tickingarea_5</loc>
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
@@ -1745,11 +1781,55 @@
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/command-runner</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/debug-screen</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
     <loc>https://wiki.8crafter.com/andexdb/items/debug-stick</loc>
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/pick-block-stick</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
     <loc>https://wiki.8crafter.com/andexdb/items/editor-stick</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/editor-stick-b</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/editor-stick-c</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/entity-controller</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/entity-debug-stick</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/inventory-controller</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/player-controller</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/player-debug-stick</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/script-runner</loc>
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
@@ -1761,7 +1841,23 @@
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/selection-menu</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
     <loc>https://wiki.8crafter.com/andexdb/items/selection-tool</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/worldedit-brushes</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/diamond-downgrade-smithing-template</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/enchantment-transfer-smithing-template</loc>
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
@@ -1769,11 +1865,11 @@
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/ultra-bundle</loc>
+    <loc>https://wiki.8crafter.com/andexdb/items/smithing-table-enchanted-book</loc>
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/worldedit-brushes</loc>
+    <loc>https://wiki.8crafter.com/andexdb/items/ultra-bundle</loc>
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
@@ -1810,6 +1906,22 @@
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/other-features/simulated-players</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/meta/emojis</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/meta/loot-tables</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/meta/music</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/meta/sounds</loc>
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
@@ -2217,6 +2329,14 @@
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/debug-screen.html</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.8crafter.com/andexdb/items/editor-stick.html</loc>
+    <lastmod>2025-10-29</lastmod>
+  </url>
+  <url>
     <loc>https://wiki.8crafter.com/andexdb/commands/commands-basics.html</loc>
     <lastmod>2025-10-29</lastmod>
   </url>
@@ -2301,118 +2421,6 @@
     <lastmod>2025-10-29</lastmod>
   </url>
   <url>
-    <loc>https://wiki.8crafter.com/andexdb/changelogs/v1.42.0</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/entities/player_inventory_save_storage</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/entities/player_shop_recieved_shop_items_storage</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/entities/saved_item</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/entities/saved_shop_item</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/entities/tickingarea_2</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/entities/tickingarea_3</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/entities/tickingarea_4</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/entities/tickingarea_5</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/command-runner</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/debug-screen</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/pick-block-stick</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/editor-stick-b</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/editor-stick-c</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/entity-controller</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/entity-debug-stick</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/inventory-controller</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/player-controller</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/player-debug-stick</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/script-runner</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/selection-menu</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/diamond-downgrade-smithing-template</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/enchantment-transfer-smithing-template</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/smithing-table-enchanted-book</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/meta/emojis</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/meta/loot-tables</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/meta/music</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/meta/sounds</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
     <loc>https://wiki.8crafter.com/andexdb/commands/commands-parameters-basics.html</loc>
     <lastmod>2025-10-29</lastmod>
   </url>
@@ -2466,14 +2474,6 @@
   </url>
   <url>
     <loc>https://wiki.8crafter.com/andexdb/changelogs/</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/debug-screen.html</loc>
-    <lastmod>2025-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://wiki.8crafter.com/andexdb/items/editor-stick.html</loc>
     <lastmod>2025-10-29</lastmod>
   </url>
 </urlset>
