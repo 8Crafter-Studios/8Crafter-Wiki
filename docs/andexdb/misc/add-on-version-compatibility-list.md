@@ -57,6 +57,7 @@ Compatible Add-On Versions:
 -   `v1.12.2`
 -   `v1.13.0`
 -   `v1.14.0`
+-   `v1.14.1`
 
 </Spoiler>
 
@@ -184,10 +185,21 @@ Compatible Add-On Versions:
 
 </Spoiler>
 
-<Spoiler title="1.21.110/111/112/113">
+<Spoiler title="1.21.110/111/112/113/114">
 
 Compatible Add-On Versions:
 
 -   `v1.40.0`
+-   `v1.40.1`
+-   `v1.40.2`
+-   `v1.40.3`
+
+</Spoiler>
+
+<Spoiler title="1.21.120">
+
+Compatible Add-On Versions:
+
+-   `v1.41.0`
 
 </Spoiler>

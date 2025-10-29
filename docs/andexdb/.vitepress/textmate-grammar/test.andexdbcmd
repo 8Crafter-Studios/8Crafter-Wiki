@@ -1,12 +1,12 @@
-rgba frac <red: float[min=0.0,max=1.0]> <green: float[min=0.0,max=1.0]> <blue: float[min=0.0,max=1.0]> <alpha: float[min=0.0,max=1.0]>
-rgba dec <red: int[min=0,max=255]> <green: int[min=0,max=255]> <blue: int[min=0,max=255]> <alpha: int[min=0,max=255]>
-rgba decr <red: float[min=0.0,max=255.0]> <green: float[min=0.0,max=255.0]> <blue: float[min=0.0,max=255.0]> <alpha: float[min=0.0,max=255.0]>
-rgb hex <hexRGBAColor: RRGGBB|RGB>
-rgb frac <red: float[min=0.0,max=1.0]> <green: float[min=0.0,max=1.0]> <blue: float[min=0.0,max=1.0]>
-rgb dec <red: int[min=0,max=255]> <green: int[min=0,max=255]> <blue: int[min=0,max=255]>
-rgb decr <red: float[min=0.0,max=255.0]> <green: float[min=0.0,max=255.0]> <blue: float[min=0.0,max=255.0]>
-hsl <hue: float[min=0.0,max=360.0]> <saturation: float[min=0.0,max=100.0]> <lightness: float[min=0.0,max=100.0]>
-createexplosion <location: x y z> [dimension: string] [radius: float] [allowUnderwater: bool] [breaksBlocks: bool] [causesFire: bool] [source: target]
+... rgba frac <red: float[min=0.0,max=1.0]> <green: float[min=0.0,max=1.0]> <blue: float[min=0.0,max=1.0]> <alpha: float[min=0.0,max=1.0]>
+... rgba dec <red: int[min=0,max=255]> <green: int[min=0,max=255]> <blue: int[min=0,max=255]> <alpha: int[min=0,max=255]>
+... rgba decr <red: float[min=0.0,max=255.0]> <green: float[min=0.0,max=255.0]> <blue: float[min=0.0,max=255.0]> <alpha: float[min=0.0,max=255.0]>
+... rgb hex <hexRGBAColor: RRGGBB|RGB>
+... rgb frac <red: float[min=0.0,max=1.0]> <green: float[min=0.0,max=1.0]> <blue: float[min=0.0,max=1.0]>
+... rgb dec <red: int[min=0,max=255]> <green: int[min=0,max=255]> <blue: int[min=0,max=255]>
+... rgb decr <red: float[min=0.0,max=255.0]> <green: float[min=0.0,max=255.0]> <blue: float[min=0.0,max=255.0]>
+... hsl <hue: float[min=0.0,max=360.0]> <saturation: float[min=0.0,max=100.0]> <lightness: float[min=0.0,max=100.0]>
+\createexplosion <location: x y z> [dimension: string] [radius: float] [allowUnderwater: bool] [breaksBlocks: bool] [causesFire: bool] [source: target]
 \\itfill <tileName: Block> <blockStates: block states> <ifillMode: replace|fill|cube|keep|walls|hollow|outline|pillars§c|floor|ceilling|diamond|hourglass§r> <replaceTileName: Block> [replaceBlockStates: block states] [clearContainers: boolean]
 
 \\itfill <tileName: Block> <blockStates: block states> <ifillMode: replace|fill|cube|keep|walls|hollow|outline|pillars§c|floor|ceilling|diamond|hourglass§r> <reaplceTileName: Block> [clearContainers: boolean]
@@ -115,6 +115,9 @@ createexplosion <location: x y z> [dimension: string] [radius: float] [allowUnde
 
 \\itfill <offset: x y z> <thickness: float> <tileName: Block> hollowovoid [clearContainers: boolean]
 \examplecommand [-tfsa] <player: target[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=false,precision=20]]> [name: string[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=true,precision=20]]]
+\examplecommand <player: target> {[name: string[nameIsCaseSensitive=true]]} [escapeCodesEnabled: boolean]
+\examplecommand <player: target> {[name: string[parameterName=playerName]]} [escapeCodesEnabled: boolean]
+\examplecommand <player: target> {[name: string]} [escapeCodesEnabled: boolean]
 \examplecommand <player: target> [name: string] [escapeCodesEnabled: boolean]
 \examplecommand <player: target> <name: string> <escapeCodesEnabled: boolean>
 \examplecommand <player: target> <name: string>
@@ -124,4 +127,6 @@ createexplosion <location: x y z> [dimension: string] [radius: float] [allowUnde
 <name: string>
 [size: number[?=1,??=1,min=-1000,max=1000,allowNaN=false,allowNegatives=false,precision=20]]
 {player: target[?=@s,maxTargets=1]}
+{[includeEntities: boolean]}
 [-tfsa]
+[value: (number|(string|JSONArray)[maxLength=2])[?=5]]
