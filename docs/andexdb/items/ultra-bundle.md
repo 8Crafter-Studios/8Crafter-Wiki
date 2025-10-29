@@ -5,7 +5,7 @@ description: The ultra bundle item.
 show_outline: false
 category: Misc.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <ItemDetailsTable

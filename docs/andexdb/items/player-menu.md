@@ -5,7 +5,7 @@ description: The player menu item.
 show_outline: false
 category: UI Items
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

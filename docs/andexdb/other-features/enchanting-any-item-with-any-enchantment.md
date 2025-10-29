@@ -3,7 +3,7 @@ title: Enchanting Any Item With Any Enchantment
 nav_order: 1
 description: How to add any level of any enchantment to any vanilla item using the add-on.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-MoreImages />

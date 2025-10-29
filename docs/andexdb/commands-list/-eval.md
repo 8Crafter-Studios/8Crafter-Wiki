@@ -5,7 +5,7 @@ description: The \eval command.
 show_outline: false
 category: Main
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Runs the specified JavaScript / Script API code. This can be very useful for doing things such as running more advanced commands with JavaScript variables and conditions, or running commands with JavaScript escape codes(for example to put multiple lines of text in the name of an entity or use special unicode characters in commands without needing to copy and paste them into your game).

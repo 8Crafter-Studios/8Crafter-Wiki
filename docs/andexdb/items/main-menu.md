@@ -5,7 +5,7 @@ description: The main menu item.
 show_outline: false
 category: UI Items
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />
@@ -14,7 +14,7 @@ mentions:
     name="Main Menu"
     image="https://minecraft.wiki/images/Debug_Stick.gif?c7249"
     altText="Debug Stick.gif"
-    minetip="&dMain Menu"
+    minetip="§dMain Menu"
     itemID="andexdb:main_menu"
     rarity="Epic"
     renewable="No"

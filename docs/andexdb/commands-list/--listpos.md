@@ -7,7 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
-    - Andexter8
+    - 8Crafter
 ---
 
 Lists all of your saved selections.

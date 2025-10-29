@@ -6,7 +6,7 @@ show_outline: false
 category: WorldEdit
 nav_order: 3
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

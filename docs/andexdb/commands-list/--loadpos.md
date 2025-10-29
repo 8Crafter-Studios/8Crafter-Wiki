@@ -7,7 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
-    - Andexter8
+    - 8Crafter
 ---
 
 Loads the saved selection with the specified ID into the pos1, pos2, and posD values.

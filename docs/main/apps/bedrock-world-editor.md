@@ -8,7 +8,7 @@ tags:
 # nav_order: 4
 thumbnail_url: https://wiki.8crafter.com/main/assets/images/app_cover_art/bedrock-world-editor.png
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <img src="/assets/images/icons/missing_pack_icon.png" alt="Bedrock World Editor Cover Art" title="Bedrock World Editor Cover Art">

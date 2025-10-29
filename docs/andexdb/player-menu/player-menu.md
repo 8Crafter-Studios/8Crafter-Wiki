@@ -3,7 +3,7 @@ title: Player Menu
 nav_order: 1
 description: The add-on's player menu.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

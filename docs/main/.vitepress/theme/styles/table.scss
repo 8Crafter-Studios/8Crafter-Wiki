@@ -31,8 +31,16 @@ th,
 td {
   padding: 0.5em 1em;
 
-  &:not(:last-child) {
+  &:not(:last-child):not(:has(+ th[rowspan])):not(:has(+ td[rowspan])) {
     border-right: var(--border);
+  }
+  &:not(:last-child):has(+ th[rowspan]),
+  &:not(:last-child):has(+ td[rowspan]) {
+    border-right: none;
+    & + th,
+    & + td {
+      border-left: var(--border);
+    }
   }
   & > p:first-child {
     margin-top: 0;

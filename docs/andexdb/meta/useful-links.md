@@ -1,7 +1,7 @@
 ---
 title: Useful Links
-mentions:
 description: Useful links.
+mentions:
 ---
 
 <template-Stub />

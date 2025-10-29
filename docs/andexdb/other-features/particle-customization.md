@@ -3,7 +3,7 @@ title: Particle Customization
 nav_order: 1
 description: How to make customized particles using the add-on.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-MoreImages />

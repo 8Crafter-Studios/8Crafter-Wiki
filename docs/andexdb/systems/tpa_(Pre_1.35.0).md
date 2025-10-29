@@ -4,7 +4,7 @@ nav_order: 4
 description: The add-on's TPA system (Pre 1.35.0).
 hidden: true
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 :::warning

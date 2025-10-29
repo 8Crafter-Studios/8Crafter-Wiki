@@ -5,7 +5,7 @@ description: The \data command.
 show_outline: false
 category: Main
 mentions:
-    - Andexter8
+    - 8Crafter
 tags:
     - command_nonfunctional
 ---

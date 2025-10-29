@@ -7,7 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
-    - Andexter8
+    - 8Crafter
 ---
 
 Regenerates blocks in the selected area based on the surrounding blocks.

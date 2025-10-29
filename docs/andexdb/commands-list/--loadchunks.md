@@ -6,7 +6,7 @@ show_outline: false
 category: WorldEdit
 nav_order: 3
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Loads the chunks in the selected area by spawning [`andexdb:tickingarea_6`{lang=mccmd}](../entities/tickingarea_6), may also load surrounding chunks.
@@ -58,7 +58,7 @@ Always succeeds.
         <tr class="collapsible collapsible-rows">
             <th colspan="8" style="border-bottom: none">
                 <!-- <a href="/w/Pocket_Edition_Alpha" title="Pocket Edition Alpha"> -->
-                    Upcoming Debug Sticks
+                    Server Utilities
                 <!-- </a> -->
             </th>
         </tr>

@@ -7,7 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
-    - Andexter8
+    - 8Crafter
 ---
 
 Replaces the sides of the selected area with the selected block type. It just does a hollow fill. It is the same as \\replace except that the middle blocks are unaffected.

@@ -7,7 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
-    - Andexter8
+    - 8Crafter
 ---
 
 Sets the selected area as a protected area.
@@ -218,7 +218,7 @@ Added the `o` flag to the `\\protectarea` command. This flag causes the command 
         <tr class="collapsible collapsible-rows">
             <th colspan="16" style="border-bottom: none">
                 <!-- <a href="/w/Pocket_Edition_Alpha" title="Pocket Edition Alpha"> -->
-                    Upcoming Server Utilities
+                    Server Utilities
                 <!-- </a> -->
             </th>
         </tr>

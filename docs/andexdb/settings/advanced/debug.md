@@ -4,7 +4,7 @@ description: The debug settings section of the add-on.
 nav_order: 2
 category: Advanced
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

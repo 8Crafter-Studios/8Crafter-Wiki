@@ -7,7 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
-    - Andexter8
+    - 8Crafter
 ---
 
 Remove the blocks in the selected area.
@@ -131,7 +131,7 @@ Added the `c` flag to the `\\remove`{lang=acmd} command. This flag cuases the co
         <tr class="collapsible collapsible-rows">
             <th colspan="8" style="border-bottom: none">
                 <!-- <a href="/w/Pocket_Edition_Alpha" title="Pocket Edition Alpha"> -->
-                    Upcoming Server Utilities
+                    Server Utilities
                 <!-- </a> -->
             </th>
         </tr>

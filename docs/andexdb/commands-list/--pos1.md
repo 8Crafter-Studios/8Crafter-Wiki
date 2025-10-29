@@ -7,7 +7,7 @@ category: WorldEdit
 nav_order: 3
 mentions:
     - stormstqr
-    - Andexter8
+    - 8Crafter
 ---
 
 Sets the pos1 location of the selected area for use in other worldedit commands. If no position is specified, defaults to the feet of the executor.

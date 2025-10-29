@@ -5,7 +5,7 @@ description: The editor stick item.
 show_outline: false
 category: Debug Sticks
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />
@@ -14,7 +14,7 @@ mentions:
     name="Editor Stick"
     image="https://minecraft.wiki/images/Debug_Stick.gif?c7249"
     altText="Debug Stick.gif"
-    minetip="&dEditor Stick"
+    minetip="§dEditor Stick"
     itemID="andexdb:editor_stick"
     rarity="Epic"
     renewable="No"

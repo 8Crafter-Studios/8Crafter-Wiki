@@ -5,7 +5,7 @@ description: The \gms command.
 show_outline: false
 category: Main
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Sets your game mode to survival mode (Game Mode 0).

@@ -5,7 +5,7 @@ description: The \clearchat command.
 show_outline: false
 category: Main
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Clears the chat.

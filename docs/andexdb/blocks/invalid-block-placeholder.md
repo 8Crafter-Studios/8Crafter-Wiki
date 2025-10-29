@@ -4,7 +4,7 @@ nav_order: 1
 description: The invalid block placeholder block.
 show_outline: false
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 This block is a debug block.
@@ -104,7 +104,7 @@ It can also be used as an indestructable decoration block.
         <tr class="collapsible collapsible-rows">
             <th colspan="8" style="border-bottom: none">
                 <!-- <a href="/w/Pocket_Edition_Alpha" title="Pocket Edition Alpha"> -->
-                    Upcoming Server Utilities
+                    Server Utilities
                 <!-- </a> -->
             </th>
         </tr>

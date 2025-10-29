@@ -5,7 +5,7 @@ description: The \warplistdetails command.
 show_outline: false
 category: Main
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

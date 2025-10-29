@@ -3,7 +3,7 @@ title: Apps Programs List
 description: List of my apps.
 nav_order: 2
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

@@ -6839,7 +6839,7 @@ nav_order: 3`
 category: Main`
       }
 mentions:
-    - Andexter8${
+    - 8Crafter${
       !command.functional
         ? `
 tags:

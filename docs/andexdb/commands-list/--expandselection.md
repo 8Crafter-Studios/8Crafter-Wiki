@@ -6,7 +6,7 @@ show_outline: false
 category: WorldEdit
 nav_order: 3
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Generates terrain in the selected area.
@@ -105,8 +105,8 @@ Any
     <tbody>
         <tr class="collapsible collapsible-rows">
             <th colspan="8" style="border-bottom: none">
-                <!-- <a href="/w/Pocket_Edition_Alpha" title="Pocket Edition Alpha"> -->
-                    Upcoming Server Utilities
+                <!-- <a href="/w/Pocket_Edition_Alpha" title="Pocket fEdition Alpha"> -->
+                    Server Utilities
                 <!-- </a> -->
             </th>
         </tr>

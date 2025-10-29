@@ -3,7 +3,7 @@ title: Rank Name Tags System
 nav_order: 4
 description: The add-on's rank name tags system.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

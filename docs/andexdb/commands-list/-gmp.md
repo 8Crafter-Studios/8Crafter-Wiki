@@ -5,7 +5,7 @@ description: The \gmp command.
 show_outline: false
 category: Main
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Sets your game mode to spectator mode (Game Mode 6).

@@ -4,7 +4,7 @@ description: The extra features settings section of the add-on.
 nav_order: 1
 category: Extra Features
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

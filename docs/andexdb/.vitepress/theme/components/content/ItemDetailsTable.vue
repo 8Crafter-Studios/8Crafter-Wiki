@@ -6,6 +6,7 @@ const props = defineProps<{
   minetip?: string;
   itemID?: string | string[];
   rarity?: string;
+  hoverTextColor?: string;
   durability?: string;
   renewable?: string;
   stackable?: string;
@@ -148,6 +149,12 @@ const tabberItemsList =
           <th title="The rarity tier of the item.">Rarity tier:</th>
           <td>
             {{ props.rarity }}
+          </td>
+        </tr>
+        <tr v-if="!!props.hoverTextColor">
+          <th title="The hover text color of the item.">Hover text color:</th>
+          <td>
+            {{ props.hoverTextColor }}
           </td>
         </tr>
         <tr v-if="!!props.durability">

@@ -5,7 +5,7 @@ description: The \gma command.
 show_outline: false
 category: Main
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Sets your game mode to adventure mode (Game Mode 2).

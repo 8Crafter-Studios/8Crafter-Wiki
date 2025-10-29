@@ -3,7 +3,7 @@ title: Anti-Spam System
 nav_order: 4
 description: The add-on's anti-spam system.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Update details="Update the page to include information about how to access the menu in the new v1.33.0 update." />

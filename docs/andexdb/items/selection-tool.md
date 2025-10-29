@@ -5,7 +5,7 @@ description: The selection tool item.
 show_outline: false
 category: WorldEdit Items
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-WorkInProgress />
@@ -16,7 +16,7 @@ mentions:
     altText="Wooden_Axe_JE2_BE2.png"
     minetip="Selection Tool"
     itemID="andexdb:selection_tool"
-    rarity="Epic"
+    rarity="Common"
     renewable="No"
     stackable="Yes (64)"
     dyeable="No"

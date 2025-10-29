@@ -3,7 +3,7 @@ title: Script Settings
 description: The script settings section of the add-on.
 nav_order: 1
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Path: `Main Menu > Settings > Script Settings`
@@ -41,8 +41,6 @@ These images are from [`v1.35.0`](../changelogs/v1.35.0).
 ## Settings
 
 ### Default Min MS Between Tick Waits
-
-<template-InDevelopment section="section" version="v1.35.0" />
 
 The default minimum time between tick waits, in milliseconds.
 
@@ -82,8 +80,6 @@ Config: [`config.system.protectedAreasRefreshRate`{lang=ts}](https://api.8crafte
 
 ### Protected Areas Zone Actions Enabled
 
-<template-InDevelopment section="section" version="v1.35.0" />
-
 Whether to enable zone actions for protected areas.
 
 Default: `true`{lang=ts}
@@ -91,8 +87,6 @@ Default: `true`{lang=ts}
 Config: [`config.system.protectedAreasZoneActionsEnabled`{lang=ts}](https://api.8crafter.com/andexdb/stable/classes/Globals.config.system.html#protectedareaszoneactionsenabled)
 
 ### Protected Areas Zone Actions Interval
-
-<template-InDevelopment section="section" version="v1.35.0" />
 
 How often in ticks to execute the zone actions.
 
@@ -107,8 +101,6 @@ Default: `5`{lang=ts}
 Config: [`config.system.protectedAreasZoneActionsInterval`{lang=ts}](https://api.8crafter.com/andexdb/stable/classes/Globals.config.system.html#protectedareaszoneactionsinterval)
 
 ### Protected Areas Zone Refresh Interval
-
-<template-InDevelopment section="section" version="v1.35.0" />
 
 How often in milliseconds to refresh the list of protected areas zones with zone actions.
 
@@ -156,8 +148,6 @@ Config: [`config.system.showEntityScaleFoundChatLog`{lang=ts}](https://api.8craf
 
 ### Show BlueMods Anticheat Not Found Console Log
 
-<template-InDevelopment section="section" version="v1.35.0" />
-
 Whether or not to log to the console when the add-on fails to find a compatible version of [BlueMods Anticheat](/../main/add-ons/bluemods-anticheat) active on startup.
 
 Default: `true`{lang=ts}
@@ -165,8 +155,6 @@ Default: `true`{lang=ts}
 Config: [`config.system.showBlueModsAnticheatNotFoundConsoleLog`{lang=ts}](https://api.8crafter.com/andexdb/stable/classes/Globals.config.system.html#showbluemodsanticheatnotfoundconsolelog)
 
 ### Show BlueMods Anticheat Found Console Log
-
-<template-InDevelopment section="section" version="v1.35.0" />
 
 Whether or not to log to the console when the add-on sucessfully finds a compatible version of [BlueMods Anticheat](/../main/add-ons/bluemods-anticheat) active on startup.
 
@@ -176,8 +164,6 @@ Config: [`config.system.showBlueModsAnticheatFoundConsoleLog`{lang=ts}](https://
 
 ### Show BlueMods Anticheat Not Found Chat Log
 
-<template-InDevelopment section="section" version="v1.35.0" />
-
 Whether or not to log to the chat when the add-on fails to find a compatible version of [BlueMods Anticheat](/../main/add-ons/bluemods-anticheat) active on startup.
 
 Default: `false`{lang=ts}
@@ -185,8 +171,6 @@ Default: `false`{lang=ts}
 Config: [`config.system.showBlueModsAnticheatNotFoundChatLog`{lang=ts}](https://api.8crafter.com/andexdb/stable/classes/Globals.config.system.html#showbluemodsanticheatnotfoundchatlog)
 
 ### Show BlueMods Anticheat Found Chat Log
-
-<template-InDevelopment section="section" version="v1.35.0" />
 
 Whether or not to log to the chat when the add-on sucessfully finds a compatible version of [BlueMods Anticheat](/../main/add-ons/bluemods-anticheat) active on startup.
 

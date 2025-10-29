@@ -4,7 +4,7 @@ page_title: Parameter Types
 description: The list of the command parameter types in this add-on.
 nav_order: 3
 mentions:
-    - Andexter8
+    - 8Crafter
     - stormstqr
 ---
 

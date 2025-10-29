@@ -31,8 +31,19 @@ th,
 td {
   padding: 0.5em 1em;
 
-  &:not(:last-child) {
+  &:not(:last-child):not(:has(+ th[rowspan]:not([rowspan="1"]))):not(
+      :has(+ td[rowspan]:not([rowspan="1"]))
+    ),
+  &:not(:last-child):not([rowspan]:not([rowspan="1"])) {
     border-right: var(--border);
+  }
+  &:not(:last-child):has(+ th[rowspan]:not([rowspan="1"])):not([rowspan]:not([rowspan="1"])),
+  &:not(:last-child):has(+ td[rowspan]:not([rowspan="1"])):not([rowspan]:not([rowspan="1"])) {
+    border-right: none;
+    & + th,
+    & + td {
+      border-left: var(--border);
+    }
   }
   & > p:first-child {
     margin-top: 0;

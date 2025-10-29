@@ -3,7 +3,7 @@ title: Server Shop System
 nav_order: 4
 description: The add-on's server shop system.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

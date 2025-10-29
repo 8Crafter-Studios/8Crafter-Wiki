@@ -9,7 +9,7 @@ tags:
 # nav_order: 4
 thumbnail_url: https://wiki.8crafter.com/main/assets/images/nodejs_program_cover_art/mcbe-mcserver-module-fixer.png
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <img src="/assets/images/icons/missing_pack_icon.png" alt="8Crafter's MCBE @minecraft/server Node Module Unresolvable Dependency Fixer Cover Art" title="8Crafter's MCBE @minecraft/server Node Module Unresolvable Dependency Fixer Cover Art">

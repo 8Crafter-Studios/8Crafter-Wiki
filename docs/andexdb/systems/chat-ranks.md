@@ -3,7 +3,7 @@ title: Chat Ranks System
 nav_order: 4
 description: The add-on's chat ranks system.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

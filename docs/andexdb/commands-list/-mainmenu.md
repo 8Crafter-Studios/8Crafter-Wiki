@@ -5,7 +5,7 @@ description: The \mainmenu command.
 show_outline: false
 category: Main
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Opens up the [Main Menu](../main-menu/main-menu).

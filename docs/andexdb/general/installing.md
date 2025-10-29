@@ -17,11 +17,9 @@ When setting up the add-on you must first make sure that you have the following 
 
 -   Beta APIs
 
--   Creator Cameras: New Third Person Presets
+-   Experimental Camera Creator Features
 
--   Creator Cameras: Focus Target Camera
-
-Also make sure that you have the `Education Edition` toggle enabled.
+Also make sure that you have the `Education Edition` toggle enabled (this is optional but HIGHLY recommended).
 
 Once you have downloaded the add-on and enabled the required experimental toggles continue to the next section.
 

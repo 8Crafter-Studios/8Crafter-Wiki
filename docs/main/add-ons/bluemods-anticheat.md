@@ -10,7 +10,7 @@ tags:
 add-on_namespace: bluemods
 thumbnail_url: https://wiki.8crafter.com/main/assets/images/add-on_cover_art/bluemods.png
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <code>namespace: bluemods</code>

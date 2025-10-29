@@ -3,7 +3,7 @@ title: No AI Entities
 nav_order: 1
 description: How to summon entities with no AI using the add-on.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

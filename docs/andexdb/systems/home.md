@@ -3,7 +3,7 @@ title: Home System
 nav_order: 4
 description: The add-on's home system.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

@@ -3,7 +3,7 @@ title: Outline Renderer
 nav_order: 1
 description: The outline renderer entity.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

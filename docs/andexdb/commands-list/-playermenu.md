@@ -5,7 +5,7 @@ description: The \playermenu command.
 show_outline: false
 category: Main
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Opens up the [Player Menu](../player-menu/player-menu).

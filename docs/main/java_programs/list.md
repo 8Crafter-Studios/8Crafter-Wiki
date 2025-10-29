@@ -3,7 +3,7 @@ title: Java Programs List
 description: List of my Java Programs.
 nav_order: 2
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

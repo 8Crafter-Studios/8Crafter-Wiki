@@ -5,7 +5,7 @@ description: The programmable items in the add-on.
 show_outline: false
 category: Misc.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

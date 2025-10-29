@@ -3,7 +3,7 @@ title: Ban System
 nav_order: 4
 description: The add-on's ban system.
 mentions:
-    - Andexter8
+    - 8Crafter
     - StormStqr
 ---
 

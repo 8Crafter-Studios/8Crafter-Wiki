@@ -3,7 +3,7 @@ title: Changelogs
 description: List of changelogs.
 nav_order: 0
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

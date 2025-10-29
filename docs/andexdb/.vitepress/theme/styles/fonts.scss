@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Mojangles";
-  src: url("/main/assets/fonts/Mojangles.ttf");
+  src: url("/andexdb/assets/fonts/Mojangles.ttf");
   unicode-range: U+000D, U+0020-007E, U+00A0-00FF, U+0131, U+0141-0142, U+0152-0153, U+0160-0161,
     U+0178, U+017D-017E, U+0192, U+02C6-02C7, U+02D8-02DD, U+0394, U+03A9, U+03C0, U+2013-2014,
     U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2074, U+20AC,
@@ -10,28 +10,28 @@
 
 @font-face {
   font-family: Consolas;
-  src: url(/main/assets/fonts/consola.ttf);
+  src: url(/andexdb/assets/fonts/consola.ttf);
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Consolas;
-  src: url(/main/assets/fonts/consolab.ttf);
+  src: url(/andexdb/assets/fonts/consolab.ttf);
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: Consolas;
-  src: url(/main/assets/fonts/consolai.ttf);
+  src: url(/andexdb/assets/fonts/consolai.ttf);
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: Consolas;
-  src: url(/main/assets/fonts/consolaz.ttf);
+  src: url(/andexdb/assets/fonts/consolaz.ttf);
   font-weight: bold;
   font-style: italic;
 }
@@ -39,13 +39,13 @@
 @font-face {
   font-family: "Minecraft";
   src:
-    url("/main/assets/fonts/Minecraft.woff2") format("woff2"),
-    url("/main/assets/fonts/Minecraft.woff") format("woff");
+    url("/andexdb/assets/fonts/Minecraft.woff2") format("woff2"),
+    url("/andexdb/assets/fonts/Minecraft.woff") format("woff");
 }
 
 @font-face {
   font-family: "Minecraft-Five";
-  src: url("/main/assets/fonts/Minecraft-Five-48bb3.otf");
+  src: url("/andexdb/assets/fonts/Minecraft-Five-48bb3.otf");
   unicode-range: U+000D, U+0020-003F, U+0041-007E, U+00A0-00A6, U+00A8-00B1, U+00B4, U+00B6-00B8,
     U+00BB, U+00BF-0148, U+014A-017E, U+01FC-01FF, U+0218-021B, U+0237, U+02C6-02C7, U+02C9,
     U+02D8-02DD, U+0384-0386, U+0388-038A, U+038C, U+038E-03A1, U+03A3-03CE, U+0400-045F,
@@ -57,7 +57,7 @@
 
 @font-face {
   font-family: "Minecraft-Five-Bold";
-  src: url("/main/assets/fonts/Minecraft-Five-Bold-4ded8.otf");
+  src: url("/andexdb/assets/fonts/Minecraft-Five-Bold-4ded8.otf");
   unicode-range: U+000D, U+0020-007E, U+00A0-00A6, U+00A8-00A9, U+00AB-00B1, U+00B4, U+00B6-00B8,
     U+00BB, U+00BF-0148, U+014A-017E, U+01FC-01FF, U+0218-021B, U+0237, U+02C6-02C7, U+02C9,
     U+02D8-02DD, U+0384-0386, U+0388-038A, U+038C, U+038E-03A1, U+03A3-03CE, U+0400-045F,
@@ -70,7 +70,7 @@
 
 @font-face {
   font-family: "Minecraft-Seven";
-  src: url("/main/assets/fonts/Minecraft-Seven-66398.otf");
+  src: url("/andexdb/assets/fonts/Minecraft-Seven-66398.otf");
   unicode-range: U+000D, U+0020-007E, U+00A0-00B1, U+00B4, U+00B6-00B8, U+00BA-00BB, U+00BF-0148,
     U+014A-017E, U+0192, U+01FC-01FF, U+0218-021B, U+0237, U+02C6-02C7, U+02C9, U+02D8-02DD,
     U+0384-0386, U+0388-038A, U+038C, U+038E-03A1, U+03A3-03CE, U+0400-045F, U+0490-0491,
@@ -82,7 +82,7 @@
 
 @font-face {
   font-family: "Minecraft-Seven-v4";
-  src: url("/main/assets/fonts/Minecraft-Seven-v4-c1725.ttf");
+  src: url("/andexdb/assets/fonts/Minecraft-Seven-v4-c1725.ttf");
   unicode-range: U+0020-007E, U+00A0-00AC, U+00AE-017E, U+0192, U+01FC-01FF, U+0218-021B, U+0237,
     U+02C6-02C7, U+02C9, U+02D8-02DD, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03CE, U+0400-045F,
     U+0490-0491, U+1E02-1E03, U+1E0A-1E0B, U+1E1E-1E23, U+1E30-1E31, U+1E40-1E41, U+1E56-1E57,
@@ -93,7 +93,7 @@
 
 @font-face {
   font-family: "Minecraft-Ten";
-  src: url("/main/assets/fonts/Minecraft-Ten-ed29a.otf");
+  src: url("/andexdb/assets/fonts/Minecraft-Ten-ed29a.otf");
   unicode-range: U+000D, U+0020-007E, U+00A0-00A6, U+00A8-00A9, U+00AB-00B1, U+00B4, U+00B6-00B8,
     U+00BB, U+00BF-0148, U+014A-017E, U+0192, U+01FC-01FF, U+0218-021B, U+0237, U+02C6-02C7, U+02C9,
     U+02D8-02DD, U+0384-0386, U+0388-038A, U+038C, U+038E-03A1, U+03A3-03CE, U+0400-045F,
@@ -106,7 +106,7 @@
 @font-face {
   font-family: "NotoSansArabic-Regular";
   font-size-adjust: 0.1%;
-  src: url("/main/assets/fonts/NotoSansArabic-Regular-9137a.ttf"); /* 
+  src: url("/andexdb/assets/fonts/NotoSansArabic-Regular-9137a.ttf"); /* 
     unicode-range: U+000D, U+0020-007E, U+00A0-00A6, U+00A8-00A9, U+00AB-00B1,
         U+00B4, U+00B6-00B8, U+00BB, U+00BF-0148, U+014A-017E, U+0192,
         U+01FC-01FF, U+0218-021B, U+0237, U+02C6-02C7, U+02C9, U+02D8-02DD,

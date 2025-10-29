@@ -3,7 +3,7 @@ title: Add-Ons
 description: All of 8Crafter's Minecraft Bedrock Edition add-ons.
 nav_order: 2
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

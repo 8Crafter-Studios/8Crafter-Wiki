@@ -5,7 +5,7 @@ description: The \tpa command.
 show_outline: false
 category: Main
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Sends a teleport request for the [TPA system](../systems/tpa).
@@ -148,7 +148,7 @@ Renamed [`\rtp`{lang=acmd}](../commands-list/-rtp_(Old)) to `\tpa`{lang=acmd}.
         <tr class="collapsible collapsible-rows">
             <th colspan="8" style="border-bottom: none">
                 <!-- <a href="/w/Pocket_Edition_Alpha" title="Pocket Edition Alpha"> -->
-                    Upcoming Server Utilities
+                    Server Utilities
                 <!-- </a> -->
             </th>
         </tr>

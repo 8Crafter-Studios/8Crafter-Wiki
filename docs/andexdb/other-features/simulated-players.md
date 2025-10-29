@@ -3,7 +3,7 @@ title: Simulated Players
 nav_order: 1
 description: How to use simulated players with the add-on.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

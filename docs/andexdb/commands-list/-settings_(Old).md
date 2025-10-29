@@ -5,7 +5,7 @@ description: The old removed \settings command.
 show_outline: false
 category: Removed
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-OutdatedFeature />

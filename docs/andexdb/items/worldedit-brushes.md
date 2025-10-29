@@ -3,9 +3,9 @@ title: WorldEdit Brushes
 nav_order: 1
 description: The worldedit brushes in the add-on.
 show_outline: false
-category: Misc.
+category: WorldEdit Items
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />
@@ -26,7 +26,7 @@ mentions:
         'andexdb:blue_brush_3',
         'andexdb:blue_brush_4',
     ]"
-    rarity="Epic"
+    rarity="Common"
     renewable="No"
     stackable="Yes (64)"
     dyeable="Yes"

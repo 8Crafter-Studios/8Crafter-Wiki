@@ -5,7 +5,7 @@ description: The \tpdeny command.
 show_outline: false
 category: Main
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Denies teleport requests for the [TPA system](../systems/tpa).
@@ -101,7 +101,7 @@ Any
         <tr class="collapsible collapsible-rows">
             <th colspan="8" style="border-bottom: none">
                 <!-- <a href="/w/Pocket_Edition_Alpha" title="Pocket Edition Alpha"> -->
-                    Upcoming Server Utilities
+                    Server Utilities
                 <!-- </a> -->
             </th>
         </tr>

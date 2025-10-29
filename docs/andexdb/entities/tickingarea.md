@@ -3,7 +3,7 @@ title: Tickingarea
 nav_order: 1
 description: The tickingarea entity.
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

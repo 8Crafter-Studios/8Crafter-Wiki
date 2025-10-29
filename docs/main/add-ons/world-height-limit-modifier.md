@@ -9,7 +9,7 @@ tags:
 add-on_namespace: andexhm
 thumbnail_url: https://wiki.8crafter.com/main/assets/images/add-on_cover_art/andexhm.png
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 <template-Stub />

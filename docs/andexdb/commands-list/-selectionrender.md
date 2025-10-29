@@ -5,7 +5,7 @@ description: The \selectionrender command.
 show_outline: false
 category: WorldEdit
 mentions:
-    - Andexter8
+    - 8Crafter
 ---
 
 Renders the outline of the current selection.
@@ -43,8 +43,6 @@ It uses the pos1 particles for parts of the selection that are closer to the pos
 <indent>Renders the outline of the current selection</indent>
 
 ## Arguments
-
-<template-InDevelopment section="section" version="v1.35.0" />
 
 `[duration: float[?=10]]`{lang=andexdbcmd}: [float](../commands/parameter-types#float)
 
@@ -94,7 +92,7 @@ Added `\selectionrender`{lang=acmd}.
         <tr class="collapsible collapsible-rows">
             <th colspan="8" style="border-bottom: none">
                 <!-- <a href="/w/Pocket_Edition_Alpha" title="Pocket Edition Alpha"> -->
-                    Upcoming Server Utilities
+                    Server Utilities
                 <!-- </a> -->
             </th>
         </tr>

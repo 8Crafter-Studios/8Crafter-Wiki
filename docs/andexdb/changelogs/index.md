@@ -7,5 +7,7 @@ categories:
       color: green
     - title: Pre-Releases
       color: yellow
+    - title: Upcoming
+      color: purple
 hide_from_algolia_search: true
 ---

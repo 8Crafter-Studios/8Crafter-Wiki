@@ -7,7 +7,7 @@ category: Main
 nav_order: 3
 mentions:
     - stormstqr
-    - Andexter8
+    - 8Crafter
 ---
 
 Manages blocks.
