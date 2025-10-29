@@ -12,6 +12,60 @@ mentions:
 
 <CardGrid>
 
+<Card title="v1.41.0" link="./v1.41.0">
+
+**Updated the add-on to 1.21.120!**
+
+</Card>
+
+<Card title="v1.40.3" link="./v1.40.3">
+
+Hotfix update.
+
+</Card>
+
+<Card title="v1.40.2" link="./v1.40.2">
+
+Hotfix update.
+
+</Card>
+
+<Card title="v1.40.1" link="./v1.40.1">
+
+Hotfix update.
+
+</Card>
+
+<Card title="v1.40.0" link="./v1.40.0">
+
+**Updated the add-on to 1.21.110!**
+
+</Card>
+
+<Card title="v1.39.0" link="./v1.39.0">
+
+**Updated the add-on to 1.21.100!**
+
+</Card>
+
+<Card title="v1.38.1" link="./v1.38.1">
+
+Hotfix update.
+
+</Card>
+
+<Card title="v1.38.0" link="./v1.38.0">
+
+**Updated the add-on to 1.21.90!**
+
+</Card>
+
+<Card title="v1.37.1" link="./v1.37.1">
+
+Hotfix update.
+
+</Card>
+
 <Card title="v1.37.0" link="./v1.37.0">
 
 The World Sculpting Update
