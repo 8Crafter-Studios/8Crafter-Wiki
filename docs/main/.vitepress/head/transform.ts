@@ -12,10 +12,10 @@ export function transformHead({ pageData, siteConfig }: TransformContext) {
     const image = `${config.themeConfig.url}/assets/images/homepage/wikilogo.png`;
     const imageAlt = "8Crafter Wiki Logo";
 
-    const path = relativePath.replace(".md", ".html");
+    const path = relativePath.replace(/\.md$/i, ".html");
 
     let url = config.themeConfig.url;
-    if (path !== "index.html") url += `/${path}`;
+    if (path !== "index.html") url += `/${relativePath.replace(/\.(html|md)$/i, "")}`;
 
     const data = {
         // Open Graph (used by Discord)

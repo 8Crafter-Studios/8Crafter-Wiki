@@ -7,19 +7,20 @@ export default function useRedirect(): void {
 
     const router = useRouter();
 
-    function redirect(): void {
-        const from: string = router.route.path.replace(/\.html$/, "");
+    function redirect(from?: string | undefined): void | false {
+        from ??= router.route.path;
+        from = from.replace(/\.(html|md)$/i, "");
 
         const to: string = theme.value.redirects[from];
-        if (to === undefined) return;
+        if (to === undefined) {
+            return;
+        }
 
-        router.go(to).then((): void => {
-            // This removes the trailing `.html` from the URL.
-            if (location.href !== to)
-                history.replaceState({}, "", location.href.replace(/\.html$/, ""));
-        });
+        history.replaceState({}, "", to);
+        router.go(to);
+        return false;
     }
 
     onBeforeMount(redirect);
-    router.onAfterRouteChanged = redirect;
+    router.onBeforeRouteChange = redirect;
 }

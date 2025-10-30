@@ -64,6 +64,8 @@ export default defineConfigWithTheme<ThemeConfig>({
     description: "The wiki for the Minecraft YouTuber and Add-On Creator 8Crafter.",
     base: "/main/", // Replace with your repository name
 
+    cleanUrls: true,
+
     head,
     transformHead,
     transformPageData,
@@ -99,7 +101,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     vue: {
         template: {
             compilerOptions: {
-                isCustomElement: (tag) => ["settings_section", "center", "mcslider"].includes(tag),
+                isCustomElement: (tag) => ["settings_section", "center", "mcslider", "indent"].includes(tag),
             },
         },
     },

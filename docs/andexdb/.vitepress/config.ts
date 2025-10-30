@@ -65,6 +65,8 @@ export default defineConfigWithTheme<ThemeConfig>({
         "The wiki for the Minecraft Bedrock Edition Add-On: 8Crafter's Server Utilities & Debug Sticks.",
     base: "/andexdb/", // Replace with your repository name
 
+    cleanUrls: true,
+
     head,
     transformHead,
     transformPageData,
@@ -110,7 +112,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     vue: {
         template: {
             compilerOptions: {
-                isCustomElement: (tag) => ["settings_section", "center", "mcslider"].includes(tag),
+                isCustomElement: (tag) => ["settings_section", "center", "mcslider", "indent"].includes(tag),
             },
         },
     },

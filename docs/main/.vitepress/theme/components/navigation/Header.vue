@@ -38,7 +38,7 @@ function toggleSidebarVisibility() {
                 </a>
             </li>
         </ul>
-        <a class="header__title" href="/">
+        <a class="header__title" href="/main/">
             <img src="/favicon.gif" alt="" />
             <span>{{ isShortTitle ? "Wiki" : site.title }}</span>
         </a>

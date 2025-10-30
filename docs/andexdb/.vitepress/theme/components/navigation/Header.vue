@@ -38,7 +38,7 @@ function toggleSidebarVisibility() {
                 </a>
             </li>
         </ul>
-        <a class="header__title" href="/">
+        <a class="header__title" href="/andexdb/">
             <img src="/pack_icon.svg" alt="" />
             <span>{{ isShortTitle ? "Wiki" : site.title }}</span>
         </a>
