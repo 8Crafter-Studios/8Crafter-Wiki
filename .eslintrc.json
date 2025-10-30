@@ -38,6 +38,7 @@
         "/docs/andexsl/.vitepress/dist",
         "!docs/andexrp/.vitepress",
         "docs/andexrp/.vitepress/cache",
-        "/docs/andexrp/.vitepress/dist"
+        "/docs/andexrp/.vitepress/dist",
+        "docs/*/public/assets/js/jquery*"
     ]
 }
