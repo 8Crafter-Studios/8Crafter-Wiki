@@ -1,8 +1,9 @@
 *.code-workspace
+!.vscode/*
 .DS_Store
 
-docs/.vitepress/cache
-docs/.vitepress/dist
+docs/*/.vitepress/cache
+docs/*/.vitepress/dist
 testForAlgoliaSearch.js
-docs/andexdb/.vitepress/algolia/keys.env
-docs/andexdb/.vitepress/algolia/.env.local
+docs/*/.vitepress/algolia/keys.env
+docs/*/.vitepress/algolia/.env.local
