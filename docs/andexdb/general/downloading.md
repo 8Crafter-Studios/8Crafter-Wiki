@@ -3,6 +3,8 @@ title: Downloading
 page_title: Downloading
 description: How to download the add-on.
 nav_order: 3
+mentions:
+    - 8Crafter
 ---
 
 To download the add-on click the button below or go to the following link: [https://modbay.org/mods/1240-8crafters-debug-sticks.html#download-links-section](https://modbay.org/mods/1240-8crafters-debug-sticks.html#download-links-section)

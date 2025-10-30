@@ -4,6 +4,8 @@ page_title: Troubleshooting
 description: Troubleshooting for the add-on.
 nav_order: 2
 show_outline: false
+mentions:
+    - 8Crafter
 ---
 
 <Spoiler title="A lot of the items from the add-on are missing from the game.">

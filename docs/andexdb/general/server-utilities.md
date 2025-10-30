@@ -3,6 +3,8 @@ title: General Information
 page_title: General Information
 description: General information about the add-on.
 nav_order: 1
+mentions:
+    - 8Crafter
 ---
 
 <img src="/assets/images/add-on_cover_art/andexdb.png" alt="8Crafter's Server Utilities Cover Art" title="8Crafter's Server Utilities Cover Art">

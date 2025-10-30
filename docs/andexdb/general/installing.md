@@ -3,6 +3,8 @@ title: Installing
 page_title: Installing
 description: How to install the add-on.
 nav_order: 4
+mentions:
+    - 8Crafter
 ---
 
 :::warning IMPORTANT
