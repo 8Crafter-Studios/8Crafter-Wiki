@@ -1,92 +1,92 @@
 .notaninfobox {
-  --infobox-header-background-color: var(--infobox-title-background-color);
-  border: 1px solid var(--infobox-border-color, var(--infobox-title-background-color)) !important;
+    --infobox-header-background-color: var(--infobox-title-background-color);
+    border: 1px solid var(--infobox-border-color, var(--infobox-title-background-color)) !important;
 }
 
 .notaninfobox .infobox-title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 140%;
-  text-shadow: 2px 2px 0 var(--infobox-title-bottom-border-color);
-  margin: 1px 2px 0;
-  background-color: var(--infobox-title-background-color);
-  border-inline: 3px solid var(--infobox-title-border-inline-color) !important;
-  border-top: 3px solid var(--infobox-title-top-border-color) !important;
-  border-bottom: 3px solid var(--infobox-title-bottom-border-color) !important;
+    text-align: center;
+    font-weight: bold;
+    font-size: 140%;
+    text-shadow: 2px 2px 0 var(--infobox-title-bottom-border-color);
+    margin: 1px 2px 0;
+    background-color: var(--infobox-title-background-color);
+    border-inline: 3px solid var(--infobox-title-border-inline-color) !important;
+    border-top: 3px solid var(--infobox-title-top-border-color) !important;
+    border-bottom: 3px solid var(--infobox-title-bottom-border-color) !important;
 }
 
 body.wgl-theme-light .notaninfobox .infobox-title {
-  color: #fff;
+    color: #fff;
 }
 
 .notaninfobox .infobox-title > code {
-  text-shadow: none;
+    text-shadow: none;
 }
 
 .notaninfobox .infobox-title .sprite-file {
-  --vertical-align: middle;
+    --vertical-align: middle;
 }
 
 .notaninfobox .infobox-rows {
-  border-collapse: collapse !important;
+    border-collapse: collapse !important;
 }
 
 .notaninfobox .infobox-rows td {
-  padding-block: 6px;
+    padding-block: 6px;
 }
 
 .infobox-rows tr {
-  border-top: 1px solid;
-  border-color: #ccc;
+    border-top: 1px solid;
+    border-color: #ccc;
 }
 
 body.wgl-theme-dark .infobox-rows tr {
-  border-color: #444;
+    border-color: #444;
 }
 
 body.skin-minerva .notaninfobox .infobox-title {
-  font-size: 120%;
+    font-size: 120%;
 }
 
 body.wgl-theme-dark ul.tabbernav {
-  border-color: #444;
+    border-color: #444;
 }
 
 :root {
-  --infobox-title-background-color: #6ea21e;
-  --infobox-title-top-border-color: #a8c778;
-  --infobox-title-border-inline-color: #618f1a;
-  --infobox-title-bottom-border-color: #537a17;
+    --infobox-title-background-color: #6ea21e;
+    --infobox-title-top-border-color: #a8c778;
+    --infobox-title-border-inline-color: #618f1a;
+    --infobox-title-bottom-border-color: #537a17;
 }
 
 body.rootpage-Minecraft_Dungeons,
 body.rootpage-Talk_Minecraft_Dungeons,
 body.ns-10000,
 body.ns-10001 {
-  --infobox-title-background-color: #c26533;
-  --infobox-title-top-border-color: #daa385;
-  --infobox-title-border-inline-color: #b86030;
-  --infobox-title-bottom-border-color: #a5562b;
+    --infobox-title-background-color: #c26533;
+    --infobox-title-top-border-color: #daa385;
+    --infobox-title-border-inline-color: #b86030;
+    --infobox-title-bottom-border-color: #a5562b;
 }
 
 body.rootpage-Minecraft_Legends,
 body.rootpage-Talk_Minecraft_Legends,
 body.ns-10006,
 body.ns-10007 {
-  --infobox-title-background-color: #00bcaa;
-  --infobox-title-top-border-color: #6ed9cf;
-  --infobox-title-border-inline-color: #00b3a2;
-  --infobox-title-bottom-border-color: #00a091;
+    --infobox-title-background-color: #00bcaa;
+    --infobox-title-top-border-color: #6ed9cf;
+    --infobox-title-border-inline-color: #00b3a2;
+    --infobox-title-bottom-border-color: #00a091;
 }
 
 body.rootpage-Minecraft_Earth,
 body.rootpage-Talk_Minecraft_Earth,
 body.ns-10002,
 body.ns-10003 {
-  --infobox-title-background-color: #2eb06d;
-  --infobox-title-top-border-color: #82d0a7;
-  --infobox-title-border-inline-color: #2ca768;
-  --infobox-title-bottom-border-color: #27965d;
+    --infobox-title-background-color: #2eb06d;
+    --infobox-title-top-border-color: #82d0a7;
+    --infobox-title-border-inline-color: #2ca768;
+    --infobox-title-bottom-border-color: #27965d;
 }
 
 body.rootpage-Minecraft_Story_Mode,
@@ -95,57 +95,57 @@ body.rootpage-Minecraft_Story_Mode_-_Season_Two,
 body.rootpage-Talk_Minecraft_Story_Mode_-_Season_Two,
 body.ns-10004,
 body.ns-10005 {
-  --infobox-title-background-color: #aa8a34;
-  --infobox-title-top-border-color: #c8b37b;
-  --infobox-title-border-inline-color: #a28331;
-  --infobox-title-bottom-border-color: #886e2a;
+    --infobox-title-background-color: #aa8a34;
+    --infobox-title-top-border-color: #c8b37b;
+    --infobox-title-border-inline-color: #a28331;
+    --infobox-title-bottom-border-color: #886e2a;
 }
 
 body.rootpage-A_Minecraft_Movie,
 body.rootpage-Talk_A_Minecraft_Movie,
 body.ns-10012,
 body.ns-10013 {
-  --infobox-title-background-color: #8c664d;
-  --infobox-title-top-border-color: #9e7f6a;
-  --infobox-title-border-inline-color: #926f57;
-  --infobox-title-bottom-border-color: #66442d;
+    --infobox-title-background-color: #8c664d;
+    --infobox-title-top-border-color: #9e7f6a;
+    --infobox-title-border-inline-color: #926f57;
+    --infobox-title-bottom-border-color: #66442d;
 }
 
 body.wgl-theme-dark {
-  --infobox-title-background-color: #0e6a3b;
-  --infobox-title-top-border-color: #328058;
-  --infobox-title-border-inline-color: #075032;
-  --infobox-title-bottom-border-color: #084023;
+    --infobox-title-background-color: #0e6a3b;
+    --infobox-title-top-border-color: #328058;
+    --infobox-title-border-inline-color: #075032;
+    --infobox-title-bottom-border-color: #084023;
 }
 
 body.wgl-theme-dark.rootpage-Minecraft_Dungeons,
 body.wgl-theme-dark.rootpage-Talk_Minecraft_Dungeons,
 body.wgl-theme-dark.ns-10000,
 body.wgl-theme-dark.ns-10001 {
-  --infobox-title-background-color: #833f20;
-  --infobox-title-top-border-color: #a14e27;
-  --infobox-title-border-inline-color: #6e351b;
-  --infobox-title-bottom-border-color: #5b2b16;
+    --infobox-title-background-color: #833f20;
+    --infobox-title-top-border-color: #a14e27;
+    --infobox-title-border-inline-color: #6e351b;
+    --infobox-title-bottom-border-color: #5b2b16;
 }
 
 body.wgl-theme-dark.rootpage-Minecraft_Legends,
 body.wgl-theme-dark.rootpage-Talk_Minecraft_Legends,
 body.wgl-theme-dark.ns-10006,
 body.wgl-theme-dark.ns-10007 {
-  --infobox-title-background-color: #236964;
-  --infobox-title-top-border-color: #44807b;
-  --infobox-title-border-inline-color: #1e5955;
-  --infobox-title-bottom-border-color: #194a46;
+    --infobox-title-background-color: #236964;
+    --infobox-title-top-border-color: #44807b;
+    --infobox-title-border-inline-color: #1e5955;
+    --infobox-title-bottom-border-color: #194a46;
 }
 
 body.wgl-theme-dark.rootpage-Minecraft_Earth,
 body.wgl-theme-dark.rootpage-Talk_Minecraft_Earth,
 body.wgl-theme-dark.ns-10002,
 body.wgl-theme-dark.ns-10003 {
-  --infobox-title-background-color: #0a783f;
-  --infobox-title-top-border-color: #0d8b4a;
-  --infobox-title-border-inline-color: #076635;
-  --infobox-title-bottom-border-color: #05542a;
+    --infobox-title-background-color: #0a783f;
+    --infobox-title-top-border-color: #0d8b4a;
+    --infobox-title-border-inline-color: #076635;
+    --infobox-title-bottom-border-color: #05542a;
 }
 
 body.wgl-theme-dark.rootpage-Minecraft_Story_Mode,
@@ -154,175 +154,175 @@ body.wgl-theme-dark.rootpage-Minecraft_Story_Mode_-_Season_Two,
 body.wgl-theme-dark.rootpage-Talk_Minecraft_Story_Mode_-_Season_Two,
 body.wgl-theme-dark.ns-10004,
 body.wgl-theme-dark.ns-10005 {
-  --infobox-title-background-color: #977c43;
-  --infobox-title-top-border-color: #a7905f;
-  --infobox-title-border-inline-color: #856d3b;
-  --infobox-title-bottom-border-color: #6a572f;
+    --infobox-title-background-color: #977c43;
+    --infobox-title-top-border-color: #a7905f;
+    --infobox-title-border-inline-color: #856d3b;
+    --infobox-title-bottom-border-color: #6a572f;
 }
 
 body.wgl-theme-dark.rootpage-A_Minecraft_Movie,
 body.wgl-theme-dark.rootpage-Talk_A_Minecraft_Movie,
 body.wgl-theme-dark.ns-10012,
 body.wgl-theme-dark.ns-10013 {
-  --infobox-title-background-color: #6b4a35;
-  --infobox-title-top-border-color: #836856;
-  --infobox-title-border-inline-color: #735540;
-  --infobox-title-bottom-border-color: #492c18;
+    --infobox-title-background-color: #6b4a35;
+    --infobox-title-top-border-color: #836856;
+    --infobox-title-border-inline-color: #735540;
+    --infobox-title-bottom-border-color: #492c18;
 }
 
 :root {
-  --infobox-header-background-color: #729fcf;
+    --infobox-header-background-color: #729fcf;
 }
 
 body.rootpage-Minecraft_Dungeons,
 body.rootpage-Talk_Minecraft_Dungeons,
 body.ns-10000,
 body.ns-10001 {
-  --infobox-header-background-color: #c57537;
+    --infobox-header-background-color: #c57537;
 }
 
 body.rootpage-Minecraft_Earth,
 body.rootpage-Talk_Minecraft_Earth,
 body.ns-10002,
 body.ns-10003 {
-  --infobox-header-background-color: #4d83ff;
+    --infobox-header-background-color: #4d83ff;
 }
 
 body.rootpage-Minecraft_Legends,
 body.rootpage-Talk_Minecraft_Legends,
 body.ns-10006,
 body.ns-10007 {
-  --infobox-header-background-color: #11aaaa;
+    --infobox-header-background-color: #11aaaa;
 }
 
 .invslot {
-  box-sizing: unset;
-  position: relative;
-  display: inline-block;
-  background: #8b8b8b no-repeat center center / 32px 32px;
-  border: 2px solid;
-  border-color: #373737 #fff #fff #373737;
-  width: 32px;
-  height: 32px;
-  font-size: 16px;
-  line-height: 1;
-  text-align: left;
-  vertical-align: bottom;
+    box-sizing: unset;
+    position: relative;
+    display: inline-block;
+    background: #8b8b8b no-repeat center center / 32px 32px;
+    border: 2px solid;
+    border-color: #373737 #fff #fff #373737;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 1;
+    text-align: left;
+    vertical-align: bottom;
 }
 
 .invslot::before,
 .invslot::after {
-  content: "";
-  position: absolute;
-  background-color: #8b8b8b;
-  height: 2px;
-  width: 2px;
-  pointer-events: none;
+    content: "";
+    position: absolute;
+    background-color: #8b8b8b;
+    height: 2px;
+    width: 2px;
+    pointer-events: none;
 }
 
 .invslot::before {
-  bottom: -2px;
-  left: -2px;
+    bottom: -2px;
+    left: -2px;
 }
 
 .invslot::after {
-  top: -2px;
-  right: -2px;
+    top: -2px;
+    right: -2px;
 }
 
 .invslot-large {
-  padding: 8px;
+    padding: 8px;
 }
 
 .invslot-item,
 .invslot-item a:first-child {
-  box-sizing: unset;
-  position: relative;
-  display: block;
-  margin: -2px;
-  padding: 2px;
-  width: 32px;
-  height: 32px;
+    box-sizing: unset;
+    position: relative;
+    display: block;
+    margin: -2px;
+    padding: 2px;
+    width: 32px;
+    height: 32px;
 }
 
 .invslot-item > span > span:has(img.mw-file-element) {
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  & > img.mw-file-element {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-  }
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    & > img.mw-file-element {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+    }
 }
 
 .invslot-item-image a.new:first-child,
 .invslot-item-image:has(img[src=""]),
 .invslot-item-image:has(img:not([src])) {
-  background: url(/andexdb/assets/images/ui/Grid_Unknown.png) no-repeat content-box;
-  width: 32px;
-  height: 32px;
-  text-indent: -9999px;
-  overflow: hidden;
+    background: url(/andexdb/assets/images/ui/Grid_Unknown.png) no-repeat content-box;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    overflow: hidden;
 }
 
 .invslot-stacksize {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  font-family: Minecraft, sans-serif !important;
-  font-weight: normal !important;
-  color: #fff !important;
-  text-shadow: 2px 2px 0 #3f3f3f;
-  filter: dropshadow(color=#3F3F3F, offx=2, offy=2);
-  z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-family: Minecraft, sans-serif !important;
+    font-weight: normal !important;
+    color: #fff !important;
+    text-shadow: 2px 2px 0 #3f3f3f;
+    filter: dropshadow(color=#3F3F3F, offx=2, offy=2);
+    z-index: 2;
 }
 
 .invslot-plain {
-  background-color: transparent;
-  border: 0;
+    background-color: transparent;
+    border: 0;
 }
 
 .invslot-plain::before,
 .invslot-plain::after {
-  content: none;
+    content: none;
 }
 
 .invslot-plain > .invslot-item,
 .invslot-plain > .invslot-item a:first-child {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .invslot-default-head {
-  background-image: url(/andexdb/assets/images/ui/Grid_layout_Head_Empty.png);
+    background-image: url(/andexdb/assets/images/ui/Grid_layout_Head_Empty.png);
 }
 
 .invslot-default-chest {
-  background-image: url(/andexdb/assets/images/ui/Grid_layout_Chest_Empty.png);
+    background-image: url(/andexdb/assets/images/ui/Grid_layout_Chest_Empty.png);
 }
 
 .invslot-default-legs {
-  background-image: url(/andexdb/assets/images/ui/Grid_layout_Legs_Empty.png);
+    background-image: url(/andexdb/assets/images/ui/Grid_layout_Legs_Empty.png);
 }
 
 .invslot-default-feet {
-  background-image: url(/andexdb/assets/images/ui/Grid_layout_Feet_Empty.png);
+    background-image: url(/andexdb/assets/images/ui/Grid_layout_Feet_Empty.png);
 }
 
 .invslot-default-offhand {
-  background-image: url(/andexdb/assets/images/ui/Grid_layout_Offhand_Empty.png);
+    background-image: url(/andexdb/assets/images/ui/Grid_layout_Offhand_Empty.png);
 }
 
 .invslot-default-smithing {
-  background-image: url(/andexdb/assets/images/ui/Grid_layout_Smithing_Empty.png);
+    background-image: url(/andexdb/assets/images/ui/Grid_layout_Smithing_Empty.png);
 }
 
 .invslot-default-brewing {
-  background-image: url(/andexdb/assets/images/ui/Grid_layout_Brewing_Empty.png);
+    background-image: url(/andexdb/assets/images/ui/Grid_layout_Brewing_Empty.png);
 }
 
 .invslot-default-brewing-fuel {
-  background-image: url(/andexdb/assets/images/ui/Grid_layout_Brewing_Fuel_Empty.png);
+    background-image: url(/andexdb/assets/images/ui/Grid_layout_Brewing_Fuel_Empty.png);
 }

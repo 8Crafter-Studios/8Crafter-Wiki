@@ -10,13 +10,13 @@ export const docsDirectory = resolve(import.meta.dirname, "../..");
 export default generateSidebar();
 
 function generateSidebar() {
-  const sidebar: Sidebar = {
-    links: [],
-    sections: [],
-  };
+    const sidebar: Sidebar = {
+        links: [],
+        sections: [],
+    };
 
-  resolveLinks(sidebar);
-  resolveSections(sidebar);
+    resolveLinks(sidebar);
+    resolveSections(sidebar);
 
-  return sidebar;
+    return sidebar;
 }

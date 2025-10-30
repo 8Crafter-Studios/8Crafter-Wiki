@@ -11,7 +11,7 @@ mentions:
 
 This page only applies to versions of the add-on prior to v1.33.0.
 
-If you are using a version from v1.33.0 to v1.34.x, please see the [TPA System (Pre 1.35.0)](../systems/tpa_(Pre_1.35.0)) page.
+If you are using a version from v1.33.0 to v1.34.x, please see the [TPA System (Pre 1.35.0)](<../systems/tpa_(Pre_1.35.0)>) page.
 
 If you are using v1.35.0 or newer, please see the [TPA System](../systems/tpa) page.
 

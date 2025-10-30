@@ -11,72 +11,72 @@ defineProps<SidebarLink>();
 const element = ref<HTMLLIElement>();
 
 function activate() {
-  setTimeout(() => {
-    element.value?.scrollIntoView({
-      behavior: "smooth",
-      block: "center",
+    setTimeout(() => {
+        element.value?.scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+        });
     });
-  });
 }
 const mdUtils = md.default().utils;
 </script>
 
 <template>
-  <li ref="element" class="sidebar__link">
-    <NavLink
-      :link
-      :active-match="`^${mdUtils.escapeRE(link)}($|\\.)`"
-      @change="(isActive) => isActive && activate()"
-    >
-      <div>
-        <strong v-if="prefix !== undefined">{{ prefix }}</strong>
-        <span>{{ title }}</span>
-      </div>
-      <div v-if="tags !== undefined" class="sidebar__link__tags">
-        <Tag v-for="name in tags" :key="name" :name sidebar />
-      </div>
-    </NavLink>
-  </li>
+    <li ref="element" class="sidebar__link">
+        <NavLink
+            :link
+            :active-match="`^${mdUtils.escapeRE(link)}($|\\.)`"
+            @change="(isActive) => isActive && activate()"
+        >
+            <div>
+                <strong v-if="prefix !== undefined">{{ prefix }}</strong>
+                <span>{{ title }}</span>
+            </div>
+            <div v-if="tags !== undefined" class="sidebar__link__tags">
+                <Tag v-for="name in tags" :key="name" :name sidebar />
+            </div>
+        </NavLink>
+    </li>
 </template>
 
 <style lang="scss">
 .sidebar__link {
-  margin-block: 0.3rem;
+    margin-block: 0.3rem;
 
-  a {
-    display: flex;
-    align-items: center;
-    color: inherit;
-    padding-block: 5px;
-    gap: 5px;
-    padding-inline: 0.5rem 5px;
-    font-size: 0.9rem;
-    line-height: 1.2;
-    position: relative;
+    a {
+        display: flex;
+        align-items: center;
+        color: inherit;
+        padding-block: 5px;
+        gap: 5px;
+        padding-inline: 0.5rem 5px;
+        font-size: 0.9rem;
+        line-height: 1.2;
+        position: relative;
 
-    &:hover,
-    &.active {
-      text-decoration: none;
+        &:hover,
+        &.active {
+            text-decoration: none;
+        }
+
+        &:hover {
+            background-color: #00000044;
+        }
+
+        &.active {
+            background-color: #00000022;
+            font-weight: 600;
+        }
     }
 
-    &:hover {
-      background-color: #00000044;
+    &__tags {
+        margin-left: auto;
+        text-align: right;
+        margin-bottom: -0.5em;
     }
 
-    &.active {
-      background-color: #00000022;
-      font-weight: 600;
+    &__tags > div.label {
+        margin-bottom: 0.5em;
     }
-  }
-
-  &__tags {
-    margin-left: auto;
-    text-align: right;
-    margin-bottom: -0.5em;
-  }
-
-  &__tags > div.label {
-    margin-bottom: 0.5em;
-  }
 }
 </style>

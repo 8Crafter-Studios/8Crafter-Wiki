@@ -107,13 +107,16 @@ import * as fs from "fs";
 console.log(`Version: ${format_version}`);
 
 // Corrupt the image with each pixel having a 50% chance of being corrupted, using the "randomColor" mode, and save it to ../assets/sample_images/corruptedImage-1.png.
-fs.writeFileSync("./assets/sample_images/corruptedImage-1.png", await corruptImage("./assets/test-image-2.png", {
-    ignoreEmptyPixels: false,
-    ignoreInvisiblePixels: false,
-    replaceChance: 0.5,
-    preserveAlpha: false,
-    mode: "randomColor",
-}));
+fs.writeFileSync(
+    "./assets/sample_images/corruptedImage-1.png",
+    await corruptImage("./assets/test-image-2.png", {
+        ignoreEmptyPixels: false,
+        ignoreInvisiblePixels: false,
+        replaceChance: 0.5,
+        preserveAlpha: false,
+        mode: "randomColor",
+    })
+);
 
 // Corrupt the image with each pixel having a 75% chance of being corrupted, using the "randomColorFullBrightness" mode, using the current pixel color as the default color, and save it to ../assets/sample_images/corruptedImage-2.jpg.
 fs.writeFileSync(

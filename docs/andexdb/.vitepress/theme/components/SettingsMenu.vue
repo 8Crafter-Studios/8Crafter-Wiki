@@ -12,222 +12,235 @@ const theme = useStorage("vitepress-theme-appearance-value", "auto");
 const prefersDark = useMediaQuery("(prefers-color-scheme: dark)");
 
 watchPostEffect(() => {
-  isDark.value = theme.value === "auto" ? prefersDark.value : theme.value === "dark";
+    isDark.value = theme.value === "auto" ? prefersDark.value : theme.value === "dark";
 });
 onMounted(async () => {
-  const themeDisplayMapping = {
-    get auto() {
-      return window.matchMedia
-        ? window.matchMedia("(prefers-color-scheme: dark)").matches
-          ? "Auto (Dark)"
-          : "Auto (Light)"
-        : "Auto";
-    },
-    dark: "Dark",
-    light: "Light",
-    BlueTheme: "Blue",
-  };
-  const themeDisplayMappingB = {
-    get auto() {
-      return window.matchMedia
-        ? window.matchMedia("(prefers-color-scheme: dark)").matches
-          ? "dark"
-          : "light"
-        : "dark";
-    },
-    dark: "dark",
-    light: "light",
-    BlueTheme: "BlueTheme",
-  };
-  /**
-   *
-   * @param {(rule: CSSStyleDeclaration, ruleName: string, styleSheet: CSSStyleSheet)=>any} callbackfn
-   * @returns
-   */
-  function forEachRuleCallback(
-    callbackfn: (rule: CSSStyleDeclaration, ruleName: string, styleSheet: CSSStyleSheet) => any
-  ) {
-    for (var i = 0; i < document.styleSheets.length; i++) {
-      var ix: number,
-        sheet = document.styleSheets[i];
-      for (ix = 0; ix < sheet.cssRules.length; ix++) {
-        callbackfn(
-          (sheet.cssRules.item(ix) as CSSStyleRule)?.style,
-          (sheet.cssRules[ix] as CSSStyleRule).selectorText,
-          sheet
-        );
-      }
-    }
-    return null;
-  }
-  /**
-   *
-   * @param {'auto'|'dark'|'light'|'BlueTheme'} theme
-   */
-  function changeThemeCSS(theme: "auto" | "dark" | "light" | "BlueTheme") {
-    if (!["auto", "dark", "light", "BlueTheme"].includes(theme)) {
-      throw new TypeError("Invalid CSS Theme Value: " + JSON.stringify(theme));
-    }
-    try {
-      $("#themeDropdown > #dropdowncontents").find(`input[id='${theme}']`).prop("checked", true);
-      $("#themeDropdownButtonSelectedOptionTextDisplay").text(themeDisplayMapping[theme]);
-      $("#themeDropdownAutoOptionLabel").text(themeDisplayMapping.auto);
-    } catch (e) {
-      console.error(e?.toString(), (e as Error | undefined)?.stack);
-    }
-    forEachRuleCallback((rule: CSSStyleDeclaration) => {
-      if (
-        rule?.cssText?.match(
-          /(?<=(?:[\n\s;{]|^)---theme-var-switcher--[a-zA-Z0-9\-_]+[\n\s]*:[\n\s]*var\([\n\s]*--[a-zA-Z0-9\-_]*)(?:light|dark|BlueTheme)(?=[a-zA-Z0-9\-_]*[\n\s]*\)[\n\s]*;?)/
-        )
-      ) {
-        rule.cssText = rule.cssText.replaceAll(
-          /(?<=(?:[\n\s;{]|^)---theme-var-switcher--[a-zA-Z0-9\-_]+[\n\s]*:[\n\s]*var\([\n\s]*--[a-zA-Z0-9\-_]*)(?:light|dark|BlueTheme)(?=[a-zA-Z0-9\-_]*[\n\s]*\)[\n\s]*;?)/g,
-          theme == "auto"
-            ? window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
-              ? "dark"
-              : "light"
-            : theme
-        );
-      }
-    });
-    if (theme == "auto") {
-      if (themeDisplayMappingB.auto == "dark") {
-        $(".btn > span").addClass("preventinvert");
-        $(":root").addClass("dark_theme");
-        $(":root").removeClass("light_theme blue_theme");
-      } else {
-        $(".btn > span").removeClass("preventinvert");
-        $(":root").addClass("light_theme");
-        $(":root").removeClass("dark_theme blue_theme");
-      }
-    } else if (theme == "dark") {
-      $(".btn > span").addClass("preventinvert");
-      $(":root").addClass("dark_theme");
-      $(":root").removeClass("light_theme blue_theme");
-    } else if (theme == "light") {
-      $(".btn > span").removeClass("preventinvert");
-      $(":root").addClass("light_theme");
-      $(":root").removeClass("dark_theme blue_theme");
-    } else if (theme == "BlueTheme") {
-      $(".btn > span").removeClass("preventinvert");
-      $(":root").addClass("blue_theme");
-      $(":root").removeClass("dark_theme light_theme");
-    } else {
-      $(".btn > span").removeClass("preventinvert");
-      $(":root").addClass("light_theme");
-      $(":root").removeClass("dark_theme blue_theme");
-    }
-  }
-  for (const elem of $("select[name='theme']").on("change", function (this: HTMLSelectElement) {
-    $("#themeDropdownButtonSelectedOptionTextDisplay").text(themeDisplayMapping[this.value]);
-    changeThemeCSS(this.value as any);
-    $(".themeDropdownOption > #" + this.value).prop("checked", true);
-  })) {
-    elem.dispatchEvent(new Event("change"));
-  }
-  $(".themeDropdownOption").on("click", function (this: HTMLInputElement) {
-    $(this).find("input[type='radio']").prop("checked", true);
-    for (const elem of $("select[name='theme']").prop(
-      "value",
-      $(this).find("input[type='radio']").prop("id")
-    )) {
-      elem.dispatchEvent(new Event("change"));
-    }
-  });
-  $('input[name="settings_section"]').change(() => {
-    try {
-      const id = $('input[name="settings_section"]:checked').attr("id")?.slice(23);
-      $("#settings_menu > settings_section").each((_i, section) => {
-        if ($(section).attr("id")?.slice(0, -17) === id) {
-          $(section).get(0)!.style.display = "";
-        } else {
-          $(section).get(0)!.style.display = "none";
+    const themeDisplayMapping = {
+        get auto() {
+            return (
+                window.matchMedia ?
+                    window.matchMedia("(prefers-color-scheme: dark)").matches ?
+                        "Auto (Dark)"
+                    :   "Auto (Light)"
+                :   "Auto"
+            );
+        },
+        dark: "Dark",
+        light: "Light",
+        BlueTheme: "Blue",
+    };
+    const themeDisplayMappingB = {
+        get auto() {
+            return (
+                window.matchMedia ?
+                    window.matchMedia("(prefers-color-scheme: dark)").matches ?
+                        "dark"
+                    :   "light"
+                :   "dark"
+            );
+        },
+        dark: "dark",
+        light: "light",
+        BlueTheme: "BlueTheme",
+    };
+    /**
+     *
+     * @param {(rule: CSSStyleDeclaration, ruleName: string, styleSheet: CSSStyleSheet)=>any} callbackfn
+     * @returns
+     */
+    function forEachRuleCallback(
+        callbackfn: (rule: CSSStyleDeclaration, ruleName: string, styleSheet: CSSStyleSheet) => any
+    ) {
+        for (var i = 0; i < document.styleSheets.length; i++) {
+            var ix: number,
+                sheet = document.styleSheets[i];
+            for (ix = 0; ix < sheet.cssRules.length; ix++) {
+                callbackfn(
+                    (sheet.cssRules.item(ix) as CSSStyleRule)?.style,
+                    (sheet.cssRules[ix] as CSSStyleRule).selectorText,
+                    sheet
+                );
+            }
         }
-      });
-    } catch (e) {
-      console.error(e, (e as any)?.stack);
+        return null;
     }
-  });
+    /**
+     *
+     * @param {'auto'|'dark'|'light'|'BlueTheme'} theme
+     */
+    function changeThemeCSS(theme: "auto" | "dark" | "light" | "BlueTheme") {
+        if (!["auto", "dark", "light", "BlueTheme"].includes(theme)) {
+            throw new TypeError("Invalid CSS Theme Value: " + JSON.stringify(theme));
+        }
+        try {
+            $("#themeDropdown > #dropdowncontents")
+                .find(`input[id='${theme}']`)
+                .prop("checked", true);
+            $("#themeDropdownButtonSelectedOptionTextDisplay").text(themeDisplayMapping[theme]);
+            $("#themeDropdownAutoOptionLabel").text(themeDisplayMapping.auto);
+        } catch (e) {
+            console.error(e?.toString(), (e as Error | undefined)?.stack);
+        }
+        forEachRuleCallback((rule: CSSStyleDeclaration) => {
+            if (
+                rule?.cssText?.match(
+                    /(?<=(?:[\n\s;{]|^)---theme-var-switcher--[a-zA-Z0-9\-_]+[\n\s]*:[\n\s]*var\([\n\s]*--[a-zA-Z0-9\-_]*)(?:light|dark|BlueTheme)(?=[a-zA-Z0-9\-_]*[\n\s]*\)[\n\s]*;?)/
+                )
+            ) {
+                rule.cssText = rule.cssText.replaceAll(
+                    /(?<=(?:[\n\s;{]|^)---theme-var-switcher--[a-zA-Z0-9\-_]+[\n\s]*:[\n\s]*var\([\n\s]*--[a-zA-Z0-9\-_]*)(?:light|dark|BlueTheme)(?=[a-zA-Z0-9\-_]*[\n\s]*\)[\n\s]*;?)/g,
+                    theme == "auto" ?
+                        (
+                            window.matchMedia &&
+                            window.matchMedia("(prefers-color-scheme: dark)").matches
+                        ) ?
+                            "dark"
+                        :   "light"
+                    :   theme
+                );
+            }
+        });
+        if (theme == "auto") {
+            if (themeDisplayMappingB.auto == "dark") {
+                $(".btn > span").addClass("preventinvert");
+                $(":root").addClass("dark_theme");
+                $(":root").removeClass("light_theme blue_theme");
+            } else {
+                $(".btn > span").removeClass("preventinvert");
+                $(":root").addClass("light_theme");
+                $(":root").removeClass("dark_theme blue_theme");
+            }
+        } else if (theme == "dark") {
+            $(".btn > span").addClass("preventinvert");
+            $(":root").addClass("dark_theme");
+            $(":root").removeClass("light_theme blue_theme");
+        } else if (theme == "light") {
+            $(".btn > span").removeClass("preventinvert");
+            $(":root").addClass("light_theme");
+            $(":root").removeClass("dark_theme blue_theme");
+        } else if (theme == "BlueTheme") {
+            $(".btn > span").removeClass("preventinvert");
+            $(":root").addClass("blue_theme");
+            $(":root").removeClass("dark_theme light_theme");
+        } else {
+            $(".btn > span").removeClass("preventinvert");
+            $(":root").addClass("light_theme");
+            $(":root").removeClass("dark_theme blue_theme");
+        }
+    }
+    for (const elem of $("select[name='theme']").on("change", function (this: HTMLSelectElement) {
+        $("#themeDropdownButtonSelectedOptionTextDisplay").text(themeDisplayMapping[this.value]);
+        changeThemeCSS(this.value as any);
+        $(".themeDropdownOption > #" + this.value).prop("checked", true);
+    })) {
+        elem.dispatchEvent(new Event("change"));
+    }
+    $(".themeDropdownOption").on("click", function (this: HTMLInputElement) {
+        $(this).find("input[type='radio']").prop("checked", true);
+        for (const elem of $("select[name='theme']").prop(
+            "value",
+            $(this).find("input[type='radio']").prop("id")
+        )) {
+            elem.dispatchEvent(new Event("change"));
+        }
+    });
+    $('input[name="settings_section"]').change(() => {
+        try {
+            const id = $('input[name="settings_section"]:checked').attr("id")?.slice(23);
+            $("#settings_menu > settings_section").each((_i, section) => {
+                if ($(section).attr("id")?.slice(0, -17) === id) {
+                    $(section).get(0)!.style.display = "";
+                } else {
+                    $(section).get(0)!.style.display = "none";
+                }
+            });
+        } catch (e) {
+            console.error(e, (e as any)?.stack);
+        }
+    });
 });
 </script>
 
 <template>
-  <div
-    id="settings_menu"
-    class="overlay_page blur_behind_5px"
-    aria-hidden
-    style="display: none; z-index: 199; line-height: 16px; font-family: Mojangles"
-  >
-    <div class="use_menu_background overlay_page" style="z-index: -1; opacity: 0.5"></div>
-    <div id="settings_menu_internal_options_components" style="display: none">
-      <select v-model="theme" name="theme" title="Change Theme">
-        <option value="auto">System</option>
-        <option value="dark">Dark</option>
-        <option value="light">Light</option>
-      </select>
-    </div>
     <div
-      style="border-right: 1px solid #cccccc; border-bottom: 1px solid #cccccc; position: absolute"
+        id="settings_menu"
+        class="overlay_page blur_behind_5px"
+        aria-hidden
+        style="display: none; z-index: 199; line-height: 16px; font-family: Mojangles"
     >
-      <button
-        id="settings_left_sidebar_toggle_button"
-        type="button"
-        onclick="$('#settings_left_sidebar').toggle('slide'); if($(this).attr('mode')=='1'){$(this).text('Show'); $(this).attr('mode', '0');}else{$(this).text('Hide'); $(this).attr('mode', '1')}"
-        class="btn nsel"
-        style="float: left; width: 60px"
-        ontouchstart=""
-        mode="1"
-      >
-        Hide
-      </button>
-    </div>
-    <div
-      id="settings_left_sidebar"
-      class="no_margins"
-      style="
-        width: 60px;
-        height: -webkit-fill-available;
-        margin-top: 32px;
-        overflow-y: auto;
-        float: left;
-        border-right: 1px solid #cccccc;
-      "
-    >
-      <label
-        ontouchstart=""
-        for="settings_section_radio_video"
-        class="radio_button_container_label"
-        style="width: -webkit-fill-available"
-      >
-        <input
-          id="settings_section_radio_video"
-          type="radio"
-          name="settings_section"
-          style="display: none"
-          class="no-remove-disabled nsel"
-          title="Video"
-          checked
-        />
-        <div class="no-remove-disabled nsel">Video</div>
-      </label>
-      <label
-        ontouchstart=""
-        for="settings_section_radio_debug"
-        class="radio_button_container_label"
-        style="width: -webkit-fill-available"
-      >
-        <input
-          id="settings_section_radio_debug"
-          type="radio"
-          name="settings_section"
-          style="display: none"
-          class="no-remove-disabled nsel"
-          title="Debug"
-        />
-        <div class="no-remove-disabled nsel">Debug</div>
-      </label>
-      <!-- <label
+        <div class="use_menu_background overlay_page" style="z-index: -1; opacity: 0.5"></div>
+        <div id="settings_menu_internal_options_components" style="display: none">
+            <select v-model="theme" name="theme" title="Change Theme">
+                <option value="auto">System</option>
+                <option value="dark">Dark</option>
+                <option value="light">Light</option>
+            </select>
+        </div>
+        <div
+            style="
+                border-right: 1px solid #cccccc;
+                border-bottom: 1px solid #cccccc;
+                position: absolute;
+            "
+        >
+            <button
+                id="settings_left_sidebar_toggle_button"
+                type="button"
+                onclick="$('#settings_left_sidebar').toggle('slide'); if($(this).attr('mode')=='1'){$(this).text('Show'); $(this).attr('mode', '0');}else{$(this).text('Hide'); $(this).attr('mode', '1')}"
+                class="btn nsel"
+                style="float: left; width: 60px"
+                ontouchstart=""
+                mode="1"
+            >
+                Hide
+            </button>
+        </div>
+        <div
+            id="settings_left_sidebar"
+            class="no_margins"
+            style="
+                width: 60px;
+                height: -webkit-fill-available;
+                margin-top: 32px;
+                overflow-y: auto;
+                float: left;
+                border-right: 1px solid #cccccc;
+            "
+        >
+            <label
+                ontouchstart=""
+                for="settings_section_radio_video"
+                class="radio_button_container_label"
+                style="width: -webkit-fill-available"
+            >
+                <input
+                    id="settings_section_radio_video"
+                    type="radio"
+                    name="settings_section"
+                    style="display: none"
+                    class="no-remove-disabled nsel"
+                    title="Video"
+                    checked
+                />
+                <div class="no-remove-disabled nsel">Video</div>
+            </label>
+            <label
+                ontouchstart=""
+                for="settings_section_radio_debug"
+                class="radio_button_container_label"
+                style="width: -webkit-fill-available"
+            >
+                <input
+                    id="settings_section_radio_debug"
+                    type="radio"
+                    name="settings_section"
+                    style="display: none"
+                    class="no-remove-disabled nsel"
+                    title="Debug"
+                />
+                <div class="no-remove-disabled nsel">Debug</div>
+            </label>
+            <!-- <label
         ontouchstart=""
         for="settings_section_radio_audio"
         class="radio_button_container_label"
@@ -243,10 +256,10 @@ onMounted(async () => {
         />
         <div class="no-remove-disabled nsel">Audio</div>
       </label> -->
-    </div>
-    <settings_section id="video_settings_section" class="settings_section">
-      <center><h1 style="font-size: revert; margin: revert">Video Settings</h1></center>
-      <!-- <div
+        </div>
+        <settings_section id="video_settings_section" class="settings_section">
+            <center><h1 style="font-size: revert; margin: revert">Video Settings</h1></center>
+            <!-- <div
         class="mctogglecontainer nsel"
         ontouchstart=""
         onclick="{let checkbox = $(this).find('input[type=\'checkbox\']'); checkbox.prop('checked', !checkbox.prop('checked'))}"
@@ -333,77 +346,83 @@ onMounted(async () => {
         />
       </mcslider>
       <br /> -->
-      <div id="themeDropdown" class="mcdropdown nsel" style="display: inline-block">
-        Theme
-        <br />
-        <button
-          id="dropdownbutton"
-          class="btn"
-          type="button"
-          ontouchstart=""
-          style="min-width: 140px; text-align: left"
-          onclick="if($(this).parent().find('#dropdowncontents').prop('hidden')){$(this).find('#cv').prop('hidden', true); $(this).find('#cvsel').prop('hidden', false); $(this).parent().find('#dropdowncontents').prop('hidden', false)}else{$(this).find('#cv').prop('hidden', false); $(this).find('#cvsel').prop('hidden', true); $(this).parent().find('#dropdowncontents').prop('hidden', true)}"
-        >
-          <span id="themeDropdownButtonSelectedOptionTextDisplay"
-            >Auto {{ prefersDark ? "(Dark)" : "(Light)" }}</span
-          >
-          <div
-            style="width: 11px; height: 11px; margin: 0px; padding: 0px; display: inline-block"
-          ></div>
-          <img
-            id="cv"
-            src="/assets/images/ui/dropdown/dropdown_chevron.png"
-            inert
-            class="nsel"
-            style="right: 7px; top: 10px; position: absolute"
-          />
-          <img
-            id="cvsel"
-            src="/assets/images/ui/dropdown/dropdown_chevron_up.png"
-            inert
-            class="nsel"
-            style="right: 7px; top: 10px; position: absolute"
-            hidden
-          />
-        </button>
-        <div id="dropdowncontents" hidden style="display: flex">
-          <div style="flex-grow: 1; width: 0">
-            <div class="mcdropdownoption themeDropdownOption" ontouchstart="">
-              <input
-                id="auto"
-                type="radio"
-                name="themeDropdown"
-                value="auto"
-                class="mcradio themeDropdownOptionInput"
-              />
-              <div class="mcradiocheckbox"></div>
-              <label id="themeDropdownAutoOptionLabel" for="auto"
-                >Auto {{ prefersDark ? "(Dark)" : "(Light)" }}</label
-              >
-            </div>
-            <div class="mcdropdownoption themeDropdownOption" ontouchstart="">
-              <input
-                id="dark"
-                type="radio"
-                name="themeDropdown"
-                value="dark"
-                class="mcradio themeDropdownOptionInput"
-              />
-              <div class="mcradiocheckbox"></div>
-              <label for="dark">Dark</label>
-            </div>
-            <div class="mcdropdownoption themeDropdownOption" ontouchstart="">
-              <input
-                id="light"
-                type="radio"
-                name="themeDropdown"
-                value="light"
-                class="mcradio themeDropdownOptionInput"
-              />
-              <div class="mcradiocheckbox"></div>
-              <label for="light">Light</label>
-            </div>
-            <!-- <div
+            <div id="themeDropdown" class="mcdropdown nsel" style="display: inline-block">
+                Theme
+                <br />
+                <button
+                    id="dropdownbutton"
+                    class="btn"
+                    type="button"
+                    ontouchstart=""
+                    style="min-width: 140px; text-align: left"
+                    onclick="if($(this).parent().find('#dropdowncontents').prop('hidden')){$(this).find('#cv').prop('hidden', true); $(this).find('#cvsel').prop('hidden', false); $(this).parent().find('#dropdowncontents').prop('hidden', false)}else{$(this).find('#cv').prop('hidden', false); $(this).find('#cvsel').prop('hidden', true); $(this).parent().find('#dropdowncontents').prop('hidden', true)}"
+                >
+                    <span id="themeDropdownButtonSelectedOptionTextDisplay"
+                        >Auto {{ prefersDark ? "(Dark)" : "(Light)" }}</span
+                    >
+                    <div
+                        style="
+                            width: 11px;
+                            height: 11px;
+                            margin: 0px;
+                            padding: 0px;
+                            display: inline-block;
+                        "
+                    ></div>
+                    <img
+                        id="cv"
+                        src="/assets/images/ui/dropdown/dropdown_chevron.png"
+                        inert
+                        class="nsel"
+                        style="right: 7px; top: 10px; position: absolute"
+                    />
+                    <img
+                        id="cvsel"
+                        src="/assets/images/ui/dropdown/dropdown_chevron_up.png"
+                        inert
+                        class="nsel"
+                        style="right: 7px; top: 10px; position: absolute"
+                        hidden
+                    />
+                </button>
+                <div id="dropdowncontents" hidden style="display: flex">
+                    <div style="flex-grow: 1; width: 0">
+                        <div class="mcdropdownoption themeDropdownOption" ontouchstart="">
+                            <input
+                                id="auto"
+                                type="radio"
+                                name="themeDropdown"
+                                value="auto"
+                                class="mcradio themeDropdownOptionInput"
+                            />
+                            <div class="mcradiocheckbox"></div>
+                            <label id="themeDropdownAutoOptionLabel" for="auto"
+                                >Auto {{ prefersDark ? "(Dark)" : "(Light)" }}</label
+                            >
+                        </div>
+                        <div class="mcdropdownoption themeDropdownOption" ontouchstart="">
+                            <input
+                                id="dark"
+                                type="radio"
+                                name="themeDropdown"
+                                value="dark"
+                                class="mcradio themeDropdownOptionInput"
+                            />
+                            <div class="mcradiocheckbox"></div>
+                            <label for="dark">Dark</label>
+                        </div>
+                        <div class="mcdropdownoption themeDropdownOption" ontouchstart="">
+                            <input
+                                id="light"
+                                type="radio"
+                                name="themeDropdown"
+                                value="light"
+                                class="mcradio themeDropdownOptionInput"
+                            />
+                            <div class="mcradiocheckbox"></div>
+                            <label for="light">Light</label>
+                        </div>
+                        <!-- <div
               class="mcdropdownoption themeDropdownOption"
               ontouchstart=""
               onclick="$(this).find('input[type=\'radio\']').prop('checked', true); for (const elem of $('select[name=\'theme\']').prop('value', $(this).find('input[type=\'radio\']').prop('id'))) {elem.dispatchEvent(new Event('change'))}"
@@ -418,10 +437,10 @@ onMounted(async () => {
               <div class="mcradiocheckbox"></div>
               <label for="BlueTheme">Blue</label>
             </div> -->
-          </div>
-        </div>
-      </div>
-      <!-- <div class="form-group">
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="form-group">
         <div class="form-group-header">
           <label for="zoom_text_box">Zoom %</label>
         </div>
@@ -463,57 +482,57 @@ onMounted(async () => {
           Reset Zoom
         </button>
       </div> -->
-      <br />
-      <br />
-      <div
-        class="mctogglecontainer nsel"
-        ontouchstart=""
-        onclick="{let checkbox = $(this).find('input[type=\'checkbox\']'); checkbox.prop('checked', !checkbox.prop('checked')); checkbox.trigger('change');}"
-        style="display: inline-block"
-      >
-        <input
-          id="use-animated-icon-toggle"
-          type="checkbox"
-          class="mctoggle"
-          onchange="animatedIconEnabled = this.checked"
-          title="Use animated icon"
-          checked
-        />
-        <div class="mctoggleswitch"></div>
-        <label
-          >Use animated icon (Disabling this may improve performance if you are having performance
-          issues.)</label
-        >
-      </div>
-    </settings_section>
-    <settings_section id="debug_settings_section" class="settings_section">
-      <center><h1 style="font-size: revert; margin: revert">Debug</h1></center>
+            <br />
+            <br />
+            <div
+                class="mctogglecontainer nsel"
+                ontouchstart=""
+                onclick="{let checkbox = $(this).find('input[type=\'checkbox\']'); checkbox.prop('checked', !checkbox.prop('checked')); checkbox.trigger('change');}"
+                style="display: inline-block"
+            >
+                <input
+                    id="use-animated-icon-toggle"
+                    type="checkbox"
+                    class="mctoggle"
+                    onchange="animatedIconEnabled = this.checked"
+                    title="Use animated icon"
+                    checked
+                />
+                <div class="mctoggleswitch"></div>
+                <label
+                    >Use animated icon (Disabling this may improve performance if you are having
+                    performance issues.)</label
+                >
+            </div>
+        </settings_section>
+        <settings_section id="debug_settings_section" class="settings_section">
+            <center><h1 style="font-size: revert; margin: revert">Debug</h1></center>
 
-      <label>
-        Clear cached animated icon, the animated icon is cached to improve load times, however you
-        can press the button below to remove it from <code>localStorage</code>. This is useful if
-        the icon needs to be updated, or if you just disabled the "Use animated icon" toggle and
-        want to free up 6 MB of storage space.
-      </label>
-      <br />
-      <label>
-        Is cached:
-        <span id="animated-icon-is-cached-status-indicator" style="color: yellow">
-          loading...
-        </span>
-      </label>
-      <br />
-      <button
-        id="clear-cached-animated-icon-button"
-        class="btn"
-        type="button"
-        onclick="clearCachedAnimatedIcon()"
-        title="Clear cached animated icon"
-      >
-        Clear cached animated icon
-      </button>
-    </settings_section>
-    <!-- <settings_section id="audio_settings_section" class="settings_section">
+            <label>
+                Clear cached animated icon, the animated icon is cached to improve load times,
+                however you can press the button below to remove it from <code>localStorage</code>.
+                This is useful if the icon needs to be updated, or if you just disabled the "Use
+                animated icon" toggle and want to free up 6 MB of storage space.
+            </label>
+            <br />
+            <label>
+                Is cached:
+                <span id="animated-icon-is-cached-status-indicator" style="color: yellow">
+                    loading...
+                </span>
+            </label>
+            <br />
+            <button
+                id="clear-cached-animated-icon-button"
+                class="btn"
+                type="button"
+                onclick="clearCachedAnimatedIcon()"
+                title="Clear cached animated icon"
+            >
+                Clear cached animated icon
+            </button>
+        </settings_section>
+        <!-- <settings_section id="audio_settings_section" class="settings_section">
       <center><h1>Audio</h1></center>
       <mcslider>
         <label for="master_volume_slider">Master Volume: 0%</label>
@@ -683,5 +702,5 @@ onMounted(async () => {
       </div>
       <br />
     </settings_section> -->
-  </div>
+    </div>
 </template>

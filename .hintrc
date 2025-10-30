@@ -1,25 +1,18 @@
 {
-  "extends": [
-    "development"
-  ],
-  "hints": {
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "-webkit-text-size-adjust",
-          "scrollbar-color",
-          "image-rendering: crisp-edges",
-          "text-wrap",
-          "text-wrap-mode"
+    "extends": ["development"],
+    "hints": {
+        "compat-api/css": [
+            "default",
+            {
+                "ignore": [
+                    "-webkit-text-size-adjust",
+                    "scrollbar-color",
+                    "image-rendering: crisp-edges",
+                    "text-wrap",
+                    "text-wrap-mode"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  "browserslist": [
-    "defaults",
-    "not ie 11",
-    "not chrome <= 109",
-    "not ios_saf <= 16.7"
-  ]
+    },
+    "browserslist": ["defaults", "not ie 11", "not chrome <= 109", "not ios_saf <= 16.7"]
 }

@@ -2,147 +2,147 @@ import { Tags } from "./theme";
 
 // Alphabetical order please :)
 export default {
-  alpha: {
-    color: "red",
-  },
-  beginner: {
-    color: "blue",
-  },
-  beta: {
-    color: "yellow",
-  },
-  command_alpha: {
-    color: "yellow",
-    sidebar: {
-      text: "Non-Functional",
+    alpha: {
+        color: "red",
     },
-    text: "Non-Functional",
-  },
-  command_beta: {
-    color: "blue",
-    sidebar: {
-      text: "Non-Functional",
+    beginner: {
+        color: "blue",
     },
-    text: "Non-Functional",
-  },
-  command_deprecated: {
-    color: "orange",
-    sidebar: {
-      text: "Deprecated",
+    beta: {
+        color: "yellow",
     },
-    text: "Deprecated",
-  },
-  command_nonfunctional: {
-    color: "red",
-    sidebar: {
-      text: "Non-Functional",
+    command_alpha: {
+        color: "yellow",
+        sidebar: {
+            text: "Non-Functional",
+        },
+        text: "Non-Functional",
     },
-    text: "Non-Functional",
-  },
-  command_removed: {
-    color: "red",
-    sidebar: {
-      text: "Removed",
+    command_beta: {
+        color: "blue",
+        sidebar: {
+            text: "Non-Functional",
+        },
+        text: "Non-Functional",
     },
-    text: "Removed",
-  },
-  deprecated: {
-    color: "red",
-  },
-  easy: {
-    color: "blue",
-  },
-  experimental: {
-    color: "orange",
-  },
-  expert: {
-    color: "red",
-  },
-  guide: {
-    color: "green",
-    sidebar: true,
-  },
-  help: {
-    color: "blue",
-    sidebar: true,
-  },
-  info: {
-    color: "blue",
-    sidebar: true,
-  },
-  intermediate: {
-    color: "orange",
-  },
-  method: {
-    color: "orange",
-  },
-  outdated: {
-    color: "red",
-    sidebar: true,
-  },
-  scripting: {
-    color: "yellow",
-    sidebar: {
-      text: "Scripts",
+    command_deprecated: {
+        color: "orange",
+        sidebar: {
+            text: "Deprecated",
+        },
+        text: "Deprecated",
     },
-  },
-  shelved: {
-    color: "red",
-    sidebar: {
-      text: "Shelved",
+    command_nonfunctional: {
+        color: "red",
+        sidebar: {
+            text: "Non-Functional",
+        },
+        text: "Non-Functional",
     },
-    displayOnPage: false,
-  },
-  system: {
-    color: "blue",
-    sidebar: true,
-  },
-  released: {
-    color: "green",
-    sidebar: {
-      text: "Released",
+    command_removed: {
+        color: "red",
+        sidebar: {
+            text: "Removed",
+        },
+        text: "Removed",
     },
-  },
-  upcoming: {
-    color: "purple",
-    sidebar: {
-      text: "Upcoming",
+    deprecated: {
+        color: "red",
     },
-  },
-  BP: {
-    color: "red",
-    sidebar: true,
-  },
-  RP: {
-    color: "blue",
-    sidebar: true,
-  },
-  nodejs_Web: {
-    color: "blue",
-    sidebar: {
-      text: "Web",
+    easy: {
+        color: "blue",
     },
-    text: "Web",
-  },
-  nodejs_Module: {
-    color: "pink",
-    sidebar: {
-      text: "MOD",
+    experimental: {
+        color: "orange",
     },
-    text: "Module",
-  },
-  nodejs_CLI: {
-    color: "yellow",
-    sidebar: {
-      text: "CLI",
+    expert: {
+        color: "red",
     },
-    text: "CLI",
-  },
-  nodejs_NPM: {
-    color: "red",
-    sidebar: {
-      text: "NPM",
+    guide: {
+        color: "green",
+        sidebar: true,
     },
-    text: "NPM",
-  },
+    help: {
+        color: "blue",
+        sidebar: true,
+    },
+    info: {
+        color: "blue",
+        sidebar: true,
+    },
+    intermediate: {
+        color: "orange",
+    },
+    method: {
+        color: "orange",
+    },
+    outdated: {
+        color: "red",
+        sidebar: true,
+    },
+    scripting: {
+        color: "yellow",
+        sidebar: {
+            text: "Scripts",
+        },
+    },
+    shelved: {
+        color: "red",
+        sidebar: {
+            text: "Shelved",
+        },
+        displayOnPage: false,
+    },
+    system: {
+        color: "blue",
+        sidebar: true,
+    },
+    released: {
+        color: "green",
+        sidebar: {
+            text: "Released",
+        },
+    },
+    upcoming: {
+        color: "purple",
+        sidebar: {
+            text: "Upcoming",
+        },
+    },
+    BP: {
+        color: "red",
+        sidebar: true,
+    },
+    RP: {
+        color: "blue",
+        sidebar: true,
+    },
+    nodejs_Web: {
+        color: "blue",
+        sidebar: {
+            text: "Web",
+        },
+        text: "Web",
+    },
+    nodejs_Module: {
+        color: "pink",
+        sidebar: {
+            text: "MOD",
+        },
+        text: "Module",
+    },
+    nodejs_CLI: {
+        color: "yellow",
+        sidebar: {
+            text: "CLI",
+        },
+        text: "CLI",
+    },
+    nodejs_NPM: {
+        color: "red",
+        sidebar: {
+            text: "NPM",
+        },
+        text: "NPM",
+    },
 } satisfies Tags;

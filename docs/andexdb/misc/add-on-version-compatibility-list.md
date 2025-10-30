@@ -167,7 +167,7 @@ Compatible Add-On Versions:
 -   `v1.36.6`
 -   `v1.37.0`
 -   `v1.37.1`
-</Spoiler>
+    </Spoiler>
 
 <Spoiler title="1.21.90/91/92/93/94">
 

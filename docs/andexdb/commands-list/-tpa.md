@@ -121,7 +121,7 @@ Any
             </th>
             <td>
 
-Added [`\rtp`{lang=acmd}](../commands-list/-rtp_(Old)).
+Added [`\rtp`{lang=acmd}](<../commands-list/-rtp_(Old)>).
 
 </td>
         </tr>
@@ -141,7 +141,7 @@ Added [`\rtp`{lang=acmd}](../commands-list/-rtp_(Old)).
             </th>
             <td>
 
-Renamed [`\rtp`{lang=acmd}](../commands-list/-rtp_(Old)) to `\tpa`{lang=acmd}.
+Renamed [`\rtp`{lang=acmd}](<../commands-list/-rtp_(Old)>) to `\tpa`{lang=acmd}.
 
 </td>
         </tr>

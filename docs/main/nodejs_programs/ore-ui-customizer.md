@@ -34,68 +34,69 @@ When you run this web application locally on your device, it will run on port `8
 ## Main Features
 
 It has many features, such as:
-- Adding many custom menus to Ore UI, including but not limited to:
-    - 8Crafter Utilities Menu
-        - Has many tabs, including:
-            - General
-                - Shows current version and configuration used when the customizer was used to customize your Ore UI.
-            - UIs
-                - Has buttons to open the other custom menus.
-                    - Very usefull if you are on Android, because you can't use the keyboard shortcuts to open the other custom menus.
-            - About
-                - Shows the current version of the customizer.
-                - Shows the link to the webpage for the customizer.
-                - Has contact information, including:
-                    - Discord Server
-                    - GitHub Repository
-                    - Email
-        - Accessed with a button on the right side of the title bar, or with the `CTRL+ALT+SHIFT+M` shortcut.
-    - Small Corner Debug Overlay
-        - Shows debug info about mouse movement and held keys.
-        - Accessed with the `CTRL+I` shortcut.
-    - Full JavaScript Console
-        - It is very advanced and has a lot of the features from the devtools console, including:
-            - Expanding objects and functions.
-                - It shows all properties and symbols, as well as the `__proto__`{lang=js} property (It shows as `[[Prototype]]`, just like in the devtools console).
-            - Logging console logs, debugs, errors, and warnings (with color coding).
-            - The consolas font.
-            - The little note that appears when you expand and object or function, that says "This value was evaluated upon first expanding. It may have changed since then.".
-            - etc.
-        - Accessed with the `CTRL+ALT+C` shortcut.
-    - View HTML Source Menu
-        - Accessed with the `CTRL+U` shortcut.
-    - Element Details Overlay
-        - Shows lots of information about the element that you are hovering over.
-        - Shows the element's full CSS path.
-        - Shows the element's number of children.
-        - Shows the element's number of children, evaluated recursively.
-        - Shows the element's client bounding box details (`left`, `top`, `right`, `bottom`, `x`, `y`, `width`, `height`).
-        - Shows the element's attributes.
-        - Accessed with the `CTRL+ALT+I` shortcut.
-    - CSS Editor
-        - Allows for editing the CSS of an element.
-        - Allows for editing the Global CSS style sheet.
-        - Allows for editing the CSS styles of the `#root`{lang=css} element (The element that contains all the vanilla Ore UI, the custom menus from the customizer are outside of this element).
-        - Accessed with the `CTRL+P` shortcut.
-    - etc.
-- Adds the debug tab to the create and edit world screens.
-- Adds a bunch of new stuff to the debug tab.
-- Allows for changing the world seed through the debug tab.
-- Makes the hardcore mode toggle able to be enabled or disabled at any time.
-- Makes experimental toggles able to be disabled, even after the world has been saved with them on.
-- Makes the `Education Edition` toggle able to disabled, even after the world has been saved with it on.
-- Increases the maximum character limit for all text boxes.
-- Adds options for you to set the default game mode of your world to `Spectator` or `Default` (Setting it to `Default` breaks a lot of stuff).
-    - It also makes the `Adventure` game mode able to be set as the default game mode on the create world screen (Normally you can only do that on the edit world screen).
-- Adds the world generator type dropdown to the advanced tab of the create and edit world screens.
-    - It lets you choose from the following world generator types:
-        - Legacy
-        - Infinite World
-        - Flat World
-        - Void World
-- Lets you replace all the colors in the Ore UI, so you can create your own custom theme.
-    - It even has a preview in the customizer options for what the chosen colors will look like in-game.
-- And so much more!
+
+-   Adding many custom menus to Ore UI, including but not limited to:
+    -   8Crafter Utilities Menu
+        -   Has many tabs, including:
+            -   General
+                -   Shows current version and configuration used when the customizer was used to customize your Ore UI.
+            -   UIs
+                -   Has buttons to open the other custom menus.
+                    -   Very usefull if you are on Android, because you can't use the keyboard shortcuts to open the other custom menus.
+            -   About
+                -   Shows the current version of the customizer.
+                -   Shows the link to the webpage for the customizer.
+                -   Has contact information, including:
+                    -   Discord Server
+                    -   GitHub Repository
+                    -   Email
+        -   Accessed with a button on the right side of the title bar, or with the `CTRL+ALT+SHIFT+M` shortcut.
+    -   Small Corner Debug Overlay
+        -   Shows debug info about mouse movement and held keys.
+        -   Accessed with the `CTRL+I` shortcut.
+    -   Full JavaScript Console
+        -   It is very advanced and has a lot of the features from the devtools console, including:
+            -   Expanding objects and functions.
+                -   It shows all properties and symbols, as well as the `__proto__`{lang=js} property (It shows as `[[Prototype]]`, just like in the devtools console).
+            -   Logging console logs, debugs, errors, and warnings (with color coding).
+            -   The consolas font.
+            -   The little note that appears when you expand and object or function, that says "This value was evaluated upon first expanding. It may have changed since then.".
+            -   etc.
+        -   Accessed with the `CTRL+ALT+C` shortcut.
+    -   View HTML Source Menu
+        -   Accessed with the `CTRL+U` shortcut.
+    -   Element Details Overlay
+        -   Shows lots of information about the element that you are hovering over.
+        -   Shows the element's full CSS path.
+        -   Shows the element's number of children.
+        -   Shows the element's number of children, evaluated recursively.
+        -   Shows the element's client bounding box details (`left`, `top`, `right`, `bottom`, `x`, `y`, `width`, `height`).
+        -   Shows the element's attributes.
+        -   Accessed with the `CTRL+ALT+I` shortcut.
+    -   CSS Editor
+        -   Allows for editing the CSS of an element.
+        -   Allows for editing the Global CSS style sheet.
+        -   Allows for editing the CSS styles of the `#root`{lang=css} element (The element that contains all the vanilla Ore UI, the custom menus from the customizer are outside of this element).
+        -   Accessed with the `CTRL+P` shortcut.
+    -   etc.
+-   Adds the debug tab to the create and edit world screens.
+-   Adds a bunch of new stuff to the debug tab.
+-   Allows for changing the world seed through the debug tab.
+-   Makes the hardcore mode toggle able to be enabled or disabled at any time.
+-   Makes experimental toggles able to be disabled, even after the world has been saved with them on.
+-   Makes the `Education Edition` toggle able to disabled, even after the world has been saved with it on.
+-   Increases the maximum character limit for all text boxes.
+-   Adds options for you to set the default game mode of your world to `Spectator` or `Default` (Setting it to `Default` breaks a lot of stuff).
+    -   It also makes the `Adventure` game mode able to be set as the default game mode on the create world screen (Normally you can only do that on the edit world screen).
+-   Adds the world generator type dropdown to the advanced tab of the create and edit world screens.
+    -   It lets you choose from the following world generator types:
+        -   Legacy
+        -   Infinite World
+        -   Flat World
+        -   Void World
+-   Lets you replace all the colors in the Ore UI, so you can create your own custom theme.
+    -   It even has a preview in the customizer options for what the chosen colors will look like in-game.
+-   And so much more!
 
 <style>
     .video-container {

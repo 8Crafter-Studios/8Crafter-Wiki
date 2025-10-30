@@ -35,12 +35,12 @@ Sets your game mode to a random game mode.
 
 Possible Game Modes:
 
-- Survival (0)
-- Creative (1)
-- Adventure (2)
-- Default (5)
-- Spectator (6)
-- God (7)
+-   Survival (0)
+-   Creative (1)
+-   Adventure (2)
+-   Default (5)
+-   Spectator (6)
+-   God (7)
 
 </indent>
 

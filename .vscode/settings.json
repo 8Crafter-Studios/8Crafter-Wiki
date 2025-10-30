@@ -1,11 +1,11 @@
 {
-  "files.exclude": {
-    "**/.git": false
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "eslint.enable": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-  }
+    "files.exclude": {
+        "**/.git": false
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "eslint.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    }
 }

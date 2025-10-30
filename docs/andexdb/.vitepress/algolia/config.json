@@ -1,194 +1,194 @@
 {
-  "index_name": "andexdb",
-  "start_urls": [
-    {
-      "url": "https://wiki.8crafter.com/andexdb/general/",
-      "selectors_key": "general",
-      "tags": ["general"]
-    },
-    {
-      "url": "https://wiki.8crafter.com/andexdb/meta/",
-      "selectors_key": "meta",
-      "tags": ["meta"]
-    },
-    "https://wiki.8crafter.com/andexdb/"
-  ],
-  "selectors": {
-    "default": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Articles"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "general": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "General"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "changelogs": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Changelogs"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "commands": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Commands"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "commands-list": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Commands List"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "scriptevent-commands": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "/scriptevent Commands"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "usm": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Ultra Security Mode"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "systems": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Systems"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "other-features": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Other Features"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "main-menu": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Main Menu"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "settings": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Settings"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "blocks": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Blocks"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "items": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Items"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "entities": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Entities"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "misc": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Miscellaneous"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
-    },
-    "meta": {
-      "lvl0": {
-        "selector": "nonexistentselector_ahbwbsnixuchdndn",
-        "default_value": "Meta"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article div p, main article div li"
+    "index_name": "andexdb",
+    "start_urls": [
+        {
+            "url": "https://wiki.8crafter.com/andexdb/general/",
+            "selectors_key": "general",
+            "tags": ["general"]
+        },
+        {
+            "url": "https://wiki.8crafter.com/andexdb/meta/",
+            "selectors_key": "meta",
+            "tags": ["meta"]
+        },
+        "https://wiki.8crafter.com/andexdb/"
+    ],
+    "selectors": {
+        "default": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Articles"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "general": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "General"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "changelogs": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Changelogs"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "commands": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Commands"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "commands-list": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Commands List"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "scriptevent-commands": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "/scriptevent Commands"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "usm": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Ultra Security Mode"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "systems": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Systems"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "other-features": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Other Features"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "main-menu": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Main Menu"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "settings": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Settings"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "blocks": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Blocks"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "items": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Items"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "entities": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Entities"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "misc": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Miscellaneous"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        },
+        "meta": {
+            "lvl0": {
+                "selector": "nonexistentselector_ahbwbsnixuchdndn",
+                "default_value": "Meta"
+            },
+            "lvl1": "main article h1",
+            "lvl2": "main article h2",
+            "lvl3": "main article h3",
+            "lvl4": "main article h4",
+            "text": "main article div p, main article div li"
+        }
     }
-  }
 }

@@ -1,180 +1,180 @@
 table {
-  margin-block: 0.5em;
-  border-collapse: collapse;
-  border: var(--border);
-  border-radius: var(--border-radius);
-  display: block;
-  width: max-content;
-  max-width: 100%;
-  overflow-x: auto;
-  background-color: var(--light-bg-color);
+    margin-block: 0.5em;
+    border-collapse: collapse;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    display: block;
+    width: max-content;
+    max-width: 100%;
+    overflow-x: auto;
+    background-color: var(--light-bg-color);
 }
 
 table.bgType2 thead,
 table.bgType2 th {
-  background-color: var(--bg-color);
+    background-color: var(--bg-color);
 }
 
 table:not(.bgType2) thead,
 table:not(.bgType2) tr:nth-child(2n) {
-  background-color: var(--bg-color);
+    background-color: var(--bg-color);
 }
 
 tr,
 thead {
-  &:not(:last-child) {
-    border-bottom: var(--border);
-  }
+    &:not(:last-child) {
+        border-bottom: var(--border);
+    }
 }
 
 th,
 td {
-  padding: 0.5em 1em;
+    padding: 0.5em 1em;
 
-  &:not(:last-child):not(:has(+ th[rowspan]:not([rowspan="1"]))):not(
-      :has(+ td[rowspan]:not([rowspan="1"]))
-    ),
-  &:not(:last-child):not([rowspan]:not([rowspan="1"])) {
-    border-right: var(--border);
-  }
-  &:not(:last-child):has(+ th[rowspan]:not([rowspan="1"])):not([rowspan]:not([rowspan="1"])),
-  &:not(:last-child):has(+ td[rowspan]:not([rowspan="1"])):not([rowspan]:not([rowspan="1"])) {
-    border-right: none;
-    & + th,
-    & + td {
-      border-left: var(--border);
+    &:not(:last-child):not(:has(+ th[rowspan]:not([rowspan="1"]))):not(
+            :has(+ td[rowspan]:not([rowspan="1"]))
+        ),
+    &:not(:last-child):not([rowspan]:not([rowspan="1"])) {
+        border-right: var(--border);
     }
-  }
-  & > p:first-child {
-    margin-top: 0;
-  }
-  & > p:last-child {
-    margin-bottom: 0;
-  }
+    &:not(:last-child):has(+ th[rowspan]:not([rowspan="1"])):not([rowspan]:not([rowspan="1"])),
+    &:not(:last-child):has(+ td[rowspan]:not([rowspan="1"])):not([rowspan]:not([rowspan="1"])) {
+        border-right: none;
+        & + th,
+        & + td {
+            border-left: var(--border);
+        }
+    }
+    & > p:first-child {
+        margin-top: 0;
+    }
+    & > p:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .tc-yes {
-  background: #c6efce !important;
+    background: #c6efce !important;
 }
 
 .dark .tc-yes {
-  background: #3b533c !important;
+    background: #3b533c !important;
 }
 
 .tc-always {
-  background: #5dcc5d !important;
+    background: #5dcc5d !important;
 }
 
 .dark .tc-always {
-  background: #29542c !important;
+    background: #29542c !important;
 }
 
 .tc-no {
-  background: #ffc7ce !important;
+    background: #ffc7ce !important;
 }
 
 .dark .tc-no {
-  background: #533b3b !important;
+    background: #533b3b !important;
 }
 
 .tc-never {
-  background: #ff8787 !important;
+    background: #ff8787 !important;
 }
 
 .dark .tc-never {
-  background: #592c2c !important;
+    background: #592c2c !important;
 }
 
 .tc-rarely {
-  background: #fdce5e !important;
+    background: #fdce5e !important;
 }
 
 .dark .tc-rarely {
-  background: #594f1e !important;
+    background: #594f1e !important;
 }
 
 .tc-neutral {
-  background: #ffeb9c !important;
+    background: #ffeb9c !important;
 }
 
 .dark .tc-neutral {
-  background: #5b573f !important;
+    background: #5b573f !important;
 }
 
 .tc-partial {
-  background: #ffffdd !important;
+    background: #ffffdd !important;
 }
 
 .dark .tc-partial {
-  background: #3e3d31 !important;
+    background: #3e3d31 !important;
 }
 
 .tc-planned {
-  background: #dfdfff !important;
+    background: #dfdfff !important;
 }
 
 .dark .tc-planned {
-  background: #242f2e !important;
+    background: #242f2e !important;
 }
 
 .tc-unknown {
-  background: #ccc !important;
+    background: #ccc !important;
 }
 
 .dark .tc-unknown {
-  background: #364148 !important;
+    background: #364148 !important;
 }
 
 .tc-in {
-  color: #fff;
-  background: #040 !important;
+    color: #fff;
+    background: #040 !important;
 }
 
 .dark .tc-in {
-  background: #06450a !important;
+    background: #06450a !important;
 }
 
 .tc-inem {
-  color: #fff;
-  background: #080 !important;
+    color: #fff;
+    background: #080 !important;
 }
 
 .dark .tc-inem {
-  background: #266c29 !important;
+    background: #266c29 !important;
 }
 
 .tc-out {
-  color: #fff;
-  background: #700 !important;
+    color: #fff;
+    background: #700 !important;
 }
 
 .dark .tc-out {
-  background: #4a0a0a !important;
+    background: #4a0a0a !important;
 }
 
 .tc-outem {
-  color: #fff;
-  background: #c00 !important;
+    color: #fff;
+    background: #c00 !important;
 }
 
 .dark .tc-outem {
-  background: #742a2a !important;
+    background: #742a2a !important;
 }
 
 .tc-default {
-  color: inherit;
-  background: #fff !important;
+    color: inherit;
+    background: #fff !important;
 }
 
 .dark .tc-default {
-  color: inherit;
-  background: #373737 !important;
+    color: inherit;
+    background: #373737 !important;
 }
 
 .tc-hyphen {
-  background: #ffc7ce !important;
+    background: #ffc7ce !important;
 }
 
 .dark .tc-hyphen {
-  background: #352929 !important;
+    background: #352929 !important;
 }

@@ -10,7 +10,7 @@ mentions:
 
 <template-Stub />
 
-Removes explosive blocks in the specified radius, the radius defaults to 10 if not specified. Removes TNT and respawn anchors if in the overworld, removes TNT and beds if in the nether, and removes TNT, beds, and respawn anchors if in the end. Unlike the 
+Removes explosive blocks in the specified radius, the radius defaults to 10 if not specified. Removes TNT and respawn anchors if in the overworld, removes TNT and beds if in the nether, and removes TNT, beds, and respawn anchors if in the end. Unlike the
 emexp command, this one does not remove explosive entities, it only removes explosive blocks.
 
 <CommandDetailsTable

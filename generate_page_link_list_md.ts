@@ -8,11 +8,11 @@ const __dirname = process.cwd();
 // console.log(__dirname);
 const andexdbOutDir = join(__dirname, "/docs/andexdb/page-link-list.md");
 const andexdbPaths = readdirSync(join(__dirname, "/docs/andexdb/"), {
-  recursive: true,
-  encoding: "ascii",
+    recursive: true,
+    encoding: "ascii",
 })
-  .filter((v) => v.endsWith(".md"))
-  .map((v) => v.replaceAll("\\", "/").slice(0, -3));
+    .filter((v) => v.endsWith(".md"))
+    .map((v) => v.replaceAll("\\", "/").slice(0, -3));
 
 const andexdbData = `---
 title: Page Link List
@@ -33,11 +33,11 @@ console.log("andexdb: " + JSON.stringify(andexdbPaths, undefined, 2));
 
 const mainOutDir = join(__dirname, "/docs/main/page-link-list.md");
 const mainPaths = readdirSync(join(__dirname, "/docs/main/"), {
-  recursive: true,
-  encoding: "ascii",
+    recursive: true,
+    encoding: "ascii",
 })
-  .filter((v) => v.endsWith(".md"))
-  .map((v) => v.replaceAll("\\", "/").slice(0, -3));
+    .filter((v) => v.endsWith(".md"))
+    .map((v) => v.replaceAll("\\", "/").slice(0, -3));
 
 const mainData = `---
 title: Page Link List

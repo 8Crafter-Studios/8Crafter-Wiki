@@ -24,43 +24,43 @@ useRedirect();
 </script>
 
 <template>
-  <div
-    :class="{
-      'sidebar-visible': isSidebarVisible,
-      'outline-visible': isOutlineVisible,
-    }"
-  >
-    <Header />
-    <Sidebar />
-    <SettingsMenu />
-    <main @pointerdown="() => isMobile && (isSidebarVisible = false)">
-      <NotFound v-if="page.isNotFound" />
-      <Article v-else />
-      <Footer />
-    </main>
-  </div>
+    <div
+        :class="{
+            'sidebar-visible': isSidebarVisible,
+            'outline-visible': isOutlineVisible,
+        }"
+    >
+        <Header />
+        <Sidebar />
+        <SettingsMenu />
+        <main @pointerdown="() => isMobile && (isSidebarVisible = false)">
+            <NotFound v-if="page.isNotFound" />
+            <Article v-else />
+            <Footer />
+        </main>
+    </div>
 </template>
 
 <style lang="scss">
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  padding-top: var(--header-height);
-  margin-left: 0;
-  min-height: 100vh;
-  gap: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: var(--header-height);
+    margin-left: 0;
+    min-height: 100vh;
+    gap: 2em;
 
-  .label {
-    font-size: 1em;
-  }
+    .label {
+        font-size: 1em;
+    }
 }
 
 @media not (max-width: 900px) {
-  .sidebar-visible {
-    main {
-      margin-left: var(--sidebar-width);
+    .sidebar-visible {
+        main {
+            margin-left: var(--sidebar-width);
+        }
     }
-  }
 }
 </style>

@@ -41,49 +41,49 @@ import template_WorkInProgress from "./components/content/template-WorkInProgres
 import msgbox from "./components/content/msgbox.vue";
 
 const contentComponents: Record<string, Component> = {
-  BlockDetailsTable,
-  Button,
-  Card,
-  CardGrid,
-  CodeHeader,
-  CommandDetailsTable,
-  FolderView,
-  ItemDetailsTable,
-  Label,
-  MolangGraph,
-  Spoiler,
-  Tag,
-  WikiImage,
-  YouTubeEmbed,
-  "template-Add-OnDependency": template_AddonDependency,
-  "template-Deprecated": template_Deprecated,
-  "template-EmptySection": template_EmptySection,
-  "template-ExpandSection": template_ExpandSection,
-  "template-Experimental": template_Experimental,
-  "template-ImagePlaceholder": template_ImagePlaceholder,
-  "template-IncompleteSection": template_IncompleteSection,
-  "template-InDevelopment": template_InDevelopment,
-  "template-MissingInformation": template_MissingInformation,
-  "template-MoreImages": template_MoreImages,
-  "template-NeedsRender": template_NeedsRender,
-  "template-OutdatedFeature": template_OutdatedFeature,
-  "template-Planned": template_Planned,
-  "template-Scrapped": template_Scrapped,
-  "template-Shelved": template_Shelved,
-  "template-Stub": template_Stub,
-  "template-TooTechnical": template_TooTechnical,
-  "template-Update": template_Update,
-  "template-WorkInProgress": template_WorkInProgress,
-  msgbox,
+    BlockDetailsTable,
+    Button,
+    Card,
+    CardGrid,
+    CodeHeader,
+    CommandDetailsTable,
+    FolderView,
+    ItemDetailsTable,
+    Label,
+    MolangGraph,
+    Spoiler,
+    Tag,
+    WikiImage,
+    YouTubeEmbed,
+    "template-Add-OnDependency": template_AddonDependency,
+    "template-Deprecated": template_Deprecated,
+    "template-EmptySection": template_EmptySection,
+    "template-ExpandSection": template_ExpandSection,
+    "template-Experimental": template_Experimental,
+    "template-ImagePlaceholder": template_ImagePlaceholder,
+    "template-IncompleteSection": template_IncompleteSection,
+    "template-InDevelopment": template_InDevelopment,
+    "template-MissingInformation": template_MissingInformation,
+    "template-MoreImages": template_MoreImages,
+    "template-NeedsRender": template_NeedsRender,
+    "template-OutdatedFeature": template_OutdatedFeature,
+    "template-Planned": template_Planned,
+    "template-Scrapped": template_Scrapped,
+    "template-Shelved": template_Shelved,
+    "template-Stub": template_Stub,
+    "template-TooTechnical": template_TooTechnical,
+    "template-Update": template_Update,
+    "template-WorkInProgress": template_WorkInProgress,
+    msgbox,
 };
 
 export default {
-  Layout,
-  enhanceApp({ app }) {
-    for (const name in contentComponents) {
-      app.component(name, contentComponents[name]);
-    }
-  },
+    Layout,
+    enhanceApp({ app }) {
+        for (const name in contentComponents) {
+            app.component(name, contentComponents[name]);
+        }
+    },
 } satisfies Theme;
 
 export * from "./types";

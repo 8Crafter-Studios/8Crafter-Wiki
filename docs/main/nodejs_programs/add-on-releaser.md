@@ -115,7 +115,13 @@ Here is the default configuration file (Note: You will need to modify a few opti
             "modifications": [
                 {
                     "type": "delete_folders",
-                    "targets": ["node_modules", ".git", ".vscode", "deprecated", "blockbench_models"] // This is a list of folders that will not be included in the release files.
+                    "targets": [
+                        "node_modules",
+                        ".git",
+                        ".vscode",
+                        "deprecated",
+                        "blockbench_models"
+                    ] // This is a list of folders that will not be included in the release files.
                 },
                 {
                     "type": "delete_files",

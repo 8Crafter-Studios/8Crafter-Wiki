@@ -16,103 +16,103 @@
 @use "www-8crafter-comWebsiteStyles";
 
 img {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 h1 {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 article {
-  padding-inline: 2em;
+    padding-inline: 2em;
 
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  hr,
-  ul,
-  ol,
-  .card-grid,
-  .folder-view,
-  .molang-graph,
-  .spoiler,
-  .youtube-embed {
-    margin-block: 0.5em;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    &:hover .header-anchor,
-    .header-anchor:focus-visible {
-      &::after {
-        content: "#";
-      }
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    ul,
+    ol,
+    .card-grid,
+    .folder-view,
+    .molang-graph,
+    .spoiler,
+    .youtube-embed {
+        margin-block: 0.5em;
     }
-  }
 
-  h1,
-  h2 {
-    border-bottom: var(--border);
-  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        &:hover .header-anchor,
+        .header-anchor:focus-visible {
+            &::after {
+                content: "#";
+            }
+        }
+    }
 
-  h1 {
-    width: max-content;
-    border-width: 3px;
-    font-size: 2.5rem;
-    font-weight: 700;
-  }
+    h1,
+    h2 {
+        border-bottom: var(--border);
+    }
 
-  h2 {
-    border-width: 2px;
-    font-size: 2rem;
-    font-weight: 600;
-    overflow: hidden;
-  }
+    h1 {
+        width: max-content;
+        border-width: 3px;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
 
-  h3 {
-    font-size: 1.5rem;
-  }
+    h2 {
+        border-width: 2px;
+        font-size: 2rem;
+        font-weight: 600;
+        overflow: hidden;
+    }
 
-  h4 {
-    font-size: 1rem;
-  }
+    h3 {
+        font-size: 1.5rem;
+    }
 
-  img {
-    display: inline-block;
-  }
+    h4 {
+        font-size: 1rem;
+    }
 
-  hr {
-    border: var(--border);
-  }
+    img {
+        display: inline-block;
+    }
 
-  blockquote {
-    border-left: 3px solid var(--border-color);
-    padding-left: 2em;
-  }
+    hr {
+        border: var(--border);
+    }
 
-  indent {
-    margin-left: 1.6em;
-    display: block;
-  }
+    blockquote {
+        border-left: 3px solid var(--border-color);
+        padding-left: 2em;
+    }
+
+    indent {
+        margin-left: 1.6em;
+        display: block;
+    }
 }
 
 option {
-  background-color: var(--bg-color);
+    background-color: var(--bg-color);
 }
 
 @media not (max-width: 1300px) {
-  .outline-visible {
-    article {
-      margin-right: var(--outline-width);
+    .outline-visible {
+        article {
+            margin-right: var(--outline-width);
+        }
     }
-  }
 }

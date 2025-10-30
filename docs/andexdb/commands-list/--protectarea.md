@@ -106,6 +106,7 @@ The icon path should be relative to the root folder of the resource packs.
 The file extension is optional.
 
 Examples:
+
 -   `textures/blocks/stone`
 -   `textures/ui/debug_glyph_color`
 -   `textures/ui/debug_glyph_color.png`

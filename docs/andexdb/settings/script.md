@@ -54,7 +54,7 @@ Config: [`config.system.defaultMinMsBetweenTickWaits`{lang=ts}](https://api.8cra
 
 ### Player Data Refresh Rate
 
-The interval at which to update the saved playerdata of all online players. 
+The interval at which to update the saved playerdata of all online players.
 
 Decreasing this number may increase lag.
 
@@ -233,7 +233,6 @@ This option is only visible when [debug mode](#debug-mode) is enabled.
 Whether or not to hide the warning that appears on startup when allowWatchdogTerminationCrash is enabled.
 
 Default: `false`{lang=ts}
-
 
 Config: [`config.system.hideWatchdogTerminationCrashEnabledWarningsOnStartup`{lang=ts}](https://api.8crafter.com/andexdb/stable/classes/Globals.config.system.html#hidewatchdogterminationcrashenabledwarningsonstartup)
 

@@ -33,7 +33,10 @@ Displays the current version of [BlueMods Anticheat](/../main/add-ons/bluemods-a
 
 `\bluemodsversion`{lang=andexdbcmd}
 
-<indent>Displays the current version of BlueMods Anticheat that is on the world/realm/server. Also displays if multiple versions of BlueMods Anticheat are active.</indent>
+<indent>
+    Displays the current version of BlueMods Anticheat that is on the world/realm/server. Also
+    displays if multiple versions of BlueMods Anticheat are active.
+</indent>
 
 ## Result
 

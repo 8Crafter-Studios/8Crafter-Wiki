@@ -15,29 +15,29 @@ const isMobileOutline = useMediaQuery("(max-width: 1300px)");
 </script>
 
 <template>
-  <article>
-    <h1>{{ frontmatter.page_title ?? frontmatter.title }}</h1>
+    <article>
+        <h1>{{ frontmatter.page_title ?? frontmatter.title }}</h1>
 
-    <div v-if="frontmatter.tags !== undefined" style="margin-block: 1em">
-      <Tag v-for="name in frontmatter.tags" :key="name" :name />
-    </div>
+        <div v-if="frontmatter.tags !== undefined" style="margin-block: 1em">
+            <Tag v-for="name in frontmatter.tags" :key="name" :name />
+        </div>
 
-    <div v-if="frontmatter.show_outline ?? true">
-      <Spoiler v-if="isMobileOutline" title="Contents" open>
-        <Outline />
-      </Spoiler>
+        <div v-if="frontmatter.show_outline ?? true">
+            <Spoiler v-if="isMobileOutline" title="Contents" open>
+                <Outline />
+            </Spoiler>
 
-      <Outline v-else />
-    </div>
+            <Outline v-else />
+        </div>
 
-    <Content />
+        <Content />
 
-    <ClientOnly>
-      <Suspense>
-        <Contributors v-if="frontmatter.show_contributors ?? true" />
-      </Suspense>
-    </ClientOnly>
+        <ClientOnly>
+            <Suspense>
+                <Contributors v-if="frontmatter.show_contributors ?? true" />
+            </Suspense>
+        </ClientOnly>
 
-    <EditLink v-if="frontmatter.show_edit_link ?? true" />
-  </article>
+        <EditLink v-if="frontmatter.show_edit_link ?? true" />
+    </article>
 </template>
