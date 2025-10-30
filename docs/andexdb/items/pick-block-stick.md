@@ -1,7 +1,7 @@
 ---
-title: Debug Stick
+title: Pick Block Stick
 nav_order: 1
-description: The debug stick item.
+description: The pick block stick item.
 show_outline: false
 category: Debug Sticks
 mentions:

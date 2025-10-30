@@ -36,13 +36,26 @@ mentions:
     ]"
 />
 
-<!-- <template-Update details="a" />
+The debug stick works identical to its Java Edition counterpart.
+
+## Obtaining
+
+You can obtain the debug stick by using the [`/give`{lang=mccmd}](https://minecraft.wiki/w/Commands/give) command, or from the creative inventory.
+
+Command: `/give @s andexdb:debug_stick`{lang=mccmd}
+
+In the creative inventory in can be found by going to the `Items` tab and scrolling down until you find the `Debug Sticks` item group, then you expand that item group and the debug stick will be in there.
+
+## Usage
+
+You use it to go to the next possible value of the selected block state, and sneak while using it to go to the previous value of the selected block state.
+
+You hit the block with the debug stick to select the next block state type, and sneak while hitting the block to select the previous block state type.
+
+You can see a demonstration of this in the [trailer video](https://www.youtube.com/watch?v=bszs_vo-1Lc).
+
+The liquid clipped version allows you to also target liquid blocks.
+
+## History
+
 <template-EmptySection />
-<template-ExpandSection />
-<template-IncompleteSection />
-<template-MissingInformation />
-<template-Stub />
-<template-TooTechnical />
-<template-WorkInProgress section="section" />
-<msgbox mini />
-<template-Shelved /> -->
