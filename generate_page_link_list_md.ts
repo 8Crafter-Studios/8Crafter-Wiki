@@ -29,7 +29,32 @@ ${andexdbPaths.map((v) => `<a href="${v}">${v}</a>`).join("\n\n")}
 
 writeFileSync(andexdbOutDir, andexdbData, {});
 
-console.log("andexdb: " + JSON.stringify(andexdbPaths, undefined, 2));
+console.debug("andexdb: " + JSON.stringify(andexdbPaths, undefined, 2));
+
+const ouicOutDir = join(__dirname, "/docs/ouic/page-link-list.md");
+const ouicPaths = readdirSync(join(__dirname, "/docs/ouic/"), {
+    recursive: true,
+    encoding: "ascii",
+})
+    .filter((v) => v.endsWith(".md"))
+    .map((v) => v.replaceAll("\\", "/").slice(0, -3));
+
+const ouicData = `---
+title: Page Link List
+description: Links to all of the pages on the wiki.
+hidden: true
+show_contributors: false
+show_edit_link: false
+show_outline: false
+hide_from_algolia_search: true
+---
+
+${ouicPaths.map((v) => `<a href="${v}">${v}</a>`).join("\n\n")}
+`;
+
+writeFileSync(ouicOutDir, ouicData, {});
+
+console.debug("ouic: " + JSON.stringify(ouicPaths, undefined, 2));
 
 const mainOutDir = join(__dirname, "/docs/main/page-link-list.md");
 const mainPaths = readdirSync(join(__dirname, "/docs/main/"), {
@@ -54,6 +79,6 @@ ${mainPaths.map((v) => `<a href="${v}">${v}</a>`).join("\n\n")}
 
 writeFileSync(mainOutDir, mainData);
 
-console.log("main: " + JSON.stringify(mainPaths, undefined, 2));
+console.debug("main: " + JSON.stringify(mainPaths, undefined, 2));
 
 // npx tsx generate_page_link_list_md.ts

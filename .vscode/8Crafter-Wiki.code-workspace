@@ -1,6 +1,9 @@
 {
     "folders": [
         {
+            "path": "../docs/ouic",
+        },
+        {
             "path": "../docs/andexdb",
         },
         {
@@ -12,6 +15,7 @@
     ],
     "settings": {
         "markdown.copyFiles.destination": {
+            "/docs/ouic/**": "/public/assets/images/${documentRelativeDirName/(.*)\\/(.*)\\//images\\//}/${documentBaseName}/",
             "/docs/andexdb/**": "/public/assets/images/${documentRelativeDirName/(.*)\\/(.*)\\//images\\//}/${documentBaseName}/",
             "/docs/main/**": "/public/assets/images/${documentRelativeDirName/(.*)\\/(.*)\\//images\\//}/${documentBaseName}/",
         },
