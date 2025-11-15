@@ -53,8 +53,19 @@ jobs:
                   echo "Where is eslint?"
                   npx eslint --version
 
-            - name: Check Linting 🔎
-              run: sudo npm run lint
+            - name: Check Linting (main) 🔎
+              if: |
+                  contains(join(github.event.head_commit.modified, '>'), '^docs/main/') ||
+                  contains(join(github.event.head_commit.added, '>'), '^docs/main/') ||
+                  contains(join(github.event.head_commit.removed, '>'), '^docs/main/')
+              run: sudo npm run lint_main
+
+            - name: Check Linting (andexdb) 🔎
+              if: |
+                  contains(join(github.event.head_commit.modified, '>'), '^docs/main/') ||
+                  contains(join(github.event.head_commit.added, '>'), '^docs/main/') ||
+                  contains(join(github.event.head_commit.removed, '>'), '^docs/andexdb/')
+              run: sudo npm run lint_andexdb
 
             - name: Generate Page Link List
               run: npx tsx generate_page_link_list_md.ts
@@ -73,12 +84,26 @@ jobs:
             #         docs/andexdb/page-link-list.md
             #         docs/main/page-link-list.md
 
-            - name: Check Build 🔧
-              run: npm run build
+            - name: Check Build (main) 🔧
+              if: |
+                  contains(join(github.event.head_commit.modified, '>'), '^docs/main/') ||
+                  contains(join(github.event.head_commit.added, '>'), '^docs/main/') ||
+                  contains(join(github.event.head_commit.removed, '>'), '^docs/main/')
+              run: npm run build_main
+            - name: Check Build (andexdb) 🔧
+              if: |
+                  contains(join(github.event.head_commit.modified, '>'), '^docs/main/') ||
+                  contains(join(github.event.head_commit.added, '>'), '^docs/main/') ||
+                  contains(join(github.event.head_commit.removed, '>'), '^docs/andexdb/')
+              run: npm run build_andexdb
             - name: Deploy (main) to GitHub Pages
               # You may pin to the exact commit or the version.
               # uses: JamesIves/github-pages-deploy-action@15de0f09300eea763baee31dff6c6184995c5f6a
               uses: JamesIves/github-pages-deploy-action@v4.7.2
+              if: |
+                  contains(join(github.event.head_commit.modified, '>'), '^docs/main/') ||
+                  contains(join(github.event.head_commit.added, '>'), '^docs/main/') ||
+                  contains(join(github.event.head_commit.removed, '>'), '^docs/main/')
               with:
                   # This option defaults to the repository scoped GitHub Token.  However if you need more permissions for things such as deploying to another repository, you can add a Personal Access Token (PAT) here.  This should be stored in the `secrets / with` menu **as a secret**.
                   # We recommend using a service account with the least permissions necessary and when generating a new PAT that you select the least permission scopes required.
@@ -117,6 +142,10 @@ jobs:
               # You may pin to the exact commit or the version.
               # uses: JamesIves/github-pages-deploy-action@15de0f09300eea763baee31dff6c6184995c5f6a
               uses: JamesIves/github-pages-deploy-action@v4.7.2
+              if: |
+                  contains(join(github.event.head_commit.modified, '>'), '^docs/andexdb/') ||
+                  contains(join(github.event.head_commit.added, '>'), '^docs/andexdb/') ||
+                  contains(join(github.event.head_commit.removed, '>'), '^docs/andexdb/')
               with:
                   # This option defaults to the repository scoped GitHub Token.  However if you need more permissions for things such as deploying to another repository, you can add a Personal Access Token (PAT) here.  This should be stored in the `secrets / with` menu **as a secret**.
                   # We recommend using a service account with the least permissions necessary and when generating a new PAT that you select the least permission scopes required.
