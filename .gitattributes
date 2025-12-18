@@ -1,1 +1,16 @@
-* text=auto eol=crlf
+*          text=auto eol=crlf
+
+*.ps1      linguist-detectable
+*.xml      linguist-detectable
+*.json     linguist-detectable
+*.jsonc    linguist-detectable
+*.jsonl    linguist-detectable
+
+*.md       linguist-detectable -linguist-documentation
+/docs      -lingust-documentation
+
+tsconfig.json -linguist-detectable
+package.json -linguist-detectable
+package-lock.json -linguist-detectable
+.package-lock.json -linguist-detectable
+manifest.json -linguist-detectable
