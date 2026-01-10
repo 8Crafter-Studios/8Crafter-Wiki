@@ -201,6 +201,7 @@
         ],
         "markdown.preferredMdPathExtensionStyle": "removeExtension",
         "github-actions.workflows.pinned.workflows": [".github/workflows/algolia-docsearch.yml"],
+        "eslint.useFlatConfig": false,
     },
     "launch": {
         "version": "0.2.0",

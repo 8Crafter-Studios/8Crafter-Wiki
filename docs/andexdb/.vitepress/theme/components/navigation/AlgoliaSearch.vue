@@ -206,8 +206,8 @@ function initialize(userOptions: any) {
 
 .DocSearch-Button:enabled:hover,
 .DocSearch-Form:hover {
-    border-image: url("/andexdb/assets/images/ui/textboxes/edit_box_indent_hover.png") 2 1 2 1 fill /
-        4px 2px 4px 2px;
+    border-image: url("/andexdb/assets/images/ui/textboxes/edit_box_indent_hover.png") 2 1 2 1
+        fill / 4px 2px 4px 2px;
 }
 
 .DocSearch-Button-Placeholder {

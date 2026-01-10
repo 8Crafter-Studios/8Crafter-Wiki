@@ -20,7 +20,7 @@
     "embeddedLanguageFormatting": "auto",
     "vueIndentScriptAndStyle": false,
     "experimentalTernaries": true,
-    "plugins": [],
+    "plugins": ["prettier-plugin-markdown-list-tabwidth"],
     "overrides": [
         {
             "files": "*.md",

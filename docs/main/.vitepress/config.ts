@@ -101,7 +101,8 @@ export default defineConfigWithTheme<ThemeConfig>({
     vue: {
         template: {
             compilerOptions: {
-                isCustomElement: (tag) => ["settings_section", "center", "mcslider", "indent"].includes(tag),
+                isCustomElement: (tag) =>
+                    ["settings_section", "center", "mcslider", "indent"].includes(tag),
             },
         },
     },

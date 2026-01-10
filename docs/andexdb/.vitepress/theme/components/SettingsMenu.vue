@@ -186,7 +186,16 @@ onMounted(async () => {
             <button
                 id="settings_left_sidebar_toggle_button"
                 type="button"
-                onclick="$('#settings_left_sidebar').toggle('slide'); if($(this).attr('mode')=='1'){$(this).text('Show'); $(this).attr('mode', '0');}else{$(this).text('Hide'); $(this).attr('mode', '1')}"
+                onclick="
+                    $('#settings_left_sidebar').toggle('slide');
+                    if ($(this).attr('mode') == '1') {
+                        $(this).text('Show');
+                        $(this).attr('mode', '0');
+                    } else {
+                        $(this).text('Hide');
+                        $(this).attr('mode', '1');
+                    }
+                "
                 class="btn nsel"
                 style="float: left; width: 60px"
                 ontouchstart=""
@@ -355,7 +364,17 @@ onMounted(async () => {
                     type="button"
                     ontouchstart=""
                     style="min-width: 140px; text-align: left"
-                    onclick="if($(this).parent().find('#dropdowncontents').prop('hidden')){$(this).find('#cv').prop('hidden', true); $(this).find('#cvsel').prop('hidden', false); $(this).parent().find('#dropdowncontents').prop('hidden', false)}else{$(this).find('#cv').prop('hidden', false); $(this).find('#cvsel').prop('hidden', true); $(this).parent().find('#dropdowncontents').prop('hidden', true)}"
+                    onclick="
+                        if ($(this).parent().find('#dropdowncontents').prop('hidden')) {
+                            $(this).find('#cv').prop('hidden', true);
+                            $(this).find('#cvsel').prop('hidden', false);
+                            $(this).parent().find('#dropdowncontents').prop('hidden', false);
+                        } else {
+                            $(this).find('#cv').prop('hidden', false);
+                            $(this).find('#cvsel').prop('hidden', true);
+                            $(this).parent().find('#dropdowncontents').prop('hidden', true);
+                        }
+                    "
                 >
                     <span id="themeDropdownButtonSelectedOptionTextDisplay"
                         >Auto {{ prefersDark ? "(Dark)" : "(Light)" }}</span
@@ -487,7 +506,13 @@ onMounted(async () => {
             <div
                 class="mctogglecontainer nsel"
                 ontouchstart=""
-                onclick="{let checkbox = $(this).find('input[type=\'checkbox\']'); checkbox.prop('checked', !checkbox.prop('checked')); checkbox.trigger('change');}"
+                onclick="
+                    {
+                        let checkbox = $(this).find('input[type=\'checkbox\']');
+                        checkbox.prop('checked', !checkbox.prop('checked'));
+                        checkbox.trigger('change');
+                    }
+                "
                 style="display: inline-block"
             >
                 <input
