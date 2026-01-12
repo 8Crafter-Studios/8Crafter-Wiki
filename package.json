@@ -78,5 +78,6 @@
         "markdown-it-shiki": "^0.9.0",
         "sitemap-generator": "^8.5.1",
         "vue-instantsearch": "^4.19.12"
-    }
+    },
+    "private": true
 }
