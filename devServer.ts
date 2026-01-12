@@ -1,7 +1,7 @@
 import { exec } from "node:child_process";
 import http from "node:http";
 import { request } from "node:http";
-import { networkInterfaces } from "node:os";
+import { networkInterfaces, type NetworkInterfaceInfoIPv4 } from "node:os";
 
 const devPort = 5250;
 
@@ -112,7 +112,9 @@ server.listen(devPort, (): void => {
     const networks = networkInterfaces();
     const networkURIs: string[] = Object.values(networks)
         .flat()
-        .filter((v) => v?.family === "IPv4" && v.address !== "127.0.0.1")
+        .filter(
+            (v): v is NetworkInterfaceInfoIPv4 => v?.family === "IPv4" && v.address !== "127.0.0.1"
+        )
         .map((v) => `http://${v.address}:${devPort}/`);
     console.info(
         `\x1b[0m\x1b[92mLocal:   \x1b[96mhttp://localhost:${devPort}/\n${networkURIs.map((v) => `\x1b[92mNetwork: \x1b[96m${v}`).join("\n")}\x1b[0m`

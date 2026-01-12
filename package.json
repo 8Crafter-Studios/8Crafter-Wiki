@@ -35,10 +35,10 @@
         "preview_main": "vitepress preview docs/main",
         "preview_andexdb": "vitepress preview docs/andexdb",
         "preview_ouic": "vitepress preview docs/ouic",
-        "lint": "cross-env ESLINT_USE_FLAT_CONFIG=false \"eslint --fix docs/main/.vitepress && eslint --fix docs/andexdb/.vitepress && eslint --fix docs/ouic/.vitepress\"",
-        "lint_main": "cross-env ESLINT_USE_FLAT_CONFIG=false \"eslint --fix docs/main/.vitepress\"",
-        "lint_andexdb": "cross-env ESLINT_USE_FLAT_CONFIG=false \"eslint --fix docs/andexdb/.vitepress\"",
-        "lint_ouic": "cross-env ESLINT_USE_FLAT_CONFIG=false \"eslint --fix docs/ouic/.vitepress\"",
+        "lint": "cross-env ESLINT_USE_FLAT_CONFIG=false eslint --fix docs/main/.vitepress && eslint --fix docs/andexdb/.vitepress && eslint --fix docs/ouic/.vitepress",
+        "lint_main": "cross-env ESLINT_USE_FLAT_CONFIG=false eslint --fix docs/main/.vitepress",
+        "lint_andexdb": "cross-env ESLINT_USE_FLAT_CONFIG=false eslint --fix docs/andexdb/.vitepress",
+        "lint_ouic": "cross-env ESLINT_USE_FLAT_CONFIG=false eslint --fix docs/ouic/.vitepress",
         "generate-page-link-list": "node generate_page_link_list_md.ts"
     },
     "devDependencies": {
