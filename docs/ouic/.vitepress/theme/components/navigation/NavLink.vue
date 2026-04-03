@@ -33,7 +33,13 @@ watchEffect(() => {
 
 <template>
     <!-- HACK: There was a target="_self" property here but that makes the whole website reload when clicking on a sidebar item, I remember it was necessary to fix a problem before, but not what that problem was or if it even still exists, so it may not be necessary, so I am temporarily removing this to see if it works fine, if things start behaving weird, try adding this back. -->
-    <a :class="props.class" v-bind="linkProps" :rel="props.rel" @click="onNavigation">
+    <a
+        :class="props.class"
+        v-bind="linkProps"
+        :rel="props.rel"
+        :target="props.target"
+        @click="onNavigation"
+    >
         <slot />
         <ExternalIcon v-if="isExternal" />
     </a>

@@ -28,6 +28,11 @@
     background-color: #e9fff2;
     color: black;
 }
+.custom-block.important {
+    border-color: hsl(270, 100%, 45%);
+    color: hsl(270, 100%, 15%);
+    background-color: hsla(270, 100%, 70%, 0.3);
+}
 .custom-block.warning {
     border-color: #e7c000;
     color: #4f4200;
@@ -41,6 +46,10 @@
 
 .dark .custom-block.tip {
     background-color: rgba(149, 255, 232, 0.2);
+    color: #ffffff;
+}
+.dark .custom-block.important {
+    background-color: hsla(270, 100%, 70%, 0.2);
     color: #ffffff;
 }
 .dark .custom-block.warning {

@@ -16,8 +16,10 @@ mentions:
 <br>
 
 <Button link="https://www.8crafter.com/utilities/ore-ui-customizer">Web App</Button>
-
 <Button link="https://github.com/8Crafter-Studios/8Crafter.github.io">GitHub</Button>
+<Button link="/ouic/" target="_self">
+    Full Documentation
+</Button>
 
 <br>
 

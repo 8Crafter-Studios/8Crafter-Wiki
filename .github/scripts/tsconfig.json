@@ -1,0 +1,15 @@
+{
+    "$schema": "https://www.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "strict": true,
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "target": "esnext",
+        "module": "esnext",
+        "lib": ["esnext"],
+        "types": ["node"]
+    },
+    "include": ["*.ts"],
+    "exclude": ["../../docs/**"]
+}

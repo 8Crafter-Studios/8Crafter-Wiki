@@ -16,7 +16,7 @@ hide_from_algolia_search: true
 
 # 8Crafter's Ore UI Customizer Wiki
 
-This is the wiki for [8Crafter's Ore U Customizer](https://www.8crafter.com/utilities/ore-ui-customizer).
+This is the wiki for [8Crafter's Ore UI Customizer](https://www.8crafter.com/utilities/ore-ui-customizer).
 
 </header>
 <CardGrid>

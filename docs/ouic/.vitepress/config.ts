@@ -89,8 +89,14 @@ export default defineConfigWithTheme<ThemeConfig>({
 
         navigation: [
             {
+                text: "Home",
+                link: "/../main/",
+                target: "_self",
+            },
+            {
                 text: "Discord",
-                link: "/discord",
+                link: "/../main/discord",
+                target: "_self",
             },
         ],
 

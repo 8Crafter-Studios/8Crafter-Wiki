@@ -33,6 +33,13 @@
             "options": {
                 "parser": "json"
             }
+        },
+        {
+            "files": ["./node_modules/.bin/*", "*.sh", "*.bash", "*.zsh", "*.command"],
+            "excludeFiles": ["*.cmd", "*.ps1"],
+            "options": {
+                "endOfLine": "lf"
+            }
         }
     ]
 }

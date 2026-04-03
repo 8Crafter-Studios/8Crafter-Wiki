@@ -1,6 +1,9 @@
 {
     "folders": [
         {
+            "path": "../docs/bwe",
+        },
+        {
             "path": "../docs/ouic",
         },
         {
@@ -15,6 +18,7 @@
     ],
     "settings": {
         "markdown.copyFiles.destination": {
+            "/docs/bwe/**": "/public/assets/images/${documentRelativeDirName/(.*)\\/(.*)\\//images\\//}/${documentBaseName}/",
             "/docs/ouic/**": "/public/assets/images/${documentRelativeDirName/(.*)\\/(.*)\\//images\\//}/${documentBaseName}/",
             "/docs/andexdb/**": "/public/assets/images/${documentRelativeDirName/(.*)\\/(.*)\\//images\\//}/${documentBaseName}/",
             "/docs/main/**": "/public/assets/images/${documentRelativeDirName/(.*)\\/(.*)\\//images\\//}/${documentBaseName}/",
@@ -202,6 +206,10 @@
         "markdown.preferredMdPathExtensionStyle": "removeExtension",
         "github-actions.workflows.pinned.workflows": [".github/workflows/algolia-docsearch.yml"],
         "eslint.useFlatConfig": false,
+        "files.eol": "\r\n",
+        "[shellscript]": {
+            "files.eol": "\n",
+        },
     },
     "launch": {
         "version": "0.2.0",

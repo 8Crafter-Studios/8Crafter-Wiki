@@ -8,3 +8,30 @@ insert_final_newline = true
 
 indent_style = space
 indent_size = 4
+
+[*.sh]
+end_of_line = lf
+
+[*.bash]
+end_of_line = lf
+
+[*.zsh]
+end_of_line = lf
+
+[*.command]
+end_of_line = lf
+
+[*.yml]
+end_of_line = lf
+
+[*.yaml]
+end_of_line = lf
+
+[node_modules/.bin/*]
+end_of_line = lf
+
+[*.cmd]
+end_of_line = crlf
+
+[*.ps1]
+end_of_line = crlf

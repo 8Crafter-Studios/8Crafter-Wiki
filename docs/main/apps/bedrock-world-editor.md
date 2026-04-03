@@ -16,6 +16,9 @@ mentions:
 <br>
 
 <Button link="https://github.com/8Crafter-Studios/Bedrock-World-Editor">GitHub</Button>
+<Button link="/bwe/" target="_self">
+    Full Documentation
+</Button>
 
 <br>
 

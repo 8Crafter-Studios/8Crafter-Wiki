@@ -1,5 +1,20 @@
 *          text=auto eol=crlf
 
+*.sh       text=auto eol=lf
+*.bash     text=auto eol=lf
+*.zsh      text=auto eol=lf
+*.command  text=auto eol=lf
+
+node_modules/.bin/* text=auto eol=lf
+
+*.cmd      text=auto eol=crlf
+*.ps1      text=auto eol=crlf
+
+*.sh       linguist-detectable
+*.bash     linguist-detectable
+*.zsh      linguist-detectable
+*.command  linguist-detectable
+*.cmd      linguist-detectable
 *.ps1      linguist-detectable
 *.xml      linguist-detectable
 *.json     linguist-detectable
