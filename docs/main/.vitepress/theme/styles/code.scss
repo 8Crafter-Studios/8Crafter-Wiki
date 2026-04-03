@@ -108,7 +108,6 @@
 [class*="language-"]:not(.code-header + [class*="language-"]) > button.copy.copied,
 [class*="language-"]:not(.code-header + [class*="language-"]) > button.copy:hover.copied {
     /*rtl:ignore*/
-    // border-radius: 0 4px 4px 0;
     background-color: var(--vp-code-copy-code-hover-bg);
     background-image: var(--vp-icon-copied);
 }
@@ -126,7 +125,6 @@
     /*rtl:ignore*/
     border-right: 0;
     /*rtl:ignore*/
-    // border-radius: 4px 0 0 4px;
     padding: 0 10px;
     width: fit-content;
     height: 40px;
