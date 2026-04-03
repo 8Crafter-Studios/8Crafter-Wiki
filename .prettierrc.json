@@ -35,7 +35,15 @@
             }
         },
         {
-            "files": ["./node_modules/.bin/*", "*.sh", "*.bash", "*.zsh", "*.command"],
+            "files": [
+                "./node_modules/.bin/*",
+                "*.sh",
+                "*.bash",
+                "*.zsh",
+                "*.command",
+                "*.yaml",
+                "*.yml"
+            ],
             "excludeFiles": ["*.cmd", "*.ps1"],
             "options": {
                 "endOfLine": "lf"
