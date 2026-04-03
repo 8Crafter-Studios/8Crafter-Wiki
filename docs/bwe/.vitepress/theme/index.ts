@@ -20,6 +20,7 @@ import Tag from "./components/content/Tag.vue";
 import WikiImage from "./components/content/WikiImage.vue";
 import YouTubeEmbed from "./components/content/YouTubeEmbed.vue";
 import template_AddonDependency from "./components/content/template-Add-OnDependency.vue";
+import template_Advanced from "./components/content/template-Advanced.vue";
 import template_Deprecated from "./components/content/template-Deprecated.vue";
 import template_EmptySection from "./components/content/template-EmptySection.vue";
 import template_ExpandSection from "./components/content/template-ExpandSection.vue";
@@ -56,6 +57,7 @@ const contentComponents: Record<string, Component> = {
     WikiImage,
     YouTubeEmbed,
     "template-Add-OnDependency": template_AddonDependency,
+    "template-Advanced": template_Advanced,
     "template-Deprecated": template_Deprecated,
     "template-EmptySection": template_EmptySection,
     "template-ExpandSection": template_ExpandSection,

@@ -12,12 +12,12 @@ const props = defineProps<{
             'This ' +
             (props.section ?? 'page') +
             ' describes content that exists only in outdated versions of ' +
-            (props.type ?? 'this add-on') +
+            (props.type ?? 'this app') +
             '.'
         "
         :text="
             'This feature used to be in ' +
-            (props.type2 ?? 'the add-on') +
+            (props.type2 ?? 'the app') +
             ' but has since been removed.'
         "
         image="/assets/images/icons/BlockSprite_blue-rose.png"

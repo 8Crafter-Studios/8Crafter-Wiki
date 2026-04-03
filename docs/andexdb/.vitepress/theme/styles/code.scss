@@ -14,6 +14,13 @@
 }
 
 [class*="language-"] {
+    --vp-code-copy-code-border-color: var(--border-color);
+    --vp-code-copy-code-bg: var(--light-bg-color);
+    --vp-icon-copy: url(/assets/images/ui/glyphs/copy.png);
+    --border-radius: 0;
+    --vp-code-copy-code-hover-border-color: var(--border-hover-color);
+    --vp-code-copy-code-hover-bg: var(--bg-color);
+    --vp-icon-copied: url(/assets/images/ui/glyphs/confirm.png);
     margin-block: 0.5em;
     padding-top: 1em;
     min-height: 3.5em;
@@ -26,14 +33,6 @@
     display: grid;
     grid-template-columns: max-content 1fr;
     grid-template-areas: "line-numbers code";
-
-    & > .lang {
-        display: none;
-    }
-
-    & > .copy {
-        display: none;
-    }
 
     & > .line-numbers-wrapper {
         grid-area: line-numbers;
@@ -67,4 +66,195 @@
 
 .dark .shiki span {
     color: var(--shiki-dark);
+}
+
+[class*="language-"]:not(.code-header + [class*="language-"]) > button.copy {
+    /*rtl:ignore*/
+    direction: ltr;
+    position: absolute;
+    top: 7px;
+    /*rtl:ignore*/
+    right: 7px;
+    z-index: 3;
+    border: 1px solid var(--vp-code-copy-code-border-color);
+    border-radius: 0 /* 4px */;
+    width: 40px;
+    height: 40px;
+    background-color: var(--vp-code-copy-code-bg);
+    opacity: 0;
+    cursor: pointer;
+    image-rendering: pixelated;
+    background-image: var(--vp-icon-copy);
+    background-position: 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    transition:
+        border-color 0.25s,
+        background-color 0.25s,
+        opacity 0.25s;
+}
+
+[class*="language-"]:not(.code-header + [class*="language-"]):hover > button.copy,
+[class*="language-"]:not(.code-header + [class*="language-"]) > button.copy:focus {
+    opacity: 1;
+}
+
+[class*="language-"]:not(.code-header + [class*="language-"]) > button.copy:hover,
+[class*="language-"]:not(.code-header + [class*="language-"]) > button.copy.copied {
+    border-color: var(--vp-code-copy-code-hover-border-color);
+    background-color: var(--vp-code-copy-code-hover-bg);
+}
+
+[class*="language-"]:not(.code-header + [class*="language-"]) > button.copy.copied,
+[class*="language-"]:not(.code-header + [class*="language-"]) > button.copy:hover.copied {
+    /*rtl:ignore*/
+    // border-radius: 0 4px 4px 0;
+    background-color: var(--vp-code-copy-code-hover-bg);
+    background-image: var(--vp-icon-copied);
+}
+
+[class*="language-"]:not(.code-header + [class*="language-"]) > button.copy.copied::before,
+[class*="language-"]:not(.code-header + [class*="language-"]) > button.copy:hover.copied::before {
+    position: relative;
+    top: -1px;
+    /*rtl:ignore*/
+    transform: translateX(calc(-100% - 1px));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--vp-code-copy-code-hover-border-color);
+    /*rtl:ignore*/
+    border-right: 0;
+    /*rtl:ignore*/
+    // border-radius: 4px 0 0 4px;
+    padding: 0 10px;
+    width: fit-content;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--vp-code-copy-code-active-text);
+    background-color: var(--vp-code-copy-code-hover-bg);
+    white-space: nowrap;
+    content: var(--vp-code-copy-copied-text-content);
+}
+
+[class*="language-"] > span.lang {
+    position: absolute;
+    top: 2px;
+    /*rtl:ignore*/
+    right: 8px;
+    z-index: 2;
+    font-size: 12px;
+    font-weight: 500;
+    user-select: none;
+    color: var(--vp-code-lang-color);
+    transition:
+        color 0.4s,
+        opacity 0.4s;
+}
+
+[class*="language-"]:hover > button.copy:not(:hover) + span.lang,
+[class*="language-"]:not(.code-header + [class*="language-"]):hover > button.copy + span.lang,
+[class*="language-"]:not(.code-header + [class*="language-"]) > button.copy:focus + span.lang {
+    opacity: 0;
+}
+
+/* .custom-block .vp-code-group,
+.custom-block [class*='vp-code-block'] {
+  margin-top: 8px;
+}
+
+.custom-block .vp-code-group .tabs {
+  margin: 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.custom-block .vp-code-group div[class*='language-'],
+.custom-block [class*='vp-code-block'] div[class*='language-'] {
+  margin-top: 0 !important;
+} */
+
+.vp-code-group {
+    margin-top: 16px;
+    --vp-code-tab-bg: var(--bg-color);
+    --vp-code-tab-divider: transparent;
+    --vp-code-tab-active-bar-color: var(--accent-color);
+    --vp-code-tab-text-color: rgb(from var(--text-color) r g b / 0.75);
+    --vp-code-tab-hover-text-color: var(--text-color);
+    --vp-code-tab-active-text-color: var(--text-color);
+}
+
+.vp-code-group .tabs {
+    position: relative;
+    display: flex;
+    padding: 0 12px;
+    background-color: var(--vp-code-tab-bg);
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-shadow: inset 0 -1px var(--vp-code-tab-divider);
+    border: var(--border);
+    border-bottom: none;
+}
+
+.vp-code-group .tabs input {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.vp-code-group .tabs label {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    padding: 0 12px;
+    line-height: 48px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vp-code-tab-text-color);
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color 0.25s;
+}
+
+.vp-code-group .tabs label::after {
+    position: absolute;
+    right: 8px;
+    bottom: -1px;
+    left: 8px;
+    z-index: 1;
+    height: 2px;
+    border-radius: 2px;
+    content: "";
+    background-color: transparent;
+    transition: background-color 0.25s;
+}
+
+.vp-code-group label:hover {
+    color: var(--vp-code-tab-hover-text-color);
+}
+
+.vp-code-group input:checked + label {
+    color: var(--vp-code-tab-active-text-color);
+}
+
+.vp-code-group input:checked + label::after {
+    background-color: var(--vp-code-tab-active-bar-color);
+}
+
+.vp-code-group div[class*="language-"],
+.vp-block {
+    display: none;
+    margin-top: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.vp-code-group div[class*="language-"].active,
+.vp-block.active {
+    display: grid;
+}
+
+.vp-block {
+    padding: 20px 24px;
 }

@@ -1,12 +1,11 @@
 ---
 title: Editing iPhone/iPad Worlds
+page_title: Editing iPhone/iPad Worlds Using Your Computer
 description: How to edit world from your iPhone/iPad using the app on your computer.
 nav_order: 2
 mentions:
     - 8Crafter
 ---
-
-# Editing iPhone/iPad Worlds Using Your Computer
 
 With this app, it is possible to edit worlds from your iPhone or iPad using your computer without manually transferring the world files to your computer and back to your iPhone/iPad again.
 
@@ -54,7 +53,7 @@ Before running these, you will need to create the `~/Library/Application Support
 
 To get to the `Volumes` folder, do Shift+Command+G in Finder, then type `/Volumes` and press return.
 
-### Connecting using a cable:
+### Connecting using a cable
 
 To connect to your iPhone/iPad using a cable, use the following commands:
 
@@ -63,7 +62,7 @@ ifuse --documents com.mojang.minecraftpe ~/Library/Application\ Support/bedrock_
 ifuse --documents com.mojang.minecraftpreview ~/Library/Application\ Support/bedrock_world_editor/mounted_volumes/iPhone-MinecraftPreview
 ```
 
-### Connecting over Wi-FI:
+### Connecting over Wi-FI
 
 To allow your iPhone/iPad to connect over Wi-Fi do the following (these steps only need to be done the first time):
 
@@ -130,7 +129,7 @@ The following factors affect how long it takes:
 -   The speed of your Mac (minimal impact).
 -   The speed of your iPhone/iPad (minimal impact unless your phone is really old, and thus has a slow connection to your Mac).
 
-### Unmounting the volumes:
+### Unmounting the volumes
 
 If your iPhone/iPad gets disconnected and you don't want to restart your computer before reconnecting it, you can unmount the volumes using the following commands to allow you to remount it:
 
@@ -161,7 +160,7 @@ Make sure you configure `.sh` files to open with Terminal by default, so you can
 
 #### The mounting commands are throwing `There was an error accessing the mount point: Input/output error`
 
-If you get this error, you need to unmount the volume first. See [Unmounting the volumes](#Unmounting-the-volumes).
+If you get this error, you need to unmount the volume first. See [Unmounting the volumes](#unmounting-the-volumes).
 
 ---
 

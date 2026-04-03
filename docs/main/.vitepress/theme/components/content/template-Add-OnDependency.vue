@@ -7,6 +7,7 @@ const dependencyNameMap = {
     andexsa: "8Crafter's Entity Scale, NBT, and Behavior Modifier, Bossbar, and Morph Addon",
     andexdb: "8Crafter's Server Utilities & Debug Sticks",
     bluemods: "BlueMods AntiCheat",
+    we: "WorldEdit Bedrock",
 };
 </script>
 <template>
@@ -15,7 +16,7 @@ const dependencyNameMap = {
         :title="
             'This ' +
             (props.section ?? 'page') +
-            ' describes a feature that requires another add-on to work.'
+            ' describes a feature that requires an add-on to work.'
         "
         :text="
             props.dependencies.length == 1 ?

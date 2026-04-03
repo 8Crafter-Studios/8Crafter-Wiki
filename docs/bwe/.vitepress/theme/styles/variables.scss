@@ -2,7 +2,8 @@
     --bg-color: rgb(216, 216, 216);
     --light-bg-color: rgb(223, 223, 223);
     --nav-bg-color: rgba(240, 240, 240, 0.8);
-
+    --border-color: hsl(240, 4%, 80%);
+    --border-hover-color: hsl(240, 4%, 65%);
     --header-height: 56px;
     --sidebar-width: 270px;
     --outline-width: 300px;
@@ -20,6 +21,7 @@
     --light-bg-color: rgb(23, 23, 23);
     --nav-bg-color: rgb(24, 24, 24, 0.8);
     --border-color: hsl(240, 4%, 15%);
+    --border-hover-color: hsl(240, 4%, 30%);
 
     color: #fff;
 
@@ -34,6 +36,7 @@
     --light-bg-color: rgb(0, 66, 115);
     --nav-bg-color: rgb(0, 67, 116, 0.8);
     --border-color: rgb(0, 82, 132);
+    --border-color: rgb(0, 129, 209);
 
     color: #87ceeb;
 
