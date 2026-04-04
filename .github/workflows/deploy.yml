@@ -115,31 +115,26 @@ jobs:
             #         docs/main/page-link-list.md
 
             - name: Check Build (main) 🔧
-              if: |
-                  contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/main/')
+              if: contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/main/') || github.event_name == 'workflow_dispatch'
               run: npm run build_main
 
             - name: Check Build (andexdb) 🔧
-              if: |
-                  contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/andexdb/')
+              if: contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/andexdb/') || github.event_name == 'workflow_dispatch'
               run: npm run build_andexdb
 
             - name: Check Build (ouic) 🔧
-              if: |
-                  contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/ouic/')
+              if: contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/ouic/') || github.event_name == 'workflow_dispatch'
               run: npm run build_ouic
 
             - name: Check Build (bwe) 🔧
-              if: |
-                  contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/bwe/')
+              if: contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/bwe/') || github.event_name == 'workflow_dispatch'
               run: npm run build_bwe
 
             - name: Deploy (main) to GitHub Pages
               # You may pin to the exact commit or the version.
               # uses: JamesIves/github-pages-deploy-action@15de0f09300eea763baee31dff6c6184995c5f6a
               uses: JamesIves/github-pages-deploy-action@v4.7.2
-              if: |
-                  contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/main/')
+              if: contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/main/') || github.event_name == 'workflow_dispatch'
               with:
                   # This option defaults to the repository scoped GitHub Token.  However if you need more permissions for things such as deploying to another repository, you can add a Personal Access Token (PAT) here.  This should be stored in the `secrets / with` menu **as a secret**.
                   # We recommend using a service account with the least permissions necessary and when generating a new PAT that you select the least permission scopes required.
@@ -179,8 +174,7 @@ jobs:
               # You may pin to the exact commit or the version.
               # uses: JamesIves/github-pages-deploy-action@15de0f09300eea763baee31dff6c6184995c5f6a
               uses: JamesIves/github-pages-deploy-action@v4.7.2
-              if: |
-                  contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/andexdb/')
+              if: contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/andexdb/') || github.event_name == 'workflow_dispatch'
               with:
                   token: ${{ secrets.CI_TOKEN }}
                   branch: generated
@@ -191,8 +185,7 @@ jobs:
               # You may pin to the exact commit or the version.
               # uses: JamesIves/github-pages-deploy-action@15de0f09300eea763baee31dff6c6184995c5f6a
               uses: JamesIves/github-pages-deploy-action@v4.7.2
-              if: |
-                  contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/ouic/')
+              if: contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/ouic/') || github.event_name == 'workflow_dispatch'
               with:
                   token: ${{ secrets.CI_TOKEN }}
                   branch: generated
@@ -203,8 +196,7 @@ jobs:
               # You may pin to the exact commit or the version.
               # uses: JamesIves/github-pages-deploy-action@15de0f09300eea763baee31dff6c6184995c5f6a
               uses: JamesIves/github-pages-deploy-action@v4.7.2
-              if: |
-                  contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/bwe/')
+              if: contains(join(fromJson(steps.changed-files.outputs.changedFiles), '>'), '>docs/bwe/') || github.event_name == 'workflow_dispatch'
               with:
                   token: ${{ secrets.CI_TOKEN }}
                   branch: generated
