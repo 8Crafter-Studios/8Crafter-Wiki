@@ -1,7 +1,7 @@
 ---
 title: Editing iPhone/iPad Worlds
 page_title: Editing iPhone/iPad Worlds Using Your Computer
-description: How to edit world from your iPhone/iPad using the app on your computer.
+description: How to edit worlds from your iPhone/iPad using the app on your computer.
 nav_order: 2
 mentions:
     - 8Crafter
