@@ -197,10 +197,47 @@ Compatible Add-On Versions:
 
 </Spoiler>
 
+<!-- TODO: Add the Minecraft patch versions. -->
 <Spoiler title="1.21.120">
 
 Compatible Add-On Versions:
 
 -   `v1.41.0`
+
+</Spoiler>
+
+<!-- TODO: Add the Minecraft patch versions. -->
+<Spoiler title="1.21.130">
+
+Compatible Add-On Versions:
+
+-   `v1.41.0`
+
+</Spoiler>
+
+<!-- TODO: Add the Minecraft patch versions. -->
+<Spoiler title="1.26.0">
+
+Compatible Add-On Versions:
+
+-   `v1.42.0`
+
+</Spoiler>
+
+<!-- TODO: Add the Minecraft patch versions. -->
+<Spoiler title="1.26.10">
+
+Compatible Add-On Versions:
+
+-   `v1.42.0`
+
+</Spoiler>
+
+<!-- TODO: Add the Minecraft patch versions. -->
+<Spoiler title="1.26.20">
+
+Compatible Add-On Versions:
+
+-   `v1.42.0`
 
 </Spoiler>
