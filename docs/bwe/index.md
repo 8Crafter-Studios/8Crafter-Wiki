@@ -27,7 +27,7 @@ General information about the app.
 
 </Card>
 
-<Card title="Discord" link="/../main/discord" image="/assets/images/homepage/discord.png">
+<Card title="Discord" link="/../main/discord" image="/../main/assets/images/homepage/discord.png">
 
 Join my Discord server for support.
 
