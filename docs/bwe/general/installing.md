@@ -8,3 +8,19 @@ mentions:
 ---
 
 <template-Stub />
+
+## Windows
+
+<template-EmptySection />
+
+## Linux
+
+<template-EmptySection />
+
+## macOS
+
+<template-EmptySection />
+
+## Next
+
+<Button link="./getting-started">Next: Getting Started</Button>

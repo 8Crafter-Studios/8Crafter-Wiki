@@ -22,7 +22,7 @@ mentions:
 
 <br>
 
-An NBT editor for Minecraft Bedrock Edition.
+An NBT and LevelDB editor for Minecraft Bedrock Edition.
 
 This app supports Windows, Linux, and macOS (Darwin).
 
