@@ -23,6 +23,25 @@ Even though iOS is not supported yet, you can still edit worlds from your iPhone
 
 [Changelog](https://github.com/8Crafter-Studios/Bedrock-World-Editor/blob/main/Changelog.md)
 
+## Privacy Policy
+
+This program will not transfer any information to other networked systems
+unless specifically requested by the user or the person installing or
+operating it.
+
+## Code Signing Policy
+
+Free code signing provided by [SignPath.io](https://about.signpath.io/),
+certificate by [SignPath Foundation](https://signpath.org/).
+
+For macOS the app is signed and notarized by Apple.
+
+### People with direct push access
+- [8Crafter](https://github.com/8Crafter)
+- [StormStqr](https://github.com/stormstqr)
+- [SmokeyStack](https://github.com/SmokeyStack)
+- [xKingDark](https://github.com/xKingDark)
+
 ## Next
 
 <Button link="./downloading">Next: Downloading</Button>

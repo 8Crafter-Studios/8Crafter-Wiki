@@ -23,7 +23,7 @@ This is the wiki for [8Crafter's Bedrock World Editor](https://github.com/8Craft
 
 <Card title="General Information" link="./general/general-information" image="/favicon.png" pixelated>
 
-General information about the app.
+General information about the app. Also contains the privacy policy and code signing policy.
 
 </Card>
 
