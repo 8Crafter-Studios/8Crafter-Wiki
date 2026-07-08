@@ -1,8 +1,8 @@
 ---
-title: BlueMods Anticheat
-page_title: BlueMods Anticheat
+title: BlueMods Essential
+page_title: BlueMods Essential
 category: Released
-description: BlueMods Anticheat
+description: An all-in-one Minecraft Bedrock addon designed to provide essential for both Realms and dedicated servers.
 tags:
     - BP
     - RP
