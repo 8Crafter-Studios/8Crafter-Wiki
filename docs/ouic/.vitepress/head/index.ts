@@ -21,6 +21,22 @@ export default <HeadConfig[]>[
         },
     ],
     [
+        "link",
+        {
+            rel: "apple-touch-icon",
+            sizes: "512x512",
+            href: "/ouic/apple-touch-icon.png",
+        },
+    ],
+    [
+        "link",
+        {
+            rel: "apple-touch-icon",
+            sizes: "256x256",
+            href: "/ouic/apple-touch-icon-256x.png",
+        },
+    ],
+    [
         "meta",
         {
             name: "theme-color",
