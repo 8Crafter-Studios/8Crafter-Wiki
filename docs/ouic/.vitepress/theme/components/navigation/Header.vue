@@ -39,7 +39,7 @@ function toggleSidebarVisibility() {
             </li>
         </ul>
         <a class="header__title" href="/ouic/">
-            <img src="/favicon.gif" alt="" />
+            <img src="/favicon.png" alt="" />
             <span>{{ isShortTitle ? "OUIC Wiki" : site.title }}</span>
         </a>
         <div class="header__content">
@@ -62,7 +62,7 @@ function toggleSidebarVisibility() {
     </header>
     <!-- <header class="header">
     <a class="header__title" href="/">
-      <img src="/favicon.gif" alt="" />
+      <img src="/favicon.png" alt="" />
       <span>{{ isShortTitle ? "Wiki" : site.title }}</span>
     </a>
     <div class="header__content">

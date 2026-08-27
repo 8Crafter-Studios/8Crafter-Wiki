@@ -6,6 +6,17 @@ export default <HeadConfig[]>[
         "link",
         {
             rel: "icon",
+            type: "image/png",
+            sizes: "1024x1024",
+            href: "/ouic/favicon.png",
+        },
+    ],
+    [
+        "link",
+        {
+            rel: "icon",
+            type: "image/x-icon",
+            sizes: "256x256",
             href: "/ouic/favicon.ico",
         },
     ],

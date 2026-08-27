@@ -5,6 +5,7 @@ description: What to do after you install the application.
 nav_order: 4
 mentions:
     - Aevarkan
+    - 8Crafter
 ---
 
 <template-WorkInProgress />
@@ -12,6 +13,8 @@ mentions:
 Upon opening the app, you will be greeted by a list of your Minecraft worlds. If your world doesn't appear, try pressing "Show more" at the bottom of the list.
 
 To begin editing, open the world you'll be making changes to by clicking on its tab in the list.
+
+You can refresh the worlds list by clicking the app logo on the left.
 
 ![World directory](/assets/images/general/getting-started/menu-page.png)
 
