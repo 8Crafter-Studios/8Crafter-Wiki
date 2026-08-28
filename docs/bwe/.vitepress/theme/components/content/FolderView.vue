@@ -7,6 +7,7 @@ const props = defineProps<{ paths: string[] }>();
 export interface Entry {
     name: string;
     children: Record<string, Entry>;
+    hasTrailingSlash: boolean;
 }
 
 const entries = computed(() => {
@@ -26,10 +27,11 @@ function fillEntries(entries: Record<string, Entry>, path: string[]) {
     entries[first] ??= {
         name: first,
         children: {},
+        hasTrailingSlash: path.length === 1 && path[0] === "",
     };
 
     // If there are more paths, recurse
-    if (path.length > 0) {
+    if (path.length > 0 && (path.length !== 1 || path[0] !== "")) {
         fillEntries(entries[first]["children"], path);
     }
 }

@@ -1,8 +1,10 @@
 ---
-title: Themes
-page_title: Themes
-description: Information about themes.
-nav_order: 4
+title: Themes Explained
+page_title: Themes Explained
+description: The basics of themes.
+category: Guide
+nav_order: 1
+prefix: "1. "
 mentions:
     - 8Crafter
 ---

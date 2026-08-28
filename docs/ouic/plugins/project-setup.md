@@ -13,13 +13,28 @@ mentions:
 <template-WorkInProgress />
 
 <FolderView :paths="[
-    'my_plugin/assets/.eslintrc',
+    'my_plugin/.vscode/ore-ui.css-data.json', // <!-- NOTE: Devlopment only. -->
+    'my_plugin/.vscode/ore-ui.html-data.json', // <!-- NOTE: Devlopment only. -->
+    'my_plugin/.vscode/settings.json', // <!-- NOTE: Devlopment only. -->
+    'my_plugin/assets/.eslintrc', // <!-- NOTE: Devlopment only. -->
+    'my_plugin/assets/example.ts',
     'my_plugin/scripts/index.ts',
-    'my_plugin/tsconfig.json',
-    'my_plugin/tsconfig.assets.json',
-    'my_plugin/tsconfig.scripts.json',
+    'my_plugin/tsconfig.json', // <!-- NOTE: Devlopment only. -->
+    'my_plugin/tsconfig.assets.json', // <!-- NOTE: Devlopment only. -->
+    'my_plugin/tsconfig.scripts.json', // <!-- NOTE: Devlopment only. -->
     'my_plugin/manifest.json',
     'my_plugin/pack_icon.png',
-    'my_plugin/.prettierrc',
-    'my_plugin/package.json',
+    'my_plugin/.prettierrc', // <!-- NOTE: Devlopment only. -->
+    'my_plugin/package.json', // <!-- NOTE: Devlopment only. -->
+]" />
+
+<FolderView :paths="[
+    'my_plugin/assets/example.d.ts',
+    'my_plugin/assets/example.js',
+    'my_plugin/assets/example.js.map',
+    'my_plugin/scripts/index.d.ts',
+    'my_plugin/scripts/index.js',
+    'my_plugin/scripts/index.js.map',
+    'my_plugin/manifest.json',
+    'my_plugin/pack_icon.png',
 ]" />

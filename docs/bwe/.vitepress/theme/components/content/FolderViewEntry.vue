@@ -12,7 +12,9 @@ function toggleChildren() {
     collapsed.value = !collapsed.value;
 }
 
-const isFolder = computed(() => Object.keys(props.entry.children).length > 0);
+const isFolder = computed(
+    () => Object.keys(props.entry.children).length > 0 || props.entry.hasTrailingSlash
+);
 
 const icon = computed(() => {
     if (isFolder.value) {
@@ -26,7 +28,20 @@ const icon = computed(() => {
         case "jpg":
         case "png":
         case "tga":
+        case "svg":
+        case "gif":
             return "🖼️";
+        case "mp4":
+        case "webm":
+            return "🎥";
+        case "mp3":
+        case "ogg":
+        case "wav":
+        case "fsb":
+            return "🎵";
+        case "otf":
+        case "ttf":
+            return "📑";
         case "lang":
             return "🈵";
         case "mcstructure":
