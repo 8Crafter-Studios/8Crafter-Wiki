@@ -14,7 +14,7 @@ mentions:
 <Button link="https://www.8crafter.com/utilities/ore-ui-customizer">Website</Button>
 <Button link="https://www.npmjs.com/package/ore-ui-customizer-cli">CLI</Button>
 
-A tool/mod loader that allows you to customize Ore UI in Minecraft Bedrock Edition.You can add custom themes, get the debug tab, disable experimental toggles, get the export world button on Android, and so much more!
+A tool/mod loader that allows you to customize Ore UI in Minecraft Bedrock Edition. You can add custom themes, get the debug tab, disable experimental toggles, get the export world button on Android, and so much more!
 
 Please report any issues you find with the Ore UI Customizer [here](https://github.com/8Crafter-Studios/Ore-UI-Customizer-App/issues).
 
