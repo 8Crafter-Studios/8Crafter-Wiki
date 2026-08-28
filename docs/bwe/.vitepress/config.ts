@@ -83,7 +83,7 @@ export default defineConfigWithTheme<ThemeConfig>({
         algolia: {
             appId: "97Y3M3Y6BI",
             apiKey: "84dd07d78c878c93eac11f7ed88ad9b8",
-            indexName: "main",
+            indexName: "bwe",
             placeholder: "Search Bedrock World Editor Wiki...",
         },
 
