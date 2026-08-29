@@ -1,0 +1,3300 @@
+:root .vanilla-neutral-text,
+:root .vanilla-neutral-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-neutral-text-disable.disabled,
+:root .disabled .vanilla-neutral-text-disable,
+:root .vanilla-neutral-text-interactive.disabled,
+:root .disabled .vanilla-neutral-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-neutral-text.dimmest,
+:root .vanilla-neutral-text-interactive.dimmest {
+    color: #b1b2b5;
+}
+:root .vanilla-neutral-text-disable.dimmest.disabled,
+:root .disabled .vanilla-neutral-text-disable.dimmest,
+:root .vanilla-neutral-text-interactive.dimmest.disabled,
+:root .disabled .vanilla-neutral-text-interactive.dimmest {
+    color: #58585a;
+}
+:root .vanilla-neutral-text.dimmer,
+:root .vanilla-neutral-text-interactive.dimmer {
+    color: #d0d1d4;
+}
+:root .vanilla-neutral-text-disable.dimmer.disabled,
+:root .disabled .vanilla-neutral-text-disable.dimmer,
+:root .vanilla-neutral-text-interactive.dimmer.disabled,
+:root .disabled .vanilla-neutral-text-interactive.dimmer {
+    color: #d0d1d4;
+}
+:root .vanilla-neutral-icon,
+:root .vanilla-neutral-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-neutral-icon-disable.disabled,
+:root .disabled .vanilla-neutral-icon-disable,
+:root .vanilla-neutral-icon-interactive.disabled,
+:root .disabled .vanilla-neutral-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-neutral-icon.dimmest,
+:root .vanilla-neutral-icon-interactive.dimmest {
+    background-color: #b1b2b5;
+}
+:root .vanilla-neutral-icon-disable.dimmest.disabled,
+:root .disabled .vanilla-neutral-icon-disable.dimmest,
+:root .vanilla-neutral-icon-interactive.dimmest.disabled,
+:root .disabled .vanilla-neutral-icon-interactive.dimmest {
+    background-color: #58585a;
+}
+:root .vanilla-neutral-icon.dimmer,
+:root .vanilla-neutral-icon-interactive.dimmer {
+    background-color: #d0d1d4;
+}
+:root .vanilla-neutral-icon-disable.dimmer.disabled,
+:root .disabled .vanilla-neutral-icon-disable.dimmer,
+:root .vanilla-neutral-icon-interactive.dimmer.disabled,
+:root .disabled .vanilla-neutral-icon-interactive.dimmer {
+    background-color: #58585a;
+}
+:root .vanilla-neutral-border,
+:root .vanilla-neutral-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-neutral-border-disable.disabled,
+:root .disabled .vanilla-neutral-border-disable,
+:root .vanilla-neutral-border-interactive.disabled,
+:root .disabled .vanilla-neutral-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-neutral-caret,
+:root .vanilla-neutral-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-neutral-background,
+:root .vanilla-neutral-background-interactive {
+    background-color: #48494a;
+}
+:root .vanilla-neutral-background-select.selected,
+:root .selected .vanilla-neutral-background-select,
+:root .vanilla-neutral-background-interactive.selected,
+:root .selected .vanilla-neutral-background-interactive {
+    background-color: #313233;
+}
+:root .vanilla-neutral-background-hover.hovered,
+:root .hovered .vanilla-neutral-background-hover,
+:root .vanilla-neutral-background-interactive.hovered,
+:root .hovered .vanilla-neutral-background-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-neutral-background-press.pressed,
+:root .pressed .vanilla-neutral-background-press,
+:root .vanilla-neutral-background-interactive.pressed,
+:root .pressed .vanilla-neutral-background-interactive {
+    background-color: #313233;
+}
+:root .vanilla-neutral-background-disable.disabled,
+:root .disabled .vanilla-neutral-background-disable,
+:root .vanilla-neutral-background-interactive.disabled,
+:root .disabled .vanilla-neutral-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-neutral-shadow,
+:root .vanilla-neutral-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-neutral-shadow-disable.disabled,
+:root .disabled .vanilla-neutral-shadow-disable,
+:root .vanilla-neutral-shadow-interactive.disabled,
+:root .disabled .vanilla-neutral-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-neutral-outline,
+:root .vanilla-neutral-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-neutral-overlay,
+:root .vanilla-neutral-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-neutral-dropShadow,
+:root .vanilla-neutral-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-neutral-specular,
+:root .vanilla-neutral-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral-specular.reversed,
+:root .vanilla-neutral-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-neutral-bevel,
+:root .vanilla-neutral-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-neutral-bevel.reversed,
+:root .vanilla-neutral-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral-highlight,
+:root .vanilla-neutral-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-neutral-highlight-hover.hovered,
+:root .hovered .vanilla-neutral-highlight-hover,
+:root .vanilla-neutral-highlight-interactive.hovered,
+:root .hovered .vanilla-neutral-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-neutral20-text,
+:root .vanilla-neutral20-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-neutral20-text-disable.disabled,
+:root .disabled .vanilla-neutral20-text-disable,
+:root .vanilla-neutral20-text-interactive.disabled,
+:root .disabled .vanilla-neutral20-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-neutral20-text.dimmest,
+:root .vanilla-neutral20-text-interactive.dimmest {
+    color: #d0d1d4;
+}
+:root .vanilla-neutral20-text-disable.dimmest.disabled,
+:root .disabled .vanilla-neutral20-text-disable.dimmest,
+:root .vanilla-neutral20-text-interactive.dimmest.disabled,
+:root .disabled .vanilla-neutral20-text-interactive.dimmest {
+    color: #58585a;
+}
+:root .vanilla-neutral20-icon,
+:root .vanilla-neutral20-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-neutral20-icon-disable.disabled,
+:root .disabled .vanilla-neutral20-icon-disable,
+:root .vanilla-neutral20-icon-interactive.disabled,
+:root .disabled .vanilla-neutral20-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-neutral20-border,
+:root .vanilla-neutral20-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-neutral20-border-disable.disabled,
+:root .disabled .vanilla-neutral20-border-disable,
+:root .vanilla-neutral20-border-interactive.disabled,
+:root .disabled .vanilla-neutral20-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-neutral20-caret,
+:root .vanilla-neutral20-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-neutral20-background,
+:root .vanilla-neutral20-background-interactive {
+    background-color: #e6e8eb;
+}
+:root .vanilla-neutral20-background-hover.hovered,
+:root .hovered .vanilla-neutral20-background-hover,
+:root .vanilla-neutral20-background-interactive.hovered,
+:root .hovered .vanilla-neutral20-background-interactive {
+    background-color: #f4f6f9;
+}
+:root .vanilla-neutral20-background-press.pressed,
+:root .pressed .vanilla-neutral20-background-press,
+:root .vanilla-neutral20-background-interactive.pressed,
+:root .pressed .vanilla-neutral20-background-interactive {
+    background-color: #d0d1d4;
+}
+:root .vanilla-neutral20-background-disable.disabled,
+:root .disabled .vanilla-neutral20-background-disable,
+:root .vanilla-neutral20-background-interactive.disabled,
+:root .disabled .vanilla-neutral20-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-neutral20-shadow,
+:root .vanilla-neutral20-shadow-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-neutral20-shadow-disable.disabled,
+:root .disabled .vanilla-neutral20-shadow-disable,
+:root .vanilla-neutral20-shadow-interactive.disabled,
+:root .disabled .vanilla-neutral20-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-neutral20-outline,
+:root .vanilla-neutral20-outline-interactive {
+    border-color: #000000;
+}
+:root .vanilla-neutral20-overlay,
+:root .vanilla-neutral20-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-neutral20-dropShadow,
+:root .vanilla-neutral20-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-neutral20-specular,
+:root .vanilla-neutral20-specular-interactive {
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-neutral20-specular.reversed,
+:root .vanilla-neutral20-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: #ffffff;
+    border-right-color: #ffffff;
+}
+:root .vanilla-neutral20-bevel,
+:root .vanilla-neutral20-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-neutral20-bevel.reversed,
+:root .vanilla-neutral20-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral20-highlight,
+:root .vanilla-neutral20-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-neutral20-highlight-hover.hovered,
+:root .hovered .vanilla-neutral20-highlight-hover,
+:root .vanilla-neutral20-highlight-interactive.hovered,
+:root .hovered .vanilla-neutral20-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-neutral50-text,
+:root .vanilla-neutral50-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-neutral50-text-disable.disabled,
+:root .disabled .vanilla-neutral50-text-disable,
+:root .vanilla-neutral50-text-interactive.disabled,
+:root .disabled .vanilla-neutral50-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-neutral50-icon,
+:root .vanilla-neutral50-icon-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-neutral50-icon-disable.disabled,
+:root .disabled .vanilla-neutral50-icon-disable,
+:root .vanilla-neutral50-icon-interactive.disabled,
+:root .disabled .vanilla-neutral50-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-neutral50-border,
+:root .vanilla-neutral50-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-neutral50-border-disable.disabled,
+:root .disabled .vanilla-neutral50-border-disable,
+:root .vanilla-neutral50-border-interactive.disabled,
+:root .disabled .vanilla-neutral50-border-interactive {
+    border-color: #8c8d90;
+}
+:root .vanilla-neutral50-caret,
+:root .vanilla-neutral50-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-neutral50-background,
+:root .vanilla-neutral50-background-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-neutral50-background-hover.hovered,
+:root .hovered .vanilla-neutral50-background-hover,
+:root .vanilla-neutral50-background-interactive.hovered,
+:root .hovered .vanilla-neutral50-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-neutral50-background-press.pressed,
+:root .pressed .vanilla-neutral50-background-press,
+:root .vanilla-neutral50-background-interactive.pressed,
+:root .pressed .vanilla-neutral50-background-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-neutral50-background-disable.disabled,
+:root .disabled .vanilla-neutral50-background-disable,
+:root .vanilla-neutral50-background-interactive.disabled,
+:root .disabled .vanilla-neutral50-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-neutral50-shadow,
+:root .vanilla-neutral50-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-neutral50-shadow-disable.disabled,
+:root .disabled .vanilla-neutral50-shadow-disable,
+:root .vanilla-neutral50-shadow-interactive.disabled,
+:root .disabled .vanilla-neutral50-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-neutral50-outline,
+:root .vanilla-neutral50-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-neutral50-overlay,
+:root .vanilla-neutral50-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+:root .vanilla-neutral50-dropShadow,
+:root .vanilla-neutral50-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-neutral50-specular,
+:root .vanilla-neutral50-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral50-specular.reversed,
+:root .vanilla-neutral50-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-neutral50-bevel,
+:root .vanilla-neutral50-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-neutral50-bevel.reversed,
+:root .vanilla-neutral50-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral50-highlight,
+:root .vanilla-neutral50-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-neutral50-highlight-hover.hovered,
+:root .hovered .vanilla-neutral50-highlight-hover,
+:root .vanilla-neutral50-highlight-interactive.hovered,
+:root .hovered .vanilla-neutral50-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-neutral60-text,
+:root .vanilla-neutral60-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-neutral60-text-disable.disabled,
+:root .disabled .vanilla-neutral60-text-disable,
+:root .vanilla-neutral60-text-interactive.disabled,
+:root .disabled .vanilla-neutral60-text-interactive {
+    color: #b1b2b5;
+}
+:root .vanilla-neutral60-icon,
+:root .vanilla-neutral60-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-neutral60-icon-disable.disabled,
+:root .disabled .vanilla-neutral60-icon-disable,
+:root .vanilla-neutral60-icon-interactive.disabled,
+:root .disabled .vanilla-neutral60-icon-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-neutral60-border,
+:root .vanilla-neutral60-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-neutral60-border-disable.disabled,
+:root .disabled .vanilla-neutral60-border-disable,
+:root .vanilla-neutral60-border-interactive.disabled,
+:root .disabled .vanilla-neutral60-border-interactive {
+    border-color: #8c8d90;
+}
+:root .vanilla-neutral60-border.dimmest,
+:root .vanilla-neutral60-border-interactive.dimmest {
+    border-color: #8c8d90;
+}
+:root .vanilla-neutral60-border-disable.dimmest.disabled,
+:root .disabled .vanilla-neutral60-border-disable.dimmest,
+:root .vanilla-neutral60-border-interactive.dimmest.disabled,
+:root .disabled .vanilla-neutral60-border-interactive.dimmest {
+    border-color: #8c8d90;
+}
+:root .vanilla-neutral60-caret,
+:root .vanilla-neutral60-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-neutral60-background,
+:root .vanilla-neutral60-background-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-neutral60-background-hover.hovered,
+:root .hovered .vanilla-neutral60-background-hover,
+:root .vanilla-neutral60-background-interactive.hovered,
+:root .hovered .vanilla-neutral60-background-interactive {
+    background-color: #48494a;
+}
+:root .vanilla-neutral60-background-press.pressed,
+:root .pressed .vanilla-neutral60-background-press,
+:root .vanilla-neutral60-background-interactive.pressed,
+:root .pressed .vanilla-neutral60-background-interactive {
+    background-color: #313233;
+}
+:root .vanilla-neutral60-background-disable.disabled,
+:root .disabled .vanilla-neutral60-background-disable,
+:root .vanilla-neutral60-background-interactive.disabled,
+:root .disabled .vanilla-neutral60-background-interactive {
+    background-color: #48494a;
+}
+:root .vanilla-neutral60-shadow,
+:root .vanilla-neutral60-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-neutral60-shadow-disable.disabled,
+:root .disabled .vanilla-neutral60-shadow-disable,
+:root .vanilla-neutral60-shadow-interactive.disabled,
+:root .disabled .vanilla-neutral60-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-neutral60-outline,
+:root .vanilla-neutral60-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-neutral60-overlay,
+:root .vanilla-neutral60-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-neutral60-dropShadow,
+:root .vanilla-neutral60-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-neutral60-specular,
+:root .vanilla-neutral60-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral60-specular.reversed,
+:root .vanilla-neutral60-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-neutral60-bevel,
+:root .vanilla-neutral60-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-neutral60-bevel.reversed,
+:root .vanilla-neutral60-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral60-highlight,
+:root .vanilla-neutral60-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-neutral60-highlight-hover.hovered,
+:root .hovered .vanilla-neutral60-highlight-hover,
+:root .vanilla-neutral60-highlight-interactive.hovered,
+:root .hovered .vanilla-neutral60-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-neutral80-text,
+:root .vanilla-neutral80-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-neutral80-text-disable.disabled,
+:root .disabled .vanilla-neutral80-text-disable,
+:root .vanilla-neutral80-text-interactive.disabled,
+:root .disabled .vanilla-neutral80-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-neutral80-text.dimmest,
+:root .vanilla-neutral80-text-interactive.dimmest {
+    color: #b1b2b5;
+}
+:root .vanilla-neutral80-text-disable.dimmest.disabled,
+:root .disabled .vanilla-neutral80-text-disable.dimmest,
+:root .vanilla-neutral80-text-interactive.dimmest.disabled,
+:root .disabled .vanilla-neutral80-text-interactive.dimmest {
+    color: #58585a;
+}
+:root .vanilla-neutral80-text.dimmer,
+:root .vanilla-neutral80-text-interactive.dimmer {
+    color: #d0d1d4;
+}
+:root .vanilla-neutral80-text-disable.dimmer.disabled,
+:root .disabled .vanilla-neutral80-text-disable.dimmer,
+:root .vanilla-neutral80-text-interactive.dimmer.disabled,
+:root .disabled .vanilla-neutral80-text-interactive.dimmer {
+    color: #58585a;
+}
+:root .vanilla-neutral80-icon,
+:root .vanilla-neutral80-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-neutral80-icon-disable.disabled,
+:root .disabled .vanilla-neutral80-icon-disable,
+:root .vanilla-neutral80-icon-interactive.disabled,
+:root .disabled .vanilla-neutral80-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-neutral80-border,
+:root .vanilla-neutral80-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-neutral80-border-disable.disabled,
+:root .disabled .vanilla-neutral80-border-disable,
+:root .vanilla-neutral80-border-interactive.disabled,
+:root .disabled .vanilla-neutral80-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-neutral80-caret,
+:root .vanilla-neutral80-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-neutral80-background,
+:root .vanilla-neutral80-background-interactive {
+    background-color: #313233;
+}
+:root .vanilla-neutral80-background-select.selected,
+:root .selected .vanilla-neutral80-background-select,
+:root .vanilla-neutral80-background-interactive.selected,
+:root .selected .vanilla-neutral80-background-interactive {
+    background-color: #48494a;
+}
+:root .vanilla-neutral80-background-hover.hovered,
+:root .hovered .vanilla-neutral80-background-hover,
+:root .vanilla-neutral80-background-interactive.hovered,
+:root .hovered .vanilla-neutral80-background-interactive {
+    background-color: #48494a;
+}
+:root .vanilla-neutral80-background-press.pressed,
+:root .pressed .vanilla-neutral80-background-press,
+:root .vanilla-neutral80-background-interactive.pressed,
+:root .pressed .vanilla-neutral80-background-interactive {
+    background-color: #242425;
+}
+:root .vanilla-neutral80-background-disable.disabled,
+:root .disabled .vanilla-neutral80-background-disable,
+:root .vanilla-neutral80-background-interactive.disabled,
+:root .disabled .vanilla-neutral80-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-neutral80-shadow,
+:root .vanilla-neutral80-shadow-interactive {
+    background-color: #242425;
+}
+:root .vanilla-neutral80-shadow-disable.disabled,
+:root .disabled .vanilla-neutral80-shadow-disable,
+:root .vanilla-neutral80-shadow-interactive.disabled,
+:root .disabled .vanilla-neutral80-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-neutral80-outline,
+:root .vanilla-neutral80-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-neutral80-overlay,
+:root .vanilla-neutral80-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+:root .vanilla-neutral80-dropShadow,
+:root .vanilla-neutral80-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-neutral80-specular,
+:root .vanilla-neutral80-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral80-specular.reversed,
+:root .vanilla-neutral80-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-neutral80-bevel,
+:root .vanilla-neutral80-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+:root .vanilla-neutral80-bevel.reversed,
+:root .vanilla-neutral80-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral80-bevel-select.selected,
+:root .selected .vanilla-neutral80-bevel-select,
+:root .vanilla-neutral80-bevel-interactive.selected,
+:root .selected .vanilla-neutral80-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral80-bevel-select.reversed.selected,
+:root .selected .vanilla-neutral80-bevel-select.reversed,
+:root .vanilla-neutral80-bevel-interactive.reversed.selected,
+:root .selected .vanilla-neutral80-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+:root .vanilla-neutral80-bevel-hover.hovered,
+:root .hovered .vanilla-neutral80-bevel-hover,
+:root .vanilla-neutral80-bevel-interactive.hovered,
+:root .hovered .vanilla-neutral80-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+:root .vanilla-neutral80-bevel-hover.reversed.hovered,
+:root .hovered .vanilla-neutral80-bevel-hover.reversed,
+:root .vanilla-neutral80-bevel-interactive.reversed.hovered,
+:root .hovered .vanilla-neutral80-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral80-bevel-press.pressed,
+:root .pressed .vanilla-neutral80-bevel-press,
+:root .vanilla-neutral80-bevel-interactive.pressed,
+:root .pressed .vanilla-neutral80-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.8);
+    border-left-color: rgba(0, 0, 0, 0.8);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral80-bevel-press.reversed.pressed,
+:root .pressed .vanilla-neutral80-bevel-press.reversed,
+:root .vanilla-neutral80-bevel-interactive.reversed.pressed,
+:root .pressed .vanilla-neutral80-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.8);
+    border-right-color: rgba(0, 0, 0, 0.8);
+}
+:root .vanilla-neutral80-highlight,
+:root .vanilla-neutral80-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-neutral80-highlight-hover.hovered,
+:root .hovered .vanilla-neutral80-highlight-hover,
+:root .vanilla-neutral80-highlight-interactive.hovered,
+:root .hovered .vanilla-neutral80-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-neutral90-text,
+:root .vanilla-neutral90-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-neutral90-text-disable.disabled,
+:root .disabled .vanilla-neutral90-text-disable,
+:root .vanilla-neutral90-text-interactive.disabled,
+:root .disabled .vanilla-neutral90-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-neutral90-icon,
+:root .vanilla-neutral90-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-neutral90-icon-disable.disabled,
+:root .disabled .vanilla-neutral90-icon-disable,
+:root .vanilla-neutral90-icon-interactive.disabled,
+:root .disabled .vanilla-neutral90-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-neutral90-border,
+:root .vanilla-neutral90-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-neutral90-border-disable.disabled,
+:root .disabled .vanilla-neutral90-border-disable,
+:root .vanilla-neutral90-border-interactive.disabled,
+:root .disabled .vanilla-neutral90-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-neutral90-caret,
+:root .vanilla-neutral90-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-neutral90-background,
+:root .vanilla-neutral90-background-interactive {
+    background-color: #242425;
+}
+:root .vanilla-neutral90-background-disable.disabled,
+:root .disabled .vanilla-neutral90-background-disable,
+:root .vanilla-neutral90-background-interactive.disabled,
+:root .disabled .vanilla-neutral90-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-neutral90-shadow,
+:root .vanilla-neutral90-shadow-interactive {
+    background-color: #1e1e1f;
+}
+:root .vanilla-neutral90-shadow-disable.disabled,
+:root .disabled .vanilla-neutral90-shadow-disable,
+:root .vanilla-neutral90-shadow-interactive.disabled,
+:root .disabled .vanilla-neutral90-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-neutral90-outline,
+:root .vanilla-neutral90-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-neutral90-overlay,
+:root .vanilla-neutral90-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-neutral90-dropShadow,
+:root .vanilla-neutral90-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-neutral90-specular,
+:root .vanilla-neutral90-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral90-specular.reversed,
+:root .vanilla-neutral90-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-neutral90-bevel,
+:root .vanilla-neutral90-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-neutral90-bevel.reversed,
+:root .vanilla-neutral90-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral90-highlight,
+:root .vanilla-neutral90-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-neutral90-highlight-hover.hovered,
+:root .hovered .vanilla-neutral90-highlight-hover,
+:root .vanilla-neutral90-highlight-interactive.hovered,
+:root .hovered .vanilla-neutral90-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-neutral100-text,
+:root .vanilla-neutral100-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-neutral100-text-disable.disabled,
+:root .disabled .vanilla-neutral100-text-disable,
+:root .vanilla-neutral100-text-interactive.disabled,
+:root .disabled .vanilla-neutral100-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-neutral100-text.dimmest,
+:root .vanilla-neutral100-text-interactive.dimmest {
+    color: #b1b2b5;
+}
+:root .vanilla-neutral100-text-disable.dimmest.disabled,
+:root .disabled .vanilla-neutral100-text-disable.dimmest,
+:root .vanilla-neutral100-text-interactive.dimmest.disabled,
+:root .disabled .vanilla-neutral100-text-interactive.dimmest {
+    color: #58585a;
+}
+:root .vanilla-neutral100-text.dimmer,
+:root .vanilla-neutral100-text-interactive.dimmer {
+    color: #d0d1d4;
+}
+:root .vanilla-neutral100-text-disable.dimmer.disabled,
+:root .disabled .vanilla-neutral100-text-disable.dimmer,
+:root .vanilla-neutral100-text-interactive.dimmer.disabled,
+:root .disabled .vanilla-neutral100-text-interactive.dimmer {
+    color: #58585a;
+}
+:root .vanilla-neutral100-icon,
+:root .vanilla-neutral100-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-neutral100-icon-disable.disabled,
+:root .disabled .vanilla-neutral100-icon-disable,
+:root .vanilla-neutral100-icon-interactive.disabled,
+:root .disabled .vanilla-neutral100-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-neutral100-border,
+:root .vanilla-neutral100-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-neutral100-border-disable.disabled,
+:root .disabled .vanilla-neutral100-border-disable,
+:root .vanilla-neutral100-border-interactive.disabled,
+:root .disabled .vanilla-neutral100-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-neutral100-caret,
+:root .vanilla-neutral100-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-neutral100-background,
+:root .vanilla-neutral100-background-interactive {
+    background-color: #1e1e1f;
+}
+:root .vanilla-neutral100-background-disable.disabled,
+:root .disabled .vanilla-neutral100-background-disable,
+:root .vanilla-neutral100-background-interactive.disabled,
+:root .disabled .vanilla-neutral100-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-neutral100-shadow,
+:root .vanilla-neutral100-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-neutral100-shadow-disable.disabled,
+:root .disabled .vanilla-neutral100-shadow-disable,
+:root .vanilla-neutral100-shadow-interactive.disabled,
+:root .disabled .vanilla-neutral100-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-neutral100-outline,
+:root .vanilla-neutral100-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-neutral100-overlay,
+:root .vanilla-neutral100-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-neutral100-dropShadow,
+:root .vanilla-neutral100-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-neutral100-specular,
+:root .vanilla-neutral100-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral100-specular.reversed,
+:root .vanilla-neutral100-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-neutral100-bevel,
+:root .vanilla-neutral100-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-neutral100-bevel.reversed,
+:root .vanilla-neutral100-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutral100-highlight,
+:root .vanilla-neutral100-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-neutral100-highlight-hover.hovered,
+:root .hovered .vanilla-neutral100-highlight-hover,
+:root .vanilla-neutral100-highlight-interactive.hovered,
+:root .hovered .vanilla-neutral100-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-primary-text,
+:root .vanilla-primary-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-primary-text-disable.disabled,
+:root .disabled .vanilla-primary-text-disable,
+:root .vanilla-primary-text-interactive.disabled,
+:root .disabled .vanilla-primary-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-primary-icon,
+:root .vanilla-primary-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-primary-icon-disable.disabled,
+:root .disabled .vanilla-primary-icon-disable,
+:root .vanilla-primary-icon-interactive.disabled,
+:root .disabled .vanilla-primary-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-primary-border,
+:root .vanilla-primary-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-primary-border-disable.disabled,
+:root .disabled .vanilla-primary-border-disable,
+:root .vanilla-primary-border-interactive.disabled,
+:root .disabled .vanilla-primary-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-primary-caret,
+:root .vanilla-primary-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-primary-background,
+:root .vanilla-primary-background-interactive {
+    background-color: #3c8527;
+}
+:root .vanilla-primary-background-hover.hovered,
+:root .hovered .vanilla-primary-background-hover,
+:root .vanilla-primary-background-interactive.hovered,
+:root .hovered .vanilla-primary-background-interactive {
+    background-color: #2a641c;
+}
+:root .vanilla-primary-background-press.pressed,
+:root .pressed .vanilla-primary-background-press,
+:root .vanilla-primary-background-interactive.pressed,
+:root .pressed .vanilla-primary-background-interactive {
+    background-color: #1d4d13;
+}
+:root .vanilla-primary-background-disable.disabled,
+:root .disabled .vanilla-primary-background-disable,
+:root .vanilla-primary-background-interactive.disabled,
+:root .disabled .vanilla-primary-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-primary-shadow,
+:root .vanilla-primary-shadow-interactive {
+    background-color: #1d4d13;
+}
+:root .vanilla-primary-shadow-disable.disabled,
+:root .disabled .vanilla-primary-shadow-disable,
+:root .vanilla-primary-shadow-interactive.disabled,
+:root .disabled .vanilla-primary-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-primary-outline,
+:root .vanilla-primary-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-primary-overlay,
+:root .vanilla-primary-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-primary-dropShadow,
+:root .vanilla-primary-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-primary-specular,
+:root .vanilla-primary-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-primary-specular.reversed,
+:root .vanilla-primary-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-primary-specular-hover.hovered,
+:root .hovered .vanilla-primary-specular-hover,
+:root .vanilla-primary-specular-interactive.hovered,
+:root .hovered .vanilla-primary-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.4);
+    border-left-color: rgba(255, 255, 255, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+    border-right-color: rgba(255, 255, 255, 0.3);
+}
+:root .vanilla-primary-specular-hover.reversed.hovered,
+:root .hovered .vanilla-primary-specular-hover.reversed,
+:root .vanilla-primary-specular-interactive.reversed.hovered,
+:root .hovered .vanilla-primary-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.3);
+    border-left-color: rgba(255, 255, 255, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+    border-right-color: rgba(255, 255, 255, 0.4);
+}
+:root .vanilla-primary-bevel,
+:root .vanilla-primary-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-primary-bevel.reversed,
+:root .vanilla-primary-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-primary-highlight,
+:root .vanilla-primary-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-primary-highlight-hover.hovered,
+:root .hovered .vanilla-primary-highlight-hover,
+:root .vanilla-primary-highlight-interactive.hovered,
+:root .hovered .vanilla-primary-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-primaryTint-text,
+:root .vanilla-primaryTint-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-primaryTint-text-disable.disabled,
+:root .disabled .vanilla-primaryTint-text-disable,
+:root .vanilla-primaryTint-text-interactive.disabled,
+:root .disabled .vanilla-primaryTint-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-primaryTint-icon,
+:root .vanilla-primaryTint-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-primaryTint-icon-disable.disabled,
+:root .disabled .vanilla-primaryTint-icon-disable,
+:root .vanilla-primaryTint-icon-interactive.disabled,
+:root .disabled .vanilla-primaryTint-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-primaryTint-border,
+:root .vanilla-primaryTint-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-primaryTint-border-disable.disabled,
+:root .disabled .vanilla-primaryTint-border-disable,
+:root .vanilla-primaryTint-border-interactive.disabled,
+:root .disabled .vanilla-primaryTint-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-primaryTint-caret,
+:root .vanilla-primaryTint-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-primaryTint-background,
+:root .vanilla-primaryTint-background-interactive {
+    background-color: #6cc349;
+}
+:root .vanilla-primaryTint-background-disable.disabled,
+:root .disabled .vanilla-primaryTint-background-disable,
+:root .vanilla-primaryTint-background-interactive.disabled,
+:root .disabled .vanilla-primaryTint-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-primaryTint-shadow,
+:root .vanilla-primaryTint-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-primaryTint-shadow-disable.disabled,
+:root .disabled .vanilla-primaryTint-shadow-disable,
+:root .vanilla-primaryTint-shadow-interactive.disabled,
+:root .disabled .vanilla-primaryTint-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-primaryTint-outline,
+:root .vanilla-primaryTint-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-primaryTint-overlay,
+:root .vanilla-primaryTint-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-primaryTint-dropShadow,
+:root .vanilla-primaryTint-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-primaryTint-specular,
+:root .vanilla-primaryTint-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-primaryTint-specular.reversed,
+:root .vanilla-primaryTint-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-primaryTint-bevel,
+:root .vanilla-primaryTint-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-primaryTint-bevel.reversed,
+:root .vanilla-primaryTint-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-primaryTint-highlight,
+:root .vanilla-primaryTint-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-primaryTint-highlight-hover.hovered,
+:root .hovered .vanilla-primaryTint-highlight-hover,
+:root .vanilla-primaryTint-highlight-interactive.hovered,
+:root .hovered .vanilla-primaryTint-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-secondary-text,
+:root .vanilla-secondary-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-secondary-text-disable.disabled,
+:root .disabled .vanilla-secondary-text-disable,
+:root .vanilla-secondary-text-interactive.disabled,
+:root .disabled .vanilla-secondary-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-secondary-icon,
+:root .vanilla-secondary-icon-interactive {
+    background-color: #1e1e1f;
+}
+:root .vanilla-secondary-icon-disable.disabled,
+:root .disabled .vanilla-secondary-icon-disable,
+:root .vanilla-secondary-icon-interactive.disabled,
+:root .disabled .vanilla-secondary-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-secondary-border,
+:root .vanilla-secondary-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-secondary-border-disable.disabled,
+:root .disabled .vanilla-secondary-border-disable,
+:root .vanilla-secondary-border-interactive.disabled,
+:root .disabled .vanilla-secondary-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-secondary-caret,
+:root .vanilla-secondary-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-secondary-background,
+:root .vanilla-secondary-background-interactive {
+    background-color: #d0d1d4;
+}
+:root .vanilla-secondary-background-hover.hovered,
+:root .hovered .vanilla-secondary-background-hover,
+:root .vanilla-secondary-background-interactive.hovered,
+:root .hovered .vanilla-secondary-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-secondary-background-press.pressed,
+:root .pressed .vanilla-secondary-background-press,
+:root .vanilla-secondary-background-interactive.pressed,
+:root .pressed .vanilla-secondary-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-secondary-background-disable.disabled,
+:root .disabled .vanilla-secondary-background-disable,
+:root .vanilla-secondary-background-interactive.disabled,
+:root .disabled .vanilla-secondary-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-secondary-shadow,
+:root .vanilla-secondary-shadow-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-secondary-shadow-disable.disabled,
+:root .disabled .vanilla-secondary-shadow-disable,
+:root .vanilla-secondary-shadow-interactive.disabled,
+:root .disabled .vanilla-secondary-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-secondary-outline,
+:root .vanilla-secondary-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-secondary-overlay,
+:root .vanilla-secondary-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-secondary-dropShadow,
+:root .vanilla-secondary-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-secondary-specular,
+:root .vanilla-secondary-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.6);
+    border-left-color: rgba(255, 255, 255, 0.6);
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+    border-right-color: rgba(255, 255, 255, 0.4);
+}
+:root .vanilla-secondary-specular.reversed,
+:root .vanilla-secondary-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.4);
+    border-left-color: rgba(255, 255, 255, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.6);
+    border-right-color: rgba(255, 255, 255, 0.6);
+}
+:root .vanilla-secondary-specular-hover.hovered,
+:root .hovered .vanilla-secondary-specular-hover,
+:root .vanilla-secondary-specular-interactive.hovered,
+:root .hovered .vanilla-secondary-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.8);
+    border-left-color: rgba(255, 255, 255, 0.8);
+    border-bottom-color: rgba(255, 255, 255, 0.6);
+    border-right-color: rgba(255, 255, 255, 0.6);
+}
+:root .vanilla-secondary-specular-hover.reversed.hovered,
+:root .hovered .vanilla-secondary-specular-hover.reversed,
+:root .vanilla-secondary-specular-interactive.reversed.hovered,
+:root .hovered .vanilla-secondary-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.6);
+    border-left-color: rgba(255, 255, 255, 0.6);
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+    border-right-color: rgba(255, 255, 255, 0.8);
+}
+:root .vanilla-secondary-bevel,
+:root .vanilla-secondary-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-secondary-bevel.reversed,
+:root .vanilla-secondary-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-secondary-highlight,
+:root .vanilla-secondary-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-secondary-highlight-hover.hovered,
+:root .hovered .vanilla-secondary-highlight-hover,
+:root .vanilla-secondary-highlight-interactive.hovered,
+:root .hovered .vanilla-secondary-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-success-text,
+:root .vanilla-success-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-success-text-disable.disabled,
+:root .disabled .vanilla-success-text-disable,
+:root .vanilla-success-text-interactive.disabled,
+:root .disabled .vanilla-success-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-success-icon,
+:root .vanilla-success-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-success-icon-disable.disabled,
+:root .disabled .vanilla-success-icon-disable,
+:root .vanilla-success-icon-interactive.disabled,
+:root .disabled .vanilla-success-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-success-border,
+:root .vanilla-success-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-success-border-disable.disabled,
+:root .disabled .vanilla-success-border-disable,
+:root .vanilla-success-border-interactive.disabled,
+:root .disabled .vanilla-success-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-success-caret,
+:root .vanilla-success-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-success-background,
+:root .vanilla-success-background-interactive {
+    background-color: #3c8527;
+}
+:root .vanilla-success-background-disable.disabled,
+:root .disabled .vanilla-success-background-disable,
+:root .vanilla-success-background-interactive.disabled,
+:root .disabled .vanilla-success-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-success-shadow,
+:root .vanilla-success-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-success-shadow-disable.disabled,
+:root .disabled .vanilla-success-shadow-disable,
+:root .vanilla-success-shadow-interactive.disabled,
+:root .disabled .vanilla-success-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-success-outline,
+:root .vanilla-success-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-success-overlay,
+:root .vanilla-success-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-success-dropShadow,
+:root .vanilla-success-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-success-specular,
+:root .vanilla-success-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-success-specular.reversed,
+:root .vanilla-success-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-success-bevel,
+:root .vanilla-success-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-success-bevel.reversed,
+:root .vanilla-success-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-success-highlight,
+:root .vanilla-success-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-success-highlight-hover.hovered,
+:root .hovered .vanilla-success-highlight-hover,
+:root .vanilla-success-highlight-interactive.hovered,
+:root .hovered .vanilla-success-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-successTint-text,
+:root .vanilla-successTint-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-successTint-text-disable.disabled,
+:root .disabled .vanilla-successTint-text-disable,
+:root .vanilla-successTint-text-interactive.disabled,
+:root .disabled .vanilla-successTint-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-successTint-icon,
+:root .vanilla-successTint-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-successTint-icon-disable.disabled,
+:root .disabled .vanilla-successTint-icon-disable,
+:root .vanilla-successTint-icon-interactive.disabled,
+:root .disabled .vanilla-successTint-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-successTint-border,
+:root .vanilla-successTint-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-successTint-border-disable.disabled,
+:root .disabled .vanilla-successTint-border-disable,
+:root .vanilla-successTint-border-interactive.disabled,
+:root .disabled .vanilla-successTint-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-successTint-caret,
+:root .vanilla-successTint-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-successTint-background,
+:root .vanilla-successTint-background-interactive {
+    background-color: #a0e081;
+}
+:root .vanilla-successTint-background-disable.disabled,
+:root .disabled .vanilla-successTint-background-disable,
+:root .vanilla-successTint-background-interactive.disabled,
+:root .disabled .vanilla-successTint-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-successTint-shadow,
+:root .vanilla-successTint-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-successTint-shadow-disable.disabled,
+:root .disabled .vanilla-successTint-shadow-disable,
+:root .vanilla-successTint-shadow-interactive.disabled,
+:root .disabled .vanilla-successTint-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-successTint-outline,
+:root .vanilla-successTint-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-successTint-overlay,
+:root .vanilla-successTint-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-successTint-dropShadow,
+:root .vanilla-successTint-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-successTint-specular,
+:root .vanilla-successTint-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-successTint-specular.reversed,
+:root .vanilla-successTint-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-successTint-bevel,
+:root .vanilla-successTint-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-successTint-bevel.reversed,
+:root .vanilla-successTint-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-successTint-highlight,
+:root .vanilla-successTint-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-successTint-highlight-hover.hovered,
+:root .hovered .vanilla-successTint-highlight-hover,
+:root .vanilla-successTint-highlight-interactive.hovered,
+:root .hovered .vanilla-successTint-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-destructive-text,
+:root .vanilla-destructive-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-destructive-text-disable.disabled,
+:root .disabled .vanilla-destructive-text-disable,
+:root .vanilla-destructive-text-interactive.disabled,
+:root .disabled .vanilla-destructive-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-destructive-icon,
+:root .vanilla-destructive-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-destructive-icon-disable.disabled,
+:root .disabled .vanilla-destructive-icon-disable,
+:root .vanilla-destructive-icon-interactive.disabled,
+:root .disabled .vanilla-destructive-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-destructive-border,
+:root .vanilla-destructive-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-destructive-border-disable.disabled,
+:root .disabled .vanilla-destructive-border-disable,
+:root .vanilla-destructive-border-interactive.disabled,
+:root .disabled .vanilla-destructive-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-destructive-caret,
+:root .vanilla-destructive-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-destructive-background,
+:root .vanilla-destructive-background-interactive {
+    background-color: #ca3636;
+}
+:root .vanilla-destructive-background-hover.hovered,
+:root .hovered .vanilla-destructive-background-hover,
+:root .vanilla-destructive-background-interactive.hovered,
+:root .hovered .vanilla-destructive-background-interactive {
+    background-color: #c02d2d;
+}
+:root .vanilla-destructive-background-press.pressed,
+:root .pressed .vanilla-destructive-background-press,
+:root .vanilla-destructive-background-interactive.pressed,
+:root .pressed .vanilla-destructive-background-interactive {
+    background-color: #ad1d1d;
+}
+:root .vanilla-destructive-background-disable.disabled,
+:root .disabled .vanilla-destructive-background-disable,
+:root .vanilla-destructive-background-interactive.disabled,
+:root .disabled .vanilla-destructive-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-destructive-shadow,
+:root .vanilla-destructive-shadow-interactive {
+    background-color: #ad1d1d;
+}
+:root .vanilla-destructive-shadow-disable.disabled,
+:root .disabled .vanilla-destructive-shadow-disable,
+:root .vanilla-destructive-shadow-interactive.disabled,
+:root .disabled .vanilla-destructive-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-destructive-outline,
+:root .vanilla-destructive-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-destructive-overlay,
+:root .vanilla-destructive-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-destructive-dropShadow,
+:root .vanilla-destructive-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-destructive-specular,
+:root .vanilla-destructive-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-destructive-specular.reversed,
+:root .vanilla-destructive-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-destructive-specular-hover.hovered,
+:root .hovered .vanilla-destructive-specular-hover,
+:root .vanilla-destructive-specular-interactive.hovered,
+:root .hovered .vanilla-destructive-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-left-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+    border-right-color: rgba(255, 255, 255, 0.4);
+}
+:root .vanilla-destructive-specular-hover.reversed.hovered,
+:root .hovered .vanilla-destructive-specular-hover.reversed,
+:root .vanilla-destructive-specular-interactive.reversed.hovered,
+:root .hovered .vanilla-destructive-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.4);
+    border-left-color: rgba(255, 255, 255, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    border-right-color: rgba(255, 255, 255, 0.5);
+}
+:root .vanilla-destructive-bevel,
+:root .vanilla-destructive-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-destructive-bevel.reversed,
+:root .vanilla-destructive-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-destructive-highlight,
+:root .vanilla-destructive-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-destructive-highlight-hover.hovered,
+:root .hovered .vanilla-destructive-highlight-hover,
+:root .vanilla-destructive-highlight-interactive.hovered,
+:root .hovered .vanilla-destructive-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-destructiveTint-text,
+:root .vanilla-destructiveTint-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-destructiveTint-text-disable.disabled,
+:root .disabled .vanilla-destructiveTint-text-disable,
+:root .vanilla-destructiveTint-text-interactive.disabled,
+:root .disabled .vanilla-destructiveTint-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-destructiveTint-icon,
+:root .vanilla-destructiveTint-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-destructiveTint-icon-disable.disabled,
+:root .disabled .vanilla-destructiveTint-icon-disable,
+:root .vanilla-destructiveTint-icon-interactive.disabled,
+:root .disabled .vanilla-destructiveTint-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-destructiveTint-border,
+:root .vanilla-destructiveTint-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-destructiveTint-border-disable.disabled,
+:root .disabled .vanilla-destructiveTint-border-disable,
+:root .vanilla-destructiveTint-border-interactive.disabled,
+:root .disabled .vanilla-destructiveTint-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-destructiveTint-caret,
+:root .vanilla-destructiveTint-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-destructiveTint-background,
+:root .vanilla-destructiveTint-background-interactive {
+    background-color: #ff8080;
+}
+:root .vanilla-destructiveTint-background-disable.disabled,
+:root .disabled .vanilla-destructiveTint-background-disable,
+:root .vanilla-destructiveTint-background-interactive.disabled,
+:root .disabled .vanilla-destructiveTint-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-destructiveTint-shadow,
+:root .vanilla-destructiveTint-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-destructiveTint-shadow-disable.disabled,
+:root .disabled .vanilla-destructiveTint-shadow-disable,
+:root .vanilla-destructiveTint-shadow-interactive.disabled,
+:root .disabled .vanilla-destructiveTint-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-destructiveTint-outline,
+:root .vanilla-destructiveTint-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-destructiveTint-overlay,
+:root .vanilla-destructiveTint-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-destructiveTint-dropShadow,
+:root .vanilla-destructiveTint-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-destructiveTint-specular,
+:root .vanilla-destructiveTint-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-destructiveTint-specular.reversed,
+:root .vanilla-destructiveTint-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-destructiveTint-bevel,
+:root .vanilla-destructiveTint-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-destructiveTint-bevel.reversed,
+:root .vanilla-destructiveTint-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-destructiveTint-highlight,
+:root .vanilla-destructiveTint-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-destructiveTint-highlight-hover.hovered,
+:root .hovered .vanilla-destructiveTint-highlight-hover,
+:root .vanilla-destructiveTint-highlight-interactive.hovered,
+:root .hovered .vanilla-destructiveTint-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-informative-text,
+:root .vanilla-informative-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-informative-text-disable.disabled,
+:root .disabled .vanilla-informative-text-disable,
+:root .vanilla-informative-text-interactive.disabled,
+:root .disabled .vanilla-informative-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-informative-icon,
+:root .vanilla-informative-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-informative-icon-disable.disabled,
+:root .disabled .vanilla-informative-icon-disable,
+:root .vanilla-informative-icon-interactive.disabled,
+:root .disabled .vanilla-informative-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-informative-border,
+:root .vanilla-informative-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-informative-border-disable.disabled,
+:root .disabled .vanilla-informative-border-disable,
+:root .vanilla-informative-border-interactive.disabled,
+:root .disabled .vanilla-informative-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-informative-caret,
+:root .vanilla-informative-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-informative-background,
+:root .vanilla-informative-background-interactive {
+    background-color: #2e6be5;
+}
+:root .vanilla-informative-background-disable.disabled,
+:root .disabled .vanilla-informative-background-disable,
+:root .vanilla-informative-background-interactive.disabled,
+:root .disabled .vanilla-informative-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-informative-shadow,
+:root .vanilla-informative-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-informative-shadow-disable.disabled,
+:root .disabled .vanilla-informative-shadow-disable,
+:root .vanilla-informative-shadow-interactive.disabled,
+:root .disabled .vanilla-informative-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-informative-outline,
+:root .vanilla-informative-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-informative-overlay,
+:root .vanilla-informative-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-informative-dropShadow,
+:root .vanilla-informative-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-informative-specular,
+:root .vanilla-informative-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-informative-specular.reversed,
+:root .vanilla-informative-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-informative-bevel,
+:root .vanilla-informative-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-informative-bevel.reversed,
+:root .vanilla-informative-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-informative-highlight,
+:root .vanilla-informative-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-informative-highlight-hover.hovered,
+:root .hovered .vanilla-informative-highlight-hover,
+:root .vanilla-informative-highlight-interactive.hovered,
+:root .hovered .vanilla-informative-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-informativeTint-text,
+:root .vanilla-informativeTint-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-informativeTint-text-disable.disabled,
+:root .disabled .vanilla-informativeTint-text-disable,
+:root .vanilla-informativeTint-text-interactive.disabled,
+:root .disabled .vanilla-informativeTint-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-informativeTint-icon,
+:root .vanilla-informativeTint-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-informativeTint-icon-disable.disabled,
+:root .disabled .vanilla-informativeTint-icon-disable,
+:root .vanilla-informativeTint-icon-interactive.disabled,
+:root .disabled .vanilla-informativeTint-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-informativeTint-border,
+:root .vanilla-informativeTint-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-informativeTint-border-disable.disabled,
+:root .disabled .vanilla-informativeTint-border-disable,
+:root .vanilla-informativeTint-border-interactive.disabled,
+:root .disabled .vanilla-informativeTint-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-informativeTint-caret,
+:root .vanilla-informativeTint-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-informativeTint-background,
+:root .vanilla-informativeTint-background-interactive {
+    background-color: #8cb3ff;
+}
+:root .vanilla-informativeTint-background-disable.disabled,
+:root .disabled .vanilla-informativeTint-background-disable,
+:root .vanilla-informativeTint-background-interactive.disabled,
+:root .disabled .vanilla-informativeTint-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-informativeTint-shadow,
+:root .vanilla-informativeTint-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-informativeTint-shadow-disable.disabled,
+:root .disabled .vanilla-informativeTint-shadow-disable,
+:root .vanilla-informativeTint-shadow-interactive.disabled,
+:root .disabled .vanilla-informativeTint-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-informativeTint-outline,
+:root .vanilla-informativeTint-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-informativeTint-overlay,
+:root .vanilla-informativeTint-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-informativeTint-dropShadow,
+:root .vanilla-informativeTint-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-informativeTint-specular,
+:root .vanilla-informativeTint-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-informativeTint-specular.reversed,
+:root .vanilla-informativeTint-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-informativeTint-bevel,
+:root .vanilla-informativeTint-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-informativeTint-bevel.reversed,
+:root .vanilla-informativeTint-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-informativeTint-highlight,
+:root .vanilla-informativeTint-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-informativeTint-highlight-hover.hovered,
+:root .hovered .vanilla-informativeTint-highlight-hover,
+:root .vanilla-informativeTint-highlight-interactive.hovered,
+:root .hovered .vanilla-informativeTint-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-notice-text,
+:root .vanilla-notice-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-notice-text-disable.disabled,
+:root .disabled .vanilla-notice-text-disable,
+:root .vanilla-notice-text-interactive.disabled,
+:root .disabled .vanilla-notice-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-notice-icon,
+:root .vanilla-notice-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-notice-icon-disable.disabled,
+:root .disabled .vanilla-notice-icon-disable,
+:root .vanilla-notice-icon-interactive.disabled,
+:root .disabled .vanilla-notice-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-notice-border,
+:root .vanilla-notice-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-notice-border-disable.disabled,
+:root .disabled .vanilla-notice-border-disable,
+:root .vanilla-notice-border-interactive.disabled,
+:root .disabled .vanilla-notice-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-notice-caret,
+:root .vanilla-notice-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-notice-background,
+:root .vanilla-notice-background-interactive {
+    background-color: #d3791f;
+}
+:root .vanilla-notice-background-disable.disabled,
+:root .disabled .vanilla-notice-background-disable,
+:root .vanilla-notice-background-interactive.disabled,
+:root .disabled .vanilla-notice-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-notice-shadow,
+:root .vanilla-notice-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-notice-shadow-disable.disabled,
+:root .disabled .vanilla-notice-shadow-disable,
+:root .vanilla-notice-shadow-interactive.disabled,
+:root .disabled .vanilla-notice-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-notice-outline,
+:root .vanilla-notice-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-notice-overlay,
+:root .vanilla-notice-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-notice-dropShadow,
+:root .vanilla-notice-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-notice-specular,
+:root .vanilla-notice-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-notice-specular.reversed,
+:root .vanilla-notice-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-notice-bevel,
+:root .vanilla-notice-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-notice-bevel.reversed,
+:root .vanilla-notice-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-notice-highlight,
+:root .vanilla-notice-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-notice-highlight-hover.hovered,
+:root .hovered .vanilla-notice-highlight-hover,
+:root .vanilla-notice-highlight-interactive.hovered,
+:root .hovered .vanilla-notice-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-noticeTint-text,
+:root .vanilla-noticeTint-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-noticeTint-text-disable.disabled,
+:root .disabled .vanilla-noticeTint-text-disable,
+:root .vanilla-noticeTint-text-interactive.disabled,
+:root .disabled .vanilla-noticeTint-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-noticeTint-icon,
+:root .vanilla-noticeTint-icon-interactive {
+    background-color: #1e1e1f;
+}
+:root .vanilla-noticeTint-icon-disable.disabled,
+:root .disabled .vanilla-noticeTint-icon-disable,
+:root .vanilla-noticeTint-icon-interactive.disabled,
+:root .disabled .vanilla-noticeTint-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-noticeTint-border,
+:root .vanilla-noticeTint-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-noticeTint-border-disable.disabled,
+:root .disabled .vanilla-noticeTint-border-disable,
+:root .vanilla-noticeTint-border-interactive.disabled,
+:root .disabled .vanilla-noticeTint-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-noticeTint-caret,
+:root .vanilla-noticeTint-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-noticeTint-background,
+:root .vanilla-noticeTint-background-interactive {
+    background-color: #ffe866;
+}
+:root .vanilla-noticeTint-background-disable.disabled,
+:root .disabled .vanilla-noticeTint-background-disable,
+:root .vanilla-noticeTint-background-interactive.disabled,
+:root .disabled .vanilla-noticeTint-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-noticeTint-shadow,
+:root .vanilla-noticeTint-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-noticeTint-shadow-disable.disabled,
+:root .disabled .vanilla-noticeTint-shadow-disable,
+:root .vanilla-noticeTint-shadow-interactive.disabled,
+:root .disabled .vanilla-noticeTint-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-noticeTint-outline,
+:root .vanilla-noticeTint-outline-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-noticeTint-overlay,
+:root .vanilla-noticeTint-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-noticeTint-dropShadow,
+:root .vanilla-noticeTint-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-noticeTint-specular,
+:root .vanilla-noticeTint-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-noticeTint-specular.reversed,
+:root .vanilla-noticeTint-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-noticeTint-bevel,
+:root .vanilla-noticeTint-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-noticeTint-bevel.reversed,
+:root .vanilla-noticeTint-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-noticeTint-highlight,
+:root .vanilla-noticeTint-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-noticeTint-highlight-hover.hovered,
+:root .hovered .vanilla-noticeTint-highlight-hover,
+:root .vanilla-noticeTint-highlight-interactive.hovered,
+:root .hovered .vanilla-noticeTint-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-dataViz01-text,
+:root .vanilla-dataViz01-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-dataViz01-text-disable.disabled,
+:root .disabled .vanilla-dataViz01-text-disable,
+:root .vanilla-dataViz01-text-interactive.disabled,
+:root .disabled .vanilla-dataViz01-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-dataViz01-icon,
+:root .vanilla-dataViz01-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-dataViz01-icon-disable.disabled,
+:root .disabled .vanilla-dataViz01-icon-disable,
+:root .vanilla-dataViz01-icon-interactive.disabled,
+:root .disabled .vanilla-dataViz01-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-dataViz01-border,
+:root .vanilla-dataViz01-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-dataViz01-border-disable.disabled,
+:root .disabled .vanilla-dataViz01-border-disable,
+:root .vanilla-dataViz01-border-interactive.disabled,
+:root .disabled .vanilla-dataViz01-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-dataViz01-caret,
+:root .vanilla-dataViz01-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-dataViz01-background,
+:root .vanilla-dataViz01-background-interactive {
+    background-color: #42cccc;
+}
+:root .vanilla-dataViz01-background-disable.disabled,
+:root .disabled .vanilla-dataViz01-background-disable,
+:root .vanilla-dataViz01-background-interactive.disabled,
+:root .disabled .vanilla-dataViz01-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-dataViz01-shadow,
+:root .vanilla-dataViz01-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-dataViz01-shadow-disable.disabled,
+:root .disabled .vanilla-dataViz01-shadow-disable,
+:root .vanilla-dataViz01-shadow-interactive.disabled,
+:root .disabled .vanilla-dataViz01-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-dataViz01-outline,
+:root .vanilla-dataViz01-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-dataViz01-overlay,
+:root .vanilla-dataViz01-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-dataViz01-dropShadow,
+:root .vanilla-dataViz01-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-dataViz01-specular,
+:root .vanilla-dataViz01-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz01-specular.reversed,
+:root .vanilla-dataViz01-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-dataViz01-bevel,
+:root .vanilla-dataViz01-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-dataViz01-bevel.reversed,
+:root .vanilla-dataViz01-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz01-highlight,
+:root .vanilla-dataViz01-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-dataViz01-highlight-hover.hovered,
+:root .hovered .vanilla-dataViz01-highlight-hover,
+:root .vanilla-dataViz01-highlight-interactive.hovered,
+:root .hovered .vanilla-dataViz01-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-dataViz02-text,
+:root .vanilla-dataViz02-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-dataViz02-text-disable.disabled,
+:root .disabled .vanilla-dataViz02-text-disable,
+:root .vanilla-dataViz02-text-interactive.disabled,
+:root .disabled .vanilla-dataViz02-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-dataViz02-icon,
+:root .vanilla-dataViz02-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-dataViz02-icon-disable.disabled,
+:root .disabled .vanilla-dataViz02-icon-disable,
+:root .vanilla-dataViz02-icon-interactive.disabled,
+:root .disabled .vanilla-dataViz02-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-dataViz02-border,
+:root .vanilla-dataViz02-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-dataViz02-border-disable.disabled,
+:root .disabled .vanilla-dataViz02-border-disable,
+:root .vanilla-dataViz02-border-interactive.disabled,
+:root .disabled .vanilla-dataViz02-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-dataViz02-caret,
+:root .vanilla-dataViz02-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-dataViz02-background,
+:root .vanilla-dataViz02-background-interactive {
+    background-color: #9471e0;
+}
+:root .vanilla-dataViz02-background-disable.disabled,
+:root .disabled .vanilla-dataViz02-background-disable,
+:root .vanilla-dataViz02-background-interactive.disabled,
+:root .disabled .vanilla-dataViz02-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-dataViz02-shadow,
+:root .vanilla-dataViz02-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-dataViz02-shadow-disable.disabled,
+:root .disabled .vanilla-dataViz02-shadow-disable,
+:root .vanilla-dataViz02-shadow-interactive.disabled,
+:root .disabled .vanilla-dataViz02-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-dataViz02-outline,
+:root .vanilla-dataViz02-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-dataViz02-overlay,
+:root .vanilla-dataViz02-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-dataViz02-dropShadow,
+:root .vanilla-dataViz02-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-dataViz02-specular,
+:root .vanilla-dataViz02-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz02-specular.reversed,
+:root .vanilla-dataViz02-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-dataViz02-bevel,
+:root .vanilla-dataViz02-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-dataViz02-bevel.reversed,
+:root .vanilla-dataViz02-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz02-highlight,
+:root .vanilla-dataViz02-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-dataViz02-highlight-hover.hovered,
+:root .hovered .vanilla-dataViz02-highlight-hover,
+:root .vanilla-dataViz02-highlight-interactive.hovered,
+:root .hovered .vanilla-dataViz02-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-dataViz03-text,
+:root .vanilla-dataViz03-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-dataViz03-text-disable.disabled,
+:root .disabled .vanilla-dataViz03-text-disable,
+:root .vanilla-dataViz03-text-interactive.disabled,
+:root .disabled .vanilla-dataViz03-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-dataViz03-icon,
+:root .vanilla-dataViz03-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-dataViz03-icon-disable.disabled,
+:root .disabled .vanilla-dataViz03-icon-disable,
+:root .vanilla-dataViz03-icon-interactive.disabled,
+:root .disabled .vanilla-dataViz03-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-dataViz03-border,
+:root .vanilla-dataViz03-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-dataViz03-border-disable.disabled,
+:root .disabled .vanilla-dataViz03-border-disable,
+:root .vanilla-dataViz03-border-interactive.disabled,
+:root .disabled .vanilla-dataViz03-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-dataViz03-caret,
+:root .vanilla-dataViz03-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-dataViz03-background,
+:root .vanilla-dataViz03-background-interactive {
+    background-color: #ffb366;
+}
+:root .vanilla-dataViz03-background-disable.disabled,
+:root .disabled .vanilla-dataViz03-background-disable,
+:root .vanilla-dataViz03-background-interactive.disabled,
+:root .disabled .vanilla-dataViz03-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-dataViz03-shadow,
+:root .vanilla-dataViz03-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-dataViz03-shadow-disable.disabled,
+:root .disabled .vanilla-dataViz03-shadow-disable,
+:root .vanilla-dataViz03-shadow-interactive.disabled,
+:root .disabled .vanilla-dataViz03-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-dataViz03-outline,
+:root .vanilla-dataViz03-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-dataViz03-overlay,
+:root .vanilla-dataViz03-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-dataViz03-dropShadow,
+:root .vanilla-dataViz03-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-dataViz03-specular,
+:root .vanilla-dataViz03-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz03-specular.reversed,
+:root .vanilla-dataViz03-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-dataViz03-bevel,
+:root .vanilla-dataViz03-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-dataViz03-bevel.reversed,
+:root .vanilla-dataViz03-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz03-highlight,
+:root .vanilla-dataViz03-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-dataViz03-highlight-hover.hovered,
+:root .hovered .vanilla-dataViz03-highlight-hover,
+:root .vanilla-dataViz03-highlight-interactive.hovered,
+:root .hovered .vanilla-dataViz03-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-dataViz04-text,
+:root .vanilla-dataViz04-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-dataViz04-text-disable.disabled,
+:root .disabled .vanilla-dataViz04-text-disable,
+:root .vanilla-dataViz04-text-interactive.disabled,
+:root .disabled .vanilla-dataViz04-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-dataViz04-icon,
+:root .vanilla-dataViz04-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-dataViz04-icon-disable.disabled,
+:root .disabled .vanilla-dataViz04-icon-disable,
+:root .vanilla-dataViz04-icon-interactive.disabled,
+:root .disabled .vanilla-dataViz04-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-dataViz04-border,
+:root .vanilla-dataViz04-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-dataViz04-border-disable.disabled,
+:root .disabled .vanilla-dataViz04-border-disable,
+:root .vanilla-dataViz04-border-interactive.disabled,
+:root .disabled .vanilla-dataViz04-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-dataViz04-caret,
+:root .vanilla-dataViz04-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-dataViz04-background,
+:root .vanilla-dataViz04-background-interactive {
+    background-color: #89def9;
+}
+:root .vanilla-dataViz04-background-disable.disabled,
+:root .disabled .vanilla-dataViz04-background-disable,
+:root .vanilla-dataViz04-background-interactive.disabled,
+:root .disabled .vanilla-dataViz04-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-dataViz04-shadow,
+:root .vanilla-dataViz04-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-dataViz04-shadow-disable.disabled,
+:root .disabled .vanilla-dataViz04-shadow-disable,
+:root .vanilla-dataViz04-shadow-interactive.disabled,
+:root .disabled .vanilla-dataViz04-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-dataViz04-outline,
+:root .vanilla-dataViz04-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-dataViz04-overlay,
+:root .vanilla-dataViz04-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-dataViz04-dropShadow,
+:root .vanilla-dataViz04-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-dataViz04-specular,
+:root .vanilla-dataViz04-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz04-specular.reversed,
+:root .vanilla-dataViz04-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-dataViz04-bevel,
+:root .vanilla-dataViz04-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-dataViz04-bevel.reversed,
+:root .vanilla-dataViz04-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz04-highlight,
+:root .vanilla-dataViz04-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-dataViz04-highlight-hover.hovered,
+:root .hovered .vanilla-dataViz04-highlight-hover,
+:root .vanilla-dataViz04-highlight-interactive.hovered,
+:root .hovered .vanilla-dataViz04-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-dataViz05-text,
+:root .vanilla-dataViz05-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-dataViz05-text-disable.disabled,
+:root .disabled .vanilla-dataViz05-text-disable,
+:root .vanilla-dataViz05-text-interactive.disabled,
+:root .disabled .vanilla-dataViz05-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-dataViz05-icon,
+:root .vanilla-dataViz05-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-dataViz05-icon-disable.disabled,
+:root .disabled .vanilla-dataViz05-icon-disable,
+:root .vanilla-dataViz05-icon-interactive.disabled,
+:root .disabled .vanilla-dataViz05-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-dataViz05-border,
+:root .vanilla-dataViz05-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-dataViz05-border-disable.disabled,
+:root .disabled .vanilla-dataViz05-border-disable,
+:root .vanilla-dataViz05-border-interactive.disabled,
+:root .disabled .vanilla-dataViz05-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-dataViz05-caret,
+:root .vanilla-dataViz05-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-dataViz05-background,
+:root .vanilla-dataViz05-background-interactive {
+    background-color: #a0e081;
+}
+:root .vanilla-dataViz05-background-disable.disabled,
+:root .disabled .vanilla-dataViz05-background-disable,
+:root .vanilla-dataViz05-background-interactive.disabled,
+:root .disabled .vanilla-dataViz05-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-dataViz05-shadow,
+:root .vanilla-dataViz05-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-dataViz05-shadow-disable.disabled,
+:root .disabled .vanilla-dataViz05-shadow-disable,
+:root .vanilla-dataViz05-shadow-interactive.disabled,
+:root .disabled .vanilla-dataViz05-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-dataViz05-outline,
+:root .vanilla-dataViz05-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-dataViz05-overlay,
+:root .vanilla-dataViz05-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-dataViz05-dropShadow,
+:root .vanilla-dataViz05-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-dataViz05-specular,
+:root .vanilla-dataViz05-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz05-specular.reversed,
+:root .vanilla-dataViz05-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-dataViz05-bevel,
+:root .vanilla-dataViz05-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-dataViz05-bevel.reversed,
+:root .vanilla-dataViz05-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz05-highlight,
+:root .vanilla-dataViz05-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-dataViz05-highlight-hover.hovered,
+:root .hovered .vanilla-dataViz05-highlight-hover,
+:root .vanilla-dataViz05-highlight-interactive.hovered,
+:root .hovered .vanilla-dataViz05-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-dataViz06-text,
+:root .vanilla-dataViz06-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-dataViz06-text-disable.disabled,
+:root .disabled .vanilla-dataViz06-text-disable,
+:root .vanilla-dataViz06-text-interactive.disabled,
+:root .disabled .vanilla-dataViz06-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-dataViz06-icon,
+:root .vanilla-dataViz06-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-dataViz06-icon-disable.disabled,
+:root .disabled .vanilla-dataViz06-icon-disable,
+:root .vanilla-dataViz06-icon-interactive.disabled,
+:root .disabled .vanilla-dataViz06-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-dataViz06-border,
+:root .vanilla-dataViz06-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-dataViz06-border-disable.disabled,
+:root .disabled .vanilla-dataViz06-border-disable,
+:root .vanilla-dataViz06-border-interactive.disabled,
+:root .disabled .vanilla-dataViz06-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-dataViz06-caret,
+:root .vanilla-dataViz06-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-dataViz06-background,
+:root .vanilla-dataViz06-background-interactive {
+    background-color: #f064b8;
+}
+:root .vanilla-dataViz06-background-disable.disabled,
+:root .disabled .vanilla-dataViz06-background-disable,
+:root .vanilla-dataViz06-background-interactive.disabled,
+:root .disabled .vanilla-dataViz06-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-dataViz06-shadow,
+:root .vanilla-dataViz06-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-dataViz06-shadow-disable.disabled,
+:root .disabled .vanilla-dataViz06-shadow-disable,
+:root .vanilla-dataViz06-shadow-interactive.disabled,
+:root .disabled .vanilla-dataViz06-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-dataViz06-outline,
+:root .vanilla-dataViz06-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-dataViz06-overlay,
+:root .vanilla-dataViz06-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-dataViz06-dropShadow,
+:root .vanilla-dataViz06-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-dataViz06-specular,
+:root .vanilla-dataViz06-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz06-specular.reversed,
+:root .vanilla-dataViz06-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-dataViz06-bevel,
+:root .vanilla-dataViz06-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-dataViz06-bevel.reversed,
+:root .vanilla-dataViz06-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz06-highlight,
+:root .vanilla-dataViz06-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-dataViz06-highlight-hover.hovered,
+:root .hovered .vanilla-dataViz06-highlight-hover,
+:root .vanilla-dataViz06-highlight-interactive.hovered,
+:root .hovered .vanilla-dataViz06-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-dataViz07-text,
+:root .vanilla-dataViz07-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-dataViz07-text-disable.disabled,
+:root .disabled .vanilla-dataViz07-text-disable,
+:root .vanilla-dataViz07-text-interactive.disabled,
+:root .disabled .vanilla-dataViz07-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-dataViz07-icon,
+:root .vanilla-dataViz07-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-dataViz07-icon-disable.disabled,
+:root .disabled .vanilla-dataViz07-icon-disable,
+:root .vanilla-dataViz07-icon-interactive.disabled,
+:root .disabled .vanilla-dataViz07-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-dataViz07-border,
+:root .vanilla-dataViz07-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-dataViz07-border-disable.disabled,
+:root .disabled .vanilla-dataViz07-border-disable,
+:root .vanilla-dataViz07-border-interactive.disabled,
+:root .disabled .vanilla-dataViz07-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-dataViz07-caret,
+:root .vanilla-dataViz07-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-dataViz07-background,
+:root .vanilla-dataViz07-background-interactive {
+    background-color: #ffe866;
+}
+:root .vanilla-dataViz07-background-disable.disabled,
+:root .disabled .vanilla-dataViz07-background-disable,
+:root .vanilla-dataViz07-background-interactive.disabled,
+:root .disabled .vanilla-dataViz07-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-dataViz07-shadow,
+:root .vanilla-dataViz07-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-dataViz07-shadow-disable.disabled,
+:root .disabled .vanilla-dataViz07-shadow-disable,
+:root .vanilla-dataViz07-shadow-interactive.disabled,
+:root .disabled .vanilla-dataViz07-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-dataViz07-outline,
+:root .vanilla-dataViz07-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-dataViz07-overlay,
+:root .vanilla-dataViz07-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-dataViz07-dropShadow,
+:root .vanilla-dataViz07-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-dataViz07-specular,
+:root .vanilla-dataViz07-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz07-specular.reversed,
+:root .vanilla-dataViz07-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-dataViz07-bevel,
+:root .vanilla-dataViz07-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-dataViz07-bevel.reversed,
+:root .vanilla-dataViz07-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataViz07-highlight,
+:root .vanilla-dataViz07-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-dataViz07-highlight-hover.hovered,
+:root .hovered .vanilla-dataViz07-highlight-hover,
+:root .vanilla-dataViz07-highlight-interactive.hovered,
+:root .hovered .vanilla-dataViz07-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-dataVizLine-text,
+:root .vanilla-dataVizLine-text-interactive {
+    color: #1e1e1f;
+}
+:root .vanilla-dataVizLine-text-disable.disabled,
+:root .disabled .vanilla-dataVizLine-text-disable,
+:root .vanilla-dataVizLine-text-interactive.disabled,
+:root .disabled .vanilla-dataVizLine-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-dataVizLine-icon,
+:root .vanilla-dataVizLine-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-dataVizLine-icon-disable.disabled,
+:root .disabled .vanilla-dataVizLine-icon-disable,
+:root .vanilla-dataVizLine-icon-interactive.disabled,
+:root .disabled .vanilla-dataVizLine-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-dataVizLine-border,
+:root .vanilla-dataVizLine-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-dataVizLine-border-disable.disabled,
+:root .disabled .vanilla-dataVizLine-border-disable,
+:root .vanilla-dataVizLine-border-interactive.disabled,
+:root .disabled .vanilla-dataVizLine-border-interactive {
+    border-color: #58585a;
+}
+:root .vanilla-dataVizLine-caret,
+:root .vanilla-dataVizLine-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-dataVizLine-background,
+:root .vanilla-dataVizLine-background-interactive {
+    background-color: #d0d1d4;
+}
+:root .vanilla-dataVizLine-background-disable.disabled,
+:root .disabled .vanilla-dataVizLine-background-disable,
+:root .vanilla-dataVizLine-background-interactive.disabled,
+:root .disabled .vanilla-dataVizLine-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-dataVizLine-shadow,
+:root .vanilla-dataVizLine-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-dataVizLine-shadow-disable.disabled,
+:root .disabled .vanilla-dataVizLine-shadow-disable,
+:root .vanilla-dataVizLine-shadow-interactive.disabled,
+:root .disabled .vanilla-dataVizLine-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-dataVizLine-outline,
+:root .vanilla-dataVizLine-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-dataVizLine-overlay,
+:root .vanilla-dataVizLine-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-dataVizLine-dropShadow,
+:root .vanilla-dataVizLine-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-dataVizLine-specular,
+:root .vanilla-dataVizLine-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataVizLine-specular.reversed,
+:root .vanilla-dataVizLine-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-dataVizLine-bevel,
+:root .vanilla-dataVizLine-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-dataVizLine-bevel.reversed,
+:root .vanilla-dataVizLine-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-dataVizLine-highlight,
+:root .vanilla-dataVizLine-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-dataVizLine-highlight-hover.hovered,
+:root .hovered .vanilla-dataVizLine-highlight-hover,
+:root .vanilla-dataVizLine-highlight-interactive.hovered,
+:root .hovered .vanilla-dataVizLine-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-paper-text,
+:root .vanilla-paper-text-interactive {
+    color: #000000;
+}
+:root .vanilla-paper-text-disable.disabled,
+:root .disabled .vanilla-paper-text-disable,
+:root .vanilla-paper-text-interactive.disabled,
+:root .disabled .vanilla-paper-text-interactive {
+    color: #48494a;
+}
+:root .vanilla-paper-text.dimmer,
+:root .vanilla-paper-text-interactive.dimmer {
+    color: #58585a;
+}
+:root .vanilla-paper-text-disable.dimmer.disabled,
+:root .disabled .vanilla-paper-text-disable.dimmer,
+:root .vanilla-paper-text-interactive.dimmer.disabled,
+:root .disabled .vanilla-paper-text-interactive.dimmer {
+    color: #48494a;
+}
+:root .vanilla-paper-icon,
+:root .vanilla-paper-icon-interactive {
+    background-color: #000000;
+}
+:root .vanilla-paper-icon-disable.disabled,
+:root .disabled .vanilla-paper-icon-disable,
+:root .vanilla-paper-icon-interactive.disabled,
+:root .disabled .vanilla-paper-icon-interactive {
+    background-color: #48494a;
+}
+:root .vanilla-paper-border,
+:root .vanilla-paper-border-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-paper-border-disable.disabled,
+:root .disabled .vanilla-paper-border-disable,
+:root .vanilla-paper-border-interactive.disabled,
+:root .disabled .vanilla-paper-border-interactive {
+    border-color: #8c8d90;
+}
+:root .vanilla-paper-caret,
+:root .vanilla-paper-caret-interactive {
+    caret-color: #000000;
+}
+:root .vanilla-paper-background,
+:root .vanilla-paper-background-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-paper-background-disable.disabled,
+:root .disabled .vanilla-paper-background-disable,
+:root .vanilla-paper-background-interactive.disabled,
+:root .disabled .vanilla-paper-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-paper-shadow,
+:root .vanilla-paper-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-paper-shadow-disable.disabled,
+:root .disabled .vanilla-paper-shadow-disable,
+:root .vanilla-paper-shadow-interactive.disabled,
+:root .disabled .vanilla-paper-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-paper-outline,
+:root .vanilla-paper-outline-interactive {
+    border-color: #1e1e1f;
+}
+:root .vanilla-paper-overlay,
+:root .vanilla-paper-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-paper-dropShadow,
+:root .vanilla-paper-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-paper-specular,
+:root .vanilla-paper-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-paper-specular.reversed,
+:root .vanilla-paper-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-paper-bevel,
+:root .vanilla-paper-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+:root .vanilla-paper-bevel.reversed,
+:root .vanilla-paper-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-paper-highlight,
+:root .vanilla-paper-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-paper-highlight-hover.hovered,
+:root .hovered .vanilla-paper-highlight-hover,
+:root .vanilla-paper-highlight-interactive.hovered,
+:root .hovered .vanilla-paper-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+:root .vanilla-neutralAlpha60-text,
+:root .vanilla-neutralAlpha60-text-interactive {
+    color: #ffffff;
+}
+:root .vanilla-neutralAlpha60-text-disable.disabled,
+:root .disabled .vanilla-neutralAlpha60-text-disable,
+:root .vanilla-neutralAlpha60-text-interactive.disabled,
+:root .disabled .vanilla-neutralAlpha60-text-interactive {
+    color: #58585a;
+}
+:root .vanilla-neutralAlpha60-icon,
+:root .vanilla-neutralAlpha60-icon-interactive {
+    background-color: #ffffff;
+}
+:root .vanilla-neutralAlpha60-icon-disable.disabled,
+:root .disabled .vanilla-neutralAlpha60-icon-disable,
+:root .vanilla-neutralAlpha60-icon-interactive.disabled,
+:root .disabled .vanilla-neutralAlpha60-icon-interactive {
+    background-color: #58585a;
+}
+:root .vanilla-neutralAlpha60-caret,
+:root .vanilla-neutralAlpha60-caret-interactive {
+    caret-color: #6cc349;
+}
+:root .vanilla-neutralAlpha60-background,
+:root .vanilla-neutralAlpha60-background-interactive {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+:root .vanilla-neutralAlpha60-background-select.selected,
+:root .selected .vanilla-neutralAlpha60-background-select,
+:root .vanilla-neutralAlpha60-background-interactive.selected,
+:root .selected .vanilla-neutralAlpha60-background-interactive {
+    background-color: #48494a;
+}
+:root .vanilla-neutralAlpha60-background-hover.hovered,
+:root .hovered .vanilla-neutralAlpha60-background-hover,
+:root .vanilla-neutralAlpha60-background-interactive.hovered,
+:root .hovered .vanilla-neutralAlpha60-background-interactive {
+    background-color: #48494a;
+}
+:root .vanilla-neutralAlpha60-background-press.pressed,
+:root .pressed .vanilla-neutralAlpha60-background-press,
+:root .vanilla-neutralAlpha60-background-interactive.pressed,
+:root .pressed .vanilla-neutralAlpha60-background-interactive {
+    background-color: #242425;
+}
+:root .vanilla-neutralAlpha60-background-disable.disabled,
+:root .disabled .vanilla-neutralAlpha60-background-disable,
+:root .vanilla-neutralAlpha60-background-interactive.disabled,
+:root .disabled .vanilla-neutralAlpha60-background-interactive {
+    background-color: #b1b2b5;
+}
+:root .vanilla-neutralAlpha60-shadow,
+:root .vanilla-neutralAlpha60-shadow-interactive {
+    background-color: #313233;
+}
+:root .vanilla-neutralAlpha60-shadow-disable.disabled,
+:root .disabled .vanilla-neutralAlpha60-shadow-disable,
+:root .vanilla-neutralAlpha60-shadow-interactive.disabled,
+:root .disabled .vanilla-neutralAlpha60-shadow-interactive {
+    background-color: #8c8d90;
+}
+:root .vanilla-neutralAlpha60-outline,
+:root .vanilla-neutralAlpha60-outline-interactive {
+    border-color: #ffffff;
+}
+:root .vanilla-neutralAlpha60-overlay,
+:root .vanilla-neutralAlpha60-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+:root .vanilla-neutralAlpha60-dropShadow,
+:root .vanilla-neutralAlpha60-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+:root .vanilla-neutralAlpha60-specular,
+:root .vanilla-neutralAlpha60-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutralAlpha60-specular.reversed,
+:root .vanilla-neutralAlpha60-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+:root .vanilla-neutralAlpha60-bevel,
+:root .vanilla-neutralAlpha60-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutralAlpha60-bevel.reversed,
+:root .vanilla-neutralAlpha60-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+:root .vanilla-neutralAlpha60-bevel-select.selected,
+:root .selected .vanilla-neutralAlpha60-bevel-select,
+:root .vanilla-neutralAlpha60-bevel-interactive.selected,
+:root .selected .vanilla-neutralAlpha60-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutralAlpha60-bevel-select.reversed.selected,
+:root .selected .vanilla-neutralAlpha60-bevel-select.reversed,
+:root .vanilla-neutralAlpha60-bevel-interactive.reversed.selected,
+:root .selected .vanilla-neutralAlpha60-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+:root .vanilla-neutralAlpha60-bevel-hover.hovered,
+:root .hovered .vanilla-neutralAlpha60-bevel-hover,
+:root .vanilla-neutralAlpha60-bevel-interactive.hovered,
+:root .hovered .vanilla-neutralAlpha60-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutralAlpha60-bevel-hover.reversed.hovered,
+:root .hovered .vanilla-neutralAlpha60-bevel-hover.reversed,
+:root .vanilla-neutralAlpha60-bevel-interactive.reversed.hovered,
+:root .hovered .vanilla-neutralAlpha60-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+:root .vanilla-neutralAlpha60-bevel-press.pressed,
+:root .pressed .vanilla-neutralAlpha60-bevel-press,
+:root .vanilla-neutralAlpha60-bevel-interactive.pressed,
+:root .pressed .vanilla-neutralAlpha60-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.8);
+    border-left-color: rgba(0, 0, 0, 0.8);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+:root .vanilla-neutralAlpha60-bevel-press.reversed.pressed,
+:root .pressed .vanilla-neutralAlpha60-bevel-press.reversed,
+:root .vanilla-neutralAlpha60-bevel-interactive.reversed.pressed,
+:root .pressed .vanilla-neutralAlpha60-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.8);
+    border-right-color: rgba(0, 0, 0, 0.8);
+}
+:root .vanilla-neutralAlpha60-highlight,
+:root .vanilla-neutralAlpha60-highlight-interactive {
+    background-color: transparent;
+}
+:root .vanilla-neutralAlpha60-highlight-hover.hovered,
+:root .hovered .vanilla-neutralAlpha60-highlight-hover,
+:root .vanilla-neutralAlpha60-highlight-interactive.hovered,
+:root .hovered .vanilla-neutralAlpha60-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
