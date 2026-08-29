@@ -10,12 +10,21 @@ mentions:
 ---
 
 <template-WorkInProgress />
-<template-InDevelopment version="v1.17.0" />
-<template-Experimental />
+<template-Planned version="v1.17.0" />
+<!-- <template-InDevelopment version="v1.17.0" />
+<template-Experimental /> -->
 
 ## Picking an Editor
 
 <template-EmptySection />
+
+### Ore UI Customizer App
+
+<template-Planned version="v1.0.0-beta.34 (App)" section="section" />
+
+### Ore UI Customizer Website
+
+<template-Planned version="v1.18.0" section="section" />
 
 ### VSCode
 

@@ -21,6 +21,10 @@ It is highly recommended to write plugins in TypeScript, but they can also be wr
 
 There are two types of plugins: single-file and multi-file.
 
+Multi-file plugins come in a `.ouicplugin` or `.mcouicplugin` file, while single-file plugins come in a `.js` file.
+
+An `.ouicplugin`/`.mcouicplugin` file is actually a renamed zip file.
+
 It is recommended to use multi-file plugins, but you can read more about single-file plugins [here](single-file-plugins).
 
 All multi-file plugins contain a script file in the `scripts` folder that runs and exports a list of "actions".

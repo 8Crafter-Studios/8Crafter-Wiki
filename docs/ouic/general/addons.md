@@ -15,3 +15,5 @@ mentions:
 An add-on contains a set of one or more configs, plugins, and themes to allow for easy importing of more than one pack.
 
 Add-ons come in a `.ouicaddon` or `.mcouicaddon` file.
+
+An `.ouicaddon`/`.mcouicaddon` file is actually a renamed zip file.

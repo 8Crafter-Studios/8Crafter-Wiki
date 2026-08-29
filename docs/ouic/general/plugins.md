@@ -21,3 +21,5 @@ The way plugins work is by operating on the Ore UI files, like the Ore UI Custom
 There are two types of plugins: single-file and multi-file.
 
 Multi-file plugins come in a `.ouicplugin` or `.mcouicplugin` file, while single-file plugins come in a `.js` file.
+
+An `.ouicplugin`/`.mcouicplugin` file is actually a renamed zip file.

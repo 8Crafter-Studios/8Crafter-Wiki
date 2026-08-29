@@ -10,8 +10,9 @@ mentions:
 ---
 
 <template-WorkInProgress />
-<template-InDevelopment version="v1.17.0" />
-<template-Experimental />
+<template-Planned version="v1.17.0" />
+<!-- <template-InDevelopment version="v1.17.0" />
+<template-Experimental /> -->
 
 ## The ore_ui_customizer folder
 

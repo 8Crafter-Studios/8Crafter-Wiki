@@ -1,0 +1,3300 @@
+.vanilla-neutral-text,
+.vanilla-neutral-text-interactive {
+    color: #ffffff;
+}
+.vanilla-neutral-text-disable.disabled,
+.disabled .vanilla-neutral-text-disable,
+.vanilla-neutral-text-interactive.disabled,
+.disabled .vanilla-neutral-text-interactive {
+    color: #58585a;
+}
+.vanilla-neutral-text.dimmest,
+.vanilla-neutral-text-interactive.dimmest {
+    color: #b1b2b5;
+}
+.vanilla-neutral-text-disable.dimmest.disabled,
+.disabled .vanilla-neutral-text-disable.dimmest,
+.vanilla-neutral-text-interactive.dimmest.disabled,
+.disabled .vanilla-neutral-text-interactive.dimmest {
+    color: #58585a;
+}
+.vanilla-neutral-text.dimmer,
+.vanilla-neutral-text-interactive.dimmer {
+    color: #d0d1d4;
+}
+.vanilla-neutral-text-disable.dimmer.disabled,
+.disabled .vanilla-neutral-text-disable.dimmer,
+.vanilla-neutral-text-interactive.dimmer.disabled,
+.disabled .vanilla-neutral-text-interactive.dimmer {
+    color: #d0d1d4;
+}
+.vanilla-neutral-icon,
+.vanilla-neutral-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-neutral-icon-disable.disabled,
+.disabled .vanilla-neutral-icon-disable,
+.vanilla-neutral-icon-interactive.disabled,
+.disabled .vanilla-neutral-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-neutral-icon.dimmest,
+.vanilla-neutral-icon-interactive.dimmest {
+    background-color: #b1b2b5;
+}
+.vanilla-neutral-icon-disable.dimmest.disabled,
+.disabled .vanilla-neutral-icon-disable.dimmest,
+.vanilla-neutral-icon-interactive.dimmest.disabled,
+.disabled .vanilla-neutral-icon-interactive.dimmest {
+    background-color: #58585a;
+}
+.vanilla-neutral-icon.dimmer,
+.vanilla-neutral-icon-interactive.dimmer {
+    background-color: #d0d1d4;
+}
+.vanilla-neutral-icon-disable.dimmer.disabled,
+.disabled .vanilla-neutral-icon-disable.dimmer,
+.vanilla-neutral-icon-interactive.dimmer.disabled,
+.disabled .vanilla-neutral-icon-interactive.dimmer {
+    background-color: #58585a;
+}
+.vanilla-neutral-border,
+.vanilla-neutral-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-neutral-border-disable.disabled,
+.disabled .vanilla-neutral-border-disable,
+.vanilla-neutral-border-interactive.disabled,
+.disabled .vanilla-neutral-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-neutral-caret,
+.vanilla-neutral-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-neutral-background,
+.vanilla-neutral-background-interactive {
+    background-color: #48494a;
+}
+.vanilla-neutral-background-select.selected,
+.selected .vanilla-neutral-background-select,
+.vanilla-neutral-background-interactive.selected,
+.selected .vanilla-neutral-background-interactive {
+    background-color: #313233;
+}
+.vanilla-neutral-background-hover.hovered,
+.hovered .vanilla-neutral-background-hover,
+.vanilla-neutral-background-interactive.hovered,
+.hovered .vanilla-neutral-background-interactive {
+    background-color: #58585a;
+}
+.vanilla-neutral-background-press.pressed,
+.pressed .vanilla-neutral-background-press,
+.vanilla-neutral-background-interactive.pressed,
+.pressed .vanilla-neutral-background-interactive {
+    background-color: #313233;
+}
+.vanilla-neutral-background-disable.disabled,
+.disabled .vanilla-neutral-background-disable,
+.vanilla-neutral-background-interactive.disabled,
+.disabled .vanilla-neutral-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-neutral-shadow,
+.vanilla-neutral-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-neutral-shadow-disable.disabled,
+.disabled .vanilla-neutral-shadow-disable,
+.vanilla-neutral-shadow-interactive.disabled,
+.disabled .vanilla-neutral-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-neutral-outline,
+.vanilla-neutral-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-neutral-overlay,
+.vanilla-neutral-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-neutral-dropShadow,
+.vanilla-neutral-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-neutral-specular,
+.vanilla-neutral-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral-specular.reversed,
+.vanilla-neutral-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-neutral-bevel,
+.vanilla-neutral-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-neutral-bevel.reversed,
+.vanilla-neutral-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral-highlight,
+.vanilla-neutral-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-neutral-highlight-hover.hovered,
+.hovered .vanilla-neutral-highlight-hover,
+.vanilla-neutral-highlight-interactive.hovered,
+.hovered .vanilla-neutral-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-neutral20-text,
+.vanilla-neutral20-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-neutral20-text-disable.disabled,
+.disabled .vanilla-neutral20-text-disable,
+.vanilla-neutral20-text-interactive.disabled,
+.disabled .vanilla-neutral20-text-interactive {
+    color: #58585a;
+}
+.vanilla-neutral20-text.dimmest,
+.vanilla-neutral20-text-interactive.dimmest {
+    color: #d0d1d4;
+}
+.vanilla-neutral20-text-disable.dimmest.disabled,
+.disabled .vanilla-neutral20-text-disable.dimmest,
+.vanilla-neutral20-text-interactive.dimmest.disabled,
+.disabled .vanilla-neutral20-text-interactive.dimmest {
+    color: #58585a;
+}
+.vanilla-neutral20-icon,
+.vanilla-neutral20-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-neutral20-icon-disable.disabled,
+.disabled .vanilla-neutral20-icon-disable,
+.vanilla-neutral20-icon-interactive.disabled,
+.disabled .vanilla-neutral20-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-neutral20-border,
+.vanilla-neutral20-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-neutral20-border-disable.disabled,
+.disabled .vanilla-neutral20-border-disable,
+.vanilla-neutral20-border-interactive.disabled,
+.disabled .vanilla-neutral20-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-neutral20-caret,
+.vanilla-neutral20-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-neutral20-background,
+.vanilla-neutral20-background-interactive {
+    background-color: #e6e8eb;
+}
+.vanilla-neutral20-background-hover.hovered,
+.hovered .vanilla-neutral20-background-hover,
+.vanilla-neutral20-background-interactive.hovered,
+.hovered .vanilla-neutral20-background-interactive {
+    background-color: #f4f6f9;
+}
+.vanilla-neutral20-background-press.pressed,
+.pressed .vanilla-neutral20-background-press,
+.vanilla-neutral20-background-interactive.pressed,
+.pressed .vanilla-neutral20-background-interactive {
+    background-color: #d0d1d4;
+}
+.vanilla-neutral20-background-disable.disabled,
+.disabled .vanilla-neutral20-background-disable,
+.vanilla-neutral20-background-interactive.disabled,
+.disabled .vanilla-neutral20-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-neutral20-shadow,
+.vanilla-neutral20-shadow-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-neutral20-shadow-disable.disabled,
+.disabled .vanilla-neutral20-shadow-disable,
+.vanilla-neutral20-shadow-interactive.disabled,
+.disabled .vanilla-neutral20-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-neutral20-outline,
+.vanilla-neutral20-outline-interactive {
+    border-color: #000000;
+}
+.vanilla-neutral20-overlay,
+.vanilla-neutral20-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-neutral20-dropShadow,
+.vanilla-neutral20-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-neutral20-specular,
+.vanilla-neutral20-specular-interactive {
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-neutral20-specular.reversed,
+.vanilla-neutral20-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: #ffffff;
+    border-right-color: #ffffff;
+}
+.vanilla-neutral20-bevel,
+.vanilla-neutral20-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-neutral20-bevel.reversed,
+.vanilla-neutral20-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral20-highlight,
+.vanilla-neutral20-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-neutral20-highlight-hover.hovered,
+.hovered .vanilla-neutral20-highlight-hover,
+.vanilla-neutral20-highlight-interactive.hovered,
+.hovered .vanilla-neutral20-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-neutral50-text,
+.vanilla-neutral50-text-interactive {
+    color: #ffffff;
+}
+.vanilla-neutral50-text-disable.disabled,
+.disabled .vanilla-neutral50-text-disable,
+.vanilla-neutral50-text-interactive.disabled,
+.disabled .vanilla-neutral50-text-interactive {
+    color: #58585a;
+}
+.vanilla-neutral50-icon,
+.vanilla-neutral50-icon-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-neutral50-icon-disable.disabled,
+.disabled .vanilla-neutral50-icon-disable,
+.vanilla-neutral50-icon-interactive.disabled,
+.disabled .vanilla-neutral50-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-neutral50-border,
+.vanilla-neutral50-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-neutral50-border-disable.disabled,
+.disabled .vanilla-neutral50-border-disable,
+.vanilla-neutral50-border-interactive.disabled,
+.disabled .vanilla-neutral50-border-interactive {
+    border-color: #8c8d90;
+}
+.vanilla-neutral50-caret,
+.vanilla-neutral50-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-neutral50-background,
+.vanilla-neutral50-background-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-neutral50-background-hover.hovered,
+.hovered .vanilla-neutral50-background-hover,
+.vanilla-neutral50-background-interactive.hovered,
+.hovered .vanilla-neutral50-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-neutral50-background-press.pressed,
+.pressed .vanilla-neutral50-background-press,
+.vanilla-neutral50-background-interactive.pressed,
+.pressed .vanilla-neutral50-background-interactive {
+    background-color: #58585a;
+}
+.vanilla-neutral50-background-disable.disabled,
+.disabled .vanilla-neutral50-background-disable,
+.vanilla-neutral50-background-interactive.disabled,
+.disabled .vanilla-neutral50-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-neutral50-shadow,
+.vanilla-neutral50-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-neutral50-shadow-disable.disabled,
+.disabled .vanilla-neutral50-shadow-disable,
+.vanilla-neutral50-shadow-interactive.disabled,
+.disabled .vanilla-neutral50-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-neutral50-outline,
+.vanilla-neutral50-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-neutral50-overlay,
+.vanilla-neutral50-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.vanilla-neutral50-dropShadow,
+.vanilla-neutral50-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-neutral50-specular,
+.vanilla-neutral50-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral50-specular.reversed,
+.vanilla-neutral50-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-neutral50-bevel,
+.vanilla-neutral50-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-neutral50-bevel.reversed,
+.vanilla-neutral50-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral50-highlight,
+.vanilla-neutral50-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-neutral50-highlight-hover.hovered,
+.hovered .vanilla-neutral50-highlight-hover,
+.vanilla-neutral50-highlight-interactive.hovered,
+.hovered .vanilla-neutral50-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-neutral60-text,
+.vanilla-neutral60-text-interactive {
+    color: #ffffff;
+}
+.vanilla-neutral60-text-disable.disabled,
+.disabled .vanilla-neutral60-text-disable,
+.vanilla-neutral60-text-interactive.disabled,
+.disabled .vanilla-neutral60-text-interactive {
+    color: #b1b2b5;
+}
+.vanilla-neutral60-icon,
+.vanilla-neutral60-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-neutral60-icon-disable.disabled,
+.disabled .vanilla-neutral60-icon-disable,
+.vanilla-neutral60-icon-interactive.disabled,
+.disabled .vanilla-neutral60-icon-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-neutral60-border,
+.vanilla-neutral60-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-neutral60-border-disable.disabled,
+.disabled .vanilla-neutral60-border-disable,
+.vanilla-neutral60-border-interactive.disabled,
+.disabled .vanilla-neutral60-border-interactive {
+    border-color: #8c8d90;
+}
+.vanilla-neutral60-border.dimmest,
+.vanilla-neutral60-border-interactive.dimmest {
+    border-color: #8c8d90;
+}
+.vanilla-neutral60-border-disable.dimmest.disabled,
+.disabled .vanilla-neutral60-border-disable.dimmest,
+.vanilla-neutral60-border-interactive.dimmest.disabled,
+.disabled .vanilla-neutral60-border-interactive.dimmest {
+    border-color: #8c8d90;
+}
+.vanilla-neutral60-caret,
+.vanilla-neutral60-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-neutral60-background,
+.vanilla-neutral60-background-interactive {
+    background-color: #58585a;
+}
+.vanilla-neutral60-background-hover.hovered,
+.hovered .vanilla-neutral60-background-hover,
+.vanilla-neutral60-background-interactive.hovered,
+.hovered .vanilla-neutral60-background-interactive {
+    background-color: #48494a;
+}
+.vanilla-neutral60-background-press.pressed,
+.pressed .vanilla-neutral60-background-press,
+.vanilla-neutral60-background-interactive.pressed,
+.pressed .vanilla-neutral60-background-interactive {
+    background-color: #313233;
+}
+.vanilla-neutral60-background-disable.disabled,
+.disabled .vanilla-neutral60-background-disable,
+.vanilla-neutral60-background-interactive.disabled,
+.disabled .vanilla-neutral60-background-interactive {
+    background-color: #48494a;
+}
+.vanilla-neutral60-shadow,
+.vanilla-neutral60-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-neutral60-shadow-disable.disabled,
+.disabled .vanilla-neutral60-shadow-disable,
+.vanilla-neutral60-shadow-interactive.disabled,
+.disabled .vanilla-neutral60-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-neutral60-outline,
+.vanilla-neutral60-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-neutral60-overlay,
+.vanilla-neutral60-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-neutral60-dropShadow,
+.vanilla-neutral60-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-neutral60-specular,
+.vanilla-neutral60-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral60-specular.reversed,
+.vanilla-neutral60-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-neutral60-bevel,
+.vanilla-neutral60-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-neutral60-bevel.reversed,
+.vanilla-neutral60-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral60-highlight,
+.vanilla-neutral60-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-neutral60-highlight-hover.hovered,
+.hovered .vanilla-neutral60-highlight-hover,
+.vanilla-neutral60-highlight-interactive.hovered,
+.hovered .vanilla-neutral60-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-neutral80-text,
+.vanilla-neutral80-text-interactive {
+    color: #ffffff;
+}
+.vanilla-neutral80-text-disable.disabled,
+.disabled .vanilla-neutral80-text-disable,
+.vanilla-neutral80-text-interactive.disabled,
+.disabled .vanilla-neutral80-text-interactive {
+    color: #58585a;
+}
+.vanilla-neutral80-text.dimmest,
+.vanilla-neutral80-text-interactive.dimmest {
+    color: #b1b2b5;
+}
+.vanilla-neutral80-text-disable.dimmest.disabled,
+.disabled .vanilla-neutral80-text-disable.dimmest,
+.vanilla-neutral80-text-interactive.dimmest.disabled,
+.disabled .vanilla-neutral80-text-interactive.dimmest {
+    color: #58585a;
+}
+.vanilla-neutral80-text.dimmer,
+.vanilla-neutral80-text-interactive.dimmer {
+    color: #d0d1d4;
+}
+.vanilla-neutral80-text-disable.dimmer.disabled,
+.disabled .vanilla-neutral80-text-disable.dimmer,
+.vanilla-neutral80-text-interactive.dimmer.disabled,
+.disabled .vanilla-neutral80-text-interactive.dimmer {
+    color: #58585a;
+}
+.vanilla-neutral80-icon,
+.vanilla-neutral80-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-neutral80-icon-disable.disabled,
+.disabled .vanilla-neutral80-icon-disable,
+.vanilla-neutral80-icon-interactive.disabled,
+.disabled .vanilla-neutral80-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-neutral80-border,
+.vanilla-neutral80-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-neutral80-border-disable.disabled,
+.disabled .vanilla-neutral80-border-disable,
+.vanilla-neutral80-border-interactive.disabled,
+.disabled .vanilla-neutral80-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-neutral80-caret,
+.vanilla-neutral80-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-neutral80-background,
+.vanilla-neutral80-background-interactive {
+    background-color: #313233;
+}
+.vanilla-neutral80-background-select.selected,
+.selected .vanilla-neutral80-background-select,
+.vanilla-neutral80-background-interactive.selected,
+.selected .vanilla-neutral80-background-interactive {
+    background-color: #48494a;
+}
+.vanilla-neutral80-background-hover.hovered,
+.hovered .vanilla-neutral80-background-hover,
+.vanilla-neutral80-background-interactive.hovered,
+.hovered .vanilla-neutral80-background-interactive {
+    background-color: #48494a;
+}
+.vanilla-neutral80-background-press.pressed,
+.pressed .vanilla-neutral80-background-press,
+.vanilla-neutral80-background-interactive.pressed,
+.pressed .vanilla-neutral80-background-interactive {
+    background-color: #242425;
+}
+.vanilla-neutral80-background-disable.disabled,
+.disabled .vanilla-neutral80-background-disable,
+.vanilla-neutral80-background-interactive.disabled,
+.disabled .vanilla-neutral80-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-neutral80-shadow,
+.vanilla-neutral80-shadow-interactive {
+    background-color: #242425;
+}
+.vanilla-neutral80-shadow-disable.disabled,
+.disabled .vanilla-neutral80-shadow-disable,
+.vanilla-neutral80-shadow-interactive.disabled,
+.disabled .vanilla-neutral80-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-neutral80-outline,
+.vanilla-neutral80-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-neutral80-overlay,
+.vanilla-neutral80-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.vanilla-neutral80-dropShadow,
+.vanilla-neutral80-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-neutral80-specular,
+.vanilla-neutral80-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral80-specular.reversed,
+.vanilla-neutral80-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-neutral80-bevel,
+.vanilla-neutral80-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+.vanilla-neutral80-bevel.reversed,
+.vanilla-neutral80-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral80-bevel-select.selected,
+.selected .vanilla-neutral80-bevel-select,
+.vanilla-neutral80-bevel-interactive.selected,
+.selected .vanilla-neutral80-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral80-bevel-select.reversed.selected,
+.selected .vanilla-neutral80-bevel-select.reversed,
+.vanilla-neutral80-bevel-interactive.reversed.selected,
+.selected .vanilla-neutral80-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+.vanilla-neutral80-bevel-hover.hovered,
+.hovered .vanilla-neutral80-bevel-hover,
+.vanilla-neutral80-bevel-interactive.hovered,
+.hovered .vanilla-neutral80-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+.vanilla-neutral80-bevel-hover.reversed.hovered,
+.hovered .vanilla-neutral80-bevel-hover.reversed,
+.vanilla-neutral80-bevel-interactive.reversed.hovered,
+.hovered .vanilla-neutral80-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral80-bevel-press.pressed,
+.pressed .vanilla-neutral80-bevel-press,
+.vanilla-neutral80-bevel-interactive.pressed,
+.pressed .vanilla-neutral80-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.8);
+    border-left-color: rgba(0, 0, 0, 0.8);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral80-bevel-press.reversed.pressed,
+.pressed .vanilla-neutral80-bevel-press.reversed,
+.vanilla-neutral80-bevel-interactive.reversed.pressed,
+.pressed .vanilla-neutral80-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.8);
+    border-right-color: rgba(0, 0, 0, 0.8);
+}
+.vanilla-neutral80-highlight,
+.vanilla-neutral80-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-neutral80-highlight-hover.hovered,
+.hovered .vanilla-neutral80-highlight-hover,
+.vanilla-neutral80-highlight-interactive.hovered,
+.hovered .vanilla-neutral80-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-neutral90-text,
+.vanilla-neutral90-text-interactive {
+    color: #ffffff;
+}
+.vanilla-neutral90-text-disable.disabled,
+.disabled .vanilla-neutral90-text-disable,
+.vanilla-neutral90-text-interactive.disabled,
+.disabled .vanilla-neutral90-text-interactive {
+    color: #58585a;
+}
+.vanilla-neutral90-icon,
+.vanilla-neutral90-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-neutral90-icon-disable.disabled,
+.disabled .vanilla-neutral90-icon-disable,
+.vanilla-neutral90-icon-interactive.disabled,
+.disabled .vanilla-neutral90-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-neutral90-border,
+.vanilla-neutral90-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-neutral90-border-disable.disabled,
+.disabled .vanilla-neutral90-border-disable,
+.vanilla-neutral90-border-interactive.disabled,
+.disabled .vanilla-neutral90-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-neutral90-caret,
+.vanilla-neutral90-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-neutral90-background,
+.vanilla-neutral90-background-interactive {
+    background-color: #242425;
+}
+.vanilla-neutral90-background-disable.disabled,
+.disabled .vanilla-neutral90-background-disable,
+.vanilla-neutral90-background-interactive.disabled,
+.disabled .vanilla-neutral90-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-neutral90-shadow,
+.vanilla-neutral90-shadow-interactive {
+    background-color: #1e1e1f;
+}
+.vanilla-neutral90-shadow-disable.disabled,
+.disabled .vanilla-neutral90-shadow-disable,
+.vanilla-neutral90-shadow-interactive.disabled,
+.disabled .vanilla-neutral90-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-neutral90-outline,
+.vanilla-neutral90-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-neutral90-overlay,
+.vanilla-neutral90-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-neutral90-dropShadow,
+.vanilla-neutral90-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-neutral90-specular,
+.vanilla-neutral90-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral90-specular.reversed,
+.vanilla-neutral90-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-neutral90-bevel,
+.vanilla-neutral90-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-neutral90-bevel.reversed,
+.vanilla-neutral90-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral90-highlight,
+.vanilla-neutral90-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-neutral90-highlight-hover.hovered,
+.hovered .vanilla-neutral90-highlight-hover,
+.vanilla-neutral90-highlight-interactive.hovered,
+.hovered .vanilla-neutral90-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-neutral100-text,
+.vanilla-neutral100-text-interactive {
+    color: #ffffff;
+}
+.vanilla-neutral100-text-disable.disabled,
+.disabled .vanilla-neutral100-text-disable,
+.vanilla-neutral100-text-interactive.disabled,
+.disabled .vanilla-neutral100-text-interactive {
+    color: #58585a;
+}
+.vanilla-neutral100-text.dimmest,
+.vanilla-neutral100-text-interactive.dimmest {
+    color: #b1b2b5;
+}
+.vanilla-neutral100-text-disable.dimmest.disabled,
+.disabled .vanilla-neutral100-text-disable.dimmest,
+.vanilla-neutral100-text-interactive.dimmest.disabled,
+.disabled .vanilla-neutral100-text-interactive.dimmest {
+    color: #58585a;
+}
+.vanilla-neutral100-text.dimmer,
+.vanilla-neutral100-text-interactive.dimmer {
+    color: #d0d1d4;
+}
+.vanilla-neutral100-text-disable.dimmer.disabled,
+.disabled .vanilla-neutral100-text-disable.dimmer,
+.vanilla-neutral100-text-interactive.dimmer.disabled,
+.disabled .vanilla-neutral100-text-interactive.dimmer {
+    color: #58585a;
+}
+.vanilla-neutral100-icon,
+.vanilla-neutral100-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-neutral100-icon-disable.disabled,
+.disabled .vanilla-neutral100-icon-disable,
+.vanilla-neutral100-icon-interactive.disabled,
+.disabled .vanilla-neutral100-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-neutral100-border,
+.vanilla-neutral100-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-neutral100-border-disable.disabled,
+.disabled .vanilla-neutral100-border-disable,
+.vanilla-neutral100-border-interactive.disabled,
+.disabled .vanilla-neutral100-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-neutral100-caret,
+.vanilla-neutral100-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-neutral100-background,
+.vanilla-neutral100-background-interactive {
+    background-color: #1e1e1f;
+}
+.vanilla-neutral100-background-disable.disabled,
+.disabled .vanilla-neutral100-background-disable,
+.vanilla-neutral100-background-interactive.disabled,
+.disabled .vanilla-neutral100-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-neutral100-shadow,
+.vanilla-neutral100-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-neutral100-shadow-disable.disabled,
+.disabled .vanilla-neutral100-shadow-disable,
+.vanilla-neutral100-shadow-interactive.disabled,
+.disabled .vanilla-neutral100-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-neutral100-outline,
+.vanilla-neutral100-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-neutral100-overlay,
+.vanilla-neutral100-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-neutral100-dropShadow,
+.vanilla-neutral100-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-neutral100-specular,
+.vanilla-neutral100-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral100-specular.reversed,
+.vanilla-neutral100-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-neutral100-bevel,
+.vanilla-neutral100-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-neutral100-bevel.reversed,
+.vanilla-neutral100-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutral100-highlight,
+.vanilla-neutral100-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-neutral100-highlight-hover.hovered,
+.hovered .vanilla-neutral100-highlight-hover,
+.vanilla-neutral100-highlight-interactive.hovered,
+.hovered .vanilla-neutral100-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-primary-text,
+.vanilla-primary-text-interactive {
+    color: #ffffff;
+}
+.vanilla-primary-text-disable.disabled,
+.disabled .vanilla-primary-text-disable,
+.vanilla-primary-text-interactive.disabled,
+.disabled .vanilla-primary-text-interactive {
+    color: #58585a;
+}
+.vanilla-primary-icon,
+.vanilla-primary-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-primary-icon-disable.disabled,
+.disabled .vanilla-primary-icon-disable,
+.vanilla-primary-icon-interactive.disabled,
+.disabled .vanilla-primary-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-primary-border,
+.vanilla-primary-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-primary-border-disable.disabled,
+.disabled .vanilla-primary-border-disable,
+.vanilla-primary-border-interactive.disabled,
+.disabled .vanilla-primary-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-primary-caret,
+.vanilla-primary-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-primary-background,
+.vanilla-primary-background-interactive {
+    background-color: #3c8527;
+}
+.vanilla-primary-background-hover.hovered,
+.hovered .vanilla-primary-background-hover,
+.vanilla-primary-background-interactive.hovered,
+.hovered .vanilla-primary-background-interactive {
+    background-color: #2a641c;
+}
+.vanilla-primary-background-press.pressed,
+.pressed .vanilla-primary-background-press,
+.vanilla-primary-background-interactive.pressed,
+.pressed .vanilla-primary-background-interactive {
+    background-color: #1d4d13;
+}
+.vanilla-primary-background-disable.disabled,
+.disabled .vanilla-primary-background-disable,
+.vanilla-primary-background-interactive.disabled,
+.disabled .vanilla-primary-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-primary-shadow,
+.vanilla-primary-shadow-interactive {
+    background-color: #1d4d13;
+}
+.vanilla-primary-shadow-disable.disabled,
+.disabled .vanilla-primary-shadow-disable,
+.vanilla-primary-shadow-interactive.disabled,
+.disabled .vanilla-primary-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-primary-outline,
+.vanilla-primary-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-primary-overlay,
+.vanilla-primary-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-primary-dropShadow,
+.vanilla-primary-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-primary-specular,
+.vanilla-primary-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-primary-specular.reversed,
+.vanilla-primary-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-primary-specular-hover.hovered,
+.hovered .vanilla-primary-specular-hover,
+.vanilla-primary-specular-interactive.hovered,
+.hovered .vanilla-primary-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.4);
+    border-left-color: rgba(255, 255, 255, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+    border-right-color: rgba(255, 255, 255, 0.3);
+}
+.vanilla-primary-specular-hover.reversed.hovered,
+.hovered .vanilla-primary-specular-hover.reversed,
+.vanilla-primary-specular-interactive.reversed.hovered,
+.hovered .vanilla-primary-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.3);
+    border-left-color: rgba(255, 255, 255, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+    border-right-color: rgba(255, 255, 255, 0.4);
+}
+.vanilla-primary-bevel,
+.vanilla-primary-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-primary-bevel.reversed,
+.vanilla-primary-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-primary-highlight,
+.vanilla-primary-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-primary-highlight-hover.hovered,
+.hovered .vanilla-primary-highlight-hover,
+.vanilla-primary-highlight-interactive.hovered,
+.hovered .vanilla-primary-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-primaryTint-text,
+.vanilla-primaryTint-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-primaryTint-text-disable.disabled,
+.disabled .vanilla-primaryTint-text-disable,
+.vanilla-primaryTint-text-interactive.disabled,
+.disabled .vanilla-primaryTint-text-interactive {
+    color: #58585a;
+}
+.vanilla-primaryTint-icon,
+.vanilla-primaryTint-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-primaryTint-icon-disable.disabled,
+.disabled .vanilla-primaryTint-icon-disable,
+.vanilla-primaryTint-icon-interactive.disabled,
+.disabled .vanilla-primaryTint-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-primaryTint-border,
+.vanilla-primaryTint-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-primaryTint-border-disable.disabled,
+.disabled .vanilla-primaryTint-border-disable,
+.vanilla-primaryTint-border-interactive.disabled,
+.disabled .vanilla-primaryTint-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-primaryTint-caret,
+.vanilla-primaryTint-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-primaryTint-background,
+.vanilla-primaryTint-background-interactive {
+    background-color: #6cc349;
+}
+.vanilla-primaryTint-background-disable.disabled,
+.disabled .vanilla-primaryTint-background-disable,
+.vanilla-primaryTint-background-interactive.disabled,
+.disabled .vanilla-primaryTint-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-primaryTint-shadow,
+.vanilla-primaryTint-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-primaryTint-shadow-disable.disabled,
+.disabled .vanilla-primaryTint-shadow-disable,
+.vanilla-primaryTint-shadow-interactive.disabled,
+.disabled .vanilla-primaryTint-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-primaryTint-outline,
+.vanilla-primaryTint-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-primaryTint-overlay,
+.vanilla-primaryTint-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-primaryTint-dropShadow,
+.vanilla-primaryTint-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-primaryTint-specular,
+.vanilla-primaryTint-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-primaryTint-specular.reversed,
+.vanilla-primaryTint-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-primaryTint-bevel,
+.vanilla-primaryTint-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-primaryTint-bevel.reversed,
+.vanilla-primaryTint-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-primaryTint-highlight,
+.vanilla-primaryTint-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-primaryTint-highlight-hover.hovered,
+.hovered .vanilla-primaryTint-highlight-hover,
+.vanilla-primaryTint-highlight-interactive.hovered,
+.hovered .vanilla-primaryTint-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-secondary-text,
+.vanilla-secondary-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-secondary-text-disable.disabled,
+.disabled .vanilla-secondary-text-disable,
+.vanilla-secondary-text-interactive.disabled,
+.disabled .vanilla-secondary-text-interactive {
+    color: #58585a;
+}
+.vanilla-secondary-icon,
+.vanilla-secondary-icon-interactive {
+    background-color: #1e1e1f;
+}
+.vanilla-secondary-icon-disable.disabled,
+.disabled .vanilla-secondary-icon-disable,
+.vanilla-secondary-icon-interactive.disabled,
+.disabled .vanilla-secondary-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-secondary-border,
+.vanilla-secondary-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-secondary-border-disable.disabled,
+.disabled .vanilla-secondary-border-disable,
+.vanilla-secondary-border-interactive.disabled,
+.disabled .vanilla-secondary-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-secondary-caret,
+.vanilla-secondary-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-secondary-background,
+.vanilla-secondary-background-interactive {
+    background-color: #d0d1d4;
+}
+.vanilla-secondary-background-hover.hovered,
+.hovered .vanilla-secondary-background-hover,
+.vanilla-secondary-background-interactive.hovered,
+.hovered .vanilla-secondary-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-secondary-background-press.pressed,
+.pressed .vanilla-secondary-background-press,
+.vanilla-secondary-background-interactive.pressed,
+.pressed .vanilla-secondary-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-secondary-background-disable.disabled,
+.disabled .vanilla-secondary-background-disable,
+.vanilla-secondary-background-interactive.disabled,
+.disabled .vanilla-secondary-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-secondary-shadow,
+.vanilla-secondary-shadow-interactive {
+    background-color: #58585a;
+}
+.vanilla-secondary-shadow-disable.disabled,
+.disabled .vanilla-secondary-shadow-disable,
+.vanilla-secondary-shadow-interactive.disabled,
+.disabled .vanilla-secondary-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-secondary-outline,
+.vanilla-secondary-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-secondary-overlay,
+.vanilla-secondary-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-secondary-dropShadow,
+.vanilla-secondary-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-secondary-specular,
+.vanilla-secondary-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.6);
+    border-left-color: rgba(255, 255, 255, 0.6);
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+    border-right-color: rgba(255, 255, 255, 0.4);
+}
+.vanilla-secondary-specular.reversed,
+.vanilla-secondary-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.4);
+    border-left-color: rgba(255, 255, 255, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.6);
+    border-right-color: rgba(255, 255, 255, 0.6);
+}
+.vanilla-secondary-specular-hover.hovered,
+.hovered .vanilla-secondary-specular-hover,
+.vanilla-secondary-specular-interactive.hovered,
+.hovered .vanilla-secondary-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.8);
+    border-left-color: rgba(255, 255, 255, 0.8);
+    border-bottom-color: rgba(255, 255, 255, 0.6);
+    border-right-color: rgba(255, 255, 255, 0.6);
+}
+.vanilla-secondary-specular-hover.reversed.hovered,
+.hovered .vanilla-secondary-specular-hover.reversed,
+.vanilla-secondary-specular-interactive.reversed.hovered,
+.hovered .vanilla-secondary-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.6);
+    border-left-color: rgba(255, 255, 255, 0.6);
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+    border-right-color: rgba(255, 255, 255, 0.8);
+}
+.vanilla-secondary-bevel,
+.vanilla-secondary-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-secondary-bevel.reversed,
+.vanilla-secondary-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-secondary-highlight,
+.vanilla-secondary-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-secondary-highlight-hover.hovered,
+.hovered .vanilla-secondary-highlight-hover,
+.vanilla-secondary-highlight-interactive.hovered,
+.hovered .vanilla-secondary-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-success-text,
+.vanilla-success-text-interactive {
+    color: #ffffff;
+}
+.vanilla-success-text-disable.disabled,
+.disabled .vanilla-success-text-disable,
+.vanilla-success-text-interactive.disabled,
+.disabled .vanilla-success-text-interactive {
+    color: #58585a;
+}
+.vanilla-success-icon,
+.vanilla-success-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-success-icon-disable.disabled,
+.disabled .vanilla-success-icon-disable,
+.vanilla-success-icon-interactive.disabled,
+.disabled .vanilla-success-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-success-border,
+.vanilla-success-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-success-border-disable.disabled,
+.disabled .vanilla-success-border-disable,
+.vanilla-success-border-interactive.disabled,
+.disabled .vanilla-success-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-success-caret,
+.vanilla-success-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-success-background,
+.vanilla-success-background-interactive {
+    background-color: #3c8527;
+}
+.vanilla-success-background-disable.disabled,
+.disabled .vanilla-success-background-disable,
+.vanilla-success-background-interactive.disabled,
+.disabled .vanilla-success-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-success-shadow,
+.vanilla-success-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-success-shadow-disable.disabled,
+.disabled .vanilla-success-shadow-disable,
+.vanilla-success-shadow-interactive.disabled,
+.disabled .vanilla-success-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-success-outline,
+.vanilla-success-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-success-overlay,
+.vanilla-success-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-success-dropShadow,
+.vanilla-success-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-success-specular,
+.vanilla-success-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-success-specular.reversed,
+.vanilla-success-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-success-bevel,
+.vanilla-success-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-success-bevel.reversed,
+.vanilla-success-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-success-highlight,
+.vanilla-success-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-success-highlight-hover.hovered,
+.hovered .vanilla-success-highlight-hover,
+.vanilla-success-highlight-interactive.hovered,
+.hovered .vanilla-success-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-successTint-text,
+.vanilla-successTint-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-successTint-text-disable.disabled,
+.disabled .vanilla-successTint-text-disable,
+.vanilla-successTint-text-interactive.disabled,
+.disabled .vanilla-successTint-text-interactive {
+    color: #58585a;
+}
+.vanilla-successTint-icon,
+.vanilla-successTint-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-successTint-icon-disable.disabled,
+.disabled .vanilla-successTint-icon-disable,
+.vanilla-successTint-icon-interactive.disabled,
+.disabled .vanilla-successTint-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-successTint-border,
+.vanilla-successTint-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-successTint-border-disable.disabled,
+.disabled .vanilla-successTint-border-disable,
+.vanilla-successTint-border-interactive.disabled,
+.disabled .vanilla-successTint-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-successTint-caret,
+.vanilla-successTint-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-successTint-background,
+.vanilla-successTint-background-interactive {
+    background-color: #a0e081;
+}
+.vanilla-successTint-background-disable.disabled,
+.disabled .vanilla-successTint-background-disable,
+.vanilla-successTint-background-interactive.disabled,
+.disabled .vanilla-successTint-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-successTint-shadow,
+.vanilla-successTint-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-successTint-shadow-disable.disabled,
+.disabled .vanilla-successTint-shadow-disable,
+.vanilla-successTint-shadow-interactive.disabled,
+.disabled .vanilla-successTint-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-successTint-outline,
+.vanilla-successTint-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-successTint-overlay,
+.vanilla-successTint-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-successTint-dropShadow,
+.vanilla-successTint-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-successTint-specular,
+.vanilla-successTint-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-successTint-specular.reversed,
+.vanilla-successTint-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-successTint-bevel,
+.vanilla-successTint-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-successTint-bevel.reversed,
+.vanilla-successTint-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-successTint-highlight,
+.vanilla-successTint-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-successTint-highlight-hover.hovered,
+.hovered .vanilla-successTint-highlight-hover,
+.vanilla-successTint-highlight-interactive.hovered,
+.hovered .vanilla-successTint-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-destructive-text,
+.vanilla-destructive-text-interactive {
+    color: #ffffff;
+}
+.vanilla-destructive-text-disable.disabled,
+.disabled .vanilla-destructive-text-disable,
+.vanilla-destructive-text-interactive.disabled,
+.disabled .vanilla-destructive-text-interactive {
+    color: #58585a;
+}
+.vanilla-destructive-icon,
+.vanilla-destructive-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-destructive-icon-disable.disabled,
+.disabled .vanilla-destructive-icon-disable,
+.vanilla-destructive-icon-interactive.disabled,
+.disabled .vanilla-destructive-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-destructive-border,
+.vanilla-destructive-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-destructive-border-disable.disabled,
+.disabled .vanilla-destructive-border-disable,
+.vanilla-destructive-border-interactive.disabled,
+.disabled .vanilla-destructive-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-destructive-caret,
+.vanilla-destructive-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-destructive-background,
+.vanilla-destructive-background-interactive {
+    background-color: #ca3636;
+}
+.vanilla-destructive-background-hover.hovered,
+.hovered .vanilla-destructive-background-hover,
+.vanilla-destructive-background-interactive.hovered,
+.hovered .vanilla-destructive-background-interactive {
+    background-color: #c02d2d;
+}
+.vanilla-destructive-background-press.pressed,
+.pressed .vanilla-destructive-background-press,
+.vanilla-destructive-background-interactive.pressed,
+.pressed .vanilla-destructive-background-interactive {
+    background-color: #ad1d1d;
+}
+.vanilla-destructive-background-disable.disabled,
+.disabled .vanilla-destructive-background-disable,
+.vanilla-destructive-background-interactive.disabled,
+.disabled .vanilla-destructive-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-destructive-shadow,
+.vanilla-destructive-shadow-interactive {
+    background-color: #ad1d1d;
+}
+.vanilla-destructive-shadow-disable.disabled,
+.disabled .vanilla-destructive-shadow-disable,
+.vanilla-destructive-shadow-interactive.disabled,
+.disabled .vanilla-destructive-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-destructive-outline,
+.vanilla-destructive-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-destructive-overlay,
+.vanilla-destructive-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-destructive-dropShadow,
+.vanilla-destructive-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-destructive-specular,
+.vanilla-destructive-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-destructive-specular.reversed,
+.vanilla-destructive-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-destructive-specular-hover.hovered,
+.hovered .vanilla-destructive-specular-hover,
+.vanilla-destructive-specular-interactive.hovered,
+.hovered .vanilla-destructive-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-left-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+    border-right-color: rgba(255, 255, 255, 0.4);
+}
+.vanilla-destructive-specular-hover.reversed.hovered,
+.hovered .vanilla-destructive-specular-hover.reversed,
+.vanilla-destructive-specular-interactive.reversed.hovered,
+.hovered .vanilla-destructive-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.4);
+    border-left-color: rgba(255, 255, 255, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    border-right-color: rgba(255, 255, 255, 0.5);
+}
+.vanilla-destructive-bevel,
+.vanilla-destructive-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-destructive-bevel.reversed,
+.vanilla-destructive-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-destructive-highlight,
+.vanilla-destructive-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-destructive-highlight-hover.hovered,
+.hovered .vanilla-destructive-highlight-hover,
+.vanilla-destructive-highlight-interactive.hovered,
+.hovered .vanilla-destructive-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-destructiveTint-text,
+.vanilla-destructiveTint-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-destructiveTint-text-disable.disabled,
+.disabled .vanilla-destructiveTint-text-disable,
+.vanilla-destructiveTint-text-interactive.disabled,
+.disabled .vanilla-destructiveTint-text-interactive {
+    color: #58585a;
+}
+.vanilla-destructiveTint-icon,
+.vanilla-destructiveTint-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-destructiveTint-icon-disable.disabled,
+.disabled .vanilla-destructiveTint-icon-disable,
+.vanilla-destructiveTint-icon-interactive.disabled,
+.disabled .vanilla-destructiveTint-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-destructiveTint-border,
+.vanilla-destructiveTint-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-destructiveTint-border-disable.disabled,
+.disabled .vanilla-destructiveTint-border-disable,
+.vanilla-destructiveTint-border-interactive.disabled,
+.disabled .vanilla-destructiveTint-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-destructiveTint-caret,
+.vanilla-destructiveTint-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-destructiveTint-background,
+.vanilla-destructiveTint-background-interactive {
+    background-color: #ff8080;
+}
+.vanilla-destructiveTint-background-disable.disabled,
+.disabled .vanilla-destructiveTint-background-disable,
+.vanilla-destructiveTint-background-interactive.disabled,
+.disabled .vanilla-destructiveTint-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-destructiveTint-shadow,
+.vanilla-destructiveTint-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-destructiveTint-shadow-disable.disabled,
+.disabled .vanilla-destructiveTint-shadow-disable,
+.vanilla-destructiveTint-shadow-interactive.disabled,
+.disabled .vanilla-destructiveTint-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-destructiveTint-outline,
+.vanilla-destructiveTint-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-destructiveTint-overlay,
+.vanilla-destructiveTint-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-destructiveTint-dropShadow,
+.vanilla-destructiveTint-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-destructiveTint-specular,
+.vanilla-destructiveTint-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-destructiveTint-specular.reversed,
+.vanilla-destructiveTint-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-destructiveTint-bevel,
+.vanilla-destructiveTint-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-destructiveTint-bevel.reversed,
+.vanilla-destructiveTint-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-destructiveTint-highlight,
+.vanilla-destructiveTint-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-destructiveTint-highlight-hover.hovered,
+.hovered .vanilla-destructiveTint-highlight-hover,
+.vanilla-destructiveTint-highlight-interactive.hovered,
+.hovered .vanilla-destructiveTint-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-informative-text,
+.vanilla-informative-text-interactive {
+    color: #ffffff;
+}
+.vanilla-informative-text-disable.disabled,
+.disabled .vanilla-informative-text-disable,
+.vanilla-informative-text-interactive.disabled,
+.disabled .vanilla-informative-text-interactive {
+    color: #58585a;
+}
+.vanilla-informative-icon,
+.vanilla-informative-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-informative-icon-disable.disabled,
+.disabled .vanilla-informative-icon-disable,
+.vanilla-informative-icon-interactive.disabled,
+.disabled .vanilla-informative-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-informative-border,
+.vanilla-informative-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-informative-border-disable.disabled,
+.disabled .vanilla-informative-border-disable,
+.vanilla-informative-border-interactive.disabled,
+.disabled .vanilla-informative-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-informative-caret,
+.vanilla-informative-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-informative-background,
+.vanilla-informative-background-interactive {
+    background-color: #2e6be5;
+}
+.vanilla-informative-background-disable.disabled,
+.disabled .vanilla-informative-background-disable,
+.vanilla-informative-background-interactive.disabled,
+.disabled .vanilla-informative-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-informative-shadow,
+.vanilla-informative-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-informative-shadow-disable.disabled,
+.disabled .vanilla-informative-shadow-disable,
+.vanilla-informative-shadow-interactive.disabled,
+.disabled .vanilla-informative-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-informative-outline,
+.vanilla-informative-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-informative-overlay,
+.vanilla-informative-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-informative-dropShadow,
+.vanilla-informative-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-informative-specular,
+.vanilla-informative-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-informative-specular.reversed,
+.vanilla-informative-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-informative-bevel,
+.vanilla-informative-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-informative-bevel.reversed,
+.vanilla-informative-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-informative-highlight,
+.vanilla-informative-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-informative-highlight-hover.hovered,
+.hovered .vanilla-informative-highlight-hover,
+.vanilla-informative-highlight-interactive.hovered,
+.hovered .vanilla-informative-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-informativeTint-text,
+.vanilla-informativeTint-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-informativeTint-text-disable.disabled,
+.disabled .vanilla-informativeTint-text-disable,
+.vanilla-informativeTint-text-interactive.disabled,
+.disabled .vanilla-informativeTint-text-interactive {
+    color: #58585a;
+}
+.vanilla-informativeTint-icon,
+.vanilla-informativeTint-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-informativeTint-icon-disable.disabled,
+.disabled .vanilla-informativeTint-icon-disable,
+.vanilla-informativeTint-icon-interactive.disabled,
+.disabled .vanilla-informativeTint-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-informativeTint-border,
+.vanilla-informativeTint-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-informativeTint-border-disable.disabled,
+.disabled .vanilla-informativeTint-border-disable,
+.vanilla-informativeTint-border-interactive.disabled,
+.disabled .vanilla-informativeTint-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-informativeTint-caret,
+.vanilla-informativeTint-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-informativeTint-background,
+.vanilla-informativeTint-background-interactive {
+    background-color: #8cb3ff;
+}
+.vanilla-informativeTint-background-disable.disabled,
+.disabled .vanilla-informativeTint-background-disable,
+.vanilla-informativeTint-background-interactive.disabled,
+.disabled .vanilla-informativeTint-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-informativeTint-shadow,
+.vanilla-informativeTint-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-informativeTint-shadow-disable.disabled,
+.disabled .vanilla-informativeTint-shadow-disable,
+.vanilla-informativeTint-shadow-interactive.disabled,
+.disabled .vanilla-informativeTint-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-informativeTint-outline,
+.vanilla-informativeTint-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-informativeTint-overlay,
+.vanilla-informativeTint-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-informativeTint-dropShadow,
+.vanilla-informativeTint-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-informativeTint-specular,
+.vanilla-informativeTint-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-informativeTint-specular.reversed,
+.vanilla-informativeTint-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-informativeTint-bevel,
+.vanilla-informativeTint-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-informativeTint-bevel.reversed,
+.vanilla-informativeTint-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-informativeTint-highlight,
+.vanilla-informativeTint-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-informativeTint-highlight-hover.hovered,
+.hovered .vanilla-informativeTint-highlight-hover,
+.vanilla-informativeTint-highlight-interactive.hovered,
+.hovered .vanilla-informativeTint-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-notice-text,
+.vanilla-notice-text-interactive {
+    color: #ffffff;
+}
+.vanilla-notice-text-disable.disabled,
+.disabled .vanilla-notice-text-disable,
+.vanilla-notice-text-interactive.disabled,
+.disabled .vanilla-notice-text-interactive {
+    color: #58585a;
+}
+.vanilla-notice-icon,
+.vanilla-notice-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-notice-icon-disable.disabled,
+.disabled .vanilla-notice-icon-disable,
+.vanilla-notice-icon-interactive.disabled,
+.disabled .vanilla-notice-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-notice-border,
+.vanilla-notice-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-notice-border-disable.disabled,
+.disabled .vanilla-notice-border-disable,
+.vanilla-notice-border-interactive.disabled,
+.disabled .vanilla-notice-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-notice-caret,
+.vanilla-notice-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-notice-background,
+.vanilla-notice-background-interactive {
+    background-color: #d3791f;
+}
+.vanilla-notice-background-disable.disabled,
+.disabled .vanilla-notice-background-disable,
+.vanilla-notice-background-interactive.disabled,
+.disabled .vanilla-notice-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-notice-shadow,
+.vanilla-notice-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-notice-shadow-disable.disabled,
+.disabled .vanilla-notice-shadow-disable,
+.vanilla-notice-shadow-interactive.disabled,
+.disabled .vanilla-notice-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-notice-outline,
+.vanilla-notice-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-notice-overlay,
+.vanilla-notice-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-notice-dropShadow,
+.vanilla-notice-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-notice-specular,
+.vanilla-notice-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-notice-specular.reversed,
+.vanilla-notice-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-notice-bevel,
+.vanilla-notice-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-notice-bevel.reversed,
+.vanilla-notice-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-notice-highlight,
+.vanilla-notice-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-notice-highlight-hover.hovered,
+.hovered .vanilla-notice-highlight-hover,
+.vanilla-notice-highlight-interactive.hovered,
+.hovered .vanilla-notice-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-noticeTint-text,
+.vanilla-noticeTint-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-noticeTint-text-disable.disabled,
+.disabled .vanilla-noticeTint-text-disable,
+.vanilla-noticeTint-text-interactive.disabled,
+.disabled .vanilla-noticeTint-text-interactive {
+    color: #58585a;
+}
+.vanilla-noticeTint-icon,
+.vanilla-noticeTint-icon-interactive {
+    background-color: #1e1e1f;
+}
+.vanilla-noticeTint-icon-disable.disabled,
+.disabled .vanilla-noticeTint-icon-disable,
+.vanilla-noticeTint-icon-interactive.disabled,
+.disabled .vanilla-noticeTint-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-noticeTint-border,
+.vanilla-noticeTint-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-noticeTint-border-disable.disabled,
+.disabled .vanilla-noticeTint-border-disable,
+.vanilla-noticeTint-border-interactive.disabled,
+.disabled .vanilla-noticeTint-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-noticeTint-caret,
+.vanilla-noticeTint-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-noticeTint-background,
+.vanilla-noticeTint-background-interactive {
+    background-color: #ffe866;
+}
+.vanilla-noticeTint-background-disable.disabled,
+.disabled .vanilla-noticeTint-background-disable,
+.vanilla-noticeTint-background-interactive.disabled,
+.disabled .vanilla-noticeTint-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-noticeTint-shadow,
+.vanilla-noticeTint-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-noticeTint-shadow-disable.disabled,
+.disabled .vanilla-noticeTint-shadow-disable,
+.vanilla-noticeTint-shadow-interactive.disabled,
+.disabled .vanilla-noticeTint-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-noticeTint-outline,
+.vanilla-noticeTint-outline-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-noticeTint-overlay,
+.vanilla-noticeTint-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-noticeTint-dropShadow,
+.vanilla-noticeTint-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-noticeTint-specular,
+.vanilla-noticeTint-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-noticeTint-specular.reversed,
+.vanilla-noticeTint-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-noticeTint-bevel,
+.vanilla-noticeTint-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-noticeTint-bevel.reversed,
+.vanilla-noticeTint-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-noticeTint-highlight,
+.vanilla-noticeTint-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-noticeTint-highlight-hover.hovered,
+.hovered .vanilla-noticeTint-highlight-hover,
+.vanilla-noticeTint-highlight-interactive.hovered,
+.hovered .vanilla-noticeTint-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-dataViz01-text,
+.vanilla-dataViz01-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-dataViz01-text-disable.disabled,
+.disabled .vanilla-dataViz01-text-disable,
+.vanilla-dataViz01-text-interactive.disabled,
+.disabled .vanilla-dataViz01-text-interactive {
+    color: #58585a;
+}
+.vanilla-dataViz01-icon,
+.vanilla-dataViz01-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-dataViz01-icon-disable.disabled,
+.disabled .vanilla-dataViz01-icon-disable,
+.vanilla-dataViz01-icon-interactive.disabled,
+.disabled .vanilla-dataViz01-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-dataViz01-border,
+.vanilla-dataViz01-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-dataViz01-border-disable.disabled,
+.disabled .vanilla-dataViz01-border-disable,
+.vanilla-dataViz01-border-interactive.disabled,
+.disabled .vanilla-dataViz01-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-dataViz01-caret,
+.vanilla-dataViz01-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-dataViz01-background,
+.vanilla-dataViz01-background-interactive {
+    background-color: #42cccc;
+}
+.vanilla-dataViz01-background-disable.disabled,
+.disabled .vanilla-dataViz01-background-disable,
+.vanilla-dataViz01-background-interactive.disabled,
+.disabled .vanilla-dataViz01-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-dataViz01-shadow,
+.vanilla-dataViz01-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-dataViz01-shadow-disable.disabled,
+.disabled .vanilla-dataViz01-shadow-disable,
+.vanilla-dataViz01-shadow-interactive.disabled,
+.disabled .vanilla-dataViz01-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-dataViz01-outline,
+.vanilla-dataViz01-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-dataViz01-overlay,
+.vanilla-dataViz01-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-dataViz01-dropShadow,
+.vanilla-dataViz01-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-dataViz01-specular,
+.vanilla-dataViz01-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz01-specular.reversed,
+.vanilla-dataViz01-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-dataViz01-bevel,
+.vanilla-dataViz01-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-dataViz01-bevel.reversed,
+.vanilla-dataViz01-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz01-highlight,
+.vanilla-dataViz01-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-dataViz01-highlight-hover.hovered,
+.hovered .vanilla-dataViz01-highlight-hover,
+.vanilla-dataViz01-highlight-interactive.hovered,
+.hovered .vanilla-dataViz01-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-dataViz02-text,
+.vanilla-dataViz02-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-dataViz02-text-disable.disabled,
+.disabled .vanilla-dataViz02-text-disable,
+.vanilla-dataViz02-text-interactive.disabled,
+.disabled .vanilla-dataViz02-text-interactive {
+    color: #58585a;
+}
+.vanilla-dataViz02-icon,
+.vanilla-dataViz02-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-dataViz02-icon-disable.disabled,
+.disabled .vanilla-dataViz02-icon-disable,
+.vanilla-dataViz02-icon-interactive.disabled,
+.disabled .vanilla-dataViz02-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-dataViz02-border,
+.vanilla-dataViz02-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-dataViz02-border-disable.disabled,
+.disabled .vanilla-dataViz02-border-disable,
+.vanilla-dataViz02-border-interactive.disabled,
+.disabled .vanilla-dataViz02-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-dataViz02-caret,
+.vanilla-dataViz02-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-dataViz02-background,
+.vanilla-dataViz02-background-interactive {
+    background-color: #9471e0;
+}
+.vanilla-dataViz02-background-disable.disabled,
+.disabled .vanilla-dataViz02-background-disable,
+.vanilla-dataViz02-background-interactive.disabled,
+.disabled .vanilla-dataViz02-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-dataViz02-shadow,
+.vanilla-dataViz02-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-dataViz02-shadow-disable.disabled,
+.disabled .vanilla-dataViz02-shadow-disable,
+.vanilla-dataViz02-shadow-interactive.disabled,
+.disabled .vanilla-dataViz02-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-dataViz02-outline,
+.vanilla-dataViz02-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-dataViz02-overlay,
+.vanilla-dataViz02-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-dataViz02-dropShadow,
+.vanilla-dataViz02-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-dataViz02-specular,
+.vanilla-dataViz02-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz02-specular.reversed,
+.vanilla-dataViz02-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-dataViz02-bevel,
+.vanilla-dataViz02-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-dataViz02-bevel.reversed,
+.vanilla-dataViz02-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz02-highlight,
+.vanilla-dataViz02-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-dataViz02-highlight-hover.hovered,
+.hovered .vanilla-dataViz02-highlight-hover,
+.vanilla-dataViz02-highlight-interactive.hovered,
+.hovered .vanilla-dataViz02-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-dataViz03-text,
+.vanilla-dataViz03-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-dataViz03-text-disable.disabled,
+.disabled .vanilla-dataViz03-text-disable,
+.vanilla-dataViz03-text-interactive.disabled,
+.disabled .vanilla-dataViz03-text-interactive {
+    color: #58585a;
+}
+.vanilla-dataViz03-icon,
+.vanilla-dataViz03-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-dataViz03-icon-disable.disabled,
+.disabled .vanilla-dataViz03-icon-disable,
+.vanilla-dataViz03-icon-interactive.disabled,
+.disabled .vanilla-dataViz03-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-dataViz03-border,
+.vanilla-dataViz03-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-dataViz03-border-disable.disabled,
+.disabled .vanilla-dataViz03-border-disable,
+.vanilla-dataViz03-border-interactive.disabled,
+.disabled .vanilla-dataViz03-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-dataViz03-caret,
+.vanilla-dataViz03-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-dataViz03-background,
+.vanilla-dataViz03-background-interactive {
+    background-color: #ffb366;
+}
+.vanilla-dataViz03-background-disable.disabled,
+.disabled .vanilla-dataViz03-background-disable,
+.vanilla-dataViz03-background-interactive.disabled,
+.disabled .vanilla-dataViz03-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-dataViz03-shadow,
+.vanilla-dataViz03-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-dataViz03-shadow-disable.disabled,
+.disabled .vanilla-dataViz03-shadow-disable,
+.vanilla-dataViz03-shadow-interactive.disabled,
+.disabled .vanilla-dataViz03-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-dataViz03-outline,
+.vanilla-dataViz03-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-dataViz03-overlay,
+.vanilla-dataViz03-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-dataViz03-dropShadow,
+.vanilla-dataViz03-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-dataViz03-specular,
+.vanilla-dataViz03-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz03-specular.reversed,
+.vanilla-dataViz03-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-dataViz03-bevel,
+.vanilla-dataViz03-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-dataViz03-bevel.reversed,
+.vanilla-dataViz03-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz03-highlight,
+.vanilla-dataViz03-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-dataViz03-highlight-hover.hovered,
+.hovered .vanilla-dataViz03-highlight-hover,
+.vanilla-dataViz03-highlight-interactive.hovered,
+.hovered .vanilla-dataViz03-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-dataViz04-text,
+.vanilla-dataViz04-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-dataViz04-text-disable.disabled,
+.disabled .vanilla-dataViz04-text-disable,
+.vanilla-dataViz04-text-interactive.disabled,
+.disabled .vanilla-dataViz04-text-interactive {
+    color: #58585a;
+}
+.vanilla-dataViz04-icon,
+.vanilla-dataViz04-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-dataViz04-icon-disable.disabled,
+.disabled .vanilla-dataViz04-icon-disable,
+.vanilla-dataViz04-icon-interactive.disabled,
+.disabled .vanilla-dataViz04-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-dataViz04-border,
+.vanilla-dataViz04-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-dataViz04-border-disable.disabled,
+.disabled .vanilla-dataViz04-border-disable,
+.vanilla-dataViz04-border-interactive.disabled,
+.disabled .vanilla-dataViz04-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-dataViz04-caret,
+.vanilla-dataViz04-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-dataViz04-background,
+.vanilla-dataViz04-background-interactive {
+    background-color: #89def9;
+}
+.vanilla-dataViz04-background-disable.disabled,
+.disabled .vanilla-dataViz04-background-disable,
+.vanilla-dataViz04-background-interactive.disabled,
+.disabled .vanilla-dataViz04-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-dataViz04-shadow,
+.vanilla-dataViz04-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-dataViz04-shadow-disable.disabled,
+.disabled .vanilla-dataViz04-shadow-disable,
+.vanilla-dataViz04-shadow-interactive.disabled,
+.disabled .vanilla-dataViz04-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-dataViz04-outline,
+.vanilla-dataViz04-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-dataViz04-overlay,
+.vanilla-dataViz04-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-dataViz04-dropShadow,
+.vanilla-dataViz04-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-dataViz04-specular,
+.vanilla-dataViz04-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz04-specular.reversed,
+.vanilla-dataViz04-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-dataViz04-bevel,
+.vanilla-dataViz04-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-dataViz04-bevel.reversed,
+.vanilla-dataViz04-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz04-highlight,
+.vanilla-dataViz04-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-dataViz04-highlight-hover.hovered,
+.hovered .vanilla-dataViz04-highlight-hover,
+.vanilla-dataViz04-highlight-interactive.hovered,
+.hovered .vanilla-dataViz04-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-dataViz05-text,
+.vanilla-dataViz05-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-dataViz05-text-disable.disabled,
+.disabled .vanilla-dataViz05-text-disable,
+.vanilla-dataViz05-text-interactive.disabled,
+.disabled .vanilla-dataViz05-text-interactive {
+    color: #58585a;
+}
+.vanilla-dataViz05-icon,
+.vanilla-dataViz05-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-dataViz05-icon-disable.disabled,
+.disabled .vanilla-dataViz05-icon-disable,
+.vanilla-dataViz05-icon-interactive.disabled,
+.disabled .vanilla-dataViz05-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-dataViz05-border,
+.vanilla-dataViz05-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-dataViz05-border-disable.disabled,
+.disabled .vanilla-dataViz05-border-disable,
+.vanilla-dataViz05-border-interactive.disabled,
+.disabled .vanilla-dataViz05-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-dataViz05-caret,
+.vanilla-dataViz05-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-dataViz05-background,
+.vanilla-dataViz05-background-interactive {
+    background-color: #a0e081;
+}
+.vanilla-dataViz05-background-disable.disabled,
+.disabled .vanilla-dataViz05-background-disable,
+.vanilla-dataViz05-background-interactive.disabled,
+.disabled .vanilla-dataViz05-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-dataViz05-shadow,
+.vanilla-dataViz05-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-dataViz05-shadow-disable.disabled,
+.disabled .vanilla-dataViz05-shadow-disable,
+.vanilla-dataViz05-shadow-interactive.disabled,
+.disabled .vanilla-dataViz05-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-dataViz05-outline,
+.vanilla-dataViz05-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-dataViz05-overlay,
+.vanilla-dataViz05-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-dataViz05-dropShadow,
+.vanilla-dataViz05-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-dataViz05-specular,
+.vanilla-dataViz05-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz05-specular.reversed,
+.vanilla-dataViz05-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-dataViz05-bevel,
+.vanilla-dataViz05-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-dataViz05-bevel.reversed,
+.vanilla-dataViz05-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz05-highlight,
+.vanilla-dataViz05-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-dataViz05-highlight-hover.hovered,
+.hovered .vanilla-dataViz05-highlight-hover,
+.vanilla-dataViz05-highlight-interactive.hovered,
+.hovered .vanilla-dataViz05-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-dataViz06-text,
+.vanilla-dataViz06-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-dataViz06-text-disable.disabled,
+.disabled .vanilla-dataViz06-text-disable,
+.vanilla-dataViz06-text-interactive.disabled,
+.disabled .vanilla-dataViz06-text-interactive {
+    color: #58585a;
+}
+.vanilla-dataViz06-icon,
+.vanilla-dataViz06-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-dataViz06-icon-disable.disabled,
+.disabled .vanilla-dataViz06-icon-disable,
+.vanilla-dataViz06-icon-interactive.disabled,
+.disabled .vanilla-dataViz06-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-dataViz06-border,
+.vanilla-dataViz06-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-dataViz06-border-disable.disabled,
+.disabled .vanilla-dataViz06-border-disable,
+.vanilla-dataViz06-border-interactive.disabled,
+.disabled .vanilla-dataViz06-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-dataViz06-caret,
+.vanilla-dataViz06-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-dataViz06-background,
+.vanilla-dataViz06-background-interactive {
+    background-color: #f064b8;
+}
+.vanilla-dataViz06-background-disable.disabled,
+.disabled .vanilla-dataViz06-background-disable,
+.vanilla-dataViz06-background-interactive.disabled,
+.disabled .vanilla-dataViz06-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-dataViz06-shadow,
+.vanilla-dataViz06-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-dataViz06-shadow-disable.disabled,
+.disabled .vanilla-dataViz06-shadow-disable,
+.vanilla-dataViz06-shadow-interactive.disabled,
+.disabled .vanilla-dataViz06-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-dataViz06-outline,
+.vanilla-dataViz06-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-dataViz06-overlay,
+.vanilla-dataViz06-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-dataViz06-dropShadow,
+.vanilla-dataViz06-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-dataViz06-specular,
+.vanilla-dataViz06-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz06-specular.reversed,
+.vanilla-dataViz06-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-dataViz06-bevel,
+.vanilla-dataViz06-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-dataViz06-bevel.reversed,
+.vanilla-dataViz06-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz06-highlight,
+.vanilla-dataViz06-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-dataViz06-highlight-hover.hovered,
+.hovered .vanilla-dataViz06-highlight-hover,
+.vanilla-dataViz06-highlight-interactive.hovered,
+.hovered .vanilla-dataViz06-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-dataViz07-text,
+.vanilla-dataViz07-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-dataViz07-text-disable.disabled,
+.disabled .vanilla-dataViz07-text-disable,
+.vanilla-dataViz07-text-interactive.disabled,
+.disabled .vanilla-dataViz07-text-interactive {
+    color: #58585a;
+}
+.vanilla-dataViz07-icon,
+.vanilla-dataViz07-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-dataViz07-icon-disable.disabled,
+.disabled .vanilla-dataViz07-icon-disable,
+.vanilla-dataViz07-icon-interactive.disabled,
+.disabled .vanilla-dataViz07-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-dataViz07-border,
+.vanilla-dataViz07-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-dataViz07-border-disable.disabled,
+.disabled .vanilla-dataViz07-border-disable,
+.vanilla-dataViz07-border-interactive.disabled,
+.disabled .vanilla-dataViz07-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-dataViz07-caret,
+.vanilla-dataViz07-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-dataViz07-background,
+.vanilla-dataViz07-background-interactive {
+    background-color: #ffe866;
+}
+.vanilla-dataViz07-background-disable.disabled,
+.disabled .vanilla-dataViz07-background-disable,
+.vanilla-dataViz07-background-interactive.disabled,
+.disabled .vanilla-dataViz07-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-dataViz07-shadow,
+.vanilla-dataViz07-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-dataViz07-shadow-disable.disabled,
+.disabled .vanilla-dataViz07-shadow-disable,
+.vanilla-dataViz07-shadow-interactive.disabled,
+.disabled .vanilla-dataViz07-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-dataViz07-outline,
+.vanilla-dataViz07-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-dataViz07-overlay,
+.vanilla-dataViz07-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-dataViz07-dropShadow,
+.vanilla-dataViz07-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-dataViz07-specular,
+.vanilla-dataViz07-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz07-specular.reversed,
+.vanilla-dataViz07-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-dataViz07-bevel,
+.vanilla-dataViz07-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-dataViz07-bevel.reversed,
+.vanilla-dataViz07-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataViz07-highlight,
+.vanilla-dataViz07-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-dataViz07-highlight-hover.hovered,
+.hovered .vanilla-dataViz07-highlight-hover,
+.vanilla-dataViz07-highlight-interactive.hovered,
+.hovered .vanilla-dataViz07-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-dataVizLine-text,
+.vanilla-dataVizLine-text-interactive {
+    color: #1e1e1f;
+}
+.vanilla-dataVizLine-text-disable.disabled,
+.disabled .vanilla-dataVizLine-text-disable,
+.vanilla-dataVizLine-text-interactive.disabled,
+.disabled .vanilla-dataVizLine-text-interactive {
+    color: #58585a;
+}
+.vanilla-dataVizLine-icon,
+.vanilla-dataVizLine-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-dataVizLine-icon-disable.disabled,
+.disabled .vanilla-dataVizLine-icon-disable,
+.vanilla-dataVizLine-icon-interactive.disabled,
+.disabled .vanilla-dataVizLine-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-dataVizLine-border,
+.vanilla-dataVizLine-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-dataVizLine-border-disable.disabled,
+.disabled .vanilla-dataVizLine-border-disable,
+.vanilla-dataVizLine-border-interactive.disabled,
+.disabled .vanilla-dataVizLine-border-interactive {
+    border-color: #58585a;
+}
+.vanilla-dataVizLine-caret,
+.vanilla-dataVizLine-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-dataVizLine-background,
+.vanilla-dataVizLine-background-interactive {
+    background-color: #d0d1d4;
+}
+.vanilla-dataVizLine-background-disable.disabled,
+.disabled .vanilla-dataVizLine-background-disable,
+.vanilla-dataVizLine-background-interactive.disabled,
+.disabled .vanilla-dataVizLine-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-dataVizLine-shadow,
+.vanilla-dataVizLine-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-dataVizLine-shadow-disable.disabled,
+.disabled .vanilla-dataVizLine-shadow-disable,
+.vanilla-dataVizLine-shadow-interactive.disabled,
+.disabled .vanilla-dataVizLine-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-dataVizLine-outline,
+.vanilla-dataVizLine-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-dataVizLine-overlay,
+.vanilla-dataVizLine-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-dataVizLine-dropShadow,
+.vanilla-dataVizLine-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-dataVizLine-specular,
+.vanilla-dataVizLine-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataVizLine-specular.reversed,
+.vanilla-dataVizLine-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-dataVizLine-bevel,
+.vanilla-dataVizLine-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-dataVizLine-bevel.reversed,
+.vanilla-dataVizLine-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-dataVizLine-highlight,
+.vanilla-dataVizLine-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-dataVizLine-highlight-hover.hovered,
+.hovered .vanilla-dataVizLine-highlight-hover,
+.vanilla-dataVizLine-highlight-interactive.hovered,
+.hovered .vanilla-dataVizLine-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-paper-text,
+.vanilla-paper-text-interactive {
+    color: #000000;
+}
+.vanilla-paper-text-disable.disabled,
+.disabled .vanilla-paper-text-disable,
+.vanilla-paper-text-interactive.disabled,
+.disabled .vanilla-paper-text-interactive {
+    color: #48494a;
+}
+.vanilla-paper-text.dimmer,
+.vanilla-paper-text-interactive.dimmer {
+    color: #58585a;
+}
+.vanilla-paper-text-disable.dimmer.disabled,
+.disabled .vanilla-paper-text-disable.dimmer,
+.vanilla-paper-text-interactive.dimmer.disabled,
+.disabled .vanilla-paper-text-interactive.dimmer {
+    color: #48494a;
+}
+.vanilla-paper-icon,
+.vanilla-paper-icon-interactive {
+    background-color: #000000;
+}
+.vanilla-paper-icon-disable.disabled,
+.disabled .vanilla-paper-icon-disable,
+.vanilla-paper-icon-interactive.disabled,
+.disabled .vanilla-paper-icon-interactive {
+    background-color: #48494a;
+}
+.vanilla-paper-border,
+.vanilla-paper-border-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-paper-border-disable.disabled,
+.disabled .vanilla-paper-border-disable,
+.vanilla-paper-border-interactive.disabled,
+.disabled .vanilla-paper-border-interactive {
+    border-color: #8c8d90;
+}
+.vanilla-paper-caret,
+.vanilla-paper-caret-interactive {
+    caret-color: #000000;
+}
+.vanilla-paper-background,
+.vanilla-paper-background-interactive {
+    background-color: #ffffff;
+}
+.vanilla-paper-background-disable.disabled,
+.disabled .vanilla-paper-background-disable,
+.vanilla-paper-background-interactive.disabled,
+.disabled .vanilla-paper-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-paper-shadow,
+.vanilla-paper-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-paper-shadow-disable.disabled,
+.disabled .vanilla-paper-shadow-disable,
+.vanilla-paper-shadow-interactive.disabled,
+.disabled .vanilla-paper-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-paper-outline,
+.vanilla-paper-outline-interactive {
+    border-color: #1e1e1f;
+}
+.vanilla-paper-overlay,
+.vanilla-paper-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-paper-dropShadow,
+.vanilla-paper-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-paper-specular,
+.vanilla-paper-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-paper-specular.reversed,
+.vanilla-paper-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-paper-bevel,
+.vanilla-paper-bevel-interactive {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+.vanilla-paper-bevel.reversed,
+.vanilla-paper-bevel-interactive.reversed {
+    border-top-color: rgba(0, 0, 0, 0.3);
+    border-left-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-paper-highlight,
+.vanilla-paper-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-paper-highlight-hover.hovered,
+.hovered .vanilla-paper-highlight-hover,
+.vanilla-paper-highlight-interactive.hovered,
+.hovered .vanilla-paper-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.vanilla-neutralAlpha60-text,
+.vanilla-neutralAlpha60-text-interactive {
+    color: #ffffff;
+}
+.vanilla-neutralAlpha60-text-disable.disabled,
+.disabled .vanilla-neutralAlpha60-text-disable,
+.vanilla-neutralAlpha60-text-interactive.disabled,
+.disabled .vanilla-neutralAlpha60-text-interactive {
+    color: #58585a;
+}
+.vanilla-neutralAlpha60-icon,
+.vanilla-neutralAlpha60-icon-interactive {
+    background-color: #ffffff;
+}
+.vanilla-neutralAlpha60-icon-disable.disabled,
+.disabled .vanilla-neutralAlpha60-icon-disable,
+.vanilla-neutralAlpha60-icon-interactive.disabled,
+.disabled .vanilla-neutralAlpha60-icon-interactive {
+    background-color: #58585a;
+}
+.vanilla-neutralAlpha60-caret,
+.vanilla-neutralAlpha60-caret-interactive {
+    caret-color: #6cc349;
+}
+.vanilla-neutralAlpha60-background,
+.vanilla-neutralAlpha60-background-interactive {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.vanilla-neutralAlpha60-background-select.selected,
+.selected .vanilla-neutralAlpha60-background-select,
+.vanilla-neutralAlpha60-background-interactive.selected,
+.selected .vanilla-neutralAlpha60-background-interactive {
+    background-color: #48494a;
+}
+.vanilla-neutralAlpha60-background-hover.hovered,
+.hovered .vanilla-neutralAlpha60-background-hover,
+.vanilla-neutralAlpha60-background-interactive.hovered,
+.hovered .vanilla-neutralAlpha60-background-interactive {
+    background-color: #48494a;
+}
+.vanilla-neutralAlpha60-background-press.pressed,
+.pressed .vanilla-neutralAlpha60-background-press,
+.vanilla-neutralAlpha60-background-interactive.pressed,
+.pressed .vanilla-neutralAlpha60-background-interactive {
+    background-color: #242425;
+}
+.vanilla-neutralAlpha60-background-disable.disabled,
+.disabled .vanilla-neutralAlpha60-background-disable,
+.vanilla-neutralAlpha60-background-interactive.disabled,
+.disabled .vanilla-neutralAlpha60-background-interactive {
+    background-color: #b1b2b5;
+}
+.vanilla-neutralAlpha60-shadow,
+.vanilla-neutralAlpha60-shadow-interactive {
+    background-color: #313233;
+}
+.vanilla-neutralAlpha60-shadow-disable.disabled,
+.disabled .vanilla-neutralAlpha60-shadow-disable,
+.vanilla-neutralAlpha60-shadow-interactive.disabled,
+.disabled .vanilla-neutralAlpha60-shadow-interactive {
+    background-color: #8c8d90;
+}
+.vanilla-neutralAlpha60-outline,
+.vanilla-neutralAlpha60-outline-interactive {
+    border-color: #ffffff;
+}
+.vanilla-neutralAlpha60-overlay,
+.vanilla-neutralAlpha60-overlay-interactive {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.vanilla-neutralAlpha60-dropShadow,
+.vanilla-neutralAlpha60-dropShadow-interactive {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.vanilla-neutralAlpha60-specular,
+.vanilla-neutralAlpha60-specular-interactive {
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutralAlpha60-specular.reversed,
+.vanilla-neutralAlpha60-specular-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+}
+.vanilla-neutralAlpha60-bevel,
+.vanilla-neutralAlpha60-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutralAlpha60-bevel.reversed,
+.vanilla-neutralAlpha60-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+.vanilla-neutralAlpha60-bevel-select.selected,
+.selected .vanilla-neutralAlpha60-bevel-select,
+.vanilla-neutralAlpha60-bevel-interactive.selected,
+.selected .vanilla-neutralAlpha60-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutralAlpha60-bevel-select.reversed.selected,
+.selected .vanilla-neutralAlpha60-bevel-select.reversed,
+.vanilla-neutralAlpha60-bevel-interactive.reversed.selected,
+.selected .vanilla-neutralAlpha60-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+.vanilla-neutralAlpha60-bevel-hover.hovered,
+.hovered .vanilla-neutralAlpha60-bevel-hover,
+.vanilla-neutralAlpha60-bevel-interactive.hovered,
+.hovered .vanilla-neutralAlpha60-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutralAlpha60-bevel-hover.reversed.hovered,
+.hovered .vanilla-neutralAlpha60-bevel-hover.reversed,
+.vanilla-neutralAlpha60-bevel-interactive.reversed.hovered,
+.hovered .vanilla-neutralAlpha60-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+}
+.vanilla-neutralAlpha60-bevel-press.pressed,
+.pressed .vanilla-neutralAlpha60-bevel-press,
+.vanilla-neutralAlpha60-bevel-interactive.pressed,
+.pressed .vanilla-neutralAlpha60-bevel-interactive {
+    border-top-color: rgba(0, 0, 0, 0.8);
+    border-left-color: rgba(0, 0, 0, 0.8);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+}
+.vanilla-neutralAlpha60-bevel-press.reversed.pressed,
+.pressed .vanilla-neutralAlpha60-bevel-press.reversed,
+.vanilla-neutralAlpha60-bevel-interactive.reversed.pressed,
+.pressed .vanilla-neutralAlpha60-bevel-interactive.reversed {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(0, 0, 0, 0.8);
+    border-right-color: rgba(0, 0, 0, 0.8);
+}
+.vanilla-neutralAlpha60-highlight,
+.vanilla-neutralAlpha60-highlight-interactive {
+    background-color: transparent;
+}
+.vanilla-neutralAlpha60-highlight-hover.hovered,
+.hovered .vanilla-neutralAlpha60-highlight-hover,
+.vanilla-neutralAlpha60-highlight-interactive.hovered,
+.hovered .vanilla-neutralAlpha60-highlight-interactive {
+    background-color: rgba(0, 0, 0, 0.1);
+}
