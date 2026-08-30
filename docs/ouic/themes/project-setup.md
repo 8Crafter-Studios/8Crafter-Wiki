@@ -30,18 +30,18 @@ Let's create your first add-on workspace in Visual Studio Code now.
 3. Go to `File > Add folder to workspace...` and choose `theme`.
 4. Press `File > Save Workspace as...` to save the workspace file to your Desktop. Whenever you're working on your theme, all you have to do is open the workspace by double-clicking, and you will get quick access to your theme folder.
 
-## BP Manifest
+## Manifest
 
 :::tip CREATING FILES
 In this guide, you will often be instructed to create files with specific names, placed in specific folders.
 If the folder doesn't exist yet, please create it!
 :::
 
-The manifest is a file that identifies your pack to Minecraft. Every pack has one manifest. A folder with a correctly formatted manifest will show up in Minecraft, and we consider this the "minimal" pack before we can add additional content.
+The manifest is a file that identifies your pack to the Ore UI Customizer. Every pack has one manifest. A folder with a correctly formatted manifest will show up in the Ore UI Customizer, and we consider this the "minimal" pack before we can add additional content.
 
 Manifest files are written in JSON. If this isn't familiar to you, you can learn more about json [here](/guide/understanding-json).
 
-First, create a new file in your BP folder by right-clicking on the folder and selecting `New File`
+First, create a new file in your theme folder by right-clicking on the folder and selecting `New File`
 Call the file `manifest.json` and paste the following code into the file to begin with.
 
 <CodeHeader>theme/manifest.json</CodeHeader>
