@@ -15,7 +15,7 @@ mentions:
 
 CSS customization can only be done when editing a theme manually, custom CSS for a theme cannot be edited via the Ore UI Customizer website or app.
 
-A sample CSS file containing all the vanilla semantic token color styles can be found [here](/public/assets/misc/themes/css-customization/semantic-tokens-collection-id-vanilla.css).
+A sample CSS file containing all the vanilla semantic token color styles can be found [here](../public/assets/misc/themes/css-customization/semantic-tokens-collection-id-vanilla.css).
 
 Most colors in the game can be customized via that CSS file.
 

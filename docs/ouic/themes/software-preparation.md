@@ -20,7 +20,7 @@ mentions:
 
 ### Ore UI Customizer App
 
-<template-Planned version="v1.0.0-beta.34 (App)" section="section" />
+<template-Planned version="v1.0.0 (App)" section="section" />
 
 ### Ore UI Customizer Website
 
