@@ -10,13 +10,18 @@ mentions:
 ---
 
 <template-WorkInProgress />
-<template-Planned version="v1.17.0" />
-<!-- <template-InDevelopment version="v1.17.0" />
-<template-Experimental /> -->
+<template-InDevelopment version="v1.17.0" />
+<template-Experimental />
 
 ## The ore_ui_customizer folder
 
-<template-EmptySection />
+If you are on desktop (PC, Linux, or macOS), then you are probably using the [app verison of the Ore UI Customizer](../general/app-general-information). In that case, you can work on your themes easily without needing to re-import the theme each time you modify it, via the `ore_ui_customizer` folder, this folder is like Minecraft's `com.mojang` folder, but for the Ore UI Customizer.
+
+You can easily open this folder by clicking `Help > Open Customizer App Data Folder` in the menu bar of the app.
+
+![Screenshot of Help > Open Customizer App Data Folder option](/assets/images/themes/project-setup/help-open_customizer_app_data_folder.png)
+
+In that folder, go to the `themes` folder, you can put your theme in there and work on it from there.
 
 ## Your Workspace
 
@@ -39,7 +44,7 @@ If the folder doesn't exist yet, please create it!
 
 The manifest is a file that identifies your pack to the Ore UI Customizer. Every pack has one manifest. A folder with a correctly formatted manifest will show up in the Ore UI Customizer, and we consider this the "minimal" pack before we can add additional content.
 
-Manifest files are written in JSON. If this isn't familiar to you, you can learn more about json [here](/guide/understanding-json).
+Manifest files are written in JSON. If this isn't familiar to you, you can learn more about json [here](https://wiki.bedrock.dev/guide/understanding-json).
 
 First, create a new file in your theme folder by right-clicking on the folder and selecting `New File`
 Call the file `manifest.json` and paste the following code into the file to begin with.
@@ -52,8 +57,6 @@ Call the file `manifest.json` and paste the following code into the file to begi
     "format_version": 1,
     "header": {
         "name": "Your Theme Name",
-        "id": "your-theme-id",
-        "namespace": "your-theme-namespace",
         "description": "Your theme description.",
         "uuid": "...",
         "version": "1.0.0",
@@ -67,10 +70,31 @@ Call the file `manifest.json` and paste the following code into the file to begi
 }
 ```
 
+<!-- ```json
+{
+    "$schema": "https://www.8crafter.com/schemas/ouic/theme/manifest.schema.json",
+    "format_version": 1,
+    "header": {
+        "name": "Your Theme Name",
+        "id": "your-theme-id",
+        "namespace": "yourthemenamespace",
+        "description": "Your theme description.",
+        "uuid": "...",
+        "version": "1.0.0",
+        "format_version": "1.17.0",
+        "min_engine_version": "1.17.0+BUILD.8"
+    },
+    "metadata": {
+        "authors": ["Your Name"],
+        "product_type": "theme"
+    }
+}
+``` -->
+
 ### Manifest Explained
 
-> [!NOTE]
-> Even if the namespace+id combo isn't unique, that won't cause it to not function, it will just cause abiguity as to which of the themes that shared the namespace+id combo was being referred to in places like error messages.
+<!-- > [!NOTE]
+> Even if the namespace+id combo isn't unique, that won't cause it to not function, it will just cause abiguity as to which of the themes that shared the namespace+id combo was being referred to in places like error messages. -->
 
 -   `format_version` defines what version of manifest JSON format you are using. Version 1 is the most recent stable version; use it.
 
@@ -79,9 +103,9 @@ Call the file `manifest.json` and paste the following code into the file to begi
     <!-- We are defining these fields as _localization keys_ so we can translate them later into other languages.
     For more information about localization, look [here](/text/text-intro). -->
 
--   `id` is the ID of your theme. It is used to identify your theme when applying themes and to identify your theme in error messages. This should be unique when combined with the `namespace`. It must consist only of alphanumeric characters, underscores, hyphens, and periods.
+<!-- -   `id` is the ID of your theme. It is used to identify your theme when applying themes and to identify your theme in error messages. This should be unique when combined with the `namespace`. It must consist only of alphanumeric characters, underscores, hyphens, and periods.
 
--   `namespace` is the namespace of your theme. It is used in conjunction with the id to identify your theme when applying themes and to identify your theme in error messages. It must consist only of alphanumeric characters, underscores, hyphens, and periods. It must not be `built-in`, as it is reserved for built-in themes.
+-   `namespace` is the namespace of your theme. It is used in conjunction with the id to identify your theme when applying themes and to identify your theme in error messages. It must consist only of alphanumeric characters, underscores, hyphens, and periods. It must not be `built-in`, as it is reserved for built-in themes. -->
 
 -   The `uuid` field is **essential**, and will be discussed in more detail below.
 
@@ -112,6 +136,8 @@ When you are finished, it should look something like this:
 ```
 
 ## Pack Structure
+
+<template-WorkInProgress section="section" />
 
 <!-- TODO: Move this to its own page. -->
 
@@ -190,6 +216,7 @@ The video codec of videos must be `Google/On2's VP9 Video (VP90)`.
 The audio codec of videos must be `Vorbis Audio (vorb)` (and the max supported bitrate may be 112 kb/s, but this needs to be verified) <!-- REVIEW -->
 
 <!-- TODO: See if Ore UI supports playing audio files, and if it does support it, and see what codecs and file types it supports, and add paths for sounds. -->
+<!-- TODO: Once the above is done, update ./texture-customization to  mention that themes can add and modify sound files too. -->
 
 ---
 

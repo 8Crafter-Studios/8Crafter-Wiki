@@ -10,9 +10,8 @@ mentions:
 ---
 
 <template-WorkInProgress />
-<template-Planned version="v1.17.0" />
-<!-- <template-InDevelopment version="v1.17.0" />
-<template-Experimental /> -->
+<template-InDevelopment version="v1.17.0" />
+<template-Experimental />
 
 ## Picking an Editor
 

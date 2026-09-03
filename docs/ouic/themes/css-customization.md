@@ -9,15 +9,19 @@ mentions:
 ---
 
 <template-WorkInProgress />
-<template-Planned version="v1.17.0" />
-<!-- <template-InDevelopment version="v1.17.0" />
-<template-Experimental /> -->
+<template-InDevelopment version="v1.17.0" />
+<template-Experimental />
+
+> [!TIP]
+> If you want to add images or fonts into the Ore UI files so that you can use them in your custom CSS, check out [texture customization](./texture-customization).
 
 CSS customization can only be done when editing a theme manually, custom CSS for a theme cannot be edited via the Ore UI Customizer website or app.
 
-A sample CSS file containing all the vanilla semantic token color styles can be found [here](../public/assets/misc/themes/css-customization/semantic-tokens-collection-id-vanilla.css).
+A sample CSS file containing all the vanilla semantic token color styles can be found [here](/assets/misc/themes/css-customization/semantic-tokens-collection-id-vanilla.css).
 
 Most colors in the game can be customized via that CSS file.
+
+---
 
 To start, first create a folder inside the theme folder called `styles`.
 

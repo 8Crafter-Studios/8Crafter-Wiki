@@ -12,6 +12,9 @@ mentions:
 <template-Stub />
 <template-WorkInProgress />
 
+> [!WARNING]
+> Comments and trailing commas in the `manifest.json` file are not supported in Ore UI Customizer versions prior to v1.17.0+BUILD.8. If you want to have compatibility with older versions, please remove them.
+
 <FolderView :paths="[
     'my_plugin/.vscode/ore-ui.css-data.json', // <!-- NOTE: Devlopment only. -->
     'my_plugin/.vscode/ore-ui.html-data.json', // <!-- NOTE: Devlopment only. -->
