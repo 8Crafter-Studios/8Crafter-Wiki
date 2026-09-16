@@ -197,8 +197,7 @@ Compatible Add-On Versions:
 
 </Spoiler>
 
-<!-- TODO: Add the Minecraft patch versions. -->
-<Spoiler title="1.21.120">
+<Spoiler title="1.21.120/121/122/123/124">
 
 Compatible Add-On Versions:
 
@@ -206,8 +205,7 @@ Compatible Add-On Versions:
 
 </Spoiler>
 
-<!-- TODO: Add the Minecraft patch versions. -->
-<Spoiler title="1.21.130">
+<Spoiler title="1.21.130/131/132">
 
 Compatible Add-On Versions:
 
@@ -215,8 +213,7 @@ Compatible Add-On Versions:
 
 </Spoiler>
 
-<!-- TODO: Add the Minecraft patch versions. -->
-<Spoiler title="1.26.0">
+<Spoiler title="1.26.0/1/2/3">
 
 Compatible Add-On Versions:
 
@@ -224,8 +221,7 @@ Compatible Add-On Versions:
 
 </Spoiler>
 
-<!-- TODO: Add the Minecraft patch versions. -->
-<Spoiler title="1.26.10">
+<Spoiler title="1.26.10/11/12/13">
 
 Compatible Add-On Versions:
 
@@ -233,11 +229,36 @@ Compatible Add-On Versions:
 
 </Spoiler>
 
-<!-- TODO: Add the Minecraft patch versions. -->
-<Spoiler title="1.26.20">
+<Spoiler title="1.26.20/21">
 
 Compatible Add-On Versions:
 
 -   `v1.42.0`
+
+</Spoiler>
+
+<Spoiler title="1.26.30/31/32/33">
+
+Compatible Add-On Versions:
+
+-   `v1.42.0`
+
+</Spoiler>
+
+<Spoiler title="1.26.40/42/44/45">
+
+Compatible Add-On Versions:
+
+-   `v1.42.0`
+
+</Spoiler>
+
+<!-- TODO: Add the Minecraft patch versions, when more release. -->
+
+<Spoiler title="1.26.50/51">
+
+Compatible Add-On Versions:
+
+-   `v1.43.0`
 
 </Spoiler>
