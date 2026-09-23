@@ -26,7 +26,7 @@ The following operating systems are currently supported:
 
 -   Windows 10/11
 -   Linux
--   macOS
+-   macOS 12+
 
 Even though iOS is not supported yet, you can still edit worlds from your iPhone/iPad without needing to transfer them to your computer. You can edit your iPhone/iPad's worlds directly from the app on your computer, you don't even need a cable, you can edit them over Wi-Fi. This does not require jailbreaking either, you can do it on any iPhone/iPad. More information can be found [here](https://wiki.8crafter.com/bwe/advanced/editing-ios-worlds).
 
