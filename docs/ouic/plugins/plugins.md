@@ -33,6 +33,6 @@ These actions can add, modify, and remove files from the Ore UI files.
 
 These script files in the `scripts` folder should be cross-compatible between browser and Node.js. This is because there are 3 official environments plugins can be run in, the Ore UI Customizer website (web only), the Ore UI Customizer app (web + Node.js), and the Ore UI Customizer CLI (Node.js only).
 
-NOTE: Plugins in the `scripts` folder currently are not capable of importing other scripts contained in the plugin via their path due to being imported via data URI, so you should put all install-time code into a single file in the `scripts` folder.
+NOTE: Files in the `scripts` folder currently are not capable of importing other scripts contained in the plugin via their path due to being imported via data URI, so you should put all install-time code into a single file in the `scripts` folder.
 
 If you want a script file that runs in-game, you would put it in the `assets` folder, and you would add that file to the Ore UI files via a plugin action, and you would also inject an import statement into either the HTML files for the screens that you want to run the script file in, or into one of the script files that are imported by those HTML files. For more info, see [Client Scripts](client-scripts).
