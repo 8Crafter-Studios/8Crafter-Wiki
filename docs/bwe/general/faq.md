@@ -10,6 +10,15 @@ mentions:
 
 <template-WorkInProgress />
 
+<Spoiler title="What Minecraft versions and editions are supported?">
+
+<!-- TEMP: Add China Edition to the list once v1.0.0-beta.38 is released. -->
+<!-- The app fully supports every version of Bedrock Edition, Education Edition, and China Edition. -->
+
+The app fully supports almost every version of Bedrock Edition and Education Edition. Even versions as far back as MCPE Alpha 0.9.0, with partial support all the way back to the very first MCPE version (MCPE Alpha 0.1.0).
+
+</Spoiler>
+
 <Spoiler title="What custom launchers can this app have built-in world paths for?">
 
 The custom launchers that this app can see worlds from without you needing to add the paths to the config manually include:

@@ -9,6 +9,7 @@ const dependencyNameMap = {
     andexdb: "8Crafter's Server Utilities & Debug Sticks",
     bluemods: "BlueMods AntiCheat",
     we: "WorldEdit Bedrock",
+    lm: "Lily's Money",
     bwepns: "Bedrock World Editor - Player Name Saver",
 };
 </script>

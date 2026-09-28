@@ -18,6 +18,10 @@ You can refresh the worlds list by clicking the app logo on the left.
 
 ![World directory](/assets/images/general/getting-started/menu-page.png)
 
+<!-- TODO: Add information on how to manually select a world folder, LevelDB, NBT file, etc. (you use the menu bar: File > Open...) -->
+
+<!-- TODO: Add information about how to add the location of your world files to the list if you are using a custom location. -->
+
 > [!NOTE]
 > If your world still doesn't show up after pressing "Show more", then that is a bug. File an issue [here](https://github.com/8Crafter-Studios/Bedrock-World-Editor/issues) with details of your Minecraft configuration.
 
@@ -35,7 +39,14 @@ Minecraft Bedrock uses [LevelDB](https://minecraft.wiki/w/Bedrock_Edition_level_
 
 ![Database view](/assets/images/general/getting-started/view-database.png)
 
+Unlike other editors, such as the Universal Minecraft Tool, Bedrock World Editor is capable of editing almost every single type of data in the LevelDB in a human-readable format, while other editors will either not allow you to edit many types, or only allow you to edit them as binary data.
+
 ## Integrations Tab
+
+<template-Update
+    section="section"
+    details="This section is missing information on the Lily's Money integration."
+/>
 
 As the Script API for Minecraft Bedrock is rather limiting, add-ons can struggle to implement advanced features. The `Integrations` tab allows add-ons to leverage Bedrock World Editor's capabilities, bypassing constraints of the Script API.
 
@@ -45,3 +56,9 @@ Currently, [WorldEdit Bedrock](https://mcpedl.com/worldedit-be-addon/) by [SIsil
 > Integrations are implemented on a case-by-case basis. If you would like to add an integration for your add-on, make a suggestion [here](https://github.com/8Crafter-Studios/Bedrock-World-Editor/issues/new?template=integration-suggestion.md).
 
 ![Integrations tab](/assets/images/general/getting-started/integrations.png)
+
+## Scripting
+
+<template-ExpandSection />
+
+Bedrock World Editor allows for scripting in JavaScript via the DevTools console which can be opened with `F12`. The scripting can modify your world data, allowing you to preform batch operations on your world.
