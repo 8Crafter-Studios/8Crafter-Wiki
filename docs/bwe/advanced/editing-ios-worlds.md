@@ -14,6 +14,9 @@ On macOS it is also possible to edit your device's worlds over Wi-Fi without usi
 > [!TIP]
 > This does **NOT** require a jailbroken device. You can do it on any iPhone/iPad.
 
+> [!TIP]
+> This does not work on MCPE Alpha versions prior to v0.11.0.
+
 ## macOS
 
 First, install Homebrew.
