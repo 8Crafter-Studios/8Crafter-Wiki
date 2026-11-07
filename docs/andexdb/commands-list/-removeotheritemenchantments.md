@@ -10,7 +10,7 @@ mentions:
 
 <template-Stub />
 
-Removes all enchantment types from an item except for the item types specified.
+Removes all enchantment types from an item except for the enchantment types specified.
 
 <CommandDetailsTable
     name="\removeotheritemenchantments"
