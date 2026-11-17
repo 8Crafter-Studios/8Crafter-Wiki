@@ -25,6 +25,7 @@ The custom launchers that this app can see worlds from without you needing to ad
 -   Bedrock Launcher (Windows) (it can show worlds from all of your installations if you click the "Show more" button, otherwise it just shows the active installations)
 -   LeviLauncher (Windows) (supports showing worlds from all installations without needing to click the "Show more" button)
 -   Minecraft Bedrock Launcher/mcpelauncher (Linux/macOS)
+-   BedrockOnLinux (Linux/macOS)
 -   PlayCover (macOS)
 -   Any Windows launcher that symlinks the worlds into the vanilla UWP or GDK `minecraftWorlds` folder.
 
