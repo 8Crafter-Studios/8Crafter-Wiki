@@ -45,7 +45,7 @@ Unlike other editors, such as the Universal Minecraft Tool, Bedrock World Editor
 
 <template-Update
     section="section"
-    details="This section is missing information on the Lily's Money integration."
+    details="This section is missing information on the Lily's Money integration and Better on Bedrock integration."
 />
 
 As the Script API for Minecraft Bedrock is rather limiting, add-ons can struggle to implement advanced features. The `Integrations` tab allows add-ons to leverage Bedrock World Editor's capabilities, bypassing constraints of the Script API.
