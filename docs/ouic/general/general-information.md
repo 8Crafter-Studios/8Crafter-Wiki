@@ -46,7 +46,7 @@ operating it.
 
 ## Code Signing Policy
 
-For macOS the is signed and notarized by Apple.
+For macOS the app is signed and notarized by Apple.
 
 ### People with direct push access
 
