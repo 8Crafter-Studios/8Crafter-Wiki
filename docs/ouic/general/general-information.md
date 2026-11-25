@@ -53,6 +53,34 @@ For macOS the is signed and notarized by Apple.
 -   [8Crafter](https://github.com/8Crafter)
 -   [StormStqr](https://github.com/stormstqr)
 
+## Video
+
+<style>
+    .video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+<div class="video-container">
+    <iframe
+        src="https://www.youtube.com/embed/i4JSs1_a_tQ"
+        title="Ore UI Customizer for Minecraft Bedrock Edition"
+        frameborder="0"
+        allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        style="width: 100%; height: 100%"
+    ></iframe>
+</div>
+
 ## Next
 
 <Button link="./downloading">Next: Downloading</Button>

@@ -46,6 +46,34 @@ For macOS the app is signed and notarized by Apple.
 - [SmokeyStack](https://github.com/SmokeyStack)
 - [xKingDark](https://github.com/xKingDark)
 
+## Video
+
+<style>
+    .video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+<div class="video-container">
+    <iframe
+        src="https://www.youtube.com/embed/c3x2mJeebRM"
+        title="Bedrock World Editor - Free World, Inventory, and NBT Editor for Minecraft Bedrock Edition"
+        frameborder="0"
+        allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        style="width: 100%; height: 100%"
+    ></iframe>
+</div>
+
 ## Next
 
 <Button link="./downloading">Next: Downloading</Button>
