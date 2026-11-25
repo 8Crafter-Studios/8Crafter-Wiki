@@ -10,6 +10,7 @@ const dependencyNameMap = {
     bluemods: "BlueMods AntiCheat",
     we: "WorldEdit Bedrock",
     lm: "Lily's Money",
+    bob: "Better on Bedrock",
     bwepns: "Bedrock World Editor - Player Name Saver",
 };
 </script>
