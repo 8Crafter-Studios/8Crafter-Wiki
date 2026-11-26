@@ -1,5 +1,7 @@
 /* Styling for markdown-it-container */
 
+/* IDEA: Make INFO and NOTE have separate styles. */
+
 .custom-block {
     margin-block: 1em;
     border-left: 3px solid;
@@ -31,14 +33,15 @@
 .custom-block.important {
     border-color: hsl(270, 100%, 45%);
     color: hsl(270, 100%, 15%);
-    background-color: hsla(270, 100%, 70%, 0.3);
+    background-color: hsla(270, 100%, 95%);
 }
 .custom-block.warning {
     border-color: #e7c000;
     color: #4f4200;
     background-color: rgba(255, 229, 100, 0.3);
 }
-.custom-block.danger {
+.custom-block.danger,
+.custom-block.caution {
     border-color: #c63232;
     color: #4d0000;
     background-color: #ffe6e6;
@@ -56,7 +59,8 @@
     background-color: rgba(255, 229, 100, 0.2);
     color: #ffffff;
 }
-.dark .custom-block.danger {
+.dark .custom-block.danger,
+.dark .custom-block.caution {
     background-color: rgba(216, 117, 117, 0.2);
     color: #ffffff;
 }
